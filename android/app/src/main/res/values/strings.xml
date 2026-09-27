@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Officina dell'Inventore</string>
-    <string name="title_activity_main">Officina dell'Inventore</string>
+    <string name="app_name">Officina dell\'Inventore</string>
+    <string name="title_activity_main">Officina dell\'Inventore</string>
     <string name="package_name">it.collana.inventore</string>
     <string name="custom_url_scheme">it.collana.inventore</string>
 </resources>
