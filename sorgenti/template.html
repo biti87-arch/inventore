@@ -418,13 +418,13 @@ function calcAut(){
   const istrice=autOpt('modulo_di_difesa_istrice')&&S.gioco.istrice?2:0;
   if(A.modello==='destructor'){
     const d=stepD(pist?'2d6':'1d10',tg==='Grande'?1:tg==='Enorme'?2:0);
-    att2.push({nome:'Schianto idraulico',txc:[bab[0]+mF+bonusTxc+odA],dan:d+sg(Math.floor(mF*1.5)+bonusDan+odA+istrice).replace('+0',''),crit:critUp('19-20/x2'),tipo:autOpt('armi_retrattili')?'C, P o T':'C'});
+    att2.push({nome:'Schianto idraulico',txc:bab.map(b=>b+mF+bonusTxc+odA),dan:d+sg(Math.floor(mF*1.5)+bonusDan+odA+istrice).replace('+0',''),crit:critUp('19-20/x2'),tipo:autOpt('armi_retrattili')?'C, P o T':'C',nota:'a due mani'});
   }else if(A.modello==='defensor'){
     const d=stepD('1d6',tg==='Grande'?1:tg==='Enorme'?2:0);
-    att2.push({nome:'Schianto meccanico',txc:[bab[0]+mF+bonusTxc],dan:d+sg(Math.floor(mF*1.5)+bonusDan+istrice).replace('+0',''),crit:'20/x2',tipo:'C'});
+    att2.push({nome:'Schianto meccanico',txc:bab.map(b=>b+mF+bonusTxc),dan:d+sg(mF+bonusDan+istrice).replace('+0',''),crit:'20/x2',tipo:'C',nota:'a una mano'});
   }else{
     const d=stepD('1d3',tg==='Grande'?1:tg==='Enorme'?2:0);
-    att2.push({nome:'Schianto',txc:[bab[0]+mF+T.txc+(alpha?1:0)],dan:d+sg(Math.floor(mF*1.5)+(alpha&&L>=5?2:0)+istrice).replace('+0',''),crit:'20/x2',tipo:'C',nota:'non incantabile'});
+    att2.push({nome:'Schianto',txc:bab.map(b=>b+mF+T.txc+(alpha?1:0)),dan:d+sg(mF+(alpha&&L>=5?2:0)+istrice).replace('+0',''),crit:'20/x2',tipo:'C',nota:'non incantabile'});
     const ric=st>=1;const lista=bab.map(b=>b+mD+bonusTxc+odG);if(ric)lista.unshift(bab[0]+mD+bonusTxc+odG);
     att2.push({nome:'Sparaculei',txc:lista,dan:stepD('1d8',tg==='Grande'?1:tg==='Enorme'?2:0)+sg(Math.floor(mD/2)+bonusDan+odG).replace('+0',''),crit:critUp('20/x3'),tipo:autOpt('aculei_differenziati')?'P, C o T':'P',nota:'gittata '+(30+(ric?6:0))+' m (x5)'+(ric?' · colpo extra con attacco completo':'')});
   }
@@ -675,7 +675,7 @@ function mAut(){
     kv('For',X.For,sg(X.mF))+kv('Des',X.Des,sg(X.mD))+kv('BMC / DMC',sg(X.bmc)+' / '+X.dmc)+kv('Velocità',X.vel+' m')+kv('Portata',String(X.portata).replace('.',',')+' m')+
     (X.ri?kv('RI',X.ri):'')+(X.rd?kv('RD','10/adam.'):'')+'</div>'+
     '<div class="atk" style="margin-top:10px">'+X.att.map(a=>'<div class="l"><span>'+esc(a.nome)+(a.nota?' <span class="note">'+esc(a.nota)+'</span>':'')+'</span><span>'+a.txc.map(sg).join('/')+' ('+esc(a.dan)+' '+esc(a.tipo)+'; '+esc(a.crit)+')</span></div>').join('')+'</div>'+
-    '<div class="note" style="margin-top:6px">Schianto come unico attacco naturale: 1½ × Forza ai danni. A 0 PF è <span class="cond">barcollante</span>, a −15 PF è distrutto. Car 1, immune a Tempra (salvo effetti su oggetti).</div></div>';
+    '<div class="note" style="margin-top:6px">Gli attacchi dell\'automaton funzionano come armi: attacchi multipli secondo il BAB; lo schianto del Destructor è a due mani (1½ × For), gli altri usano la For intera. A 0 PF è <span class="cond">barcollante</span>, a −15 PF è distrutto. Car 1, immune a Tempra (salvo effetti su oggetti).</div></div>';
   // stadi
   const STN=['Funzionalità di base','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'];
   for(let s=0;s<=3;s++){
