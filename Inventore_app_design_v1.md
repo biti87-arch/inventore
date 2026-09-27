@@ -44,3 +44,9 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 ## Aperti (non bloccano l'app)
 - Skitari: Maestria di armi sperimentali II–VI senza sostituzione (non a somma zero).
 - Tecnomante: *Odio per la magia* senza sostituzione.
+
+## Modificatori (27/09/2026, come nell'app dei compagni)
+- Due elenchi separati: modificatori dell'**inventore** e dell'**automaton**, ciascuno con temporanei (incantesimi, effetti) e permanenti (oggetti magici). Si gestiscono con «Gestisci» e si accendono o spengono con un tocco (schede Inventore, Meraviglie → Automaton e In gioco).
+- Campi: CA, CA di contatto, CA impreparato (separate), tiri per colpire, danni, Tempra, Riflessi, Volontà, BMC, DMC, velocità, iniziativa, PF temporanei, taglia in passi; caratteristiche dovute alla taglia (a mano) e altre caratteristiche. Per l'automaton niente contatto, impreparato e iniziativa.
+- La taglia sposta i dadi di danno (tecno-arma e attacchi dell'automaton) e i modificatori di taglia (tiri, CA, BMC/DMC) su tutta la scala del Vol. 1, da Piccolissima a Colossale.
+- Velocità dell'inventore: 9 m (6 m se Piccolo), 6 m con esoscheletro pesante, +3 m con Motore potenziato attivo, +6 m con Iperevoluzione meccanica.

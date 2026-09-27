@@ -73,8 +73,8 @@ while L[i]:
     i += 10
 
 # ---------------- privilegi ----------------
-a, b = idx('Privilegi di classe'), idx('Da sapere prima di mettersi all\'opera')
-privilegi = [{'nome': t, 'testo': p} for t, p in blocchi(a + 1, b)]
+a, b = idx('Privilegi di classe', idx('Arnesi da inventore')), idx('Da sapere prima di mettersi all\'opera')
+privilegi = [{'nome': t, 'testo': '\n'.join(p)} for t, p in blocchi(a + 1, b)]
 dasapere = [s for s in L[b + 1: b + 8] if re.match(r'^\d\.', s)]
 
 # ---------------- mechanus ----------------
@@ -364,6 +364,13 @@ if not any(x['nome'] == 'Esoscheletri precoci' for x in AR['cibernetico']['capac
     AR['cibernetico']['capacita'].insert(1, {'nome': 'Esoscheletri precoci', 'liv': 3, 'mod': 'Esoscheletri al 5° livello',
         'testo': 'Al 3° livello, un cibernetico impara a costruire gli esoscheletri (Funzionalità di base).'})
     corr('Cibernetico: Esoscheletri precoci al 3° (modifica Esoscheletri al 5°)')
+# D: testo del privilegio Gadget
+for pv in privilegi:
+    if pv['nome'] == 'Gadget' and 'ad ogni livello pari' in pv['testo']:
+        pv['testo'] = ("Al 1°, 3°, 5°, 7°, 9° e 11° livello, un inventore impara a costruire un nuovo gadget a sua scelta tra quelli disponibili, "
+                       "di cui soddisfa i requisiti. Ai livelli pari dal 2° al 18° sceglie invece un gadget, un optional o una dote da inventore. "
+                       "Vedi sezione dedicata per le regole complete e l'elenco dei gadget.")
+        corr('Privilegio Gadget riscritto (dispari fino all\'11°, pari: gadget, optional o dote)')
 # refusi
 for g in gadget:
     if g['id'] == 'sega_circolare' and '3d6 minaccia di critico' in g['testo']:
