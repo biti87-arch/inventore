@@ -1,0 +1,21 @@
+{
+  "name": "inventore",
+  "productName": "Officina dell'Inventore",
+  "version": "1.0.0",
+  "description": "Mechanus, meraviglie e gadget dell'Inventore (Collana)",
+  "author": "Collana",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "it.collana.inventore",
+    "productName": "Officina dell'Inventore",
+    "files": ["main.js", "icon.png", "www/**/*"],
+    "win": { "target": ["portable", "nsis"], "icon": "icon.png" },
+    "portable": { "artifactName": "Inventore-${version}-portatile.exe" },
+    "nsis": { "artifactName": "Inventore-${version}-installazione.exe", "oneClick": false, "allowToChangeInstallationDirectory": true },
+    "publish": null
+  }
+}

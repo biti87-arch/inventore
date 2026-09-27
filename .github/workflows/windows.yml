@@ -1,0 +1,52 @@
+name: Crea app Windows
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: [ 'android/**', 'assets/**', '.github/workflows/apk.yml', 'LEGGIMI.md' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Prepara i file dell'app
+        shell: bash
+        run: |
+          cp -r www desktop/www
+          cd desktop
+          npm version 1.0.${{ github.run_number }} --no-git-tag-version
+
+      - name: Installa dipendenze
+        working-directory: desktop
+        run: npm install
+
+      - name: Compila per Windows
+        working-directory: desktop
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+        run: npx electron-builder --win --publish never
+
+      - name: Pubblica la release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: win-1.0.${{ github.run_number }}
+          name: Officina dell'Inventore per Windows 1.0.${{ github.run_number }}
+          body: |
+            App per Windows. Due versioni, scegline una:
+            - **portatile**: si avvia con un doppio clic, senza installazione.
+            - **installazione**: installa l'app con collegamento nel menu Start.
+            Windows potrebbe mostrare l'avviso "PC protetto": tocca "Ulteriori informazioni" e poi "Esegui comunque".
+          files: |
+            desktop/dist/Inventore-*-portatile.exe
+            desktop/dist/Inventore-*-installazione.exe
+          make_latest: false

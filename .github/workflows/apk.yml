@@ -1,0 +1,55 @@
+name: Crea APK Android
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: [ 'desktop/**', '.github/workflows/windows.yml', 'LEGGIMI.md' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Installa dipendenze
+        run: npm ci
+
+      - name: Sincronizza le pagine nell'app
+        run: npx cap sync android
+
+      - name: Compila l'APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          set -o pipefail
+          ./gradlew assembleRelease --no-daemon --stacktrace 2>&1 | tee ../build.log || {
+            { grep -E "error:|e: " ../build.log | head -20; awk '/What went wrong/,/\* Try/' ../build.log | head -40; } > ../errori.txt
+            echo "::error title=Errore Gradle::$(sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g' ../errori.txt)"
+            exit 1
+          }
+
+      - name: Rinomina l'APK
+        run: cp android/app/build/outputs/apk/release/app-release.apk Inventore-${{ github.run_number }}.apk
+
+      - name: Pubblica la release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: Officina dell'Inventore 1.0.${{ github.run_number }}
+          body: APK da installare sul telefono Android. Scaricalo dal telefono e aprilo per installarlo.
+          files: Inventore-${{ github.run_number }}.apk
+          make_latest: true

@@ -1,0 +1,1363 @@
+INVENTORE
+
+“La magia è un mistero,
+ma le mie invenzioni sono la prova
+che il mondo è comprensibile.”
+— Dottor Theobald von Krause
+
+INVENTORE
+“La magia è un mistero, ma le mie invenzioni sono la prova che il mondo è comprensibile.” − Dottor Theobald von Krause
+Mossi dall'incessante desiderio di comprendere e dominare le leggi della natura, gli inventori sono pionieri della rivoluzione tecnologica. Tramite ingranaggi, vapore, magnetismo ed elettricità, danno vita a marchingegni che sfidano persino la magia. Alcuni provengono dalle prestigiose accademie scientifiche, altri sono geni autodidatti emersi dalle officine cittadine, altri ancora vagano per il mondo in cerca di nuove ispirazioni. Ovunque vadano, gli inventori portano con sé la propria officina, i propri mechanus e la propria visione di un futuro in cui la scienza è il vero potere.
+Allineamento: Qualsiasi. Dado Vita: d8. Ricchezza iniziale: 45 mo.
+Abilità di classe: Conoscenze (ingegneria, natura, scientifiche), Disattivare congegni, Intuizione, Percezione, Pilotare mezzi terrestri, Professione (fabbro), Utilizzare congegni magici, Valutare.
+Punti abilità per livello: 4 + bonus di Intelligenza + 2 per le abilità di background.
+Competenze offensive: Competenza nelle armi semplici e negli arnesi da inventore.
+Competenze difensive: Competenza nelle armature leggere.
+Tabella dell'Inventore
+Liv.
+Bonus Attacco
+Tempra
+Riflessi
+Volontà
+Privilegi di classe
+1°
++0
++2
++0
++2
+Fabbro esperto, Libro dei brevetti, Riparazioni 1d6, Mechanus, Gadget, Tecno-armi
+2°
++1
++3
++0
++3
+Gadget, optional o dote da inventore
+3°
++2
++3
++1
++3
+Automaton, Gadget
+4°
++3
++4
++1
++4
+Gadget, optional o dote da inventore
+5°
++3
++4
++1
++4
+Gadget, Esoscheletri, Aggiornamento #1 delle meraviglie
+6°
++4
++5
++2
++5
+Gadget, optional o dote da inventore
+7°
++5
++5
++2
++5
+Gadget
+8°
++6/+1
++6
++2
++6
+Gadget, optional o dote da inventore
+9°
++6/+1
++6
++3
++6
+Pensiero tecnologico
+10°
++7/+2
++7
++3
++7
+Gadget, optional o dote da inventore, Aggiornamento #2 delle meraviglie
+11°
++8/+3
++7
++3
++7
+Gadget
+12°
++9/+4
++8
++4
++8
+Gadget, optional o dote da inventore
+13°
++9/+4
++8
++4
++8
+Razziatore esperto
+14°
++10/+5
++9
++4
++9
+Gadget, optional o dote da inventore
+15°
++11/+6/+1
++9
++5
++9
+Specializzazione, Aggiornamento #3 delle meraviglie
+16°
++12/+7/+2
++10
++5
++10
+Gadget, optional o dote da inventore
+17°
++12/+7/+2
++10
++5
++10
+Officina mobile
+18°
++13/+8/+3
++11
++6
++11
+Gadget, optional o dote da inventore
+19°
++14/+9/+4
++11
++6
++11
+Maestria delle modifiche
+20°
++15/+10/+5
++12
++6
++12
+Aggiornamento finale delle meraviglie
+Arnesi da inventore
+Arma
+Costo ($)
+Danni P
+Danni M
+Gittata
+Critico
+Tipo
+Speciale
+CD / h
+Equivalente¹
+Armi da mischia leggere
+Accetta
+6 mo
+1d4
+1d6
+6 m (x3)
+x3
+T
+Da lancio
+18 / 30
+Armi leggere taglienti
+Cacciavite elettrico
+9 mo
+1d4
+1d6
+—
+19-20/x2
+P
+—
+18 / 30
+Armi leggere perforanti
+Girabulloni
+6 mo
+1d4
+1d6
+6 m (x3)
+x2
+C
+Da lancio
+18 / 30
+Armi leggere contundenti
+Armi da mischia a una mano
+Mazzuolo
+21 mo
+1d6
+1d8
+—
+x3
+C
+Versatile
+18 / 42
+Armi a una mano contundenti
+Tagliatrice elettrica
+21 mo
+1d6
+1d8
+—
+x3
+T
+—
+18 / 30
+Armi a una mano taglienti
+Trapano elettrico
+21 mo
+1d4
+1d6
+—
+x4
+P
+Versatile
+18 / 30
+Armi a una mano perforanti
+Armi da mischia a due mani
+Grandi tenaglie
+15 mo
+1d2
+1d3
+—
+x2
+T
+Portata, Imprigionare
+20 / 42
+Armi a due mani taglienti
+Mazzuolo pesante
+42 mo
+1d10
+2d6
+—
+x3
+C
+—
+18 / 42
+Armi a due mani contundenti
+Percussore
+33 mo
+1d6
+2d4
+—
+x4
+P
+Puntare
+18 / 42
+Armi a due mani perforanti
+Armi da tiro a due mani
+Sparachiodi
+32 mo
+1d3
+1d4
+9 m (x5)
+19-20/x2
+P
+Ricarica (az. standard), Caricatore
+20 / 42
+Armi da tiro a due mani perforanti
+
+
+Privilegi di classe
+Fabbro esperto
+Al 1° livello, un inventore ottiene bonus +3 alle prove di Valutare (oggetti di metallo). Inoltre, può riparare gli oggetti di metallo rotti anche in viaggio, come se avesse sempre con sé un'officina. Infine, può usare Conoscenze (ingegneria) per identificare i costrutti.
+Libro dei brevetti
+Al 1° livello, un inventore ottiene un tomo al quale annota i propri studi su gadget, mechanus, meraviglie e relativi optional. Il libro dei brevetti è un oggetto personale e simbolico dell'inventore, contenente schemi, appunti e annotazioni che testimoniano i suoi traguardi nella ricerca scientifica. Se l'inventore dovesse perdere il proprio libro, potrà ricostruirne uno nuovo tramite 1 giorno di lavoro per livello di inventore.
+
+
+Riparazioni
+Al 1° livello, come azione standard che provoca attacchi di opportunità, un inventore può effettuare veloci riparazioni temporanee su un costrutto o un gadget adiacente, riparando un numero di danni pari a 1d6 + 1d6 ogni due livelli oltre il 1°. Se un inventore usa questa capacità su un costrutto o un gadget che non ha costruito egli stesso (o su sé stesso, se è un forgiato), l'ammontare di danni curati viene dimezzato. Si può usare questa capacità per un numero di volte al giorno pari a 2 + bonus di Intelligenza.
+Mechanus
+Al 1° livello, un inventore impara come creare i mechanus. Vedi sezione dedicata per le regole complete e l'elenco dei mechanus disponibili.
+Gadget
+Al 1° livello e ad ogni livello pari di inventore (eccetto i livelli in cui si ottengono altri privilegi specifici), un inventore impara a costruire un nuovo gadget a sua scelta tra quelli disponibili, di cui soddisfa i requisiti. Vedi sezione dedicata per le regole complete e l'elenco dei gadget.
+Tecno-armi
+Al 1° livello, un inventore impara come creare le tecno-armi. Vedi sezione dedicata per le regole complete, le modifiche e gli optional disponibili.
+Automaton
+Al 3° livello, un inventore impara come creare gli automaton. Vedi sezione dedicata per i modelli, le regole complete, gli aggiornamenti progressivi e gli optional disponibili.
+Esoscheletri
+Al 5° livello, un inventore impara come creare gli esoscheletri. Vedi sezione dedicata per i due tipi (leggero e pesante), le regole complete, gli aggiornamenti progressivi e gli optional disponibili.
+Pensiero tecnologico
+Al 9° livello, un inventore ottiene bonus di competenza pari a metà livello (arrotondato per difetto) alle prove di Conoscenze (ingegneria) e Conoscenze (scientifiche). Inoltre, può effettuare queste prove anche senza essere addestrato e considera entrambe le abilità come abilità di classe ai fini delle sinergie.
+Razziatore esperto
+Al 13° livello, un inventore ha sviluppato un occhio raffinato per smantellare e recuperare componenti utili. Può usare Conoscenze (ingegneria) invece di Percezione per razziare costrutti o meraviglie distrutte e recuperare materiale utile (da vendere o utilizzare per altri scopi a discrezione del GM) o informazioni importanti. Inoltre, ottiene bonus +4 alle prove di Valutare per stimare il valore di oggetti tecnologici o di metallo.
+Specializzazione
+Al 15° livello (in concomitanza con l'Aggiornamento #3 delle meraviglie), un inventore deve scegliere una delle proprie meraviglie come specializzazione: tecno-armi, automaton o esoscheletri. Solo la meraviglia scelta beneficia degli Aggiornamenti #3 (15° livello) e finale (20° livello); le altre meraviglie rimangono fissate all'Aggiornamento #2. Questa scelta non può essere modificata.
+Officina mobile
+Al 17° livello, l'esperienza dell'inventore gli consente di lavorare con un'efficienza eccezionale. Il tempo richiesto per costruire, smantellare, modificare o aggiornare qualsiasi creazione (mechanus esclusi) viene ridotto del 25%. Inoltre, l'inventore può lavorare fino a 12 ore al giorno (invece delle normali 8) ai propri progetti senza penalità.
+Maestria delle modifiche
+Al 19° livello, l'inventore ha così tanta familiarità con le sue creazioni da poterle azionare quasi senza pensarci. Una volta per round, l'inventore può attivare una modifica di una tecno-arma o di un esoscheletro senza spendere cariche. Questa capacità non si applica alle modifiche con costo in cariche maggiore di 1.
+Aggiornamento delle meraviglie
+Ai livelli 5°, 10°, 15° e 20°, un inventore migliora le proprie meraviglie aggiungendo nodi disponibili e accedendo a nuove modifiche. Gli Aggiornamenti #3 (15° livello) e finale (20° livello) si applicano solo alla meraviglia scelta come Specializzazione. Vedi le sezioni dedicate alle singole meraviglie per i dettagli.
+Da sapere prima di mettersi all'opera
+1. Brevetti: il libro dei brevetti annota le creazioni dell'inventore (gadget, mechanus, meraviglie, optional, ecc.), ma non è un gating meccanico. Le creazioni vengono apprese automaticamente al raggiungere il livello appropriato.
+2. Tipi di meraviglia: tecno-armi, automaton e esoscheletri. Ogni inventore impara progressivamente a costruirne tutti i tipi, ma deve specializzarsi in uno solo al 15° livello per accedere agli Aggiornamenti #3 e finale.
+3. Creazioni limitate: fatta eccezione per i mechanus, un inventore può dar vita a una sola meraviglia dello stesso tipo e a un solo gadget dello stesso tipo. Se supera il limite, il più vecchio si distrugge automaticamente.
+4. Tiri Salvezza (regola generale): qualsiasi Tiro Salvezza provocato da gadget, tecno-armi, automaton, esoscheletri e capacità di questa classe ha una CD pari a 10 + metà livello di inventore + bonus di Intelligenza. La CD di un Tiro Salvezza provocato da un mechanus è invece pari a 10 + il livello del mechanus + bonus di Intelligenza.
+5. Aggiornamenti: gli aggiornamenti delle meraviglie sono progressivi e devono essere eseguiti in ordine. Quando installa un nuovo aggiornamento, un inventore può riconfigurare le vecchie decisioni effettuate negli aggiornamenti precedenti (sostituendo modifiche, riassegnando nodi, ecc.).
+
+Mechanus
+Ogni inventore ha dei magneti posti sulla cintura ai quali appende i propri mechanus. Come azione standard che provoca attacchi di opportunità, un inventore può posizionare un mechanus nel proprio spazio e questo agirà come da programmazione. I mechanus sono dotati di cingoli, piedi chiodati, pattini, galleggianti, sci e in alcuni casi rotori per librarsi in aria e per questo ignorano le penalità al movimento dovute ai terreni difficili e possono planare persino sull'acqua. I mechanus sono rapidissimi e dall'aspetto simile a giocattoli e per questo motivo non provocano mai attacchi di opportunità per il muoversi e non possono essere attaccati durante le fasi concitate di un combattimento. I mechanus non minacciano mai i nemici entro la loro portata.
+L'inventore segue la progressione standard di un incantatore con livelli massimi 6, applicata ai mechanus. Il numero di mechanus creabili al giorno scala con il livello e il bonus di Intelligenza.
+Mechanus di 1° livello
+Criogenico
+Questo mechanus emette tramite una turbina un getto congelante in una linea di 9 m. Le creature nell'area subiscono 1d4 danni da freddo per livello di inventore (massimo 5d4); un Tiro Salvezza su Riflessi dimezza il danno. I fuochi grandi come un fuoco da campo o inferiori si estinguono se investiti dal getto.
+Dissuasore
+Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Il mechanus minaccia i nemici tramite dei pungoli elettrificati ai fini del fiancheggiamento (ma non per gli attacchi di opportunità), facendo sì che l'inventore non possa essere fiancheggiato.
+Droni assassini
+Man mano che l'inventore acquisisce esperienza, è in grado di costruire più droni, di dimensioni inferiori ma ugualmente efficaci: l'inventore rilascia quindi un mechanus più uno addizionale ogni due livelli oltre il 1° (massimo 8 droni al 15° livello). Questi mechanus dotati di piccoli rotori e di una lama al plasma, volano verso un bersaglio entro 30 m infliggendogli 1d4+1 danni da forza. I mechanus non mancano mai il proprio bersaglio, eccetto se questo gode di occultamento totale. I mechanus possono attaccare il medesimo bersaglio o bersagli diversi.
+Elettrificante
+Questo mechanus si muove verso un bersaglio entro 15 m ed effettua tramite un cavo elettrico un attacco di contatto in mischia usando il bonus di attacco base dell'inventore + bonus di Intelligenza. Se l'attacco colpisce, la vittima subisce 1d6 danni da elettricità per livello di inventore (massimo 5d6). Il mechanus ottiene bonus +3 al tiro per colpire se l'avversario indossa un'armatura di metallo o impugna un'arma di metallo.
+Generatore di campo
+Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Il mechanus genera un debole campo di forza personale che fornisce all'inventore bonus di scudo +2 alla CA. Questo bonus aumenta di +1 al 6° livello e ogni 6 ulteriori livelli (massimo +5 al 18° livello). Inoltre, il campo nega gli effetti dell'incantesimo Dardo incantato e simili effetti di proiettili di forza. Questo bonus si cumula con quello di scudi fisici, esoscheletri e altri effetti.
+Ingrassatore
+Questo mechanus si muove fino a 15 m e, tramite una pompa, ricopre una superficie adiacente di 3 m quadrati con una patina di olio scivoloso. L'effetto è identico a quello dell'incantesimo Unto. L'olio permane per 1 minuto per livello di inventore.
+Lanciarazzi
+Questo mechanus si muove restando nello spazio dell'inventore. Come azione standard, l'inventore può ordinare al mechanus di scagliare un missile contro un bersaglio entro 30 m, effettuando un attacco di contatto a distanza usando il bonus di attacco base dell'inventore + bonus di Intelligenza. Se l'attacco colpisce, la vittima subisce 1d6 danni da fuoco + 1d6 ogni 4 livelli (massimo 4d6 al 13° livello) ed è abbagliata per 1 round. Il mechanus può scagliare un numero di missili pari a 1 + bonus di Intelligenza, dopodiché si disattiva.
+Musicante
+Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Emettendo un'ispirante fanfara, il mechanus fornisce a tutti gli alleati entro 15 m bonus morale +1 ai tiri per colpire. Questo è un effetto di [influenza mentale] e [uditivo].
+Occultante
+Questo mechanus emette da un bocchettone un denso vapore grigio di raggio di 6 m e alto 6 m centrato sull'inventore. Il vapore permane per 1 minuto per livello di inventore. Il vapore oscura ogni visuale, compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Un vento moderato disperde il vapore in 4 round mentre uno forte in 1 round.
+Puntatore
+Questo mechanus si muove restando nello spazio dell'inventore e proietta un raggio laser innocuo verso i punti vulnerabili dei nemici affrontati dall'inventore. L'inventore ottiene un bonus cognitivo di +2 ai successivi due tiri per colpire in mischia o a distanza. Questo bonus aumenta di +1 al 3° livello e ogni 3 ulteriori livelli (massimo +8 al 18° livello). Inoltre, nessuno di questi due colpi è mai soggetto ad alcuna probabilità di mancare. Questo mechanus si disattiva quando l'inventore ha effettuato i due attacchi o dopo che sono trascorsi 3 round, a seconda dell'evento che si verifica per primo.
+Sentinella
+Una volta attivato, questo mechanus resta immobile e sorveglia un'area di 6 m attorno a sé per 8 ore. Quando una creatura non alleata di taglia minuscola o superiore entra nell'area sorvegliata, il mechanus emette un fischio acuto percepibile fino a 18 m. Occorre ridurre la distanza di 3 m per ogni eventuale porta chiusa frapposta e di 6 m per ogni eventuale parete. In condizioni di silenzio, il suono può essere udito fino ad una distanza di 54 m. Le creature sotto l'effetto dell'incantesimo Silenzio o simili non possono udire il fischio.
+Sigillante
+Questo mechanus si muove verso una porta, un cancello, una finestra o un'imposta entro 15 m e, grazie a dei punteruoli meccanici, la sigilla per 1 minuto per livello di inventore. Una creatura che tenti di forzare il varco così bloccato vedrà la CD della consueta prova aumentata di 5 (se la prova riesce, il mechanus viene distrutto).
+Analizzatore
+Questo mechanus si muove restando nello spazio dell'inventore ed effettua una scansione di una creatura in vista entro 18 m. L'inventore ottiene bonus +5 alle prove di Conoscenze pertinenti per identificare la creatura analizzata, e può effettuare la prova anche senza addestramento. In base al risultato della prova, l'inventore ottiene un bonus cognitivo ai tiri per colpire e ai danni contro la creatura analizzata per 1 minuto per livello di inventore, in base alla seguente tabella: CD 10 + DV creatura: +1 ai tiri per colpire e ai danni; CD 15 + DV creatura: +2 ai tiri per colpire e ai danni; CD 20 + DV creatura: +3 ai tiri per colpire e ai danni. L'inventore può avere una sola creatura analizzata alla volta. Attivare il mechanus su una nuova creatura termina l'effetto sulla precedente. Questo mechanus si disattiva al termine della durata o quando la creatura analizzata muore.
+Faro mobile
+Questo mechanus si muove restando nello spazio dell'inventore o ricevendo ordini di movimento come azione di movimento (fino a 9 m/round). Emette luce normale in un raggio di 9 m e luce fioca per altri 9 m. La luce non innesca le vulnerabilità delle creature alla luce solare. Il mechanus si disattiva dopo 10 minuti per livello di inventore.
+Saltatore
+L'inventore lancia a terra questo mechanus e lo attiva come azione di movimento; tramite dei pistoni meccanici, viene catapultato fino a 9 m + 1,5 m ogni 2 livelli (massimo 24 m al 19° livello) in una direzione orizzontale, atterrando in piedi senza subire danni da caduta da quel salto specifico. Il mechanus si disattiva dopo l'utilizzo.
+Mechanus di 2° livello
+Assordante
+Questo mechanus si muove entro 30 m ed emette un forte boato in un'area di 3 m di raggio. Le creature nell'area subiscono 1d8 danni sonori + 1d8 ogni 4 livelli oltre il 4° (massimo 4d8 al 16° livello); le creature dotate di udito devono superare un Tiro Salvezza su Tempra o essere stordite per 1 round.
+Congelante
+Questo mechanus si muove verso un bersaglio entro 30 m e tramite un sifone a raffreddamento lo ricopre con uno strato di brina infliggendogli 1d4 danni da freddo per livello di inventore (massimo 10d4) e rendendolo barcollante per 1 round + 1 ogni quattro livelli oltre il 4°. La vittima può superare un Tiro Salvezza su Tempra per dimezzare i danni e negare la condizione barcollante.
+Esilarante
+Questo mechanus si muove verso un bersaglio entro 15 m e lo investe con un getto di gas esilarante. La vittima deve superare un Tiro Salvezza su Tempra o iniziare a ridere convulsamente per 1 round per livello di inventore, finendo prona. Finché ride, la vittima non può compiere azioni, ma non è considerata indifesa. Nel suo turno successivo, come azione di round completo la vittima in preda al riso può tentare un nuovo Tiro Salvezza per mettere fine all'effetto. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non subiscono gli effetti del vapore. Le creature immuni ai veleni ottengono bonus +4 al Tiro Salvezza.
+Killer-cercatore
+Questo mechanus simile a una siringa si scaglia tramite dei rotori verso un bersaglio entro 120 m. Il mechanus effettua un attacco di contatto a distanza usando il bonus di attacco base dell'inventore + bonus di Intelligenza. Se l'attacco colpisce, la vittima viene inoculata con sostanze chimiche nocive e subisce 2d6 danni da acido. Le sostanze bruciano all'interno della vittima e questa, per 1 round extra ogni tre livelli, subisce altri 2d6 danni all'inizio del proprio turno.
+Inceneritore
+Questo mechanus si muove fino a 15 m quando l'inventore lo dirige verbalmente usando un'azione di movimento, altrimenti rimane immobile. Se entra in uno spazio occupato da una creatura, termina il proprio movimento e tramite due fiamme ossidriche le infligge 3d6 danni da fuoco. La vittima può superare un Tiro Salvezza su Riflessi per negare i danni. Le creature che entrano nello spazio del mechanus vengono attaccate. Il mechanus si disattiva dopo 1 round per livello di inventore o se si allontana a più di 30 m dall'inventore.
+Intrappolante
+Questo mechanus si muove fino a 30 m e ricopre un'area di 4,5 m di raggio con un nugolo di filamenti chimici appiccicosi. L'effetto è identico a quello dell'incantesimo Ragnatela, eccetto che i filamenti permangono per 10 minuti per livello di inventore.
+Intercettatore
+Questo mechanus si muove verso un alleato entro 30 m e si muove restando nel suo spazio. Il mechanus è in grado di deviare le munizioni e le armi da lancio, scagliando contro di esse sfere metalliche con estrema precisione. Per rappresentare ciò, l'alleato protetto guadagna RD 10/magia contro le armi a distanza. Il mechanus si disattiva dopo 1 ora per livello di inventore o quando ha prevenuto un totale di 10 danni per livello di inventore (massimo 100).
+Marcatore
+Questo mechanus si muove fino a 30 m ed esplode impregnando con una resina fluorescente un'area di 3 m di raggio. Le creature invisibili coperte di resina diventano visibili e, se non superano un Tiro Salvezza su Riflessi, sono anche offuscate 20%. La resina permane per 1 round per livello di inventore prima di evaporare.
+Olografico
+Questo mechanus dotato di rotori vola fino a 100 m e proietta entro 20 m da sé l'immagine di un oggetto o di una creatura di taglia compresa tra piccola e grande, comprensiva di rumori (ma non discorsi). Nel turno dell'inventore il mechanus può spostare la proiezione fino a 9 m dando l'illusione del suo movimento. Le creature che interagiscono con la proiezione (toccandola, esaminandola o vedendola interagire in modo impossibile con l'ambiente) possono superare un Tiro Salvezza su Volontà per riconoscerla come illusione. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [illusione: finzione].
+Planante
+Questo mechanus ha la forma di un aquilone. All'attivazione, anziché farlo cadere a terra, l'inventore afferra il mechanus e lo tiene sopra la testa, planando orizzontalmente fino a 1,5 m in qualsiasi direzione per ogni metro di caduta, alla velocità di 18 m per round. Il mechanus non può guadagnare altezza, trasportare altre creature o essere usato se si sta indossando un'armatura pesante o un esoscheletro pesante. Il mechanus si disattiva quando l'inventore tocca terra o dopo 1 minuto per livello di inventore.
+Porta-sciame
+Questo mechanus tondeggiante si muove fino a 15 m per poi rilasciare decine di nanobot. I nanobot funzionano come uno Sciame di ratti, con i tratti dei costrutti e l'aggiunta del danno-sciame pari a 1d6 + 1 ogni 3 livelli di inventore oltre il 3° (massimo 1d6+5 al 18°). All'attivazione, l'inventore indica una direzione: lo sciame si muove sempre verso il nemico più vicino all'inventore in quella direzione, ignorando gli alleati. I nanobot si disattivano dopo 5 round o se vengono distrutti.
+Scassinatore
+Questo mechanus si muove fino a 30 m e tenta di scassinare un varco chiuso a chiave. Per farlo, occorre effettuare una prova di livello di inventore +10 contro la CD della serratura. Se si ha successo, il mechanus apre fino a due metodi di chiusura. Può anche aprire porte segrete, scatole o forzieri, sia chiusi a chiave che dotati di trappole a scatto. È anche in grado di allentare nodi e aprire catenacci (ammesso che servano a tenere chiuse delle porte). Se il mechanus viene usato per aprire una porta soggetta all'incantesimo Serratura arcana, l'incantesimo in questione non viene rimosso, ma semplicemente sospeso per 10 minuti. In qualunque altro caso, le porte non si richiuderanno né si bloccheranno di nuovo allo scadere dell'incantesimo. Il mechanus non è in grado di sollevare cancelli sbarrati o simili impedimenti (come una saracinesca) e non può agire su corde, piante rampicanti e così via.
+Localizzatore
+Questo mechanus si muove restando nello spazio dell'inventore e, tramite un complesso sistema di rilevatori, individua la direzione (ma non la distanza esatta) di un oggetto o di una creatura nota all'inventore entro un raggio di 120 m + 12 m per livello. L'inventore deve aver visto direttamente l'oggetto o la creatura almeno una volta in passato. Materiali densi come pietra spessa o piombo bloccano il rilevamento. Il mechanus si disattiva dopo 1 minuto per livello di inventore.
+Crampi elettro-muscolari
+Questo mechanus si scaglia verso un bersaglio vivente entro 15 m ed effettua un attacco di contatto in mischia usando il bonus di attacco base dell'inventore + bonus di Intelligenza. Se l'attacco colpisce, la vittima subisce 2d6 danni da elettricità non letali e deve superare un Tiro Salvezza su Tempra o essere paralizzata per 1 round. Le creature con il sottotipo costrutto o non-morto sono immuni a questo effetto.
+Ponte estensibile
+Questo mechanus si attiva tramite un comando vocale e si dispiega estendendo una passerella metallica rigida lunga fino a 1,5 m per livello di inventore (massimo 18 m) e larga 1,5 m. La passerella può sostenere fino a 200 kg per metro di lunghezza e parte dalla casella dell'inventore in una direzione a sua scelta. Il ponte permane per 1 ora per livello di inventore o finché l'inventore non lo richiama come azione standard. L'inventore non può creare un nuovo ponte estensibile finché il precedente è ancora attivo.
+Mechanus di 3° livello
+Accecante
+Questo mechanus si scaglia tramite dei rotori verso un bersaglio entro 15 m e lo investe con un getto ustionante infliggendogli 1d6 danni da acido per livello (massimo 10d6) (si prenda nota del danno inflitto). Se il bersaglio ha organi visivi non protetti (solitamente occhi), il getto lo rende anche accecato. La vittima può superare un Tiro Salvezza su Riflessi per dimezzare i danni e negare la condizione accecato. Nel secondo e nel terzo round di effetto, l'incantesimo infligge metà del danno inflitto nel primo round (questo danno è dimezzato una seconda volta se il bersaglio ha superato il Tiro Salvezza nel primo round). Se il bersaglio trascorre un intero round a lavare l'area interessata, l'effetto ha termine.
+Appestante
+Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore verdastro di raggio di 6 m e alto 6 m. Il vapore permane per 1 round per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Un vento moderato disperde il vapore in 4 round mentre uno forte in 1 round. Inoltre, il vapore è nauseabondo e le creature al suo interno devono superare un Tiro Salvezza su Tempra o essere nauseate finché vi rimangono e per 1 round dopo che ne sono uscite. Chi supera il Tiro Salvezza ma rimane all'interno della nube deve continuare ad effettuarlo ogni round nel turno dell'inventore. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non sono nauseate. Questo è un effetto di [veleno].
+Dirottatore
+Questo mechanus si muove verso un costrutto entro 15 m e si attacca al suo corpo, iniziando a generare un campo di interferenza. Il costrutto deve superare un Tiro Salvezza su Tempra o essere confuso per 1 round per livello di inventore.
+Estintore
+Questo mechanus si muove fino a 30 m e, tramite una pompa circolare, getta una polvere ignifuga in un cubo con lato 30 m. La polvere spegne tutti i fuochi non magici e può dissolvere eventuali incantesimi basati sul fuoco superando una prova di dissolvere (1d20 +1 per livello di inventore, massimo +15). La CD per dissolvere questi incantesimi è di 11 + il livello dell'incantatore che ha lanciato l'incantesimo. Le creature con il sottotipo fuoco che si trovano all'interno dell'area subiscono 1d6 danni per livello di inventore (massimo 10d6). In alternativa, il mechanus può ridirigere tutta la polvere su un singolo oggetto magico che crei o controlli il fuoco. L'oggetto perde tutte le sue proprietà magiche basate sul fuoco per 1d4 ore, a meno che chi lo impugna non superi un Tiro Salvezza su Volontà (gli artefatti sono immuni a questo effetto).
+Folgorante
+Questo mechanus dotato di piccoli rotori si muove restando fino a un massimo di 9 sopra l'inventore. Una volta per round, come azione standard l'inventore può ordinare al mechanus di scagliare entro 30 m una scarica elettrica che infligge 3d6 danni da elettricità. I bersagli possono superare un Tiro Salvezza su Riflessi per dimezzare il danno. Il mechanus si disattiva dopo 1 minuto per livello di inventore o dopo che ha scagliato 10 scariche elettriche. Se ci si trova all'aperto e in un'area interessata da una tempesta, se sta piovendo, se ci sono vento o nuvole minacciose o condizioni di caldo-umido, ciascuna scarica infligge 3d10 danni da elettricità, anziché 3d6.
+Frustatore
+Questo mechanus dotato di piccoli rotori vola verso una casella entro 30 m ed estroflette una sottile catena d'adamantio con portata 3 m con la quale può compiere ogni turno una manovra di Riposizionare, Sbilanciare, Sporco trucco (intralciato) o Trascinare, con un BMC pari al livello di inventore + bonus di Intelligenza. Come azione di movimento l'inventore può ordinare al mechanus di muoversi fino a 9 m. Il mechanus si disattiva dopo 1 round per livello di inventore.
+Idrante
+Questo mechanus emette un flusso d'acqua ad alta pressione che si abbatte su tutte le creature e gli oggetti in una linea di 15 m o finché non colpisce qualcosa che non può spostare. Questo flusso può spingere oggetti mobili e creature di qualunque taglia, effettuando una manovra in combattimento e applicando il risultato ad ogni creatura od oggetto attraversato. Il BMC per questa spinta è pari al livello di inventore + bonus di Intelligenza. Il movimento provocato da questa spinta non provoca attacchi di opportunità. Il getto permette anche di effettuare una prova di Forza per sfondare porte od oggetti ancorati e il getto ha una Forza pari al livello di inventore + bonus di Intelligenza.
+Impallinatore
+Da un portello nel petto questo mechanus emette una salva di frammenti metallici in un cono di 9 m infliggendo alle creature nell'area 1d8 danni perforanti ogni due livelli (massimo 5d8). Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare i danni.
+Narcotizzante
+Questo mechanus si muove verso un bersaglio entro 15 m ed effettua tramite un ago un attacco di contatto in mischia usando il bonus di attacco base dell'inventore + bonus di Intelligenza. Se l'attacco colpisce, la vittima viene inoculata con una sostanza soporifera che infligge 1d6 danni non letali per round, per 1 round/livello di inventore (massimo 10). Inoltre, se colpita la vittima deve superare un Tiro Salvezza su Tempra o essere anche inferma.
+Riflettore
+Questo mechanus si muove restando nello spazio dell'inventore proiettando una luce di intensità pari a quella del giorno in un raggio di 15 m. Tale illuminazione aumenta il livello della luce per altri 18 m di un grado (buio diviene luce fioca, luce fioca diviene luce normale, luce normale diviene luce intensa). Il mechanus emette uno spettro di radiazioni ultraviolette analogo alla luce solare, e per questo attiva le vulnerabilità alla luce solare di vampiri e creature simili. Se gli viene ordinato come azione di movimento, il mechanus può spegnere o riaccendere la luce. Il mechanus non emette luce in un'area di oscurità magica. Il mechanus si disattiva dopo 10 minuti per livello di inventore.
+Sciame diserbante
+Questo nugolo di piccoli mechanus dotati di razzi vola in alto e tratta con un liquido diserbante un'area di raggio compreso tra 30 m e 150 m o un semicerchio di raggio compreso tra 30 m e 60 m. Dopo 1 minuto di trattamento ininterrotto, la vegetazione nell'area si rimpicciolisce a circa un terzo delle sue normali dimensioni, districandosi e rendendo il passaggio più agevole. Inoltre, questo diserbante dissolve automaticamente qualunque incantesimo od effetto che aumenta la vegetazione (come Crescita vegetale, Intralciare, Muro di spine, ecc.). Il diserbante non ha effetto sulle creature vegetali.
+Scivolante
+Questo mechanus si muove fino a 15 m e da un bocchettone emette un getto scivoloso che ricopre per 1 minuto per livello di inventore il terreno in un'area di 6 m di raggio. Lo strato scivoloso limita il movimento a un quarto del normale e le creature che iniziano il proprio turno su di esso o che vi si muovono sopra devono superare un Tiro Salvezza su Riflessi o finire prone (massimo un tiro per turno). Le creature prone che cercano di rialzarsi devono superare prima un Tiro Salvezza su Riflessi o una prova di Acrobazia con la stessa CD del mechanus. Le creature che usano un'azione di round completo per rialzarsi lo fanno senza dover superare alcuno Tiro Salvezza o prova di Acrobazia.
+Spia
+Questo mechanus dotato di rotori e grande come un mandarino si muove fino a 30 m verso un punto in vista. Tramite degli auricolari, il mechanus trasmette quindi i suoni e le conversazioni in un'area di 9 m quadrati attorno a sé. Se ci sono più fonti sonore nell'area, si può effettuare una prova di Percezione con CD 20 per focalizzarsi su una specifica.
+Stordifuoco
+Questo mechanus si muove fino a 30 m e detona in una luce e suono accecanti in un'area di 6 m di raggio. Le creature nell'area devono superare un Tiro Salvezza su Riflessi o essere accecate e assordate per 1 round + 1 round ogni 4 livelli di inventore oltre il 3° (massimo 5 round al 19°). Chi supera il Tiro Salvezza è solamente abbagliato per 1 round. Le creature con il sottotipo costrutto o le creature prive sia di vista che di udito sono immuni.
+Disturbatore di mira
+Questo mechanus si muove restando nello spazio dell'inventore e proietta un campo di interferenza ottica e acustica per 1 minuto per livello di inventore. L'inventore e gli alleati entro 1,5 m da lui ottengono occultamento (probabilità di mancare 20%) contro gli attacchi a distanza. Le creature in grado di vedere le creature invisibili o dotate di sensi non-visivi (come la percezione tellurica o l'olfatto) ignorano questo effetto.
+Generatore di campo elettrostatico
+Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Quando una creatura colpisce l'inventore con un attacco senz'armi, un attacco naturale o effettua contro di lui una manovra di Lottare, il mechanus scarica una scossa elettrica che infligge 1d6 danni da elettricità + 1 ogni 2 livelli di inventore (massimo 1d6+10 al 20°). Inoltre, la creatura deve superare un Tiro Salvezza su Tempra o essere accecata per 1 round. Le creature con il sottotipo costrutto o non-morto sono immuni all'effetto secondario.
+Mechanus di 4° livello
+Addensante
+Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore verdastro di raggio di 6 m e alto 6 m. Il vapore permane per 1 round per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Un vento molto forte disperde il vapore in 1 round. Inoltre, qualsiasi creatura che provi a muoversi all'interno del vapore avanza alla metà della velocità normale, e tutti i suoi tiri per colpire e per i danni in mischia subiscono penalità -2. Questo vapore impedisce di effettuare attacchi con armi a distanza (a parte i raggi magici e simili) e di compiere passi di 1,5 m.
+Anti-urto
+Questo mechanus viene attivato come azione immediata tramite un comando vocale. Il mechanus crea una cupola di forza sopra l'inventore. Se il fondo della cupola si trova su una superficie piana, tutta la cupola è considerata impermeabile. Qualsiasi oggetto o liquido che cada sulla cupola rimbalza o vi scorre sopra. Questo mechanus viene utilizzato solitamente per guadagnare tempo durante valanghe, inondazioni e crolli, ma può dimostrarsi utile anche durante imboscate e oggetti in caduta. Se la cupola subisce anche 1 solo danno dovuto a un attacco nemico, scompare al termine del turno.
+Generatore di tempesta
+Questo mechanus genera costantemente un denso vapore attorno a sé e appare simile a una nuvola grigia che galleggia a 1,5 m di altezza. Quando viene attivato, questo mechanus dotato di rotori vola entro 30 m, mentre nei round successivi vola a una velocità di 9 m se diretto attivamente dall'inventore come azione di movimento, altrimenti resta fermo. Se entra in uno spazio che contiene una creatura, tramite dei folgoratori le infligge 6d6 danni da elettricità + 1d6 ogni 2 livelli oltre il 7° (massimo 12d6 al 19° livello) e si ferma per quel turno. Le creature che terminano il proprio movimento nella stessa casella del mechanus subiscono i medesimi danni. Le vittime colpite dal mechanus possono superare un Tiro Salvezza su Riflessi per negare il danno ma quelle che falliscono il tiro vengono anche ricoperte di vapore e diventano offuscate 50% per 1 round (eccetto quelle in grado di vedere nell'oscurità). Il mechanus si disattiva dopo 1 round per livello di inventore o se si allontana oltre 60 m dall'inventore.
+Esplosivo (consumabile)
+Si effettua un tiro per colpire contro un bersaglio tirando 1d20 + il livello di inventore + bonus di Intelligenza. Se l'attacco colpisce, si pilota questo mechanus volante dotato di rotori e lo si fa esplodere in un'area quadrata di 3 caselle di lato al cui interno c'è il bersaglio dell'attacco. Il bersaglio dell'attacco subisce automaticamente 5d10 danni contundenti senza Tiro Salvezza. Le altre creature nell'area subiscono i medesimi 5d10 danni contundenti, ma possono superare un Tiro Salvezza su Riflessi per dimezzarli. Le schegge dovute all'esplosione infliggono poi 5d4 danni taglienti a tutte le creature entro 6 m dal bersaglio (comprese le creature colpite dall'attacco iniziale); un Tiro Salvezza su Riflessi nega questo danno extra. Il mechanus viene distrutto dall'esplosione e non può essere riutilizzato.
+Fustigatore
+Questo mechanus si muove fino a 30 m ed estroflette molteplici tubi gommosi che ghermiscono qualsiasi creatura in un raggio di 6 m. Tutta l'area d'effetto viene considerata terreno difficile e ogni creatura al suo interno o che vi entra è bersaglio di una manovra in combattimento all'inizio di ogni proprio turno, incluso il round in cui il mechanus estroflette i tubi. Per determinare il BMC dei tubi si usa il livello di inventore + bonus di Intelligenza. Ogni round si effettua un solo tiro e si applica il risultato a tutte le creature colpite. Quando un tubo afferra un nemico, gli infligge 1d6+4 danni contundenti e questi ottiene la condizione in lotta. I nemici afferrati non possono muoversi senza prima liberarsi. I tubi ricevono bonus +5 alle prove di lottare effettuate contro avversari che sono già in lotta, ma non possono muovere i nemici o immobilizzarli. Ad ogni round in cui i tubi superano la prova di lotta, infliggono altri 1d6+4 danni contundenti. La DMC dei tubi, al fine di liberarsi dalla lotta, è pari a 10 + il livello di inventore + bonus di Intelligenza. Il mechanus si disattiva dopo 1 round per livello di inventore.
+Lanciafiamme a getto
+Questo mechanus emette un getto infuocato in un cono di 9 m o in una linea di 18 m, a scelta. Le creature colpite subiscono 1d6 danni da fuoco per livello di inventore (massimo 12d6). Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno.
+Lanciafiamme rotante
+All'attivazione, anziché cadere a terra, il mechanus resta sospeso con dei rotori sopra la testa dell'inventore. All'inizio del turno successivo dell'inventore, tramite un augello il mechanus infligge 1d8 danni da fuoco + 1d8 ogni 4 livelli oltre il 7° (massimo 4d8 al 19°) a tutte le creature entro 9 m ad eccezione dell'inventore. Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno; le creature oltre i 4,5 m ottengono bonus +4 al Tiro Salvezza. Il mechanus si disattiva dopo 1 round per livello di inventore.
+Marcitore
+Questo mechanus si muove verso un vegetale o una creatura vegetale entro 15 m e lo inonda con una sostanza diserbante infliggendogli 1d6 danni per livello di inventore (massimo 15d6). Le creature vegetali possono superare un Tiro Salvezza su Tempra per dimezzare i danni. La sostanza tossica non ha effetto sul suolo o sulla vegetazione circostante.
+Repellente
+Questo mechanus si muove restando nello spazio dell'inventore ed emette degli ultrasuoni in un'area di raggio 3 m per livello di inventore. I parassiti con un numero di Dadi Vita inferiore a un terzo del livello di inventore non possono oltrepassare l'area di ultrasuoni mentre gli altri parassiti possono oltrepassarla superando un Tiro Salvezza su Volontà. I parassiti all'interno dell'area subiscono comunque 2d6 danni sonori all'inizio del loro turno, il che è sufficiente a far desistere la maggior parte dei parassiti più piccoli. Il mechanus si disattiva dopo 10 minuti per livello di inventore.
+Tonante
+Tramite un potente altoparlante, questo mechanus emette un boato in un cono di 9 m. Qualsiasi creatura all'interno del cono viene assordata per 2d6 round e subisce 5d6 danni sonori. Le vittime possono superare un Tiro Salvezza su Riflessi per non essere assordate e dimezzare i danni. Qualsiasi oggetto fragile o di cristallo o qualsiasi creatura cristallina subisce 1d6 danni sonori per livello di inventore (massimo 15d6). Alle creature cristalline è concesso un Tiro Salvezza su Tempra per dimezzare i danni, e le creature che tengono in mano oggetti fragili possono impedire che questi siano danneggiati superando un Tiro Salvezza su Riflessi. Il boato non può penetrare l'incantesimo Silenzio o simili.
+Demolitore
+Questo mechanus si muove fino a 15 m e si attacca a una superficie solida (parete, porta, soffitto, statua, mobile pesante). Tramite trapani e perforatori, infligge automaticamente 6d6 danni alla struttura ogni round per 1 round per livello di inventore, ignorando la Durezza di materiali fino a 8 (ferro). Contro materiali con Durezza superiore, il mechanus infligge danni dimezzati. Il mechanus può essere staccato dalla superficie come azione standard provocando attacchi di opportunità, oppure si disattiva quando la struttura viene distrutta.
+Pulsatore
+Questo mechanus si muove fino a 30 m e detona in un'onda d'urto in un'area di 4,5 m di raggio. Le creature nell'area subiscono 1d6 danni contundenti per livello di inventore (massimo 10d6) e devono superare un Tiro Salvezza su Tempra o essere spinte 3 m lontano dal centro dell'esplosione e finire prone. Un Tiro Salvezza su Riflessi superato dimezza il danno e nega lo spostamento. Gli oggetti non assicurati e di peso inferiore a 25 kg vengono spinti automaticamente.
+Convertitore
+Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Una volta per round, quando l'inventore è bersaglio di un incantesimo di livello pari a metà livello di inventore o inferiore, può tentare di assorbirlo come azione immediata. Il mechanus effettua una prova di dissolvere (1d20 + il livello di inventore, massimo +15) contro CD 11 + il livello dell'incantatore. Se la prova riesce, l'incantesimo viene annullato e il mechanus si disattiva immediatamente; se fallisce, l'incantesimo ha effetto normale ma il mechanus rimane attivo. Il mechanus si disattiva dopo aver tentato di assorbire 3 incantesimi.
+Mechanus di 5° livello
+Antimagia
+Questo mechanus si muove restando nello spazio dell'inventore, emettendo un campo di antimagia personale che fornisce RI 12 + il livello di inventore (massimo RI 25 al 13° livello). Il mechanus si disattiva dopo 1 round per livello di inventore.
+Antisommossa
+Questo mechanus si muove restando nello spazio dell'inventore ed estroflette due pali tra cui si crea un campo di forza alto 3 m. Il mechanus si sposta in modo da rimanere sempre tra l'inventore e un nemico a scelta, indipendentemente da dove esso si muova o dai tentativi di aggirarlo, offrendo così una copertura parziale (bonus +4 alla CA) contro l'avversario. Nulla può ingannare il mechanus, che continua a spostarsi davanti al nemico incurante dell'oscurità, dell'invisibilità o di qualsiasi altro tentativo di nascondersi. Il mechanus ha tanti Punti Ferita quanti ne ha l'inventore in piena salute e ha CA 20 (+11 naturale, -1 taglia). Il mechanus subisce danni normalmente ma gran parte degli effetti magici che non provocano danni non hanno effetto su di lui. Non è in grado di spingere attraverso un Muro di forza o di entrare in un Campo antimagia. Il mechanus effettua Tiri Salvezza come quelli dell'inventore. Gli incantesimi come Disintegrazione o Dissolvi magie effettuati con successo distruggono il mechanus. Qualsiasi creatura che pesi fino a 1.000 kg e che tenti di farsi strada spingendo oltre il mechanus viene ridotta a metà della sua normale velocità mentre le creature più pesanti lo attraversano normalmente, sebbene i loro attacchi siano ancora influenzati. Dirigere il mechanus contro un nuovo avversario richiede un'azione di movimento. Il mechanus si disattiva dopo 1 round per livello di inventore.
+Costrittore
+Questo mechanus si muove verso un bersaglio entro 12 m, estroflette delle cinghie elastiche e tenta di bloccarlo effettuando una manovra in combattimento contro la sua DMC. Il BMC del mechanus è pari al livello di inventore + bonus di Intelligenza. La manovra non provoca attacchi di opportunità e se ha successo il bersaglio diventa trattenuto. Questo stato è simile alla condizione in lotta, salvo che la vittima può muoversi alla sua velocità. La costrizione non impone di effettuare prove di Concentrazione per usare capacità che richiedono appunto Concentrazione e il bersaglio non può eseguire azioni che richiedano l'uso di una o più mani (tra cui lanciare incantesimi che prevedono componenti somatiche o materiali). Dopo essere stato trattenuto per 1 minuto, il bersaglio può effettuare un Tiro Salvezza aggiuntivo contro un eventuale effetto di [compulsione], [maledizione] o [paura]. L'inventore sceglie l'effetto contro cui il bersaglio riceve il Tiro Salvezza extra, che tuttavia si applica solo agli effetti con durata non istantanea. Il Tiro Salvezza aggiuntivo può essere usato solo una volta. Una creatura può liberarsi dalla costrizione effettuando una prova di manovra in combattimento o di Artista della fuga con CD 10 + livello di inventore + bonus di Intelligenza. Il mechanus si disattiva dopo 1 round per livello di inventore.
+Droni folgoranti
+Questa coppia di mechanus dotati di piccoli rotori vola verso due diverse caselle entro 30 m e a un massimo di 18 m l'una dall'altra. Una volta giunti a destinazione, tra i due si genera un arco di fulmini che infligge a ogni creatura in linea tra di loro 1d6 danni da elettricità per livello di inventore (massimo 15d6). Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno. L'arco elettrico non si crea se non c'è una linea di effetto tra i due droni.
+Guardiano
+Il mechanus è dotato di un rifrattore visivo che lo rende permanentemente invisibile. Il mechanus resta fermo, sorveglia il luogo in cui è stato posizionato e aziona una sirena nel momento in cui una creatura di taglia piccola o più grande si avvicina a meno di 9 m da lui (quanti sono già entro 9 m da lui al momento dell'attivazione possono muoversi nell'area, ma se si allontanano, al loro ritorno attivano comunque la sirena). Il mechanus è in grado di vedere le creature invisibili ed eteree. Non reagisce alle finzioni, ma lo fa con le illusioni ombra. Se un intruso si avvicina entro 1,5 m dal mechanus, quest'ultimo disattiva la sirena e attacca una volta per round con un aculeo (bonus di attacco pari al livello di inventore + bonus di Intelligenza; 2d6+3 danni perforanti, +1d6 ogni 4 livelli oltre il 9° fino a un massimo di 4d6+3 al 17° livello). Il mechanus è sempre considerato preparato ad attaccare con l'aculeo, per cui colpisce con il suo primo attacco nel turno dell'intruso. L'aculeo è equivalente a un'arma magica in termini di superare eventuali RD. Il mechanus non può essere attaccato a sua volta. Il mechanus si disattiva dopo 1 ora per livello di inventore, dopo 1 round per livello di inventore una volta che ha azionato la sirena o se l'inventore si allontana a più di 30 m da lui.
+Pirocorridore
+Questo mechanus si muove fino a 18 m rilasciando sul suo percorso una scia di olio incendiato che permane per 1 round per livello di inventore. Le creature che attraversano la scia o che iniziano il proprio turno su di essa subiscono 1d6 danni da fuoco per livello di inventore (massimo 15d6); un Tiro Salvezza su Riflessi dimezza il danno. Una creatura può subire questi danni una sola volta per round.
+Purificante
+Questo mechanus si muove restando nello spazio dell'inventore e, tramite potenti sifoni, aspira in un raggio di 6 m qualsiasi gas, vapore nocivo, malattia aerobica, veleni da inalazione e gli incantesimi come Nube maleodorante, Nube mortale, ecc. Il mechanus si disattiva dopo 1 ora per livello di inventore.
+Sifone assassino
+Questo mechanus si muove verso un bersaglio entro 12 m e, tramite un potentissimo aspiratore, inizia a risucchiare l'aria attorno ad esso, facendolo soffocare rapidamente. Il mechanus è dotato di un rifrattore visivo che lo rende permanentemente invisibile. La vittima può effettuare un Tiro Salvezza su Tempra per resistere al risucchio d'aria. Se il tiro riesce, è barcollante per 1 round mentre annaspa in cerca di aria. Se il tiro fallisce, comincia immediatamente a soffocare. Nel suo turno successivo, la vittima cade priva di sensi ed è ridotta a 0 Punti Ferita. Due round dopo, muore. Ad ogni round, la vittima può ritardare gli effetti di 1 round superando un Tiro Salvezza su Tempra, ma il risucchio continua per 3 round, ed ogni volta che il bersaglio fallisce il Tiro Salvezza su Tempra si sposta di un passo avanti verso l'asfissia. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non subiscono gli effetti del mechanus. Il mechanus si disattiva se il bersaglio supera il primo Tiro Salvezza o 3 round dopo l'attivazione.
+Velenifero
+Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore nero di raggio di 6 m e alto 6 m. Il vapore permane per 1 minuto per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Il vapore non viene spazzato dal vento ma si allontana per 3 m a round, scivolando lungo le pendenze o in piano in una direzione scelta dall'inventore. Dato che il vapore è più pesante dell'aria, si abbassa al livello più basso sul terreno, e riesce ad infiltrarsi in tane o buchi di ogni genere. Il vapore non penetra i liquidi. Il vapore è altamente velenoso e uccide automaticamente qualunque creatura vivente con un numero di Dadi Vita pari a 3 o inferiore. Le creature viventi con un numero di Dadi Vita compreso tra 4 e 6 muoiono se non superano un Tiro Salvezza su Tempra. Se il tiro riesce, subiscono comunque 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore. Le creature viventi con 6 o più Dadi Vita subiscono 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore ma possono superare un Tiro Salvezza su Tempra per dimezzare questo danno. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare e quelle immuni agli effetti di [veleno] non vengono uccise dal vapore.
+Disturbatore mentale
+Questo mechanus si muove restando nello spazio dell'inventore ed emette un campo di interferenza in un raggio di 6 m per 1 round per livello di inventore. Tutte le creature ostili nell'area che tentano di lanciare un incantesimo o usare una capacità magica devono superare una prova di Concentrazione con CD pari alla CD del mechanus + il livello dell'incantesimo. In caso di fallimento, l'incantesimo è perso senza effetto. Inoltre, una volta per round come azione immediata, l'inventore può forzare un nemico nel raggio che sta lanciando un incantesimo a ripetere la prova di Concentrazione con CD aumentata di 5.
+Generatore di gravità
+Questo mechanus si muove fino a 30 m e crea un campo gravitazionale localizzato in un cilindro di 6 m di raggio e 18 m di altezza per 1 round per livello di inventore. Le creature volanti all'interno dell'area devono superare un Tiro Salvezza su Riflessi all'inizio di ogni loro turno o precipitare a terra subendo i normali danni da caduta. Le creature non volanti all'interno dell'area subiscono i seguenti effetti: velocità dimezzata, penalità -2 ai tiri per colpire, ai danni e alle prove di Forza e Destrezza. Le creature con il sottotipo aria sono immuni a questo effetto.
+Camera di stasi
+Questo mechanus si muove verso un bersaglio entro 9 m e lo avvolge in un guscio di forza paralizzante. La vittima deve superare un Tiro Salvezza su Tempra o essere paralizzata per 1 round + 1 round ogni 3 livelli di inventore oltre il 9° (massimo 4 round al 18°). Chi supera il Tiro Salvezza è solamente barcollante per 1 round. Una creatura paralizzata dalla camera di stasi è completamente protetta da tutti i danni e gli effetti esterni durante la durata, ma non può effettuare alcuna azione né essere bersaglio di alleati. Le creature immuni alla paralisi sono immuni a questo effetto.
+Mechanus di 6° livello
+Nota: I mechanus di 6° livello vengono sbloccati al 17° livello di inventore.
+Singolarità
+Questo mechanus si muove fino a 30 m e collassa in un piccolo punto gravitazionale instabile. Per 1 round per livello di inventore, una singolarità di 1,5 m di diametro si manifesta nella casella selezionata. All'inizio del turno di ogni creatura entro 9 m dalla singolarità, questa deve superare un Tiro Salvezza su Tempra o essere trascinata di 3 m verso il centro (movimento che non provoca attacchi di opportunità). Le creature che terminano il loro turno entro 1,5 m dalla singolarità subiscono 6d10 danni da forza e devono superare un Tiro Salvezza su Riflessi o essere stordite per 1 round; il TS dimezza il danno. Gli oggetti non assicurati di peso inferiore a 100 kg vengono attratti automaticamente. Le creature con il sottotipo costrutto o le creature di taglia colossale sono immuni allo spostamento ma non ai danni.
+Disintegratore atomico
+Si effettua un tiro per colpire a distanza contro un bersaglio entro 30 m tirando 1d20 + il livello di inventore + bonus di Intelligenza. Se l'attacco colpisce, un raggio di energia disintegrante perfora il bersaglio infliggendo 2d6 danni da forza per livello di inventore (massimo 40d6 al 20° livello). La vittima può superare un Tiro Salvezza su Tempra per dimezzare il danno. Se il bersaglio viene ridotto a 0 PF o meno da questo attacco, viene completamente disintegrato, lasciando solo polvere fine; le creature disintegrate in questo modo non possono essere riportate in vita se non tramite Resurrezione Pura, Desiderio o Miracolo. Gli oggetti non magici colpiti dal raggio (fino a un cubo di 3 m di lato) vengono automaticamente disintegrati; gli oggetti magici devono superare un Tiro Salvezza su Tempra o essere disintegrati.
+Olomega
+Questo mechanus si muove restando nello spazio dell'inventore e proietta un'illusione di area gigantesca, fino a un cubo di 18 m di lato, comprensiva di immagini, suoni, odori e sensazioni tattili (ma non discorsi coerenti). L'inventore controlla mentalmente l'illusione, che si muove fino a 9 m per round come azione gratuita. L'illusione può rappresentare creature, edifici, terreni o eventi naturali. Le creature che interagiscono con l'illusione (toccandola, esaminandola con cura, o attaccandola) possono superare un Tiro Salvezza su Volontà per riconoscerla come tale; le creature che osservano l'illusione comportarsi in modo impossibile o palesemente irreale ottengono un Tiro Salvezza spontaneo. Una volta che una creatura ha riconosciuto l'illusione, può comunicarlo agli alleati che ottengono bonus +4 al loro Tiro Salvezza. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [illusione: finzione].
+Sciame distruttivo
+Questo mechanus si attiva rilasciando una nube di nanobot industriali in un'area di 4,5 m di raggio entro 30 m. I nanobot funzionano come uno Sciame di ratti con i tratti dei costrutti, dimensione Grande, danno-sciame pari a 4d6 + bonus di Intelligenza dell'inventore, e attacco di distrazione (TS Tempra CD mechanus o nauseato 1 round). All'inizio del turno dell'inventore, come azione gratuita questi può ordinare allo sciame di muoversi fino a 9 m verso una direzione o creatura. Se non riceve ordini, lo sciame si muove verso il nemico più vicino all'inventore. Lo sciame si disattiva dopo 1 round per livello di inventore o se ridotto a 0 PF.
+Replicatore quantico
+Questo mechanus si attiva creando una copia olografica solida dell'inventore in una casella adiacente. La copia ha le medesime statistiche dell'inventore (compresi equipaggiamento attivo, modifiche di tecno-armi/esoscheletri, talenti, capacità di classe), Punti Ferita pari a metà di quelli dell'inventore in piena salute, e segue ordini telepatici. Le azioni della copia si svolgono nel turno dell'inventore (azione di movimento per ordinarla); può effettuare attacchi, lanciare incantesimi (se l'inventore può) e usare capacità di classe, ad eccezione di: creare nuovi mechanus, gadget o meraviglie; usare Riparazioni; usare Replicatore quantico. La copia condivide il pool di cariche dell'inventore con tecno-armi ed esoscheletri. Se la copia subisce danni, questi non si trasferiscono all'inventore. Il mechanus si disattiva dopo 1 minuto per livello di inventore o se la copia viene ridotta a 0 PF.
+Generatore di muro di forza
+Questo mechanus si muove fino a 30 m e crea un muro di forza pura. L'inventore può configurare il muro come una parete piana fino a 1,5 m² per livello di inventore, oppure come sfera o emisfero con raggio fino a 30 cm per ogni 2 livelli di inventore. Il muro funziona come l'incantesimo Muro di forza: è invisibile, non può essere danneggiato da attacchi normali, blocca tutti gli effetti corporei e la maggior parte di quelli incorporei. Il muro permane per 1 round per livello di inventore o finché non viene dissolto da Disintegrazione, Sfera Annientatrice o un effetto equivalente; Dissolvi magie non ha effetto sul muro. Il mechanus rimane attivo per la durata del muro e si disattiva quando il muro viene dissolto o termina.
+
+Tecno-armi
+Le tecno-armi sono armi convenzionali (mischia o distanza) sulle quali un inventore installa modifiche meccaniche e tecnologiche, integrando ingranaggi, valvole, chip e moduli specializzati. Una tecno-arma mantiene le statistiche dell'arma di base e gli incantamenti che possiede, ottenendo in aggiunta una serie di capacità attivabili tramite le modifiche installate.
+Costruzione
+Costruire una tecno-arma richiede 8 ore di lavoro giornaliero, più 1 ora aggiuntiva per ogni aggiornamento già effettuato. Un inventore ha bisogno di un'arma di base dalla quale partire, la quale deve essere un'arma di buona fattura, perfetta o magica. Quando si smantella una tecno-arma, si recupera automaticamente l'arma di base, inclusi eventuali incantamenti che possedeva.
+Cariche
+Ogni tecno-arma viene creata con un numero di cariche pari a metà livello di inventore + bonus di Intelligenza dell'inventore. Le cariche si ripristinano automaticamente all'alba di ogni giorno.
+Modifiche
+Per attivare una modifica, un inventore deve spendere 1 carica della tecno-arma. Salvo diversamente indicato, una modifica resta attiva per 1 minuto. Salvo diversamente indicato, attivare una modifica richiede un'azione gratuita all'inizio del proprio turno.
+Modifiche passive
+Queste modifiche non necessitano di alcuna azione per essere attivate, ma è la tecno-arma stessa che lo fa in maniera autonoma spendendo normalmente la carica. L'attivazione automatica può essere disabilitata o riabilitata come azione veloce.
+Nodi
+Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi dopo il nome) per essere installata. Un inventore non può installare su una tecno-arma più nodi del proprio bonus di Intelligenza.
+Progressione degli aggiornamenti
+Aggiornamento
+Liv. min
+Nodi installabili
+Nuove modifiche disponibili
+Funzionalità di base
+1°
+1
+7
+Aggiornamento #1
+5°
+2
++13 (totale 20)
+Aggiornamento #2
+10°
+3
++7 (totale 27)
+Aggiornamento #3 (specializzazione)
+15°
+4
++3 (totale 30)
+Aggiornamento finale (specializzazione)
+20°
+5
++2 (totale 32)
+
+Funzionalità di base (1 nodo, livello 1°)
+Chip di combattimento assistito (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto la tecno-arma fornisce all'inventore bonus meccanico +1 ai tiri per colpire e ai tiri per i danni.
+Chip di reazione assistita (1 nodo, passiva)
+Quando l'inventore tira l'iniziativa, la tecno-arma si attiva automaticamente spendendo 1 carica e fornisce bonus meccanico +3 alla prova. Questa modifica si attiva una sola volta per combattimento.
+Magneti “Graviton” (1 nodo, sempre attiva, non consuma cariche)
+Solo armi da lancio. La tecno-arma è sempre dotata di campi magnetici controllati che, dopo essere stata scagliata, la fanno ritornare automaticamente nella mano dell'inventore alla fine del turno. La modifica non funziona se la tecno-arma viene scagliata oltre 3 incrementi di gittata, se non c'è una linea di effetto tra l'inventore e l'arma, o se si trova in un'area di antimagia.
+Spray fluorescente (1 nodo)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto le munizioni della tecno-arma sono ricoperte di vernice fluorescente. Le creature colpite dagli attacchi vengono marcate: non possono più beneficiare di invisibilità, occultamento, oscurità o effetti come Velo per 1 minuto. Inoltre, l'inventore ottiene bonus +2 ai tiri per colpire a distanza contro tali creature per la stessa durata.
+Sistema di estrazione rapida (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto l'inventore può estrarre o riporre la tecno-arma come azione gratuita. Inoltre, può scambiare la tecno-arma da una mano all'altra come azione veloce.
+Modulo silenziatore (1 nodo)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto gli attacchi a distanza effettuati con la tecno-arma non comportano penalità alle prove di Furtività dell'inventore. Inoltre, le creature che subiscono un attacco da parte della tecno-arma silenziata devono superare una prova di Percezione con CD pari alla CD del mechanus per individuare la direzione dell'attacco.
+Sensore di prossimità (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto l'inventore non è considerato colto alla sprovvista durante il primo round di combattimento. Inoltre, ottiene bonus +2 alle prove di Percezione passiva e bonus cumulativo +1 alle prove di Iniziativa (che si cumula con bonus di altre fonti).
+Aggiornamento #1 (2 nodi, livello 5°)
+Agganciamento al bersaglio (1 nodo)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto la tecno-arma nega qualsiasi probabilità di mancare il bersaglio dovuta a occultamento, occultamento totale o effetti di Velo e simili.
+Chip di combattimento assistito superiore (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto la tecno-arma fornisce all'inventore bonus meccanico +2 ai tiri per colpire e ai tiri per i danni. Incompatibile con la modifica Chip di combattimento assistito.
+Elettrodi (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto gli attacchi effettuati con la tecno-arma infliggono +1d6 danni da elettricità. Incompatibile con le modifiche Generatore di fiamma e Refrigeratore.
+Emettitore di ronzio “Krauser” (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto la prima vittima colpita dalla tecno-arma vede aumentate di 5 le CD delle proprie prove di Concentrazione. Una creatura può essere bersagliata da questo effetto una sola volta ogni 24 ore.
+Generatore di fiamma (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto gli attacchi effettuati con la tecno-arma infliggono +1d6 danni da fuoco. Incompatibile con le modifiche Elettrodi e Refrigeratore.
+Invertitore di proto-flusso (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto gli attacchi effettuati con la tecno-arma infliggono danno pieno alle creature fumose, semicorporee o incorporee.
+Lama a catena (1 nodo)
+Solo armi da mischia taglienti. Quando viene attivata questa modifica, per 1 minuto la minaccia di critico della tecno-arma viene raddoppiata (es. 20/x2 diventa 19-20/x2, 19-20/x2 diventa 17-20/x2). Questo effetto non si cumula con altre capacità simili (come il talento Critico migliorato o la proprietà Acuminata).
+Pistone a scoppio (1 nodo)
+Solo armi da mischia contundenti. Quando viene attivata questa modifica, per 1 minuto la minaccia di critico della tecno-arma viene raddoppiata. Questo effetto non si cumula con altre capacità simili.
+Propulsore trans-elicoidale (1 nodo)
+Solo armi perforanti. Quando viene attivata questa modifica, per 1 minuto la minaccia di critico della tecno-arma viene raddoppiata. Questo effetto non si cumula con altre capacità simili.
+Refrigeratore (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto gli attacchi effettuati con la tecno-arma infliggono +1d6 danni da freddo. Incompatibile con le modifiche Elettrodi e Generatore di fiamma.
+Rivestimento in gomma-scudo (2 nodi)
+Quando viene attivata questa modifica, per 1 minuto la tecno-arma viene ricoperta di uno strato di gomma rinforzata. Gli attacchi effettuati con la tecno-arma infliggono +1d6 danni, ma tutti i danni inflitti (sia quelli base sia quelli extra) diventano danni non letali. Incompatibile con la proprietà Pietosa.
+Mirino robo-telescopico (1 nodo)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto l'incremento di gittata della tecno-arma aumenta di 3 m e i bonus di copertura dei bersagli vengono dimezzati (la copertura totale rimane efficace).
+Stabilizzatore giroscopico (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto l'inventore ignora le penalità ai tiri per colpire dovute al movimento (proprio o di una cavalcatura), inclusa la penalità -4 per attaccare a distanza durante una carica.
+Aggiornamento #2 (3 nodi, livello 10°)
+Contrappesi “Minerva” (2 nodi)
+Solo armi a due mani da mischia o a distanza a due mani. Quando viene attivata questa modifica, per 1 minuto la tecno-arma viene considerata di una taglia superiore ai fini del calcolo dei dadi di danno. Inoltre, l'inventore ottiene bonus +1 alle manovre di Spingere effettuate con la tecno-arma per ogni 4 livelli di inventore.
+Crio-vaporizzatore (2 nodi)
+Richiede modifica Refrigeratore installata. Quando viene attivata questa modifica, per 1 minuto i colpi critici inflitti dalla tecno-arma rilasciano una nube congelante: la vittima subisce 1d10 danni extra da freddo e deve superare un Tiro Salvezza su Tempra o vedersi dimezzata la velocità per 1 round.
+Elettro-vaporizzatore (2 nodi)
+Richiede modifica Elettrodi installata. Quando viene attivata questa modifica, per 1 minuto i colpi critici inflitti dalla tecno-arma rilasciano una scarica elettrostatica: la vittima subisce 1d10 danni extra da elettricità e deve superare un Tiro Salvezza su Tempra o essere frastornata per 1 round.
+Innesto a spinta (1 nodo)
+Quando viene attivata questa modifica, per 1 minuto, immediatamente dopo aver inflitto danni con la tecno-arma, l'inventore può effettuare un passo di 1,5 m come azione gratuita. Tutti i successivi tiri per colpire fino alla fine del turno subiscono penalità -2. Incompatibile con la proprietà Avanzante.
+Piro-vaporizzatore (2 nodi)
+Richiede modifica Generatore di fiamma installata. Quando viene attivata questa modifica, per 1 minuto i colpi critici inflitti dalla tecno-arma fanno divampare la vittima: subisce 1d10 danni extra da fuoco e prende fuoco, subendo 1d6 danni da fuoco per round per 1d4 round (la vittima può spegnersi tirandosi a terra con un'azione di round completo, oppure con TS Riflessi all'inizio dei propri turni).
+Mira termica (1 nodo)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto l'inventore ignora qualsiasi occultamento dovuto a fumo, foschia, oscurità naturale, polvere o effetti simili. Non funziona contro occultamento dovuto a effetti magici come Velo o Oscurità profonda.
+Modulo concussivo (1 nodo)
+Solo armi da mischia. Quando viene attivata questa modifica, per 1 minuto una volta per round, immediatamente dopo aver inflitto danni con la tecno-arma, l'inventore può effettuare gratuitamente una manovra di Sbilanciare o Spingere contro il bersaglio colpito, senza provocare attacchi di opportunità.
+Aggiornamento #3 specialistico (4 nodi, livello 15°)
+Nota: Le modifiche di Aggiornamento #3 sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
+Campo arcano-soppressore (3 nodi)
+Quando viene attivata questa modifica, per 1 minuto ogni colpo inflitto a una creatura riduce di 1 la sua Resistenza agli Incantesimi (cumulativo). I colpi critici riducono la RI di un valore pari al moltiplicatore di critico dell'arma. La riduzione persiste finché la modifica è attiva e termina quando si disattiva.
+Caricatore robotizzato (3 nodi, passiva)
+Solo armi da fuoco. Quando questa modifica è installata, la tecno-arma spende automaticamente 1 carica e fornisce all'inventore il 75% di probabilità di ignorare l'inceppamento dell'arma quando si verifica.
+Sintetizzatore tattico (3 nodi)
+Quando viene attivata questa modifica, per 1 minuto una volta per round, come azione gratuita, l'inventore può sostituire una modifica attualmente attiva con un'altra modifica installata sulla tecno-arma. La modifica scelta non consuma cariche aggiuntive e dura per il tempo rimanente della modifica sostituita.
+Aggiornamento finale specialistico (5 nodi, livello 20°)
+Nota: Le modifiche dell'Aggiornamento finale sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
+Agganciamento al bersaglio superiore (3 nodi)
+Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto, una volta per round, l'inventore può ripetere un tiro per colpire fallito con la tecno-arma.
+Risuonatore di forza (3 nodi)
+Quando viene attivata questa modifica, per 1 minuto gli attacchi effettuati con la tecno-arma vengono convertiti in danni da forza e ignorano qualsiasi Riduzione del Danno non magica. La tecno-arma può colpire normalmente le creature incorporee senza probabilità di mancare. Incompatibile con la modifica Invertitore di proto-flusso.
+Optional delle tecno-armi
+Gli optional sono migliorie permanenti che possono essere apprese dall'inventore. Una volta appreso un optional, esso si applica a tutte le tecno-armi create dall'inventore. Gli optional non occupano nodi sulle tecno-armi e non richiedono cariche per funzionare, salvo diversamente indicato.
+Chip di combattimento a distanza
+L'inventore apprende come installare un chip che fornisce all'inventore un talento di combattimento a distanza per un'arma scelta dall'inventore. Può scegliere tra: Arma focalizzata, Mira letale, Tiro lontano, Tiro rapido, Tiro ravvicinato, Tiro preciso. L'inventore deve soddisfare normalmente i requisiti del talento scelto.
+Chip di combattimento in mischia
+L'inventore apprende come installare un chip che fornisce un talento di combattimento in mischia per un'arma a scelta. Può scegliere tra: Arma accurata, Arma focalizzata, Attacco poderoso, Incalzare, Riflessi in combattimento. L'inventore deve soddisfare normalmente i requisiti del talento scelto.
+Chip di combattimento disonesto
+L'inventore apprende come installare un chip che fornisce un talento di manovra migliorata per un'arma a scelta. Può scegliere tra: Fintare in combattimento, Riposizionare migliorato, Rubare migliorato, Sbilanciare migliorato, Sporco trucco migliorato, Trascinare migliorato. Al 8° livello di inventore o superiore, l'inventore può invece scegliere la versione superiore della manovra (Fintare migliorato, Riposizionare superiore, ecc.). L'inventore deve soddisfare normalmente i requisiti del talento scelto.
+Compensatore per tecno-armi (requisito: 6° livello)
+L'inventore apprende come installare un compensatore di precisione sulle proprie tecno-armi. Una volta per combattimento, come azione gratuita, l'inventore può ripetere un tiro per colpire fallito con una propria tecno-arma.
+Modulo d'impatto “Sdeng” (requisito: 6° livello)
+L'inventore apprende come installare un modulo che amplifica l'impatto delle armi contundenti. Quando l'inventore mette a segno un colpo critico con una propria tecno-arma contundente, può spendere 1 carica come azione gratuita per costringere la vittima a superare un Tiro Salvezza su Tempra o essere barcollante per 1d3 round.
+Modulo di penetrazione da cantiere (requisito: 4° livello)
+L'inventore apprende come installare un modulo perforante. Le proprie tecno-armi ignorano 5 punti di Riduzione del Danno di base (es. una RD 10/magia diventa RD 5/magia contro gli attacchi della tecno-arma). Questo effetto non si applica alle Riduzioni del Danno che richiedono uno specifico tipo di materiale o allineamento (come RD/adamantio o RD/buono).
+Modulo esplosivo “Buum” (requisito: 8° livello)
+L'inventore apprende come installare un piccolo carica esplosivo sulle munizioni delle proprie tecno-armi a distanza. Una volta per round, dopo aver inflitto danni con un attacco a distanza, l'inventore può spendere 1 carica e usare un'azione veloce per far detonare il proiettile sul bersaglio: tutte le creature entro 1,5 m dal bersaglio (incluso lo stesso) subiscono 1d6 danni da fuoco per ogni 2 livelli di inventore (massimo 10d6 al 20° livello). Un Tiro Salvezza su Riflessi dimezza il danno.
+Rasoi modello “Shark” (requisito: 4° livello)
+L'inventore apprende come installare lame seghettate sulle proprie tecno-armi taglienti. Quando viene attivato come modifica (1 carica, azione gratuita), per 1 minuto le proprie tecno-armi infliggono sanguinamento 1 per ogni 2 livelli di inventore (massimo 10) sulle creature colpite. Il sanguinamento si cumula con altri sanguinamenti dello stesso tipo (massimo 10).
+Riciclatore energetico per tecno-armi
+L'inventore apprende come installare un riciclatore che recupera parte dell'energia dispersa. Le proprie tecno-armi ottengono 2 cariche giornaliere extra.
+Unità di ripercussione (requisito: 14° livello)
+L'inventore apprende come installare un sistema di ricarica meccanizzato che consente colpi extra. Come parte di un'azione di attacco completo con una propria tecno-arma, l'inventore può effettuare un attacco extra usando il proprio Bonus di Attacco Base massimo. Dopo aver utilizzato questa capacità, deve attendere 1 turno completo prima di poterla riutilizzare.
+Modulo di intimidazione “Tonante” (requisito: 6° livello)
+L'inventore apprende come installare un sistema acustico intimidatorio. Quando l'inventore colpisce per la prima volta una creatura con una propria tecno-arma (consumando 1 carica), la vittima deve superare un Tiro Salvezza su Volontà o essere scossa per 1 round ogni 3 livelli di inventore (massimo 6 round). Una creatura può essere bersagliata da questo effetto una sola volta ogni 24 ore. Questo è un effetto di [paura].
+Trasformatore di carica (requisito: 10° livello)
+L'inventore apprende come installare un trasformatore di carica avanzato. Una volta per turno, l'inventore può attivare due modifiche contemporaneamente con una sola azione gratuita, ma spendendo 2 cariche invece di 1.
+
+Automaton
+Un automaton è una creatura meccanica umanoide costruita in acciaio comune dall'inventore, dotata di sistemi semoventi, articolazioni snodabili e armamenti integrati. Pur senza intelligenza propria (almeno fino agli aggiornamenti più avanzati), un automaton segue le istruzioni del proprio creatore e combatte al suo fianco con disciplina meccanica.
+Costruzione
+Costruire un automaton richiede 16 ore di lavoro giornaliero, più 2 ore aggiuntive per ogni aggiornamento già effettuato. Il modello scelto al momento della costruzione (Destructor, Defensor, o Sagittar) non può essere modificato successivamente; per cambiare modello, l'inventore deve smantellare l'automaton e costruirne uno nuovo.
+Caratteristiche generali
+Gli automaton non sono intelligenti e non parlano. Sono costrutti e immuni agli effetti di [paura], [influenza mentale: charme, compulsione, finzione, trama e morale], [morte], [paralisi], [sonno], [stordimento], [veleno], [malattia], [sanguinamento], [affaticamento], [risucchio di energia] e a qualsiasi effetto che richieda un Tiro Salvezza su Tempra (a meno che si applichi anche agli oggetti o non sia innocuo). Gli automaton non subiscono danni non letali, danni alle caratteristiche e risucchi di caratteristiche. Hanno velocità su terreno 6 m e affondano automaticamente nei liquidi (falliscono automaticamente le prove di Nuotare). Non possono essere usati come cavalcature. Un automaton non subisce Ferite gravi, ma è considerato barcollante a 0 o meno Punti Ferita (questa condizione non può essere prevenuta o rimossa in alcun modo) e viene distrutto a -15 Punti Ferita.
+Istruzioni per l'uso
+Un inventore comanda il proprio automaton usando un trasmettitore vocale integrato nella sua dotazione. Il giocatore può gestire l'automaton come un personaggio. Se all'inizio del proprio turno l'automaton si trova fuori dal raggio del trasmettitore (30 m al 1° livello, esteso con gli aggiornamenti), diviene confuso. Un automaton non può usare armi all'infuori di quella base in dotazione, né indossare armature. Può usare le proprie mani per manipolare l'ambiente circostante in modo basilare (aprire una porta, piegare delle sbarre, sollevare un peso, ecc.).
+Incantare armi e scocca
+L'arma e la scocca (che conta come un'armatura pesante) di un automaton possono essere incantate dall'inventore stesso, facendo riferimento al livello dell'inventore per il limite degli incantamenti. Armi e scocche non necessitano di essere perfette per ottenere un incantamento, ma necessitano di almeno un bonus di potenziamento +1 prima di poter ottenere una capacità speciale, come di consueto. Una volta ricevuto un incantamento, questo sarà associato permanentemente all'arma o alla scocca e, una volta recuperato in seguito a uno smantellamento o una razzia, resterà legato all'arma o alla scocca in questione e potrà essere riutilizzato solamente per incantare parti identiche di altri automaton, anche se di modello diverso.
+Tabella degli automaton
+Liv.
+DV
+Bonus PF
+Bonus For/Des
+BAB
+Tempra
+Riflessi
+Volontà
+CA Destructor
+CA Defensor
+CA Sagittar
+3°
+3
++5
++0
++2
++3
++1
++3
+15
+18
+13
+4°
+3
+—
++0
++3
++4
++1
++4
+16
+19
+14
+5°
+4
++5
++0
++3
++4
++1
++4
+17
+20
+15
+6°
+5
+—
++0
++4
++5
++2
++5
+18
+21
+16
+7°
+6
++5
++1
++5
++5
++2
++5
+19
+22
+17
+8°
+6
+—
++1
++6/+1
++5
++2
++5
+20
+23
+18
+9°
+7
++5
++1
++6/+1
++6
++2
++6
+22
+26
+20
+10°
+8
+—
++2
++7/+2
++6
++3
++6
+23
+27
+21
+11°
+9
++5
++2
++8/+3
++6
++3
++6
+23
+28
+21
+12°
+9
+—
++3
++9/+4
++7
++3
++7
+24
+29
+22
+13°
+10
++5
++3
++9/+4
++7
++3
++7
+24
+30
+22
+14°
+11
+—
++3
++10/+5
++8
++4
++8
+25
+32
+23
+15°
+12
++5
++4
++11/+6/+1
++8
++4
++8
+27
+34
+25
+16°
+12
+—
++4
++12/+7/+2
++8
++4
++8
+28
+36
+26
+17°
+13
++5
++5
++12/+7/+2
++9
++4
++9
+29
+37
+27
+18°
+14
+—
++5
++13/+8/+3
++9
++5
++9
+31
+38
+28
+19°
+15
++5
++5
++14/+9/+4
++9
++5
++9
+31
+38
+29
+20°
+15
+—
++6
++15/+10/+5
++10
++5
++10
+32
+39
+30
+
+Funzionalità di base (livello 3°)
+I modelli di automaton disponibili sono tre: Destructor, Defensor e Sagittar. Ciascun modello ha un proprio profilo di caratteristiche, un attacco base e un chip di combattimento integrato. L'inventore sceglie il modello al momento della costruzione.
+Destructor
+Caratteristiche: For 18, Des 12, Cos —, Int —, Sag 10, Car 1.
+Attacco in mischia: Schianto idraulico (1d10 danni contundenti; 19-20/x2). L'arma può essere incantata smantellando armi magiche da mischia a due mani.
+Chip di combattimento 9-B: L'automaton ottiene il talento Attacco poderoso.
+Defensor
+Caratteristiche: For 16, Des 12, Cos —, Int —, Sag 10, Car 1.
+Attacco in mischia: Schianto meccanico (1d6 danni contundenti; 20/x2). L'arma può essere incantata smantellando armi magiche da mischia a una mano.
+Chip di difesa V-54: L'automaton ottiene il talento Guardia del corpo (non deve soddisfarne i requisiti) e può usarlo un numero di volte per round pari al bonus di Intelligenza dell'inventore.
+Sagittar
+Caratteristiche: For 12, Des 18, Cos —, Int —, Sag 10, Car 1.
+Attacco in mischia: Schianto (1d3 danni contundenti; 20/x2). Lo schianto del Sagittar non può ricevere incantamenti.
+Attacco a distanza: Sparaculei (1d8 danni perforanti; 20/x3); gittata 30 m (x5). L'arma può essere incantata smantellando armi magiche da tiro.
+Chip di combattimento 42-A: L'automaton aggiunge metà bonus di Destrezza ai tiri per i danni con le armi a distanza e ottiene il talento Mira letale.
+Trasmettitore vocale
+L'inventore può comandare verbalmente l'automaton fino a 30 m di distanza, anche bisbigliando.
+Incantamenti (Funzionalità di base)
+L'arma e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +1.
+Aggiornamento #1 (livello 10°)
+Aumento di taglia (opzionale, tutti i modelli)
+Se lo desidera, l'inventore può aumentare la taglia dell'automaton a grande. Se ciò accade, l'automaton ottiene basetta da 4 caselle, portata 3 m, +2 Forza (taglia), −2 Destrezza, −1 CA, −1 ai tiri per colpire, −2 Furtività e −2 Volare, +2 BMC e +2 DMC (taglia) e un bonus di +10 Punti Ferita. Il danno base degli attacchi cambia di conseguenza.
+Pistoni rinforzati (solo Destructor)
+I pistoni dell'automaton vengono potenziati con servo-meccanismi avanzati. La Forza dell'automaton aumenta di ulteriori +2 (cumulativo con il bonus For/Des della tabella) e il danno dello Schianto idraulico aumenta di un grado del dado (1d10 → 2d6).
+Protocollo di difesa B-24 (solo Defensor)
+L'automaton ottiene il talento Riflessi in combattimento.
+Sistema di ricarica accelerata (solo Sagittar)
+L'automaton ottiene il talento Tiro rapido (non deve soddisfarne i requisiti) e può effettuare un colpo extra a BAB massimo con lo Sparaculei come parte di un'azione di attacco completo. Inoltre, la gittata dello Sparaculei aumenta di 6 m.
+Incantamenti (Aggiornamento #1)
+Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +2.
+Aggiornamento #2 specialistico (livello 15°)
+Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli automaton come specializzazione al 15° livello.
+Trasmettitore vocale a lungo raggio (tutti i modelli)
+La portata del trasmettitore vocale dell'automaton diventa 100 m.
+Protocollo di combattimento N-78 (solo Destructor e Sagittar)
+L'automaton ottiene bonus +4 ai tiri per confermare le minacce di critico e la sua minaccia di critico aumenta di 1 (es. 20/x2 diventa 19-20/x2, 19-20/x2 diventa 18-20/x2).
+Protocollo di salvaguardia Q-12 (solo Defensor)
+Una volta per round, come azione immediata, se l'inventore subisce un colpo critico mentre si trova adiacente al Defensor, può trasferire al Defensor il danno extra del critico. I danni normali rimangono all'inventore; il danno extra colpisce il Defensor.
+Incantamenti (Aggiornamento #2)
+Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +3.
+Aggiornamento finale (livello 20°)
+Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli automaton come specializzazione al 15° livello.
+S.C.S. (Sistema di Coscienza Simulata)
+L'inventore installa un Sistema di Coscienza Simulata sull'automaton, conferendogli un punteggio di Intelligenza pari a 10. L'automaton può ora parlare e agire in base alla propria volontà, ma restando sempre fedele alle istruzioni del proprio creatore. L'automaton ottiene talenti appropriati ai suoi Dadi Vita e 2 punti abilità per Dado Vita, considerando qualsiasi abilità in cui l'inventore abbia gradi come abilità di classe.
+Scocca rinforzata
+La scocca dell'automaton viene ricostruita con leghe avanzate stratificate di acciaio e adamantio. L'automaton ottiene RD 10/adamantio.
+Incantamenti (Aggiornamento finale)
+Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +5.
+Optional degli automaton
+Gli optional sono migliorie permanenti che possono essere apprese dall'inventore. Una volta appreso un optional, esso si applica a tutti gli automaton creati dall'inventore (compatibilmente con il modello indicato).
+Aculei differenziati (solo Sagittar)
+L'inventore apprende come rifornire lo sparaculei dei propri automaton modello Sagittar con dardi a testa piatta e a mezzaluna. L'automaton può decidere quale tipo di danno infliggere con lo sparaculei (tagliente, perforante o contundente).
+Armi retrattili (solo Destructor)
+L'inventore impara come dotare i propri automaton modello Destructor di lame e punte retrattili sul dorso delle braccia. L'automaton può decidere quale tipo di danno infliggere con lo schianto idraulico (tagliente, perforante o contundente).
+Cannone demolitore (solo Sagittar, requisito: 10° livello)
+L'inventore apprende come installare un piccolo obice sul petto o sulla spalla dei propri automaton modello Sagittar. L'automaton può azionare il cannone come azione standard, per infliggere 1d6 danni contundenti e perforanti per Dado Vita posseduto (massimo 10d6) a tutti i bersagli in una linea di 12 m. Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno. Dopo aver azionato il cannone, si deve attendere 3 round prima di poterlo fare nuovamente.
+Modulo di difesa “Istrice” (requisito: 6° livello)
+L'inventore impara come dotare il corpo dei propri automaton di fessure pneumatiche. Come azione veloce l'automaton può far uscire o rientrare da queste fessure delle punte acuminate. Se le punte sono fuori, quando un avversario colpisce l'automaton con un attacco naturale o un colpo senz'armi o effettua contro di lui una manovra di Lottare, subisce 2d4 danni perforanti. Inoltre, gli attacchi in mischia dell'automaton infliggono 2 danni extra e sono di tipo perforante oltre al normale tipo.
+Modulo “Overdrive Alpha” (solo Destructor, requisito: 8° livello)
+Una volta al giorno, come azione veloce l'inventore può attivare il modulo tramite il trasmettitore vocale, fornendo all'automaton bonus +3 ai tiri per colpire e ai danni con lo schianto idraulico e bonus di potenziamento +3 m alla velocità su terreno. L'effetto dura 1 + metà bonus di Intelligenza dell'inventore round. Dopo, l'automaton diventa barcollante per 1 minuto.
+Modulo “Overdrive Beta” (solo Defensor, requisito: 8° livello)
+Una volta al giorno, come azione veloce l'inventore può attivare il modulo, fornendo all'automaton bonus di schivare +2 alla CA e il talento Mobilità. L'effetto dura 1 + metà bonus di Intelligenza dell'inventore round. Dopo, l'automaton diventa barcollante per 1 minuto.
+Modulo “Overdrive Gamma” (solo Sagittar, requisito: 8° livello)
+Una volta al giorno, come azione veloce l'inventore può attivare il modulo, fornendo all'automaton bonus +3 ai tiri per colpire e ai danni con lo sparaculei. L'effetto dura 1 + metà bonus di Intelligenza dell'inventore round. Dopo, l'automaton diventa barcollante per 1 minuto.
+Propulsori (tutti i modelli)
+L'inventore impara come dotare le piante dei piedi dei propri automaton di sfiati propulsivi. L'automaton ottiene bonus alle prove di Acrobazia (saltare) e di Scalare pari a metà livello di inventore. Inoltre, ottiene una velocità di Nuotare di 1,5 m.
+Protocollo “Sfida d'acciaio” (solo Defensor, requisito: 4° livello)
+L'inventore apprende come installare uno speciale protocollo difensivo sui propri automaton modello Defensor. Come azione standard l'automaton può erompere in una provocazione diretta a una creatura entro 18 m con un punteggio di Intelligenza pari a 3 o superiore. Questo è un effetto di [compulsione], [visivo] e [uditivo]. Il bersaglio deve effettuare un Tiro Salvezza su Volontà con CD 10 + metà livello di inventore + metà Dadi Vita dell'automaton. Una creatura provocata ottiene bonus di +1 al Tiro Salvezza per ogni nemico diverso dall'automaton da cui è minacciata. Se il tiro fallisce, per un numero di round pari a 2 + 1 ogni 5 punti di fallimento, la vittima deve concentrarsi sull'automaton attaccandolo in mischia e avvicinandosi o caricandolo se fuori portata. La creatura può avvicinarsi scegliendo il proprio percorso. Se dispone di mezzi adatti, invece di avvicinarsi o attaccare in mischia, la creatura può attaccarlo a distanza (non può scagliare sassi o oggetti improvvisati). Un automaton può avere una sola creatura provocata alla volta. La provocazione fallisce o ha termine se alla creatura viene impedito di attaccare l'automaton o se attaccarlo fosse troppo controproducente. Se supera il tiro, una vittima diventa immune al protocollo per 24 ore.
+Riparazione automatica (requisito: 6° livello)
+L'automaton è dotato di un sistema di auto-riparazione integrato. All'inizio del turno dell'automaton, se questo ha subito danni nel turno precedente, recupera 1d6 + bonus di Intelligenza dell'inventore Punti Ferita. Questa capacità non funziona se l'automaton si trova a 0 PF o meno.
+Rinforzi antiurto F1 (requisito: 6° livello)
+Il corpo dell'automaton è rinforzato in punti critici. L'automaton ottiene il 25% di probabilità di ignorare il danno extra dei colpi critici e dei danni da precisione.
+Rinforzi antiurto F2 (requisito: 10° livello; Rinforzi antiurto F1)
+La probabilità di ignorare il danno extra dei colpi critici e dei danni da precisione sale al 50%.
+Rinforzi antiurto F3 (requisito: 14° livello; Rinforzi antiurto F2)
+La probabilità di ignorare il danno extra dei colpi critici e dei danni da precisione sale al 75%.
+Rinforzi antiurto F4 (requisito: 18° livello; Rinforzi antiurto F3)
+L'automaton diventa completamente immune al danno extra dei colpi critici e dei danni da precisione. Inoltre, la sua DMC contro le manovre di Sbilanciare e Spingere aumenta di 4.
+Modulo di osservazione (requisito: 4° livello)
+L'automaton è dotato di sensori avanzati. Considera Percezione e Sopravvivenza (cercare tracce) come abilità di classe e ottiene bonus di competenza pari a metà livello di inventore a queste abilità. Inoltre, l'automaton non è considerato colto alla sprovvista durante il primo round di combattimento.
+Modulo di assistenza tattica (requisito: 10° livello)
+L'automaton è programmato per coordinarsi tatticamente con l'inventore. Quando si trova adiacente all'inventore, entrambi ottengono bonus +2 al fiancheggiamento (cumulativo con il bonus standard di +2, per un totale di +4). Inoltre, l'inventore può usare l'automaton come fonte di fiancheggiamento anche se quest'ultimo non minaccia normalmente la creatura.
+
+Esoscheletri
+Gli esoscheletri sono armature articolate motorizzate che amplificano le capacità fisiche di un inventore, dotandolo di potenza, protezione e funzioni meccaniche avanzate. Esistono due modelli principali: leggero (basato su un'armatura leggera) e pesante (basato su un'armatura pesante).
+Costruzione
+Costruire un esoscheletro richiede un numero di ore di lavoro giornaliero pari a 16 + 2 per ogni aggiornamento. Un inventore ha bisogno di un'armatura dalla quale partire, detta armatura base, la quale deve essere un'armatura leggera perfetta o magica (per costruire un esoscheletro leggero) o un'armatura pesante perfetta o magica (per costruire un esoscheletro pesante). Quando si smantella un esoscheletro, si recupera automaticamente l'armatura base. Un esoscheletro mantiene le statistiche e le capacità speciali dell'armatura base. Un esoscheletro pesa il doppio dell'armatura base.
+Cariche
+Ogni esoscheletro viene creato con un numero di cariche pari a metà livello di inventore + bonus di Intelligenza dell'inventore. Le cariche si ripristinano automaticamente all'alba di ogni giorno.
+Istruzioni per l'uso
+Per usare un esoscheletro, un inventore deve essere competente nell'uso dell'armatura base. Un inventore ottiene Competenza nelle armature pesanti come talento bonus, ma può beneficiarne solamente quando pilota un esoscheletro pesante. Un esoscheletro fornisce i propri benefici e capacità solo mentre viene indossato.
+Modifiche
+Per attivare una modifica, un inventore deve spendere 1 carica dell'esoscheletro. Salvo diversamente indicato, una modifica resta attiva per 1 minuto. Salvo diversamente indicato, attivare una modifica richiede un'azione gratuita all'inizio del proprio turno.
+Modifiche passive
+Queste modifiche non necessitano di alcuna azione per essere attivate, ma è l'esoscheletro stesso che lo fa in maniera autonoma spendendo normalmente la carica. L'attivazione automatica può essere disabilitata o riabilitata come azione veloce.
+Nodi
+Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi) per essere installata. Un inventore non può installare su un esoscheletro più nodi del proprio bonus di Intelligenza.
+Taglia
+Gli esoscheletri hanno sempre una taglia media. Un inventore di taglia piccola all'interno di un esoscheletro diventa di taglia media e ottiene −1 CA, −1 ai tiri per colpire, −2 Furtività, +2 BMC e +2 DMC.
+Slot oggetti
+Il pilota continua ad avere i propri slot oggetto, poiché li indossa normalmente sotto l'esoscheletro.
+Portellone
+L'esoscheletro ha un vano di accesso sul retro azionabile con una leva. Entrare o uscire da un esoscheletro necessita di un'azione di round completo.
+Vano oggetti
+L'inventore non può indossare nello slot “spalle” oggetti più ingombranti di un mantello. Per sopperire a ciò, un esoscheletro è dotato di piccoli vani di stoccaggio sulle gambe e sui fianchi, capaci di contenere 32 oggetti “zaino” più altri 10 a “portata di mano”. Le azioni necessarie a recuperare questi oggetti restano invariate.
+Progressione degli aggiornamenti
+Aggiornamento
+Liv. min
+Nodi installabili
+Note
+Funzionalità di base
+5°
+2
+Armatura migliorata: +1 CA, −1 penalità
+Aggiornamento #1
+10°
+3
+—
+Aggiornamento #2 specialistico
+15°
+4
+Solo con specializzazione in esoscheletri
+Aggiornamento finale
+20°
+5
+Solo con specializzazione in esoscheletri
+
+Funzionalità di base (2 nodi, livello 5°)
+Armatura migliorata (sempre attiva, non consuma cariche)
+L'armatura utilizzata come base per un esoscheletro vede il proprio bonus di armatura alla CA aumentato di 1 e la penalità alle prove ridotta di 1.
+Bombole d'ossigeno (1 nodo, entrambi i tipi)
+Per 1 ora, l'esoscheletro fornisce all'inventore aria respirabile in qualsiasi ambiente (subacqueo, sottoterra, atmosfere tossiche, nube velenosa, vuoto). Non protegge dalle altre conseguenze ambientali (pressione, temperatura, ecc.). Le bombole devono essere ricaricate all'alba.
+Modifiche per esoscheletro leggero
+Allarme di prossimità (1 nodo)
+Per 1 minuto, l'inventore ottiene i benefici del talento Mobilità (non deve soddisfarne i requisiti).
+Campo anti-contatto (1 nodo)
+Per 1 minuto, l'inventore aggiunge il bonus di Intelligenza alla CA di contatto (la CA di contatto non può mai superare la normale CA).
+Galleggianti (1 nodo, passiva)
+Quando l'esoscheletro è immerso in acqua o liquidi simili fino alla vita, attiva automaticamente cuscinetti d'aria: per 10 minuti l'inventore non affonda e ottiene velocità di Nuotare 3 m, dopodiché la modifica si disattiva. Non può trasportare altre creature di taglia piccola o superiore.
+Modulo mimetico adattivo (1 nodo)
+Per 1 ora, le prove di Sopravvivenza per seguire le tracce dell'inventore subiscono penalità −5 e l'inventore stesso ottiene bonus di circostanza +5 a Furtività. Incompatibile con la capacità Irrintracciabile.
+Motore potenziato (1 nodo)
+Per 1 ora l'inventore ottiene bonus di potenziamento +3 m alla velocità.
+Potenziamento strutturale +2 (1 nodo, sempre attiva, non consuma cariche)
+L'inventore ottiene bonus di potenziamento +2 a Destrezza. Più potenziamenti strutturali non si cumulano.
+Reattori plantari (1 nodo, passiva)
+Quando l'inventore cade, l'esoscheletro attiva getti controllati: l'inventore ignora i primi 18 m della caduta, dopodiché la modifica si disattiva fino all'alba. Non può trasportare altre creature.
+Stimolanti surrenali (1 nodo)
+Come azione gratuita, l'inventore può spendere 1 carica per ottenere eludere (vedi privilegi di classe del ladro) contro un singolo attacco ad area o a soffio.
+Modifiche per esoscheletro pesante
+Campo anti-contatto (1 nodo)
+Per 1 minuto, l'inventore aggiunge il bonus di Intelligenza alla CA di contatto (la CA di contatto non può mai superare la normale CA).
+Copertura oleosa (1 nodo)
+Per 1 minuto, l'inventore ottiene bonus di circostanza +8 alle prove per resistere alla lotta altrui e a quelle di Artista della fuga. La penalità di armatura si applica normalmente. Incompatibile con la capacità Scivolosa.
+Galleggianti (1 nodo, passiva)
+Come per esoscheletro leggero.
+Potenziamento strutturale +2 (1 nodo, sempre attiva, non consuma cariche)
+L'inventore ottiene bonus di potenziamento +2 a Forza. Più potenziamenti strutturali non si cumulano.
+Scocca anti-abrasione (1 nodo)
+Per 1 minuto, l'inventore ottiene RD 3/contundente o perforante. Incompatibile con la capacità Dello zombie.
+Scocca anti-perforazione (1 nodo)
+Per 1 minuto, l'inventore ottiene RD 3/contundente o tagliente. Incompatibile con la capacità Del rigonfio.
+Scocca anti-urto (1 nodo)
+Per 1 minuto, l'inventore ottiene RD 3/tagliente o perforante. Incompatibile con la capacità Dello scheletro.
+Servoarmi potenziati (1 nodo)
+Per 1 minuto, i servoarmi dell'esoscheletro pesante amplificano la forza fisica dell'inventore. Le manovre di Disarmare, Lottare, Riposizionare, Sbilanciare e Spingere ottengono bonus +4 al BMC. Inoltre, l'inventore può sollevare il doppio del proprio peso massimo trasportabile.
+Sistema difensivo d'emergenza (1 nodo, passiva)
+Quando l'inventore diventa privo di sensi, nauseato, stordito o immobilizzato, l'esoscheletro attiva placche aggiuntive: l'inventore ottiene RD 8/— finché non perde tale condizione (massimo 1 minuto), dopodiché la modifica si disattiva. Si cumula con qualsiasi altra RD. Non si attiva se l'inventore è in grado di effettuare azioni standard. Incompatibile con la capacità Assicurante.
+Aggiornamento #1 (3 nodi, livello 10°)
+Modifiche comuni (leggero + pesante)
+Campo isolante (2 nodi)
+Una volta al giorno, per 1 minuto, l'inventore ottiene immunità energetica contro un tipo di energia a scelta tra fuoco, freddo ed elettricità. Incompatibile con la capacità Immunità energetica.
+Generatore di campo difensivo (2 nodi)
+Per 1 minuto, l'esoscheletro genera un campo di forza protettivo attorno all'inventore. L'inventore ottiene bonus di deviazione +2 alla CA. Questo bonus aumenta di +1 al 14° livello e +1 al 18° livello (massimo +4).
+Potenziamento strutturale +4 (2 nodi, sempre attiva, non consuma cariche)
+Bonus di potenziamento +4 a Destrezza (esoscheletro leggero) o +4 a Forza (esoscheletro pesante). Non si cumula con i potenziamenti strutturali precedenti.
+Scudo antimagia (2 nodi)
+Per 1 minuto, l'inventore ottiene bonus di fortuna +4 alla CA contro attacchi di capacità magiche e incantesimi (inclusi attacchi di contatto) e contro gli attacchi delle creature evocate. Incompatibile con la capacità Schiva incantesimi.
+Solo esoscheletro leggero
+Crono-polarizzatore (2 nodi)
+Una volta al giorno, per 3 round l'inventore ottiene gli effetti dell'incantesimo Velocità. Incompatibile con la capacità Velocità.
+Solo esoscheletro pesante
+Modulo di trasporto (2 nodi)
+L'esoscheletro pesante può trasportare un alleato consenziente di taglia piccola o media in un alloggiamento sulla schiena. L'alleato è considerato in copertura parziale (+4 alla CA) durante il trasporto e può attaccare in mischia o a distanza, ma non può lanciare incantesimi con componenti somatiche. La velocità dell'inventore è ridotta del 25% mentre trasporta un alleato. L'alleato può salire o scendere come azione di movimento.
+Stimpack (2 nodi, passiva)
+Una volta al giorno, quando un attacco sta per ridurre l'inventore a meno di 0 Punti Ferita, l'esoscheletro inietta antidolorifici tramite aghi sterili curandolo di 2d8+5 danni, dopodiché la modifica si disattiva. Incompatibile con la capacità Assicurante.
+Aggiornamento #2 specialistico (4 nodi, livello 15°)
+Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli esoscheletri come specializzazione al 15° livello.
+Modifiche comuni (leggero + pesante)
+Modulo di riparazione attiva (3 nodi)
+Una volta al giorno, come azione veloce l'inventore può attivare il modulo. Per 1 minuto per livello di inventore, all'inizio del proprio turno l'inventore recupera 2d6 + bonus di Intelligenza Punti Ferita. La modifica si disattiva quando l'inventore raggiunge i Punti Ferita massimi o al termine della durata.
+Potenziamento strutturale +6 (3 nodi, sempre attiva, non consuma cariche)
+Bonus di potenziamento +6 a Destrezza (esoscheletro leggero) o +6 a Forza (esoscheletro pesante). Non si cumula con i potenziamenti strutturali precedenti.
+Solo esoscheletro leggero
+Modulo di occultamento (3 nodi)
+Tre volte al giorno, per 2 round l'inventore ottiene occultamento 33% grazie a un generatore di disturbo ottico.
+Servoarmi propulsivi (3 nodi)
+Per 1 minuto, l'inventore può effettuare attacchi senz'armi e da lotta con la potenza di un esoscheletro pesante. Gli attacchi senz'armi infliggono 1d8 danni contundenti + bonus di Forza, e le manovre di Lottare ottengono bonus +4 al BMC. Inoltre, l'inventore può eseguire un'azione di carica anche in spazi ristretti o terreno difficile.
+Trivelle “Excavator” (3 nodi)
+Per 1 minuto, l'inventore ottiene velocità di Scavare 3 m attraverso terreno malleabile (terra, sabbia, argilla). Il terreno ricade dietro di lui e la galleria non può essere usata da altri. Le trivelle attive forniscono bonus +4 ai Tiri Salvezza contro frane, valanghe, crolli e simili.
+Solo esoscheletro pesante
+Airbag a schiuma espansa (3 nodi, passiva)
+Una volta al giorno, quando l'inventore subisce un colpo critico o danni da precisione in mischia, l'esoscheletro ignora il relativo danno extra, dopodiché la modifica si disattiva. Se l'attacco è sia critico che da precisione, l'inventore sceglie quale ignorare. Incompatibile con la capacità Denegante.
+Campo refrattario (3 nodi)
+Per 1 minuto, l'esoscheletro emette un campo di forza respingente: l'inventore ottiene RD 5/magia. Incompatibile con la capacità Invulnerabilità.
+Aggiornamento finale (5 nodi, livello 20°)
+Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli esoscheletri come specializzazione al 15° livello.
+Modifiche comuni (leggero + pesante)
+Campo occultante “Predator” (3 nodi)
+Quando un nemico lo dichiara come bersaglio di un attacco, come azione immediata l'inventore può spendere 1 carica dell'esoscheletro per ottenere per quel turno occultamento totale nei confronti di tale nemico. Questa modifica non impedisce al nemico di mirare normalmente verso l'inventore. L'incantesimo Visione del vero rivela la locazione effettiva dell'inventore.
+Solo esoscheletro leggero
+Sistema di volo a getto (3 nodi)
+Per 1 minuto, l'inventore ottiene velocità di Volare 12 m (manovrabilità media). L'attivazione richiede 1 carica + 1 carica ogni minuto aggiuntivo. Se l'esoscheletro esaurisce le cariche durante il volo, l'inventore plana per 1 round prima di iniziare a cadere normalmente. Incompatibile con la capacità Alata.
+Solo esoscheletro pesante
+Corazza adamantina (3 nodi)
+La scocca dell'esoscheletro pesante viene rinforzata con leghe avanzate stratificate. Finché l'esoscheletro ha almeno 1 carica, l'inventore ottiene RD 10/—. Quando l'inventore subisce 30 o più danni in un singolo round mentre questa modifica è attiva, l'esoscheletro spende automaticamente 1 carica per mantenere la RD attiva nel round successivo. Se l'esoscheletro è privo di cariche, la modifica si disattiva fino all'alba successiva.
+Optional degli esoscheletri
+Gli optional sono migliorie permanenti che possono essere apprese dall'inventore. Una volta appreso un optional, esso si applica a tutti gli esoscheletri creati dall'inventore (compatibilmente con il tipo indicato).
+Braccia idrauliche modello x-2
+L'inventore apprende come innestare sugli esoscheletri servobraccia specifiche per i lavori pesanti, che consentono di compiere attacchi più potenti ma imprecisi. L'inventore ottiene il talento Attacco poderoso (non deve soddisfarne i requisiti).
+Imbottitura deluxe (solo pesante)
+L'inventore impara come realizzare cabine più comode per gli esoscheletri pesanti. L'inventore ignora la qualità Scomoda degli esoscheletri pesanti e può persino dormirvi restandovi in piedi per tutta la durata del riposo.
+Intercapedini di raccolta vapore
+Come azione standard l'inventore può spendere 2 cariche dell'esoscheletro per liberare il vapore raccolto attraverso bocchettoni. Se ciò accade, l'aria nelle caselle adiacenti all'inventore viene investita da un getto pressurizzato incandescente che infligge 1d6 danni da fuoco ogni due livelli di inventore alle creature colpite. Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno. Una volta usato questo optional, si deve attendere 12 ore prima di poterlo usare nuovamente.
+Propulsori
+L'inventore impara come installare due bocchettoni energetici sui palmi delle mani e sotto i piedi degli esoscheletri, i quali consentono di propellersi tramite getti controllati. L'inventore ottiene bonus alle prove di Acrobazia (saltare) e di Scalare pari a metà livello di inventore.
+Riciclatore energetico per esoscheletri
+L'inventore apprende come installare questo speciale apparecchio, il quale recupera parte dell'energia dispersa, fornendo agli esoscheletri 2 cariche giornaliere extra.
+Rinforzi salvavita F1 (requisito: 6° livello)
+L'inventore impara come rinforzare la scocca degli esoscheletri al fine di aumentare la protezione degli organi vitali. L'inventore ottiene il 25% di probabilità di ignorare il danno extra causato da colpi critici e danni da precisione.
+Rinforzi salvavita F2 (requisito: 10° livello; Rinforzi salvavita F1)
+La probabilità di ignorare il danno extra causato da colpi critici e danni da precisione sale al 50%.
+Rinforzi salvavita F3 (requisito: 14° livello; Rinforzi salvavita F2)
+La probabilità di ignorare il danno extra causato da colpi critici e danni da precisione sale al 75%.
+Rinforzi salvavita F4 (requisito: 18° livello; Rinforzi salvavita F3)
+La protezione raggiunge il 100%: l'inventore diventa completamente immune al danno extra causato da colpi critici e danni da precisione.
+Scocca “Titan” (requisito: 8° livello, solo pesante)
+L'inventore apprende come costruire esoscheletri pesanti di taglia grande. Occupano uno spazio di 3 m e hanno portata naturale di 3 m. Rispetto a una taglia media, l'inventore ottiene +2 Forza (taglia), −2 Destrezza, −1 CA, −1 ai tiri per colpire, −2 Furtività e −2 Volare, +2 BMC e +2 DMC (taglia). Se l'inventore possiede già un esoscheletro pesante quando acquisisce questo optional, può modificarne subito la taglia con 8 ore di lavoro.
+Sistema di comunicazione a lungo raggio (requisito: 6° livello)
+L'inventore impara come installare nell'esoscheletro un complesso sistema di trasmissione. L'inventore può comunicare verbalmente con un alleato che possieda un esoscheletro, automaton, tecno-arma o gadget creato da lui stesso entro un raggio di 1,5 km per livello di inventore. La comunicazione funziona anche attraverso muri e pareti, ma non attraverso piombo o effetti antimagia. Il sistema non funziona se uno dei due dispositivi è privo di cariche.
+Modulo di immersione (requisito: 12° livello; richiede modifica Bombole d'ossigeno installata)
+L'inventore apprende come dotare l'esoscheletro di un sistema di immersione completo che funziona in combinazione con le Bombole d'ossigeno. Mentre l'esoscheletro ha installata e attiva la modifica Bombole d'ossigeno, l'inventore ottiene velocità di Nuotare pari a metà della sua velocità su terreno, Scurovisione 18 m in ambiente subacqueo, e l'esoscheletro è resistente alla pressione idrostatica fino a 300 m di profondità.
+Sintetizzatore di sopravvivenza (requisito: 6° livello)
+L'esoscheletro è dotato di un sistema avanzato di supporto vitale. Finché l'esoscheletro ha almeno 1 carica, l'inventore non ha bisogno di mangiare o bere (il sistema produce nutrienti basilari sufficienti), ottiene i benefici dell'incantesimo Contrastare elementi, e ottiene immunità ai danni non letali da fame, sete e ambienti naturali estremi (caldo/freddo non magici fino a −30°C / +50°C).
+
+Gadget
+I gadget sono piccoli congegni meccanici che un inventore costruisce per uso personale o per i propri compagni. A differenza delle meraviglie maggiori (tecno-armi, automaton, esoscheletri), i gadget sono singoli oggetti dedicati a una funzione specifica.
+Costruzione
+Salvo diversamente indicato, costruire un gadget non necessita di spesa e richiede 8 ore di lavoro giornaliero. Un inventore può possedere un solo gadget per tipo, indipendentemente dal fatto che lo usi lui o un alleato. Salvo diversamente indicato, i gadget hanno Durezza 10 e 20 Punti Ferita.
+Ingombro
+Un inventore ha dei magneti sulla cintura ai quali appendere i propri gadget, comprimibili fino a un quarto del loro volume. Il valore di ingombro indica il numero di spazi “a portata di mano” o dello zaino necessari. Solo i gadget a portata di mano possono essere usati. I gadget privi di valore di ingombro non vengono trasportati e il loro utilizzo è descritto a parte.
+Posizionamento e recupero
+Prelevare un gadget dagli oggetti a portata di mano è parte dell'azione utilizzata per attivarlo.
+Attivazione
+Salvo diversamente indicato, attivare un gadget richiede un'azione standard che provoca attacchi di opportunità. Recuperare un gadget da terra e/o rimetterlo nella cintura necessita di un'azione di movimento che provoca attacchi di opportunità.
+Ricarica o attivazioni
+Alcuni gadget hanno un numero limitato di attivazioni al giorno oppure necessitano di essere ricaricati dopo aver consumato carburante o energia. Per ricaricare, l'inventore deve impiegare il tempo indicato e non può camminare o compiere altre azioni durante la ricarica (che provoca attacchi di opportunità ogni round).
+Categoria 1: Combattimento e armi sperimentali
+Trappole e armi da fuoco
+T.E.S. (Trappola Esplosiva Spider)
+Ingombro 1. Ricarica: 10 minuti (solo se scariche). Una volta al giorno, l'inventore può deporre questa mina meccanica a quattro zampe che si nasconde nel terreno per un massimo di 6 ore. Quando un nemico entra entro 9 m dalla T.E.S., questa si attacca alle sue gambe ed esplode, infliggendogli automaticamente 1d6 danni da fuoco per livello di inventore (massimo 6d6). Tutte le creature entro 3 m subiscono il medesimo danno, ma possono superare un Tiro Salvezza su Riflessi per dimezzarlo. La T.E.S. può essere scoperta tramite una prova di Percezione con CD 20 + bonus di Intelligenza dell'inventore. La T.E.S. ha CA 15, Durezza 5 e 10 Punti Ferita. Miglioria al 12° livello: l'inventore può deporre due T.E.S. al giorno.
+Lanciagranate R-92 (requisito: 10° livello + dote Competenza nelle armi sperimentali)
+Arma da fuoco a due mani. Infligge 5d6 danni contundenti e perforanti in un'area di esplosione di 1,5 m, critico ad un punteggio x3. Gittata 9 m (incrementi x5), gittata minima 6 m. Il tamburo contiene 6 granate. Dopo ogni colpo è richiesta un'azione standard per ruotare il tamburo (con il talento Ricarica rapida diventa un'azione di movimento). Il Lanciagranate R-92 non può essere utilizzato tramite la dote Gadget for dummies. Ha Durezza 10 e 20 Punti Ferita. L'inventore ottiene gratuitamente la competenza nell'uso di quest'arma. Eccezione: diversamente dalle altre armi sperimentali, il Lanciagranate R-92 non è limitato a 1 attivazione al giorno (è considerato un'arma da fuoco vera e propria).
+Armi sperimentali
+Le seguenti armi sono considerate armi sperimentali e richiedono la dote Competenza nelle armi sperimentali per essere attivate. Salvo diversamente indicato, ciascuna arma sperimentale può essere attivata una sola volta al giorno.
+Elettro-carabina “Shock” (requisito: 4° livello)
+L'inventore scaglia entro 15 m una scarica elettrica, più una scarica aggiuntiva ogni 3 livelli oltre il 4° (massimo 3 scariche al 10° livello). Ogni scarica è un attacco di contatto a distanza che infligge 3d6 danni da elettricità. Le scariche possono essere dirette contro lo stesso bersaglio o contro bersagli diversi, purché questi siano entro 9 m l'uno dall'altro.
+Pistola lanciafiamme “Soffio di drago”
+L'inventore emette dalla pistola un cono di fuoco di 4,5 m, infliggendo 1d4 danni da fuoco per livello di inventore (massimo 5d4) alle creature nell'area. Un Tiro Salvezza su Riflessi dimezza il danno. I materiali infiammabili nell'area prendono fuoco automaticamente.
+Tuono-pistola “Reoni Silver thunder”
+L'inventore scaglia un boato acustico devastante contro una creatura entro 15 m, infliggendole 1d4 danni sonori per livello di inventore (massimo 5d4). La vittima è inoltre frastornata per 1 round. Un Tiro Salvezza su Tempra dimezza il danno e nega la condizione frastornato.
+Drone “Firestorm” (requisito: 6° livello)
+L'inventore lancia il drone, che estroflette una mitragliatrice e dei rotori, volando fino a 9 m di altezza. Il drone si muove verso un punto entro 30 m e satura un'area di 6 m di raggio con proiettili al Fosforo-17, infliggendo 1d6 danni da fuoco per livello di inventore (massimo 10d6) a tutte le creature nell'area. Un Tiro Salvezza su Riflessi dimezza il danno. Dopo l'attacco, il drone torna automaticamente dall'inventore.
+Cannone idraulico “Slime” (requisito: 8° livello; dote Competenza nelle armi sperimentali o Cellule energetiche Argus)
+Ricarica: 1 caricatore al giorno (capacità 3 colpi). L'inventore scaglia un raggio melmoso acido che colpisce automaticamente tutte le creature in una linea di 12 m, infliggendo 6d6 danni da acido. Un Tiro Salvezza su Riflessi dimezza il danno. Il raggio conta come attacco ad area contro gli sciami.
+Shotgun “Devastator” (requisito: 8° livello)
+L'inventore scaglia una salva di proiettili in adamantio in un cono di 9 m, infliggendo automaticamente 5d8 danni contundenti e perforanti alle creature nell'area. Un Tiro Salvezza su Riflessi dimezza il danno.
+Lanciabrina “Blizzard” (requisito: 10° livello)
+L'inventore emette dal cannone un cono di brina congelante di 18 m, infliggendo 1d4 danni da freddo per livello di inventore (massimo 15d4) e rendendo le vittime barcollanti per 2 round. Un Tiro Salvezza su Riflessi dimezza il danno e nega la condizione barcollante.
+Bio-cannone “Acid rain” (requisito: 12° livello)
+L'inventore scaglia un'esplosione acida in un cilindro di 6 m di raggio e 6 m di altezza, centrato entro 30 m, infliggendo 1d6 danni da acido per livello di inventore (massimo 15d6) a tutte le creature nell'area. Un Tiro Salvezza su Riflessi dimezza il danno.
+Fucile gauss “Railgun” (requisito: 14° livello)
+L'inventore accelera un proiettile in adamantio fino a velocità ipersoniche, scagliandolo entro 90 m. L'attacco è un tiro per colpire di contatto a distanza, usando il Bonus di Attacco Base + bonus di Intelligenza. Se l'attacco colpisce, il bersaglio subisce 2d6 danni perforanti per livello di inventore (massimo 30d6 al 15° livello). Il proiettile ignora qualsiasi Riduzione del Danno e qualsiasi copertura inferiore a totale. Inoltre, il proiettile attraversa il bersaglio: tutte le creature in linea retta dietro di esso (e fino a 9 m oltre) subiscono metà del danno, con un Tiro Salvezza su Riflessi per dimezzarlo ulteriormente.
+Cannone al plasma “Solaris” (requisito: 16° livello)
+L'inventore scaglia un'onda di energia combinata di fuoco ed elettricità in una linea di 24 m o in un cono di 12 m (scelta all'attivazione). Infligge 10d6 danni da fuoco e 10d6 danni da elettricità, più 1d6 di entrambi per ogni livello oltre il 16° (massimo 14d6 fuoco + 14d6 elettricità al 20° livello). Un Tiro Salvezza su Riflessi dimezza entrambi i tipi di danno. Le creature che falliscono il Tiro Salvezza e che non sono immuni né al fuoco né all'elettricità sono inoltre abbagliate per 1d4 round.
+Categoria 2: Costrutti e compagni meccanici
+Ragno meccanico
+Ingombro 1. Ricarica: 5 minuti. Costrutto di 15 cm, autonomia 30 minuti, radiocomando con portata 30 m. Velocità su terreno e di scalare 3 m. Può lanciare un piccolo mortaretto entro 6 m che produce suoni udibili fino a 18 m per 3 round (un Tiro Salvezza su Volontà consente di capire l'inganno). Può trasportare fino a 0,5 kg. Ha CA 15, Durezza 5 e 10 Punti Ferita. Miglioria al 5° livello: il ragno meccanico ottiene arnesi da scasso perfetti integrati e può effettuare prove di Disattivare congegni utilizzando i parametri dell'inventore.
+Servitore meccanico
+Ricarica: 8 ore di inattività. Costrutto umanoide di 75 cm con 4 braccia, autonomia 16 ore. Segue automaticamente l'inventore restando entro 2 caselle da lui e può reggere fino a 10 kg per livello di inventore. È in grado di allestire campi (giacigli, fuochi, tende, pasti), effettuare pulizia e manutenzione di equipaggiamento e armi. Ha CA 10, Durezza 5 e 15 Punti Ferita.
+Uccello meccanico (requisito: 6° livello)
+Ingombro 1. Ricarica: 10 minuti. Volatile meccanico di taglia minuscola dotato di un serbatoio per 10 unità di energia (1 unità per uso, vola fino a 2 km al minuto). Può memorizzare 3 coordinate o destinazioni note all'inventore e registrare una frase di massimo 30 parole. Sui suoi controlli ha quattro pulsanti: Azione (vola verso una destinazione e ripete la frase registrata), Memorizza (registra una nuova destinazione), Registra (registra una nuova frase), Ascolta (trasmette ciò che sente). Premendo Azione una seconda volta, l'uccello torna al punto di partenza. Ha CA 15, Durezza 10 e 10 Punti Ferita. Miglioria al 6° livello: si aggiunge il pulsante Spia, che consente all'uccello di compiere una ripresa audiovisiva di 15 minuti dall'alto.
+Torretta automatica (requisito: 4° livello)
+Ingombro 2. Ricarica: 5 minuti. Cilindro di 30 cm cubi a riposo che, una volta dispiegato, raggiunge 50 cm di altezza (taglia minuscola). Possiede una batteria da 10 minuti e un caricatore da 30 sfere. Gittata 30 m. Attacca usando il Bonus di Attacco Base dell'inventore + bonus di Intelligenza ai tiri per colpire, infliggendo 1d6 danni contundenti + metà bonus di Intelligenza ai tiri per i danni. La torretta ha il talento Tiro preciso. Ha CA 10, Durezza 10 e 20 Punti Ferita. Migliorie progressive: al 5° livello ottiene Tiro ravvicinato. Al 7° livello ottiene Mira letale e +40 Punti Ferita. All'11° livello ottiene Tiro preciso migliorato. Al 15° livello ottiene Mira inesorabile e +50 Punti Ferita.
+Zimbello meccanico
+Sagoma di legno e metallo di 2 m con la figura scelta dall'inventore al momento della costruzione. Una volta attivato, si agita per 1 minuto e attira automaticamente le creature con Intelligenza pari o inferiore a 3 entro 15 m. Le creature attratte devono superare un Tiro Salvezza su Volontà o avvicinarsi e attaccare lo zimbello. Può attirare un massimo di 2 creature alla volta. Ha CA 10, Durezza 10 e 10 Punti Ferita.
+Sentinella meccanica (requisito: 5° livello)
+Ingombro 2. Ricarica: 5 minuti. Costrutto stazionario di 60 cm con sensori a 360°. L'inventore la piazza in una casella come azione standard, e da quel momento sorveglia un raggio di 12 m per 8 ore. La Sentinella ha Percezione pari al livello di inventore + bonus di Intelligenza + 5. Può “registrare” alleati (toccandoli o vedendoli muoversi nelle vicinanze al momento del piazzamento) in modo da non considerarli intrusioni. All'intrusione di una creatura non registrata, attiva uno tra tre allarmi (scelti al momento del piazzamento): silenzioso (trasmette un segnale al Sistema di comunicazione a lungo raggio dell'inventore entro 1,5 km per livello), sonoro (fischio acuto udibile entro 60 m), luminoso (lampeggia visibile entro 6 m). Ha CA 12, Durezza 10 e 25 Punti Ferita. Miglioria al 9° livello: la Sentinella ottiene un caricatore di freccette al veleno blando (6 colpi, attacchi con BAB + bonus di Intelligenza, 1d4 danni perforanti + Tiro Salvezza su Tempra o barcollante per 1 round).
+Categoria 3: Movimento e veicoli
+Molle a pressione elastica
+Ingombro: nessuno (montate sotto le calzature). 3 attivazioni al giorno. Come azione veloce, l'inventore ottiene bonus di potenziamento +10 a una singola prova di Acrobazia (saltare). Se le calzature dell'inventore vengono rotte, le molle vengono distrutte.
+Propulsori natatori
+Ingombro: nessuno (montati su cinghie attorno ai polpacci). 3 attivazioni al giorno. Come azione veloce, l'inventore ottiene bonus di potenziamento +10 a una singola prova di Nuotare. Se l'inventore preferisce un effetto prolungato, l'attivazione fornisce un bonus +10 a Nuotare per un massimo di 1 ora.
+Scarponi meccanici da scalata
+Ingombro: occupano lo slot oggetto piedi. 3 attivazioni al giorno. Come azione veloce, l'inventore ottiene bonus di potenziamento +10 a una singola prova di Scalare. Se l'inventore preferisce un effetto prolungato, l'attivazione fornisce un bonus +10 a Scalare per un massimo di 1 ora. Non utilizzabile in combinazione con l'optional Propulsori per esoscheletri.
+Destriero meccanico (requisito: 8° livello)
+Costruzione: 56 ore + 750 mo di materiali. Costrutto cavalcabile che funziona tramite l'abilità Cavalcare. L'inventore ottiene i talenti Combattere in sella e Cavallerizzo come talenti bonus (solo in arcione). Velocità su terreno 15 m. Autonomia 8 ore. Può trasportare l'inventore e fino a 100 kg di carico aggiuntivo. Ha CA 10, Durezza 10 e 40 Punti Ferita.
+Monoruota “Sleppen Frappen” (requisito: 8° livello; Pilotare mezzi terrestri 6 gradi)
+Costruzione: 112 ore. Veicolo monoposto auto-alimentato di taglia grande, con basetta di 2 caselle. Velocità su terreno 18 m, può correre (velocità x4). La monoruota non possiede attacchi propri. Pilotare mezzi terrestri si utilizza al posto di Cavalcare per controllarla. Talenti bonus: Combattere in sella, Oltrepassare migliorato, Carica devastante (solo se l'inventore è in arcione). Carica perforante: quando l'inventore esegue una carica con la monoruota, infligge 2d6 + bonus di Forza danni contundenti automatici al bersaglio (oltre al normale attacco). Dopo aver risolto la carica, può continuare il movimento per la velocità rimanente. Utilizzabile una volta per round. Stabilizzatore giroscopico: equilibrio automatico, +5 alle prove di Acrobazia (rimanere in piedi o in sella) e ai Tiri Salvezza contro effetti che farebbero cadere o sbilanciare. Attraversa terreno difficile con −25% di velocità invece che a metà. Statistiche: CA 12, Durezza 10 e 100 Punti Ferita.
+Vascello sottomarino (requisito: 10° livello; Pilotare imbarcazioni 6 gradi)
+Costruzione: 112 ore. Ricarica: 8 ore. Imbarcazione di 12 m × 3 m × 3 m, con 1 posto di guida, 1 posto lanciasiluri e 3 posti passeggeri. Velocità di Nuotare 18 m, profondità massima 300 m. Il lanciasiluri è un'arma da fuoco che infligge 6d6 danni perforanti e contundenti, con ricarica di un'azione di round completo. Spostarsi tra postazioni richiede un'azione di round completo. Autonomia 16 ore. Ha CA 16, Durezza 10 e 200 Punti Ferita.
+Zaino a reazione (requisito: 20° livello)
+Ingombro: occupa lo slot oggetto spalle. Una volta al giorno, come azione gratuita l'inventore può attivare lo zaino e ottenere per 3 round velocità di Volare 9 m con manovrabilità buona.
+Categoria 4: Utility e strumenti
+Attrezzo multifunzione
+Ingombro 1. Normalmente assume la forma di una scatola di 20 cm cubici, ma può essere manipolato come azione di movimento per assumere una delle seguenti forme: asta pieghevole, bussola, campanella, carrucola, cesoie, corno da segnalazione, cote per affilare, cubo per punte, fischietto, magnete, metro a piombo, pala pieghevole, piccone pieghevole, piede di porco, pinze estendibili, sega portatile, sfondaporte, specchio, trapano a manovella.
+Braccia ausiliarie
+Ingombro: nessuno (montate su bretelle alla schiena). Due braccia meccaniche auto-ricaricanti, indossabili o rimovibili in 1 minuto. Recuperare un oggetto dallo zaino diventa un'azione di movimento invece che di round completo. Posizionare una Torretta automatica diventa un'azione di movimento invece che standard. Miglioria al 6° livello: le braccia ausiliarie possono posizionare un Lombrico d'ottone, un Ragno meccanico, una Sentinella meccanica, una T.E.S. o una Torretta automatica come azione di movimento senza provocare attacchi di opportunità; il recupero diventa un'azione veloce senza attacchi di opportunità.
+Scanner
+Ingombro: nessuno (occhiali integrati). Ricarica: 8 ore di inattività. Cariche: 3 + bonus di Intelligenza. Lo Scanner può avere una sola funzione attiva alla volta. L'attivazione di una funzione costa 1 carica. Le funzioni disponibili scalano con il livello di inventore.
+Funzioni disponibili al 1° livello:
+Analisi biometrica: lo Scanner rileva la presenza di creature viventi (o l'assenza di vita) all'interno di un raggio di 18 m. Indica la posizione approssimativa e il numero di creature viventi, ma non la loro identità o capacità. Funziona attraverso pareti sottili (meno di 30 cm di pietra o 60 cm di legno), ma viene bloccato da metalli densi e piombo.
+Analisi tossicologica: lo Scanner rileva la presenza di veleni e malattie in un raggio di 18 m. Può essere utilizzato su una sostanza specifica (cibo, bevanda, oggetto sospetto) per determinare se contiene veleno o agenti patogeni, e in caso affermativo identificarne il tipo con una prova di Conoscenze (natura) o Conoscenze (scientifiche).
+Radar pericoli ambientali: per 1 ora, lo Scanner avvisa l'inventore di trappole, terreni instabili, gas tossici, radiazioni e altri pericoli ambientali nelle vicinanze. L'inventore ottiene bonus di competenza +3 ai propri Tiri Salvezza contro tali pericoli e +2 ai Tiri Salvezza degli alleati nelle vicinanze.
+Scan arcano: lo Scanner rileva la presenza di magia attiva in un raggio di 18 m. Funziona come l'incantesimo Individuazione del magico, consentendo all'inventore di determinare il numero di aure magiche, la loro potenza e (con un round di concentrazione) la scuola di magia. Funziona anche attraverso ostacoli sottili.
+Impulso di ricerca: lo Scanner emette un impulso che evidenzia passaggi nascosti, porte segrete e meccanismi celati. L'inventore ottiene bonus di competenza +4 alle prove di Percezione per trovare passaggi segreti nell'area circostante per 10 minuti.
+Funzioni aggiuntive al 5° livello:
+Scan di realtà alterata: lo Scanner rileva la presenza di illusioni in un raggio di 18 m. Funziona come l'incantesimo Individuazione delle illusioni. L'inventore vede attraverso le illusioni di tipo finzione (Velo, Immagine maggiore, ecc.) e può vedere la realtà sottostante. Le illusioni di tipo trama si rivelano come tali, ma non vengono dissolte.
+Scan mutagenico: lo Scanner rileva la presenza di aberrazioni in un raggio di 18 m. Indica la posizione approssimativa e il numero di aberrazioni presenti, e (con un round di concentrazione) fornisce informazioni sulla loro natura specifica tramite una prova di Conoscenze (dungeon) con bonus +5.
+Scan zoo-vegetale: lo Scanner cerca creature animali o vegetali specifiche in un raggio di 18 m. L'inventore indica al sistema una specie (descrivendola o pensandola intensamente per 1 round) e lo Scanner segnala la posizione approssimativa di ogni esemplare di tale specie nell'area.
+Funzioni aggiuntive al 10° livello:
+Amplificazione sonora: lo Scanner amplifica i suoni provenienti da un'area di 9 m di raggio fino a una distanza di 18 m, consentendo all'inventore di udirli con chiarezza per 5 minuti. Può essere usato per origliare conversazioni distanti, identificare creature da rumori specifici o monitorare un'area senza essere visti.
+Analisi psicometrica: lo Scanner analizza lo stato mentale di una creatura entro 18 m. Rileva disturbi mentali, dipendenze, effetti di ammaliamento o controllo mentale, e fornisce all'inventore informazioni su tali condizioni. La creatura analizzata non si accorge dell'analisi.
+Cardiofrequenzimetro: lo Scanner monitora i parametri vitali di una creatura entro 18 m per 1 minuto, rilevando le variazioni associate alla menzogna. La creatura analizzata può superare un Tiro Salvezza su Volontà per nascondere le proprie reazioni biologiche, ma in caso di fallimento l'inventore sa con certezza se le risposte alle proprie domande sono veritiere o menzognere.
+Manipolatore gravitonico (requisito: 4° livello)
+Ingombro 1. Pistola di 20 cm a due mani con batteria illimitata per la funzione base. Come azione standard, l'inventore può muovere un oggetto non custodito di peso fino a 2,5 kg, entro 9 m, fino a 6 m al round. L'oggetto cade se viene allontanato oltre 9 m dall'inventore. Può essere usato per operazioni di precisione con una prova di Intelligenza CD minima 15 (azionare una leva, girare una chiave, sciogliere un nodo semplice). Miglioria al 7° livello: una volta al giorno, per 1 minuto, l'inventore può effettuare 3 attacchi telecinetici. Può effettuare manovre di Lottare (compresa Immobilizzare), Spingere o Sbilanciare entro 18 m, usando il livello di inventore al posto del BMC e Intelligenza al posto di Forza o Destrezza. Le manovre non provocano attacchi di opportunità. Miglioria al 9° livello: una volta al giorno, l'inventore può lanciare fino a 15 oggetti non custoditi (entro 18 m, tutti entro 3 m l'uno dall'altro) contro un bersaglio entro 24 m. Peso totale massimo 150 kg. L'inventore effettua un attacco per ogni oggetto (BAB + Intelligenza). Le armi infliggono il danno standard senza bonus di Forza; gli altri oggetti infliggono 1 danno per ogni 10 kg di peso o 1d6 se duri/appuntiti. Miglioria all'11° livello: la miglioria al 9° livello può essere usata anche per lanciare creature viventi (un Tiro Salvezza su Volontà nega l'effetto; la Resistenza agli Incantesimi si applica).
+Oculus pro (requisito: 4° livello)
+Sistema di mira integrato montato sull'occhio. L'inventore applica metà del proprio bonus di Destrezza ai tiri per i danni con il primo attacco di ogni turno effettuato utilizzando tecno-armi a distanza.
+Lente analitica (requisito: 5° livello)
+Ingombro: nessuno (monocolo magnetico). Cariche: 3 + bonus di Intelligenza. Come azione di movimento, l'inventore spende 1 carica per analizzare un oggetto, una creatura o un fenomeno entro 9 m per 1 minuto, ottenendo uno dei seguenti effetti a scelta: Identificare oggetti magici: può effettuare prove di Conoscenze (ingegneria) al posto di Sapienza magica per identificare oggetti magici, ottenendo bonus +5. Analisi tattica: ottiene bonus cognitivo +2 ai tiri per colpire e alla CA contro la creatura analizzata per 1 minuto. Lettura strutturale: ottiene bonus +5 alle prove di Conoscenze (ingegneria) per identificare un punto debole in una struttura, oggetto o costrutto; il primo attacco effettuato contro tale punto ignora 5 punti di Durezza.
+Valigia quantica salvaspazio (requisito: 8° livello)
+Una valigia che, tramite bombardamento di quanti, restringe gli oggetti contenuti a una frazione del loro volume. La valigia può contenere fino a 250 kg di oggetti. Se la valigia viene rotta, tutto il contenuto va perduto. Le creature viventi possono essere contenute per un massimo di 10 minuti, dopodiché soffocano. Trovare un oggetto specifico nella valigia richiede un'azione di movimento. Gli oggetti magici al suo interno non conferiscono i loro benefici a chi li trasporta.
+Voltometro a campo logico (requisito: 8° livello)
+Cariche: 3 + 2 × bonus di Intelligenza. Dispositivo a forma di uovo metallico delle dimensioni di un'arancia. Come azione di movimento, l'inventore lo aziona spendendo 1 carica (la durata non deve essere consecutiva). Quando è attivo, gli alleati entro 3 m dall'inventore possono ripetere i Tiri Salvezza falliti contro incantesimi (anche lanciati come capacità magica), attacchi a soffio e con lo sguardo.
+Categoria 5: Esplorazione e ambiente
+Fiamma ossidrica
+Ingombro 1. Ricarica: 5 minuti. Serbatoio: 4 unità. Può essere usata per chiudere un varco con cardini metallici, aumentando di 10 la CD per sfondarlo (1 minuto e 1 unità di carburante). Può anche essere usata in senso opposto per indebolire una saldatura, riducendo la CD di sfondamento di 10. Senza carburante funziona come un acciarino e una candela (spenta solo da venti molto forti). Funziona anche sott'acqua.
+Lombrico d'ottone
+Ingombro 2. Ricarica: 5 minuti. Cilindro di 20 × 10 cm. Una volta attivato, cade a terra e si espande in un tubo flessibile. Può essere usato per scavare una trincea attorno all'inventore (una creatura di taglia media o inferiore) oppure in una linea di 9 m. L'area scavata diventa terreno difficile e offre copertura parziale. Funziona solo su terreni morbidi (terra, sabbia, fango). Miglioria al 6° livello: funziona anche su terreni solidi come roccia o pavimentazione.
+Ripulitore automatico
+Ingombro 1. Giara da 2 litri con rubinetto e tubo di aspirazione lungo 5 m. Risucchia l'acqua attraverso il tubo, filtrando veleni, malattie e impurità e producendo acqua potabile. Miglioria al 6° livello: può essere usato per aspirare gas e veleni aerei in un'area di 6 m di raggio e 6 m di altezza. Può dissolvere incantesimi di tipo Nube (effetto identico a Dissolvere mirato di Dissolvi magie); se il tentativo di dissolvere fallisce, il ripulitore diventa inutilizzabile per 4 ore. Dopo aver aspirato gas o Nube, va svuotato (10 minuti).
+Sega circolare / Motosega “Xecchon GT 23 Demolisher”
+Ingombro 2 (o arma a due mani con la miglioria). Ricarica: 5 minuti. Serbatoio: 5 unità. Una unità consente di tagliare 1 m² di legno o metallo in 2d6 round. Sui metalli particolarmente spessi (come acciaio rinforzato), c'è il 5% di probabilità di danneggiamento del gadget per ogni round di utilizzo. La sega è rumorosa e udibile a distanza. Miglioria al 4° livello: aggiungendo una seconda catena di 70 cm, il gadget diventa la motosega “Demolisher”, un'arma da guerra a due mani (danno 1d12 in taglia media, 3d6 minaccia di critico, x3 moltiplicatore, T tagliente, qualità Letale). La motosega può essere usata come arma base per costruire una tecno-arma.
+Tuta ambientale (requisito: 4° livello)
+Tuta indossabile sopra il corpo e l'equipaggiamento. La velocità dell'inventore viene dimezzata e l'inventore affonda nei liquidi. In cambio, ottiene bonus +4 ai Tiri Salvezza contro effetti di [malattia], [veleno da inalazione], gas (compresi gli incantesimi Nube), radiazioni, caldo e freddo ambientali, schizzi/pioggia/vapore (come Geyser e Pioggia acida).
+Trapano portatile “Pneumatic” (requisito: 5° livello)
+Ingombro 2. Ricarica: 5 minuti (ricarica pressione). Serbatoio: 6 unità. Una unità consente di praticare un foro del diametro di 5 cm in 1 m di pietra, mattone o metallo in 3 round (10 round per metallo spesso o adamantio). Può essere utilizzato per spiare attraverso le pareti, far passare una corda, posizionare esplosivi o creare brecce. Due unità consentono di praticare un foro abbastanza grande da far passare una creatura di taglia piccola attraverso 1 m di pietra in 1 minuto (taglia media: 2 minuti). È rumoroso e udibile a 30 m. Miglioria al 9° livello: il consumo di carburante è dimezzato e i tempi sono dimezzati. Inoltre, una unità consente di usare il trapano come arma in mischia (azione standard, attacco di contatto in mischia con BAB + bonus di Intelligenza): 2d6 danni perforanti, ignora 5 punti di Durezza e Riduzione del Danno non magica.
+
+Doti da inventore
+Le doti da inventore sono talenti speciali ottenibili dall'inventore in alternativa ai gadget o agli optional ai livelli pari (2°, 4°, 6°, 8°, 10°, 12°, 14°, 16°, 18°). Salvo diversamente indicato, ciascuna dote può essere selezionata solamente una volta.
+Combattimento e armi
+Amante delle armi da fuoco
+L'inventore ottiene la competenza con un'arma da fuoco avanzata a scelta. Inoltre, ottiene Pistolero amatoriale come talento bonus (deve soddisfarne i requisiti).
+Competenza nelle armi sperimentali
+L'inventore ottiene la competenza nell'uso di tutte le armi sperimentali (l'Elettro-carabina “Shock”, la Pistola lanciafiamme “Soffio di drago”, la Tuono-pistola “Reoni Silver thunder”, il Drone “Firestorm”, il Cannone idraulico “Slime”, lo Shotgun “Devastator”, il Lanciabrina “Blizzard”, il Lanciagranate R-92, il Bio-cannone “Acid rain”, il Fucile gauss “Railgun” e il Cannone al plasma “Solaris”). Senza questa dote, un inventore non può attivare alcuna arma sperimentale.
+Tecniche d'assedio e abbattimento
+L'inventore ottiene la competenza con le macchine d'assedio. Inoltre, i tempi di assemblaggio delle macchine d'assedio sotto la sua supervisione vengono dimezzati. Infine, quando opera una macchina d'assedio, tutti gli operatori possono puntarla o ricaricarla come azione di movimento, anziché di round completo.
+Punizione del creatore
+Come azione standard l'inventore può spendere 1 uso di riparazioni ed effettuare un attacco in mischia con un'arma contro un costrutto. Se l'attacco colpisce, supera qualsiasi RD posseduta dalla vittima e infligge un danno extra pari alle cure offerte dalla capacità riparazioni.
+Mechanus
+Cellule energetiche Argus
+L'inventore acquisisce il brevetto della cellula energetica Argus, un generatore di energia miniaturizzato in grado di potenziare i mechanus. Durante la creazione, l'inventore può inserire una cellula Argus in un mechanus per aumentare di 1 la CD dei Tiri Salvezza da esso provocati. Si ha a disposizione un numero di cellule al giorno pari al bonus di Intelligenza.
+Mechanus extra
+L'inventore ottiene 1 mechanus costruibile in più al giorno, di qualsiasi livello a lui disponibile.
+Mechanus potenziati
+La CD dei Tiri Salvezza provocati dai mechanus creati dall'inventore aumenta di 1.
+Mechanus potenziati superiore
+Requisiti: Dote da inventore Mechanus potenziati.
+La CD dei Tiri Salvezza provocati dai mechanus creati dall'inventore aumenta di 1. Questo bonus si cumula con quello fornito dalla dote da inventore Mechanus potenziati.
+Mechanus ad attivazione vocale
+Requisiti: Inventore di 14° livello.
+Una volta al giorno, tramite la voce l'inventore può attivare un mechanus creato come azione veloce. Un mechanus il cui “tempo di attivazione” sia più lungo di 1 round o di 1 azione di round completo non si può attivare vocalmente.
+Attivare mechanus in combattimento
+L'inventore ottiene bonus +4 alle prove di Concentrazione effettuate per attivare un mechanus mentre “lancia sulla difensiva” o è in lotta.
+Riparazioni e meraviglie
+Riparazioni sicure
+L'inventore può effettuare le riparazioni senza provocare attacchi di opportunità.
+Riparazioni extra
+L'inventore ottiene 2 utilizzi giornalieri extra di riparazioni.
+Razziatore provetto
+L'inventore ottiene bonus +4 alle prove di Professione (fabbro) quando razzia un automaton ed è in grado di effettuare smantellamenti e razzie in 10 minuti, anziché in 1 ora.
+Sistema di detonazione
+Requisiti: Inventore di 10° livello.
+Durante la creazione, l'inventore può inserire un detonatore sul proprio automaton o sul proprio esoscheletro (solo uno dei due). Come azione standard, l'inventore può attivare il detonatore, a patto che questo si trovi entro 18 m da lui. La meraviglia viene immediatamente distrutta e l'esplosione infligge 10d4 danni da forza a tutte le creature entro 3 m. Le vittime possono superare un Tiro Salvezza su Riflessi per dimezzare il danno. Se il detonatore è installato su un esoscheletro, un istante prima della detonazione l'inventore può usare un sistema di espulsione che lo scaglia in una direzione casuale di 2d4 caselle (l'inventore atterra incolume subito dopo l'esplosione, risultandone immune). La CD della prova per razziare la meraviglia distrutta in questo modo aumenta di 6.
+Gadget
+Fanatico dei gadget
+Quando seleziona questa dote, l'inventore ottiene tre “ticket fanatico”. In qualsiasi momento, l'inventore può spendere un ticket per ridurre di 2 il livello minimo richiesto per ottenere gli upgrade di un gadget a scelta.
+Gadget for dummies
+Requisiti: Inventore di 4° livello.
+L'inventore può passare 10 minuti a istruire un alleato sul funzionamento di uno specifico gadget, adattando nel frattempo tale gadget alle sue conoscenze e capacità. Dopo l'indottrinamento, l'alleato può utilizzare il gadget scelto fino all'alba del giorno seguente, come fosse l'inventore stesso. Si può usare questa dote una volta al giorno più una addizionale al 10° livello.
+Mentali e difensive
+Fumo e scintille
+L'inventore ha passato molto tempo a contatto con fuoco, fumi asfissianti e sostanze nocive. L'inventore ottiene bonus +4 ai Tiri Salvezza contro gli effetti di [abbagliamento], [veleno da inalazione], [infermità] e [nausea].
+Mente pratica
+Requisiti: Inventore di 8° livello.
+Il costante lavoro con meccanica e razionalità ha affinato la capacità dell'inventore di razionalizzare a mente fredda e superare qualsiasi dubbio. Una volta al giorno, l'inventore può ottenere vantaggio in un Tiro Salvezza contro un effetto di [influenza mentale: charme, compulsione, finzione, trama e morale].
+Percepire tecnologia
+L'inventore può rilevare la presenza (ma non la posizione) di costrutti e forgiati in un raggio di 9 m. Inoltre, percepisce automaticamente quando si trova nei pressi di luoghi in cui sono presenti congegni tecnologici, anche nascosti (cavi elettrici nei muri, telecamere, luce elettrica, ecc.).
+Officina e gestione
+Officina portatile
+Requisiti: Inventore di 6° livello.
+L'inventore impara a lavorare in condizioni precarie. Può effettuare costruzioni, riparazioni complete o modifiche di meraviglie senza penalità anche in viaggio, in dungeon o in ambienti ostili (purché non sia attivamente in combattimento). Inoltre, i tempi di costruzione di gadget e mechanus vengono ridotti del 25%.
+Multitasking meccanico
+Requisiti: Inventore di 10° livello.
+L'inventore può controllare contemporaneamente più creazioni con maggiore efficienza. Quando ha contemporaneamente attivi un automaton e una torretta automatica (o un gadget costrutto controllabile come Ragno meccanico, Uccello meccanico, Sentinella meccanica), può dirigere uno di loro come azione veloce invece che di movimento/standard.
+Archetipi dell'Inventore
+Salvo diversamente indicato, gli archetipi mantengono tutti i privilegi standard della classe Inventore eccetto quelli esplicitamente sostituiti o modificati.
+Ingegnere da campo
+In combattimento gli inventori spesso non hanno il lusso di quel tempo necessario per intraprendere fantasiose strategie o pensare alla manutenzione di automaton ed esoscheletri. Un ingegnere da campo costruisce i propri marchingegni pensando alla loro resistenza e impara a usare le tecno-armi con efficacia. Sebbene gli ingegneri da campo siano più facilmente visibili sui campi di battaglia in mezzo ai comuni soldati, talvolta si uniscono a un gruppo di avventurieri, dove la loro abilità con le armi è preziosa quanto la loro capacità di mantenere in buono stato il proprio equipaggiamento in qualsiasi occasione.
+Cauterizzare
+Al 1° livello, una volta per turno, come azione standard che provoca attacchi di opportunità, un ingegnere da campo può curarsi un numero di danni pari a 1d6 + 1d6 ogni due livelli oltre il 1°. Un ingegnere da campo può curarsi in questo modo senza provocare attacchi di opportunità, dimezzando però il totale di danni curati. Si può usare questa capacità per un numero di volte al giorno pari a 2 + metà bonus di Intelligenza.
+Privilegio di classe sostituito: Riparazioni al 1° livello.
+Batterie migliorate
+Al 1° livello, le tecno-armi di un ingegnere da campo hanno 1 carica giornaliera extra. Inoltre, hanno il 50% di ignorare i danneggiamenti dovuti a colpi critici o ai fallimenti critici.
+Privilegio di classe sostituito: Gadget al 1° livello.
+Specialista delle tecno-armi
+Al 3° livello, un ingegnere da campo ottiene bonus +1 ai tiri per colpire e ai danni con le tecno-armi. Questo bonus aumenta di +1 ogni quattro livelli oltre il 3° (+2 al 7°, +3 al 11°, +4 al 15°, +5 al 19°).
+Privilegio di classe sostituito: Automaton al 3° livello.
+Esoscheletri da battaglia customizzati
+Al 6° livello, quando un ingegnere da campo si trova all'interno di un esoscheletro modello leggero, ottiene Correre e Passo leggero come talenti bonus. Quando si trova all'interno di un esoscheletro modello pesante, ottiene Addestramento nelle armature fortificate come talento bonus.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 6° livello.
+Mechautarca
+I mechautarchi sono geniali creatori di mechanus e di automaton che usano innovazioni tecnologiche ancora più sorprendenti di quelle che il mondo abbia conosciuto finora.
+Mechanus potenziati
+Al 1° livello, un mechautarca può creare 1 mechanus aggiuntivo al giorno per ciascun livello di mechanus. Inoltre, i mechanus ottengono bonus +6 m al movimento e sono dotati automaticamente di Cellula energetica Argus (vedi doti da inventore: aumenta di 1 la CD dei Tiri Salvezza provocati).
+Privilegio di classe sostituito: Tecno-armi al 1° livello.
+Automaton alpha
+Un mechautarca è in grado di creare automaton superiori a quelli costruiti dagli altri inventori, detti “alpha”. L'automaton alpha presenta migliorie progressive ai seguenti livelli:
+Al 3° livello:
+Braccia telescopiche: l'automaton ottiene +1,5 m di portata. Locomozione potenziata: l'automaton alpha ottiene bonus meccanico +3 m alla velocità su terreno. Chip bellico: l'automaton alpha ottiene bonus meccanico +1 ai tiri per colpire.
+Al 5° livello:
+Chip bellico avanzato: l'automaton alpha ottiene bonus meccanico +2 ai tiri per i danni. Generatore di scudi: l'automaton alpha ottiene un numero di Punti Ferita temporanei pari al livello di mechautarca. Questi punti non scompaiono e si ripristinano all'alba di ogni giorno. Alloggiamento trasporto: il mechautarca installa un sedile speciale sulla parte superiore dell'automaton (solitamente la spalla) e può quindi usarlo come cavalcatura. Un automaton alpha può essere cavalcato solo da un mechautarca di taglia inferiore rispetto alla propria. In alternativa, l'alloggiamento può essere utilizzato come vano stoccaggio con capienza di 1,5 m cubi.
+Al 10° livello:
+Chip di allerta: l'automaton alpha ottiene bonus di schivare +1 alla CA. Piastre magi-refrattarie: l'automaton alpha ottiene una RI pari a 11 + livello di mechautarca. Sistema di agganciamento: come azione standard l'automaton alpha può focalizzarsi su un bersaglio entro 9 m. Entro la fine del suo prossimo turno, l'automaton alpha ottiene bonus cognitivo pari al livello di mechautarca al primo attacco effettuato contro il bersaglio scelto.
+Al 15° livello:
+Sistemi di impedimento: la scocca dell'automaton alpha è costellata di fessure in grado di estroflettere punte telemetriche, getti di vapore incandescente e una vasta gamma di subdole minacce. Come azione veloce l'automaton può far sì che le caselle a lui adiacenti siano considerate terreno difficile fino all'inizio del prossimo turno del mechautarca. Metronomo integrato: quando l'automaton alpha colpisce una creatura, ottiene contro di essa bonus di circostanza cumulabile +1 ai tiri per i danni (massimo +5). Questo bonus si mantiene finché l'automaton alpha non manca la creatura o attacca un diverso bersaglio. Questo danno si moltiplica in caso di colpo critico.
+Al 20° livello:
+Scocca “Optimus prime”: se lo desidera, un mechautarca può aumentare la taglia dell'automaton alpha a enorme. Se lo fa, l'automaton alpha ottiene basetta da 9 caselle, portata 4,5 m, +4 Forza, −2 CA, −2 ai tiri per colpire, +3 BMC e +3 DMC, −4 Furtività e un bonus di +20 Punti Ferita. Il danno degli attacchi cambia di conseguenza alla taglia. Questi bonus si sostituiscono a quelli ottenibili con l'Aggiornamento #1 (Aumento di taglia).
+Privilegio di classe sostituito: Esoscheletri al 5° livello.
+Tecnomante
+Alcuni inventori arrivano a detestare talmente la magia, da sacrificare parti degli studi accademici al fine di ricercare sempre nuovi modi per contrastarla.
+Odio per la magia
+Al 1° livello, un tecnomante sostituisce Sapienza magica a Utilizzare oggetti magici come abilità di classe. Inoltre, non può mai lanciare incantesimi, neanche come capacità magica. Infine, ottiene +1 ai tiri per colpire e +2 ai danni contro gli incantatori, comprese le creature che lanciano incantesimi come capacità magica.
+Emettitore di campo logico
+Al 1° livello, un tecnomante costruisce un emettitore di campo logico e questo è considerato una meraviglia. Un emettitore non ha statistiche ma, nel caso fortuito in cui dovesse andare perduto, richiederà un numero di ore di lavoro giornaliero pari a 16 per essere ricostruito; nel caso invece in cui dovesse rompersi richiederà un numero di ore di lavoro giornaliero pari a 4. Un emettitore occupa lo slot spalle.
+Come azione di movimento, un tecnomante può azionare l'emettitore per un numero di round al giorno pari a tre volte il bonus di Intelligenza. Questa durata non deve essere necessariamente consecutiva. Quando l'emettitore è attivo, proietta un campo logico e magnetico di 4,5 m di raggio che consente agli alleati nell'area di ripetere i Tiri Salvezza contro gli incantesimi falliti (anche quelli lanciati come capacità magica), gli attacchi a soffio e con lo sguardo.
+• Al 5° livello, il raggio dell'emettitore diventa 7,5 m.
+• Al 10° livello, l'emettitore può essere azionato come azione veloce e il raggio diventa 10,5 m.
+• Al 15° livello, quando un alleato supera un Tiro Salvezza contro uno degli effetti sopraindicati mentre si trova all'interno del campo logico, come azione immediata il tecnomante può spendere 2 round di utilizzo giornaliero dell'emettitore per ritorcere l'incantesimo o l'attacco al mittente (cioè anche l'attaccante ne subisce gli effetti, potendo effettuare gli eventuali Tiri Salvezza).
+• Al 20° livello, l'emettitore può essere azionato per un numero di round al giorno pari a cinque volte il bonus di Intelligenza.
+Privilegio di classe sostituito: Tecno-armi al 1° livello.
+Accumulatori Tesla
+Al 6° livello, un tecnomante installa sull'emettitore di campo logico degli speciali accumulatori energetici al fine di liberarne l'energia una volta ogni 4 round, infliggendo 1d6 danni da elettricità ogni due livelli di tecnomante a tutti i bersagli in una linea di 12 m. Le creature colpite possono effettuare un Tiro Salvezza su Riflessi per dimezzare il danno. Nelle giornate tempestose (solo quelle di origine naturale) o se nel round precedente il tecnomante ha subito danni da elettricità a causa di un attacco nemico, il dado di danno degli accumulatori Tesla diventa il d8 e la CD del Tiro Salvezza aumenta di 1.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 6° livello.
+Skitari
+Gli skitarii sono truppe d'élite addestrate nelle varie accademie ed università degli inventori. Essi fungono da guardie del corpo per i ricercatori in missione oppure come scorta scientifica per chi è sufficientemente ricco da potersi permettere i loro servizi.
+Abilità di classe: può utilizzare Professione (fabbro) al posto di Professione (ingegnere bellico).
+Competenze offensive: Competenza nelle armi semplici. Fucile, revolver.
+Arma da fuoco
+Al 1° livello, uno skitari ottiene un fucile o un revolver con 50 proiettili. Quest'arma è malconcia e non può essere venduta.
+Addestramento con le armi da fuoco
+Al 1° livello, uno skitari ottiene il talento Ricarica rapida (armi da fuoco arcaiche, fucile, revolver). Inoltre, quando usa le palle di carta come munizioni, il valore di inceppamento dell'arma usata per attaccare non aumenta.
+Riparazioni ridotte
+Al 1° livello, uno skitari può usare riparazioni per un numero di volte al giorno pari a bonus di Intelligenza, anziché 2 + bonus di Intelligenza.
+Privilegio di classe modificato: Riparazioni al 1° livello.
+Armi sperimentali
+Al 1° livello, uno skitari ottiene la dote Competenza nelle armi sperimentali come dote bonus (non deve soddisfarne i requisiti) e i gadget Pistola lanciafiamme “Soffio di drago” e Tuono-pistola “Reoni Silver thunder”.
+Privilegio di classe sostituito: Fabbro esperto al 1° livello.
+Maestria di armi sperimentali I
+Al 1° livello, uno skitari conta come di un livello superiore per quanto riguarda l'attivazione delle armi sperimentali. Inoltre, può attivare ciascuna arma sperimentale in suo possesso due volte al giorno, attendendo almeno 1 ora tra un utilizzo e l'altro.
+Privilegio di classe sostituito: Mechanus al 1° livello.
+Armi sperimentali progressive
+Al 4° livello, uno skitari ottiene il gadget Elettro-carabina “Shock”. Al 6° livello, ottiene il gadget Drone “Firestorm”. All'8° livello, ottiene il gadget Shotgun “Devastator”. Al 10° livello, ottiene il gadget Lanciabrina “Blizzard”. Al 12° livello, ottiene il gadget Bio-cannone “Acid rain”.
+Privilegio di classe sostituito: Gadget al 4°, al 6°, all'8°, al 10° e al 12° livello.
+Maestria di armi sperimentali II
+Al 4° livello, la CD dei Tiri Salvezza provocati dalle armi sperimentali di uno skitari aumenta di 1. Inoltre, gli attacchi di uno skitari effettuati con l'elettro-carabina ottengono bonus +2 ai tiri per colpire.
+Maestria di armi sperimentali III
+Al 7° livello, la CD dei Tiri Salvezza provocati dalle armi sperimentali di uno skitari aumenta ancora di 1 (totale +2).
+Maestria di armi sperimentali IV
+Al 10° livello, uno skitari conta come di due livelli superiore per quanto riguarda l'attivazione delle armi sperimentali. Ciò aumenta di 2 anche il livello massimo dei danni inflitti dalle armi sperimentali.
+Maestria di armi sperimentali V
+Al 13° livello, tre volte al giorno, per quel turno uno skitari può ottenere vantaggio nei tiri per colpire con l'elettro-carabina oppure può imporre svantaggio ai Tiri Salvezza imposti da una propria arma sperimentale a scelta.
+Maestria di armi sperimentali VI
+Al 16° livello, uno skitari può attivare ciascuna arma sperimentale in suo possesso tre volte al giorno, attendendo 1 ora tra un utilizzo e l'altro.
+Androide (solo forgiati)
+Gli androidi sono inventori forgiati in grado di riparare il proprio corpo in maniera autonoma, grazie a un complesso sistema di nano-bot.
+Prerequisito razziale: solo personaggi forgiati possono prendere questo archetipo.
+Sistema di autoriparazione
+Al 1° livello, come azione veloce e senza compiere alcuna azione, un androide può spendere 1 uso di riparazioni per curarsi del massimo dei danni tramite suddetta capacità. Di contro, può usare riparazioni per un numero di volte al giorno pari a bonus di Intelligenza, anziché 2 + bonus di Intelligenza.
+Privilegio di classe modificato: Riparazioni al 1° livello.
+Nanobot integrati
+Al 1° livello, il corpo dell'androide è permeato da nanobot riparatori passivi che potenziano la sua resilienza intrinseca. Tre volte al giorno, come azione veloce, l'androide può attivare i nanobot per ottenere Guarigione rapida 1 per 1 minuto. Inoltre, l'androide ottiene bonus +2 ai Tiri Salvezza contro effetti che lo renderebbero barcollante o frastornato (effetti che possono comunque colpirlo anche se non derivano dalle sue immunità razziali — ad esempio impatti contundenti pesanti, effetti sonici, sovraccarichi elettrici).
+Privilegio di classe sostituito: Fabbro esperto al 1° livello.
+Modulo di scansione integrato
+Al 5° livello, un androide possiede uno scanner permanentemente integrato in un occhio. Considera di possedere sempre un gadget Scanner attivo (con le funzioni del livello attuale dell'inventore), che non occupa alcuno slot e non può essere disarmato o rubato. Le sue cariche giornaliere sono pari a 3 + bonus di Intelligenza, ripristinate all'alba.
+Privilegio di classe sostituito: Gadget al 5° livello.
+Sub-routine di emergenza
+Al 10° livello, una volta al giorno, quando un attacco sta per ridurre l'androide a meno di 0 Punti Ferita, una sub-routine di emergenza si attiva automaticamente come azione immediata. L'androide ottiene 4d8 + livello di inventore Punti Ferita temporanei che durano 1 minuto (questi PF temporanei non subiscono il dimezzamento delle cure ai forgiati). Inoltre, è immune alla condizione morente per quel turno.
+Privilegio di classe sostituito: Gadget al 10° livello.
+Coscienza distribuita
+Al 15° livello, la coscienza di un androide è frammentata in più nuclei di elaborazione distribuiti per il corpo. L'androide ottiene vantaggio nei Tiri Salvezza contro effetti di [influenza mentale: charme e compulsione], anche se ha già altri benefici simili da scelte razziali o di classe. Inoltre, il suo tratto razziale Punti critici rinforzati viene potenziato: l'androide diventa completamente immune ai colpi furtivi, ai danni da precisione e ai danni extra dei colpi critici (i danni base degli attacchi colpiscono normalmente).
+Privilegio di classe sostituito: Gadget al 15° livello.
+Iperevoluzione meccanica
+Al 20° livello, all'apice della propria evoluzione, l'androide ha ottimizzato ogni componente del proprio corpo. Ottiene:
+• Bonus di potenziamento +2 a una caratteristica fisica a scelta (Forza, Destrezza o Costituzione)
+• Velocità su terreno permanente +6 m
+• RD 5/adamantio
+• Riparazioni: usi giornalieri pari a 2 × bonus di Intelligenza (non più solo bonus di Intelligenza)
+Privilegio di classe sostituito: Aggiornamento finale delle meraviglie al 20° livello.
+Cibernetico
+I cibernetici si dedicano interamente allo studio degli esoscheletri, trascurando del tutto la costruzione di automaton e portando la propria simbiosi con la macchina a livelli senza precedenti. Per un cibernetico, l'esoscheletro non è uno strumento: è un'estensione del proprio corpo.
+Doppio modello
+Al 1° livello, un cibernetico può costruire e mantenere attivi simultaneamente un esoscheletro leggero E un esoscheletro pesante (anziché uno solo dei due). Non può però indossare entrambi contemporaneamente: deve scegliere quale usare cambiando equipaggiamento.
+Privilegio di classe sostituito: Mechanus al 1° livello.
+Scoperta sugli esoscheletri
+Al 3° livello e ogni quattro livelli successivi (7°, 11°, 15°, 19°), un cibernetico ottiene una modifica per esoscheletro extra di un livello disponibile, da installare immediatamente, ignorando il limite di nodi della meraviglia (la modifica non occupa nodi).
+Privilegio di classe sostituito: Automaton al 3° livello.
+Innesti permanenti
+Al 6° livello, un cibernetico può effettuare innesti meccanici sul proprio corpo. Sceglie 1 modifica da Funzionalità di base dell'esoscheletro leggero o pesante (esclusi i Potenziamenti strutturali): tale modifica è sempre attiva su di lui anche quando non indossa un esoscheletro, senza consumare cariche, ma occupa permanentemente uno slot oggetto a scelta del GM in base al tema della modifica. Può scegliere un'altra modifica come innesto al 12° e al 18° livello.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 6°, 12° e 18° livello.
+Tecno-infiltratore
+Alcuni inventori comprendono che la vera potenza non si trova nelle armi o nei mostri di metallo, ma nella conoscenza e nell'invisibilità. Un tecno-infiltratore è uno specialista dei gadget di esplorazione, sabotaggio e infiltrazione, capace di muoversi nell'ombra grazie alla propria genialità meccanica.
+Specialista dei costrutti minori
+Al 1° livello, un tecno-infiltratore considera sempre di avere selezionato la miglioria al 5° livello sui propri gadget Ragno meccanico, Uccello meccanico e Lombrico d'ottone (anche se non ha ancora raggiunto il 5° livello), e ottiene questi tre gadget come parte iniziale della sua dotazione. Inoltre, le creature meccaniche controllate da remoto possono essere dirette come azione veloce invece che di movimento.
+Privilegio di classe sostituito: Tecno-armi al 1° livello.
+Manipolazione esperta
+Al 3° livello, un tecno-infiltratore ottiene tutte le migliorie del Manipolatore gravitonico (4°, 7°, 9° e 11°) al livello in cui lo apprende come gadget, indipendentemente dal proprio livello di inventore (purché ne soddisfi il requisito di livello base, cioè 4°). Inoltre, il manipolatore gravitonico può manipolare oggetti fino a 5 kg invece di 2,5 kg.
+Privilegio di classe sostituito: Automaton al 3° livello.
+Sensori avanzati
+Al 5° livello, lo Scanner di un tecno-infiltratore ha cariche pari a 5 + bonus di Intelligenza (anziché 3 + bonus di Intelligenza). Inoltre, le funzioni di Scanner inizialmente disponibili al 5° e 10° livello sono disponibili rispettivamente al 3° e 7° livello.
+Privilegio di classe sostituito: Esoscheletri al 5° livello.
+Camuffamento tecnologico
+All'8° livello, una volta al giorno, come azione standard, un tecno-infiltratore può attivare un campo di disturbo ottico personale. Per 1 minuto per livello di inventore, ottiene occultamento totale (probabilità di mancare 50%) finché non effettua un attacco; dopo un attacco l'occultamento scende a 20% per il resto della durata. La modifica si dissolve completamente se l'inventore lancia un incantesimo o attiva una capacità AoE.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore all'8° livello.

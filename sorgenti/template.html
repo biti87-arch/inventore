@@ -1,0 +1,891 @@
+<title>Officina dell'Inventore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#ECEAE6; --surface:#F8F7F5; --surface2:#E0DCD5; --line:#CBC5BB;
+  --ink:#1E1C19; --muted:#655F56; --accent:#7A4E1D; --accent-ink:#FFFFFF;
+  --bronze:#8A6A2E; --cond:#B3121B; --good:#2E6B4A; --warn:#9A5B12;
+  --mark:#EFE3CF; --adv:#1E7A1E;
+  --f-display:"Spectral SC", Georgia, "Times New Roman", serif;
+  --f-body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171A; --surface:#1E2125; --surface2:#2A2E33; --line:#3A3F46;
+    --ink:#E9E6E1; --muted:#A39D94; --accent:#D9A15A; --accent-ink:#1A140C;
+    --bronze:#D0AE6B; --cond:#FF6B6B; --good:#7CC79B; --warn:#E3A55A;
+    --mark:#3A2F20; --adv:#5FBF5F; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171A; --surface:#1E2125; --surface2:#2A2E33; --line:#3A3F46;
+  --ink:#E9E6E1; --muted:#A39D94; --accent:#D9A15A; --accent-ink:#1A140C;
+  --bronze:#D0AE6B; --cond:#FF6B6B; --good:#7CC79B; --warn:#E3A55A;
+  --mark:#3A2F20; --adv:#5FBF5F; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;padding:0 16px 80px}
+.wrap{max-width:760px;margin:0 auto}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px 8px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--f-display);font-weight:700;font-size:1.45rem;margin:0;letter-spacing:.02em;text-wrap:balance}
+.pgSel{max-width:60vw;padding:6px 8px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--ink);font:600 .85rem var(--f-body)}
+.hsub{color:var(--muted);font-size:.8rem;margin-top:4px}
+nav.tabs{display:flex;gap:4px;margin-top:10px}
+nav.tabs button{flex:1;min-width:0;padding:9px 2px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;font:600 .8rem var(--f-body);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section.panel{display:grid;gap:18px;padding-top:16px}
+h2{font-family:var(--f-display);font-weight:500;font-size:1.15rem;margin:0 0 8px;letter-spacing:.03em;color:var(--bronze)}
+h3{font-size:.95rem;margin:0}
+.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}
+.grid6{display:grid;gap:8px;grid-template-columns:repeat(6,1fr)}
+@media (max-width:420px){.grid6{grid-template-columns:repeat(3,1fr)}}
+.field{display:grid;gap:3px;min-width:0}
+.field input,.field select{width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:500 .95rem var(--f-mono)}
+.field select{font-family:var(--f-body);font-size:.9rem}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.check{display:flex;gap:8px;align-items:flex-start;font-size:.9rem}
+.check input{width:18px;height:18px;accent-color:var(--accent);flex-shrink:0;margin-top:2px}
+.banner{background:var(--mark);border-radius:8px;padding:8px 12px;font-size:.85rem}
+.banner.warn{background:transparent;border:1px solid var(--warn);color:var(--warn)}
+.btn{padding:7px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:7px;font:600 .85rem var(--f-body);cursor:pointer}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.sm{padding:4px 9px;font-size:.8rem}
+.btn.danger{color:var(--cond);border-color:var(--cond)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.seg{display:flex;gap:4px;flex-wrap:wrap}
+.seg button{flex:1;padding:7px 6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:7px;font:600 .82rem var(--f-body);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:.8rem;cursor:pointer;color:var(--ink);font-family:var(--f-body)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:disabled{opacity:.4;cursor:not-allowed}
+.list{display:grid;gap:6px}
+.tag{font:500 .7rem var(--f-mono);padding:2px 6px;border-radius:4px;background:var(--surface2);color:var(--muted);white-space:nowrap}
+.tag.acc{background:var(--accent);color:var(--accent-ink)}
+.tag.cb{background:var(--bronze);color:var(--surface)}
+.tag.no{background:transparent;border:1px solid var(--warn);color:var(--warn)}
+.kv{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
+.kv div{background:var(--bg);border-radius:8px;padding:8px 10px;min-width:0}
+.kv b{display:block;font:500 1.1rem var(--f-mono);font-variant-numeric:tabular-nums}
+.kv small{display:block;color:var(--muted);font-size:.72rem}
+.txt{font-size:.9rem}
+.txt p{margin:4px 0}
+.atk{display:grid;gap:4px;font-size:.9rem}
+.atk .l{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding-block:4px}
+.atk .l span:last-child{font-family:var(--f-mono);text-align:right}
+.note{font-size:.82rem;color:var(--muted)}
+.warnT{color:var(--warn)}
+.cond{color:var(--cond);font-weight:600}
+.adv{background:var(--adv);color:#fff;padding:0 3px;border-radius:3px}
+.dis{background:var(--cond);color:#fff;padding:0 3px;border-radius:3px}
+.overlay{position:fixed;inset:0;background:rgba(8,12,18,.55);z-index:20;display:flex;justify-content:center;align-items:flex-end}
+.overlay .card{width:100%;max-width:760px;max-height:88vh;overflow:auto;border-radius:14px 14px 0 0;padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px))}
+.search{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+details{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:8px 10px}
+details+details{margin-top:6px}
+details summary{cursor:pointer;font-weight:600;display:flex;justify-content:space-between;gap:8px;align-items:center;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"▸";color:var(--muted);font-weight:400}
+details[open] summary::after{content:"▾"}
+details .txt{margin-top:6px}
+.opt{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:start;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.opt.bad{border-color:var(--warn)}
+.opt.dim{opacity:.55}
+.opt input[type=checkbox]{width:20px;height:20px;accent-color:var(--accent);margin-top:1px}
+.slot{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.slot .lv{font:600 .95rem var(--f-mono);color:var(--bronze);text-align:center}
+.slot select{width:100%;padding:6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:500 .85rem var(--f-body)}
+.slot.bad{border-color:var(--warn)}
+.ctr{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.ctr .pips{display:flex;gap:6px;align-items:center}
+.ctr b{font:600 1.05rem var(--f-mono);min-width:54px;text-align:center}
+.bar{height:6px;border-radius:3px;background:var(--surface2);overflow:hidden;margin-top:4px}
+.bar i{display:block;height:100%;background:var(--good)}
+.bar i.low{background:var(--cond)}
+.nodi{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 12px;border-radius:8px;background:var(--mark)}
+.nodi b{font:600 1.1rem var(--f-mono)}
+.nodi.over{background:transparent;border:1px solid var(--cond);color:var(--cond)}
+table.t{width:100%;border-collapse:collapse;font-size:.82rem}
+table.t th,table.t td{padding:4px 5px;border-bottom:1px solid var(--line);text-align:center}
+table.t th{font-weight:600;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em}
+table.t td:last-child,table.t th:last-child{text-align:left}
+table.t tr.cur td{background:var(--mark)}
+.hl{background:var(--mark);border-radius:6px;padding:2px 6px}
+@media (prefers-reduced-motion: no-preference){.overlay .card{animation:up .18s ease-out}@keyframes up{from{transform:translateY(20px);opacity:.6}to{transform:none;opacity:1}}}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="brand">
+    <h1>Officina dell'Inventore</h1>
+    <span class="row" style="gap:6px"><label class="label" for="pgSel">Personaggio</label><select id="pgSel" class="pgSel"></select></span>
+  </div>
+  <div class="hsub" id="hdrSub"></div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="inv">Inventore</button>
+    <button role="tab" aria-selected="false" data-tab="mech">Mechanus</button>
+    <button role="tab" aria-selected="false" data-tab="mer">Meraviglie</button>
+    <button role="tab" aria-selected="false" data-tab="gad">Gadget</button>
+    <button role="tab" aria-selected="false" data-tab="gioco">In gioco</button>
+  </nav>
+</header>
+<main id="main"></main>
+</div>
+<div id="modal"></div>
+
+<script>
+const D = __DATI__;
+
+/* ---------- utilità ---------- */
+const mod=v=>Math.floor(((+v||10)-10)/2);
+const sg=n=>(n>=0?'+':'')+n;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const CONDIZIONI=['Azzoppat','Colt[oaie] alla sprovvista','Offuscat','Affaticat','Abbagliat','Accecat','Accovacciat','Affascinat','Assordat','Barcollant','Confus','Esaust','Frastornat','Immobilizzat','Impreparat','[Ii]n [Ll]otta','Inabil','Incorpore','Indifes','Inferm','Intralciat','Invisibil','Morent','Nauseat','Paralizzat','Scoss','Spaventat','In Preda al Panico','Pietrificat','Privo di Sensi','Priv[oaie] di sensi','Pron[oaie]','Rott','Sanguinant','Scheggiat','Stabilizzat','Stordit','Sempre pront','Trattenut'];
+const COND_RE=new RegExp('\\b('+CONDIZIONI.join('|')+')([a-z]*)\\b','gi');
+function rich(s){
+  let h=esc(s);
+  h=h.replace(COND_RE,m=>'<span class="cond">'+m+'</span>');
+  h=h.replace(/\bSvantaggio\b/gi,m=>'<span class="dis">'+m+'</span>').replace(/\b(?<!s)[Vv]antaggio\b/g,m=>'<span class="adv">'+m+'</span>');
+  return h.split('\n').map(p=>'<p>'+p+'</p>').join('');
+}
+const CAR=['For','Des','Cos','Int','Sag','Car'];
+const ORD=n=>n+'°';
+const DADI_SU={'1d2':'1d3','1d3':'1d4','1d4':'1d6','1d6':'1d8','1d8':'2d6','1d10':'2d8','1d12':'3d6','2d4':'2d6','2d6':'3d6','2d8':'3d8','3d6':'4d6','3d8':'4d8','4d6':'6d6'};
+const DADI_GIU=Object.fromEntries(Object.entries(DADI_SU).map(([a,b])=>[b,a]));
+const stepD=(d,n)=>{let x=d;for(let i=0;i<Math.abs(n);i++)x=(n>0?DADI_SU:DADI_GIU)[x]||x;return x;};
+const TAGLIA={Piccola:{ca:1,txc:1,bmc:-2,furt:4},Media:{ca:0,txc:0,bmc:0,furt:0},Grande:{ca:-1,txc:-1,bmc:2,furt:-2},Enorme:{ca:-2,txc:-2,bmc:3,furt:-4}};
+const babList=s=>String(s).split('/').map(x=>parseInt(x));
+const MECH=Object.fromEntries(D.mechanus.elenco.map(m=>[m.id,m]));
+const TMOD=Object.fromEntries(D.tecno.mods.map(m=>[m.id,m]));
+const EMOD=Object.fromEntries(D.eso.mods.map(m=>[m.id,m]));
+const GAD=Object.fromEntries(D.gadget.elenco.map(g=>[g.id,g]));
+const DOTE=Object.fromEntries(D.doti.map(d=>[d.id,d]));
+const ARCH=Object.fromEntries(D.archetipi.map(a=>[a.id,a]));
+const ARN=Object.fromEntries(D.arnesi.map(a=>[a.id,a]));
+const ARM=Object.fromEntries(D.eso.armature.map(a=>[a.id,a]));
+const OPT=[...D.tecno.optional.map(o=>({...o,ramo:'tecno'})),...D.automaton.optional.map(o=>({...o,ramo:'automaton'})),...D.eso.optional.map(o=>({...o,ramo:'eso'}))].map(o=>({...o,key:o.ramo+':'+o.id}));
+const OPTK=Object.fromEntries(OPT.map(o=>[o.key,o]));
+const RAMO_N={tecno:'Tecno-armi',automaton:'Automaton',eso:'Esoscheletri'};
+const dividiPF=pf=>({fat:Math.floor(pf/2),fer:Math.ceil(pf/2)});
+
+/* ---------- stato ---------- */
+const VUOTO_GIOCO={indossa:'',attiviT:[],attiviE:[],rip:0,mech:[0,0,0,0,0,0],jolly:0,argus:0,tecnoC:0,esoC:{L:0,P:0},emett:0,gadget:{},overdrive:0,pfFat:null,pfFer:null,autPF:null,autTemp:null,tesla:0,note:''};
+const DEFAULT={esempio:true,nome:'Esempio — Tessa Ingranaggi',livello:8,taglia:'Media',car:{For:12,Des:14,Cos:14,Int:18,Sag:10,Car:8},archetipi:[],spec:'',
+  scelte:{1:{k:'gadget',id:'scanner'},2:{k:'optional',id:'tecno:modulo_di_penetrazione_da_cantiere'},3:{k:'gadget',id:'torretta_automatica'},4:{k:'dote',id:'mechanus_potenziati'},5:{k:'gadget',id:'lente_analitica'},6:{k:'optional',id:'automaton:riparazione_automatica'},7:{k:'gadget',id:'ragno_meccanico'},8:{k:'dote',id:'riparazioni_extra'}},
+  mechConosciuti:['criogenico','elettrificante','generatore_di_campo','puntatore','lanciarazzi','analizzatore','ingrassatore','occultante','congelante','killer_cercatore','intrappolante','crampi_elettro_muscolari','assordante','marcatore','accecante','folgorante','idrante','impallinatore'],
+  tecno:{arma:'mazzuolo',man:{nome:'Arma',dado:'1d8',critico:'x2',tipo:'C',cat:'una'},pot:1,accurata:false,mods:['chip_di_combattimento_assistito_superiore']},
+  aut:{modello:'destructor',grande:false,incArma:1,incScocca:1,optimus:false},
+  esoTipo:'P',esos:{L:{armatura:'giaco_di_maglia',pot:0,mods:[]},P:{armatura:'mezza_armatura',pot:0,mods:['potenziamento_strutturale_2_P','scocca_anti_urto_P']}},
+  scoperte:[],innesti:[],armaturaNormale:'corpetto_di_cuoio_borchiato',scudo:0,bonus:{ca:0,colpire:0,danni:0,tempra:0,rif:0,vol:0},pfMan:'',
+  gioco:JSON.parse(JSON.stringify(VUOTO_GIOCO)),tab:'inv',sub:'tecno'};
+function nuovoPg(n){const s=JSON.parse(JSON.stringify(DEFAULT));return Object.assign(s,{esempio:false,nome:n||'Nuovo inventore',livello:1,scelte:{},mechConosciuti:[],
+  tecno:{arma:'',man:{nome:'Arma',dado:'1d6',critico:'x2',tipo:'C',cat:'una'},pot:0,accurata:false,mods:[]},aut:{modello:'destructor',grande:false,incArma:0,incScocca:0,optimus:false},
+  esos:{L:{armatura:'',pot:0,mods:[]},P:{armatura:'',pot:0,mods:[]}},armaturaNormale:'',car:{For:10,Des:12,Cos:12,Int:16,Sag:10,Car:10}});}
+const KEY='officina-inventore-v1';
+let G=loadG(), S=fill(G.dati[G.attivo]);
+function loadG(){
+  try{const r=localStorage.getItem(KEY);if(r){const g=JSON.parse(r);if(g&&g.dati&&g.dati[g.attivo])return g;}}catch(e){}
+  const id='p'+Date.now();return {attivo:id,dati:{[id]:JSON.parse(JSON.stringify(DEFAULT))}};
+}
+function save(){G.dati[G.attivo]=S;try{localStorage.setItem(KEY,JSON.stringify(G));}catch(e){}}
+function fill(s){for(const k in DEFAULT)if(s[k]===undefined)s[k]=JSON.parse(JSON.stringify(DEFAULT[k]));for(const k in VUOTO_GIOCO)if(s.gioco[k]===undefined)s.gioco[k]=JSON.parse(JSON.stringify(VUOTO_GIOCO[k]));return s;}
+
+/* ---------- regole di classe ---------- */
+const lv=()=>Math.max(1,Math.min(20,+S.livello||1));
+const INT=()=>mod(S.car.Int);
+const has=a=>S.archetipi.includes(a);
+const perde=k=>S.archetipi.some(a=>ARCH[a].perde.includes(k));
+const haTecno=()=>!perde('tecno');
+const haAut=()=>lv()>=3&&!perde('automaton');
+const haEso=()=>!perde('eso')&&(lv()>=5||(has('cibernetico')&&lv()>=3));
+const haMech=()=>!perde('mechanus');
+const cd=()=>10+Math.floor(lv()/2)+INT();
+function tocca(a){
+  const out=new Set();
+  for(const c of ARCH[a].capacita)for(const s of [c.sost,c.mod]){
+    if(!s)continue;
+    if(/^Riparazioni/.test(s))out.add('riparazioni');
+    else if(/^Fabbro/.test(s))out.add('fabbro');
+    else if(/^Mechanus/.test(s))out.add('mechanus');
+    else if(/^Tecno-armi/.test(s))out.add('tecno');
+    else if(/^Automaton/.test(s))out.add('automaton');
+    else if(/^Esoscheletri/.test(s))out.add('eso');
+    else if(/^Aggiornamento finale/.test(s))out.add('aggfinale');
+    else if(/^Gadget/.test(s))(s.match(/\d+/g)||[]).forEach(n=>out.add('slot'+n));
+  }
+  return out;
+}
+function conflitti(id){const t=tocca(id);return S.archetipi.filter(a=>a!==id&&[...tocca(a)].some(x=>t.has(x)));}
+function slotArchetipo(){const m={};for(const a of S.archetipi)for(const n of ARCH[a].slot)m[n]=a;return m;}
+function slots(){
+  const L=lv(),sa=slotArchetipo(),out=[];
+  for(let n=1;n<=L;n++){
+    const tipo=(n%2&&n<=11)?'gadget':(n%2===0&&n<=18)?'libero':null;
+    if(!tipo)continue;
+    out.push({liv:n,tipo,arch:sa[n]||null});
+  }
+  return out;
+}
+function scelta(n){const sa=slotArchetipo();if(sa[n])return null;const s=S.scelte[n];if(!s||n>lv())return null;return s;}
+function doti(){const out=new Set();for(const s of slots()){const x=scelta(s.liv);if(x&&x.k==='dote')out.add(x.id);}if(has('skitari'))out.add('competenza_nelle_armi_sperimentali');return out;}
+const hasDote=id=>doti().has(id);
+function optional(){const out=new Set();for(const s of slots()){const x=scelta(s.liv);if(x&&x.k==='optional')out.add(x.id);}return out;}
+const hasOpt=k=>optional().has(k);
+function gadgetBonus(){
+  const L=lv(),out=[];
+  if(has('skitari')){out.push(['pistola_lanciafiamme_soffio_di_drago',1],['tuono_pistola_reoni_silver_thunder',1]);
+    [['elettro_carabina_shock',4],['drone_firestorm',6],['shotgun_devastator',8],['lanciabrina_blizzard',10],['bio_cannone_acid_rain',12]].forEach(x=>{if(L>=x[1])out.push(x);});}
+  if(has('tecno_infiltratore'))out.push(['ragno_meccanico',1],['uccello_meccanico',1],['lombrico_d_ottone',1]);
+  return out.map(([id,l])=>({id,liv:l,bonus:true}));
+}
+function gadgets(){
+  const out=[];const seen=new Set();
+  for(const g of gadgetBonus())if(!seen.has(g.id)){seen.add(g.id);out.push(g);}
+  for(const s of slots()){const x=scelta(s.liv);if(x&&x.k==='gadget'&&!seen.has(x.id)){seen.add(x.id);out.push({id:x.id,liv:s.liv});}}
+  return out;
+}
+const hasGad=id=>gadgets().some(g=>g.id===id);
+function specScelte(){const o=[];if(haTecno())o.push('tecno');if(haAut())o.push('automaton');if(haEso())o.push('eso');return o;}
+function spec(){if(lv()<15)return '';const o=specScelte();if(o.length===1)return o[0];return o.includes(S.spec)?S.spec:'';}
+/* stadi (decisione B: per livello) */
+function stadioT(){const L=lv(),s=spec()==='tecno';return L>=20&&s?4:L>=15&&s?3:L>=10?2:L>=5?1:0;}
+function stadioA(){const L=lv(),s=spec()==='automaton';return L>=20&&s?3:L>=15&&s?2:L>=10?1:0;}
+function stadioE(){const L=lv(),s=spec()==='eso';return L>=20&&s?3:L>=15&&s?2:L>=10?1:0;}
+const NODI_T=[1,2,3,4,5],NODI_E=[2,3,4,5];
+const nodiMaxT=()=>Math.max(0,Math.min(NODI_T[stadioT()],INT()));
+const nodiMaxE=()=>Math.max(0,Math.min(NODI_E[stadioE()],INT()));
+const STADIO_N=['Funzionalità di base','Aggiornamento del 5° livello','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'];
+const STADIO_TL=[1,5,10,15,20],STADIO_AL=[3,10,15,20],STADIO_EL=[5,10,15,20];
+/* mechanus (decisioni A e F) */
+function mechLivMax(){return D.mechanus.alGiorno[lv()-1].length;}
+function bonusInt(l){const m=INT();return m>=l?Math.floor((m-l)/4)+1:0;}
+function mechGiorno(l){const b=D.mechanus.alGiorno[lv()-1][l-1];if(b===undefined)return 0;return b+bonusInt(l)+(has('mechautarca')?1:0);}
+function mechConoscMax(l){return D.mechanus.conosciuti[lv()-1][l-1]||0;}
+function cdMech(l){return 10+l+INT()+(hasDote('mechanus_potenziati')?1:0)+(hasDote('mechanus_potenziati_superiore')?1:0)+(has('mechautarca')?1:0);}
+/* riparazioni */
+const dadiRip=()=>(1+Math.floor((lv()-1)/2))+'d6';
+function usiRip(){
+  const I=INT();let n=2+I;
+  if(has('skitari')||has('androide'))n=I;
+  if(has('androide')&&lv()>=20)n=2*I;
+  if(has('ingegnere_da_campo'))n=2+Math.floor(I/2);
+  return Math.max(0,n+(hasDote('riparazioni_extra')?2:0));
+}
+
+/* ---------- esoscheletri ---------- */
+function esoTipi(){if(!haEso())return [];return has('cibernetico')?['L','P']:[S.esoTipo];}
+function esoMods(t){const e=S.esos[t];return (e.mods||[]).filter(id=>EMOD[id]&&EMOD[id].stadio<=stadioE()&&(EMOD[id].tipo==='C'||EMOD[id].tipo===t));}
+function scoperteMax(){return has('cibernetico')?[3,7,11,15,19].filter(x=>x<=lv()).length:0;}
+function innestiMax(){return has('cibernetico')?[6,12,18].filter(x=>x<=lv()).length:0;}
+function esoAttive(t){ // modifiche installate + scoperte (senza nodi)
+  const s=esoMods(t).slice();
+  for(const x of S.scoperte.slice(0,scoperteMax()))if(x&&x.tipo===t&&EMOD[x.id]&&!s.includes(x.id))s.push(x.id);
+  return s;
+}
+function potStrutt(t){let b=0;for(const id of esoAttive(t)){const m=/potenziamento_strutturale_(\d)/.exec(id);if(m)b=Math.max(b,+m[1]);}return b;}
+const caricheEso=()=>Math.max(0,Math.floor(lv()/2)+INT()+(hasOpt('eso:riciclatore_energetico_per_esoscheletri')?2:0));
+const caricheTecno=()=>Math.max(0,Math.floor(lv()/2)+INT()+(hasOpt('tecno:riciclatore_energetico_per_tecno_armi')?2:0)+(has('ingegnere_da_campo')?1:0));
+
+/* ---------- scheda dell'inventore ---------- */
+function indossa(){const t=S.gioco.indossa;return esoTipi().includes(t)?t:'';}
+function taglIa(){const t=indossa();if(t==='P'&&hasOpt('eso:scocca_titan'))return 'Grande';if(t)return 'Media';return S.taglia;}
+function calcInv(){
+  const L=lv(),t=indossa(),row=D.tabella[L-1];
+  const c={...S.car};const note=[];
+  if(t){const p=potStrutt(t);if(p){if(t==='L')c.Des=S.car.Des+p;else c.For=S.car.For+p;note.push('Potenziamento strutturale +'+p+' a '+(t==='L'?'Destrezza':'Forza'));}
+    if(taglIa()==='Grande'){c.For+=2;c.Des-=2;}}
+  if(has('androide')&&L>=20&&S.iper)c[S.iper]+=2;
+  const M=Object.fromEntries(CAR.map(k=>[k,mod(c[k])]));
+  const tg=TAGLIA[taglIa()];
+  let arm=null;
+  if(t){const e=S.esos[t],a=ARM[e.armatura];if(a)arm={nome:'Esoscheletro '+(t==='L'?'leggero':'pesante')+' ('+a.nome+')',ca:a.ca+1+(+e.pot||0),maxDes:a.maxDes,pen:Math.min(0,a.pen+1)};}
+  else{const a=ARM[S.armaturaNormale];if(a&&a.tipo==='L')arm={nome:a.nome,ca:a.ca,maxDes:a.maxDes,pen:a.pen};}
+  const desCA=arm?Math.min(M.Des,arm.maxDes):M.Des;
+  const att=new Set(S.gioco.attiviE);
+  let defl=0;
+  if(t&&esoAttive(t).includes('generatore_di_campo_difensivo')&&att.has('generatore_di_campo_difensivo'))defl=L>=18?4:L>=14?3:2;
+  const scudo=+S.scudo||0,alt=+S.bonus.ca||0;
+  const ca=10+(arm?arm.ca:0)+desCA+tg.ca+scudo+defl+alt;
+  let contatto=10+desCA+tg.ca+defl;
+  if(t&&esoAttive(t).includes('campo_anti_contatto')&&att.has('campo_anti_contatto'))contatto=Math.min(ca,contatto+Math.max(0,M.Int));
+  const impr=ca-Math.max(0,desCA);
+  const bab=babList(row.bab);
+  const pfBase=8+5*(L-1)+M.Cos*L;
+  const pf=S.pfMan!==''&&S.pfMan!=null?+S.pfMan:pfBase;
+  return {c,M,tg,arm,ca,contatto,impr,defl,bab,pf,pfBase,row,note,
+    ts:{tempra:row.tempra+M.Cos+(+S.bonus.tempra||0),rif:row.rif+M.Des+(+S.bonus.rif||0),vol:row.vol+M.Sag+(+S.bonus.vol||0)},
+    bmc:bab[0]+M.For+tg.bmc,dmc:10+bab[0]+M.For+M.Des+tg.bmc,
+    iniz:M.Des};
+}
+
+/* ---------- tecno-arma ---------- */
+function armaT(){
+  const T=S.tecno;
+  if(T.arma&&ARN[T.arma]){const a=ARN[T.arma];
+    const cat=/leggere/.test(a.cat)?'leggera':/una mano/.test(a.cat)?'una':/tiro/.test(a.cat)?'tiro':'due';
+    return {nome:a.nome,dP:a.dP,dM:a.dM,critico:a.critico,tipo:a.tipo,cat,lancio:/Da lancio/.test(a.speciale),fuoco:false,dueMani:cat==='due'||/due mani/.test(a.cat),speciale:a.speciale,gittata:a.gittata};}
+  const m=T.man;return {nome:m.nome||'Arma',dP:stepD(m.dado,-1),dM:m.dado,critico:m.critico||'x2',tipo:m.tipo||'C',cat:m.cat,lancio:!!m.lancio,fuoco:!!m.fuoco,dueMani:m.cat==='due'||(m.cat==='tiro'&&!!m.dueMani),speciale:'',gittata:m.gittata||'—'};
+}
+function mischia(w){return w.cat!=='tiro'&&!w.fuoco;}
+function soloOk(m,w){
+  if(!m.solo)return true;const s=m.solo;
+  if(s==='armi da lancio')return w.lancio;
+  if(s==='armi a distanza')return w.cat==='tiro'||w.lancio||w.fuoco;
+  if(s==='armi da mischia taglienti')return mischia(w)&&/T/.test(w.tipo);
+  if(s==='armi da mischia contundenti')return mischia(w)&&/C/.test(w.tipo);
+  if(s==='armi perforanti')return /P/.test(w.tipo);
+  if(s.startsWith('armi a due mani'))return w.dueMani;
+  if(s==='armi da mischia')return mischia(w);
+  if(s==='armi da fuoco')return w.fuoco;
+  return true;
+}
+function modsT(){return (S.tecno.mods||[]).filter(id=>TMOD[id]&&TMOD[id].stadio<=stadioT());}
+function nodiUsati(ids,T){return ids.reduce((s,id)=>s+(T[id].nodi||0),0);}
+function modOk(m,installate,T,w){
+  if(w&&!soloOk(m,w))return 'solo '+m.solo;
+  for(const x of (m.incompat||[]))if(installate.includes(x))return 'incompatibile con '+(T[x]?T[x].nome:x);
+  for(const x of installate)if((T[x].incompat||[]).includes(m.id))return 'incompatibile con '+T[x].nome;
+  for(const x of (m.richiede||[]))if(!installate.includes(x))return 'richiede '+(T[x]?T[x].nome:x);
+  return '';
+}
+function specialista(){if(!has('ingegnere_da_campo')||lv()<3)return 0;return 1+Math.floor((lv()-3)/4);}
+function calcTecno(inv){
+  const w=armaT(),T=S.tecno,L=lv(),att=new Set(S.gioco.attiviT),inst=modsT();
+  const on=id=>inst.includes(id)&&att.has(id);
+  const tg=taglIa();
+  let dado=tg==='Piccola'?w.dP:w.dM;if(tg==='Grande')dado=stepD(w.dM,1);
+  if(on('contrappesi_minerva'))dado=stepD(dado,1);
+  const usaDes=w.cat==='tiro'||w.fuoco||T.accurata;
+  let colp=(usaDes?inv.M.Des:inv.M.For)+(+T.pot||0)+inv.tg.txc+specialista()+(+S.bonus.colpire||0);
+  let dan=(+T.pot||0)+specialista()+(+S.bonus.danni||0);
+  const forD=(w.cat==='tiro'&&!w.lancio)||w.fuoco?0:(w.dueMani&&mischia(w)?Math.floor(inv.M.For*1.5):inv.M.For);
+  dan+=forD;
+  const ext=[];
+  if(on('chip_di_combattimento_assistito_superiore')){colp+=2;dan+=2;}else if(on('chip_di_combattimento_assistito')){colp+=1;dan+=1;}
+  if(on('elettrodi'))ext.push('+1d6 elettricità');
+  if(on('generatore_di_fiamma'))ext.push('+1d6 fuoco');
+  if(on('refrigeratore'))ext.push('+1d6 freddo');
+  if(on('rivestimento_in_gomma_scudo'))ext.push('+1d6, tutto non letale');
+  if(on('risuonatore_di_forza'))ext.push('danni da forza');
+  let crit=w.critico;
+  if((on('lama_a_catena')&&soloOk(TMOD.lama_a_catena,w))||(on('pistone_a_scoppio')&&soloOk(TMOD.pistone_a_scoppio,w))||(on('propulsore_trans_elicoidale')&&soloOk(TMOD.propulsore_trans_elicoidale,w)))crit=raddoppiaMinaccia(crit);
+  const bab=inv.bab.map(b=>b+colp);
+  return {w,dado,colp,dan,bab,ext:ext.filter(Boolean),crit,usaDes};
+}
+function raddoppiaMinaccia(c){
+  const m=/^(\d+)(?:-20)?\/(x\d)$/.exec(c)||/^(x\d)$/.exec(c);
+  let lo=20,mul='x2';
+  if(/^x\d$/.test(c)){mul=c;}else{const k=/^(\d+)-20\/(x\d)$/.exec(c);if(k){lo=+k[1];mul=k[2];}else{const k2=/^20\/(x\d)$/.exec(c);if(k2)mul=k2[1];}}
+  const r=21-lo;const nl=21-2*r;return nl+'-20/'+mul;
+}
+
+/* ---------- automaton ---------- */
+function autRow(){return D.automaton.tabella[Math.max(0,lv()-3)];}
+function autOpt(id){return hasOpt('automaton:'+id)&&(OPTK['automaton:'+id].modelli||[]).includes(S.aut.modello);}
+function calcAut(){
+  const L=lv(),r=autRow(),A=S.aut,M0=D.automaton.modelli[A.modello],st=stadioA(),alpha=has('mechautarca'),att=new Set(S.gioco.attiviT);
+  const opt=alpha&&L>=20&&A.optimus;
+  const tg=opt?'Enorme':(st>=1&&A.grande)?'Grande':'Media';
+  let For=M0.car.For+r.forDes,Des=M0.car.Des+r.forDes;
+  const pist=A.modello==='destructor'&&st>=1;
+  if(pist)For+=2;
+  if(tg==='Grande'){For+=2;Des-=2;}
+  if(tg==='Enorme')For+=4;
+  const mF=mod(For),mD=mod(Des),T=TAGLIA[tg];
+  let ca=r.ca[A.modello]+T.ca+(+A.incScocca||0);
+  if(alpha&&L>=10)ca+=1;
+  const od=S.gioco.overdriveOn;
+  if(A.modello==='defensor'&&od&&autOpt('modulo_overdrive_beta'))ca+=2;
+  let pf=10+6*(r.dv-1);
+  for(const x of D.automaton.tabella)if(x.liv<=L)pf+=+x.bonusPF||0;
+  if(tg==='Grande')pf+=10;if(tg==='Enorme')pf+=20;
+  const temp=alpha&&L>=5?L:0;
+  const bab=babList(r.bab);
+  const bonusTxc=T.txc+(alpha?1:0)+(+A.incArma||0);
+  const bonusDan=(alpha&&L>=5?2:0)+(+A.incArma||0);
+  const att2=[];
+  const n78=st>=2&&A.modello!=='defensor';
+  const critUp=c=>{if(!n78)return c;const k=/^(\d+)-20\/(x\d)$/.exec(c);if(k)return (+k[1]-1)+'-20/'+k[2];const k2=/^20\/(x\d)$/.exec(c);return k2?'19-20/'+k2[1]:c;};
+  const odA=od&&A.modello==='destructor'&&autOpt('modulo_overdrive_alpha')?3:0;
+  const odG=od&&A.modello==='sagittar'&&autOpt('modulo_overdrive_gamma')?3:0;
+  const istrice=autOpt('modulo_di_difesa_istrice')&&S.gioco.istrice?2:0;
+  if(A.modello==='destructor'){
+    const d=stepD(pist?'2d6':'1d10',tg==='Grande'?1:tg==='Enorme'?2:0);
+    att2.push({nome:'Schianto idraulico',txc:[bab[0]+mF+bonusTxc+odA],dan:d+sg(Math.floor(mF*1.5)+bonusDan+odA+istrice).replace('+0',''),crit:critUp('19-20/x2'),tipo:autOpt('armi_retrattili')?'C, P o T':'C'});
+  }else if(A.modello==='defensor'){
+    const d=stepD('1d6',tg==='Grande'?1:tg==='Enorme'?2:0);
+    att2.push({nome:'Schianto meccanico',txc:[bab[0]+mF+bonusTxc],dan:d+sg(Math.floor(mF*1.5)+bonusDan+istrice).replace('+0',''),crit:'20/x2',tipo:'C'});
+  }else{
+    const d=stepD('1d3',tg==='Grande'?1:tg==='Enorme'?2:0);
+    att2.push({nome:'Schianto',txc:[bab[0]+mF+T.txc+(alpha?1:0)],dan:d+sg(Math.floor(mF*1.5)+(alpha&&L>=5?2:0)+istrice).replace('+0',''),crit:'20/x2',tipo:'C',nota:'non incantabile'});
+    const ric=st>=1;const lista=bab.map(b=>b+mD+bonusTxc+odG);if(ric)lista.unshift(bab[0]+mD+bonusTxc+odG);
+    att2.push({nome:'Sparaculei',txc:lista,dan:stepD('1d8',tg==='Grande'?1:tg==='Enorme'?2:0)+sg(Math.floor(mD/2)+bonusDan+odG).replace('+0',''),crit:critUp('20/x3'),tipo:autOpt('aculei_differenziati')?'P, C o T':'P',nota:'gittata '+(30+(ric?6:0))+' m (x5)'+(ric?' · colpo extra con attacco completo':'')});
+  }
+  let vel=6+(alpha?3:0)+(odA&&od?3:0);
+  let portata=tg==='Enorme'?4.5:tg==='Grande'?3:1.5;if(alpha)portata+=1.5;
+  const bmc=bab[0]+mF+T.bmc,dmc=10+bab[0]+mF+mD+T.bmc;
+  const inc=[1,2,3,5][st];
+  return {r,M0,tg,For,Des,mF,mD,ca,pf,temp,bab,att:att2,vel,portata,bmc,dmc,inc,st,alpha,
+    ts:{tempra:r.tempra,rif:r.rif+mD,vol:r.vol},rd:st>=3?'RD 10/adamantio':'',ri:alpha&&L>=10?11+L:0};
+}
+
+/* ---------- rendering comune ---------- */
+const main=document.getElementById('main');
+function header(){
+  const sel=document.getElementById('pgSel');
+  sel.innerHTML=Object.entries(G.dati).map(([k,v])=>'<option value="'+k+'"'+(k===G.attivo?' selected':'')+'>'+esc(v.nome||'Senza nome')+'</option>').join('')+'<option value="__nuovo">+ Nuovo personaggio</option>';
+  const arch=S.archetipi.map(a=>ARCH[a].nome).join(', ')||'nessun archetipo';
+  document.getElementById('hdrSub').textContent='Inventore di '+lv()+'° livello · '+arch+(spec()?' · specializzato in '+RAMO_N[spec()].toLowerCase():'')+(S.esempio?' · dati di esempio':'');
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===S.tab));
+}
+function render(){header();({inv:rInv,mech:rMech,mer:rMer,gad:rGad,gioco:rGioco})[S.tab]();save();}
+document.querySelector('nav.tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.tab=b.dataset.tab;render();window.scrollTo(0,0);});
+document.getElementById('pgSel').addEventListener('change',e=>{
+  if(e.target.value==='__nuovo'){const id='p'+Date.now();G.dati[id]=nuovoPg();G.attivo=id;}else G.attivo=e.target.value;
+  S=fill(G.dati[G.attivo]);render();
+});
+const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
+const onAll=(sel,ev,fn)=>main.querySelectorAll(sel).forEach(el=>el.addEventListener(ev,e=>fn(el,e)));
+const kv=(lab,val,sub)=>'<div><small>'+lab+'</small><b>'+val+'</b>'+(sub?'<small>'+sub+'</small>':'')+'</div>';
+const det=(tit,body,tag,open)=>'<details'+(open?' open':'')+'><summary><span>'+tit+'</span>'+(tag||'')+'</summary><div class="txt">'+body+'</div></details>';
+const numIn=(id,lab,val,min,max)=>'<div class="field"><label class="label" for="'+id+'">'+lab+'</label><input id="'+id+'" type="number" inputmode="numeric"'+(min!=null?' min="'+min+'"':'')+(max!=null?' max="'+max+'"':'')+' value="'+esc(val)+'"></div>';
+
+/* =================== TAB INVENTORE =================== */
+function rInv(){
+  const L=lv(),I=calcInv();
+  let h='<section class="panel">';
+  if(S.esempio)h+='<div class="banner">Questo è un personaggio di esempio per vedere come funziona l\'app. Modificalo liberamente o creane uno nuovo dal menu in alto.</div>';
+  h+='<div class="card"><h2>Inventore</h2><div class="grid">'+
+    '<div class="field" style="grid-column:1/-1"><label class="label" for="f-nome">Nome</label><input id="f-nome" value="'+esc(S.nome)+'"></div>'+
+    numIn('f-liv','Livello',L,1,20)+
+    '<div class="field"><label class="label" for="f-tg">Taglia</label><select id="f-tg"><option'+(S.taglia==='Media'?' selected':'')+'>Media</option><option'+(S.taglia==='Piccola'?' selected':'')+'>Piccola</option></select></div>'+
+    '</div><div class="grid6" style="margin-top:10px">'+CAR.map(k=>'<div class="field"><label class="label" for="c-'+k+'">'+k+' <span style="text-transform:none">'+sg(mod(S.car[k]))+'</span></label><input id="c-'+k+'" data-car="'+k+'" type="number" inputmode="numeric" value="'+S.car[k]+'"></div>').join('')+'</div>'+
+    '<div class="row" style="margin-top:10px"><button class="btn sm" id="dup">Duplica</button><button class="btn sm danger" id="del">Elimina</button></div></div>';
+  // riepilogo
+  h+='<div class="card"><h2>Statistiche</h2><div class="kv">'+
+    kv('BAB',esc(I.row.bab))+kv('Tempra',sg(I.ts.tempra))+kv('Riflessi',sg(I.ts.rif))+kv('Volontà',sg(I.ts.vol))+
+    kv('CA',I.ca,'contatto '+I.contatto+' · impr. '+I.impr)+kv('BMC / DMC',sg(I.bmc)+' / '+I.dmc)+kv('Iniziativa',sg(I.iniz))+
+    kv('PF',I.pf,'Fatica '+dividiPF(I.pf).fat+' · Ferita '+dividiPF(I.pf).fer)+kv('CD di classe',cd(),'10 + ½ liv. + Int')+
+    (haMech()?kv('CD mechanus','da '+cdMech(1),'10 + liv. mechanus + Int'):'')+
+    (has('ingegnere_da_campo')?kv('Cauterizzare',dadiRip(),usiRip()+' al giorno'):kv('Riparazioni',dadiRip(),usiRip()+' al giorno'))+
+    '</div>'+(I.arm?'<div class="note" style="margin-top:8px">Armatura: '+esc(I.arm.nome)+' (+'+I.arm.ca+' CA, Des max '+sg(I.arm.maxDes)+', penalità '+I.arm.pen+')'+(I.note.length?' · '+I.note.join(' · '):'')+'</div>':'')+
+    '<details style="margin-top:10px"><summary><span>Armatura, scudo e bonus manuali</span></summary><div class="grid" style="margin-top:8px">'+
+    '<div class="field" style="grid-column:span 2"><label class="label" for="f-arm">Armatura (senza esoscheletro)</label><select id="f-arm"><option value="">Nessuna</option>'+D.eso.armature.filter(a=>a.tipo==='L').map(a=>'<option value="'+a.id+'"'+(S.armaturaNormale===a.id?' selected':'')+'>'+esc(a.nome)+' (+'+a.ca+')</option>').join('')+'</select></div>'+
+    numIn('f-scudo','Scudo CA',S.scudo)+numIn('b-ca','Altri CA',S.bonus.ca)+numIn('b-tempra','Tempra',S.bonus.tempra)+numIn('b-rif','Riflessi',S.bonus.rif)+numIn('b-vol','Volontà',S.bonus.vol)+
+    numIn('b-colpire','Colpire',S.bonus.colpire)+numIn('b-danni','Danni',S.bonus.danni)+
+    '<div class="field"><label class="label" for="f-pfm">PF manuali</label><input id="f-pfm" type="number" placeholder="'+I.pfBase+'" value="'+esc(S.pfMan)+'"></div>'+
+    '</div><div class="note" style="margin-top:6px">PF calcolati: 8 al 1° livello + 5 per livello successivo + Cos per livello. Metà Punti Fatica e metà Punti Ferita (il punto dispari ai Ferita).</div></details></div>';
+  // archetipi
+  h+='<div class="card"><h2>Archetipi</h2><div class="note" style="margin-bottom:8px">Due archetipi che modificano o sostituiscono lo stesso privilegio non si possono combinare.</div><div class="list">';
+  for(const a of D.archetipi){
+    const onA=has(a.id),cf=onA?[]:conflitti(a.id);
+    h+='<label class="check"><input type="checkbox" data-arch="'+a.id+'"'+(onA?' checked':'')+(cf.length?' disabled':'')+'><span><b>'+esc(a.nome)+'</b>'+(a.soloForgiati?' <span class="tag">solo forgiati</span>':'')+(cf.length?' <span class="note warnT">— incompatibile con '+cf.map(x=>ARCH[x].nome).join(', ')+'</span>':'')+'<br><span class="note">'+esc(a.desc)+'</span></span></label>';
+  }
+  h+='</div></div>';
+  // specializzazione
+  if(L>=15){const o=specScelte();
+    h+='<div class="card"><h2>Specializzazione</h2><div class="note" style="margin-bottom:8px">Solo la meraviglia scelta riceve gli aggiornamenti del 15° e del 20° livello. La scelta è definitiva.</div><div class="seg">'+
+      o.map(x=>'<button data-spec="'+x+'" aria-pressed="'+(spec()===x)+'"'+(o.length===1?' disabled':'')+'>'+RAMO_N[x]+'</button>').join('')+'</div>'+(!spec()?'<div class="banner warn" style="margin-top:8px">Scegli la specializzazione.</div>':'')+'</div>';}
+  if(has('androide')&&L>=20)h+='<div class="card"><h2>Iperevoluzione meccanica</h2><div class="seg">'+['For','Des','Cos'].map(k=>'<button data-iper="'+k+'" aria-pressed="'+(S.iper===k)+'">+2 '+k+'</button>').join('')+'</div></div>';
+  // scelte per livello
+  h+='<div class="card"><h2>Gadget, optional e doti</h2><div class="note" style="margin-bottom:8px">Ai livelli dispari fino all\'11° si impara un gadget; ai livelli pari dal 2° al 18° si sceglie un gadget, un optional o una dote.</div><div class="list">';
+  for(const s of slots())h+=rigaSlot(s);
+  const gb=gadgetBonus();
+  if(gb.length)h+='<div class="note">Gadget dell\'archetipo: '+gb.map(g=>esc(GAD[g.id].nome)+' ('+ORD(g.liv)+')').join(', ')+'.</div>';
+  if(has('skitari'))h+='<div class="note">Dote bonus dello skitari: Competenza nelle armi sperimentali.</div>';
+  h+='</div></div>';
+  // privilegi per livello
+  h+='<div class="card"><h2>Progressione</h2><table class="t"><thead><tr><th>Liv.</th><th>BAB</th><th>Tem</th><th>Rif</th><th>Vol</th><th>Privilegi</th></tr></thead><tbody>'+
+    D.tabella.map(r=>'<tr'+(r.liv===L?' class="cur"':'')+'><td>'+ORD(r.liv)+'</td><td>'+esc(r.bab)+'</td><td>'+sg(r.tempra)+'</td><td>'+sg(r.rif)+'</td><td>'+sg(r.vol)+'</td><td>'+esc(r.privilegi)+'</td></tr>').join('')+'</tbody></table>'+
+    '<div style="margin-top:10px">'+D.privilegi.map(p=>det(esc(p.nome),rich(p.testo))).join('')+det('Da sapere prima di mettersi all\'opera',D.daSapere.map(x=>rich(x)).join(''))+'</div></div>';
+  // capacità degli archetipi
+  for(const a of S.archetipi.map(x=>ARCH[x])){
+    h+='<div class="card"><h2>'+esc(a.nome)+'</h2>'+(a.note.length?'<div class="note" style="margin-bottom:6px">'+a.note.map(esc).join('<br>')+'</div>':'')+
+      a.capacita.map(c=>det(esc(c.nome)+' <span class="note">'+ORD(c.liv)+'</span>',rich(c.testo)+(c.sost?'<p class="note"><i>Sostituisce: '+esc(c.sost)+'</i></p>':'')+(c.mod?'<p class="note"><i>Modifica: '+esc(c.mod)+'</i></p>':''),c.liv>L?'<span class="tag">dal '+ORD(c.liv)+'</span>':'<span class="tag acc">attiva</span>')).join('')+'</div>';
+  }
+  h+='</section>';
+  main.innerHTML=h;
+  on('f-nome','change',e=>{S.nome=e.target.value;S.esempio=false;render();});
+  on('f-liv','change',e=>{S.livello=Math.max(1,Math.min(20,+e.target.value||1));S.esempio=false;render();});
+  on('f-tg','change',e=>{S.taglia=e.target.value;render();});
+  onAll('[data-car]','change',(el)=>{S.car[el.dataset.car]=+el.value||10;render();});
+  on('f-arm','change',e=>{S.armaturaNormale=e.target.value;render();});
+  on('f-scudo','change',e=>{S.scudo=+e.target.value||0;render();});
+  ['ca','tempra','rif','vol','colpire','danni'].forEach(k=>on('b-'+k,'change',e=>{S.bonus[k]=+e.target.value||0;render();}));
+  on('f-pfm','change',e=>{S.pfMan=e.target.value;render();});
+  onAll('[data-arch]','change',(el)=>{const id=el.dataset.arch;if(el.checked)S.archetipi.push(id);else S.archetipi=S.archetipi.filter(x=>x!==id);render();});
+  onAll('[data-spec]','click',(el)=>{S.spec=el.dataset.spec;render();});
+  onAll('[data-iper]','click',(el)=>{S.iper=el.dataset.iper;render();});
+  onAll('[data-slot]','change',(el)=>{const n=+el.dataset.slot;const v=el.value;if(!v)delete S.scelte[n];else{const [k,...r]=v.split('|');S.scelte[n]={k,id:r.join('|')};}render();});
+  on('dup','click',()=>{const id='p'+Date.now();G.dati[id]=JSON.parse(JSON.stringify(S));G.dati[id].nome=S.nome+' (copia)';G.dati[id].esempio=false;G.attivo=id;S=G.dati[id];render();});
+  on('del','click',()=>conferma('Eliminare '+S.nome+'?','Elimina',()=>{delete G.dati[G.attivo];const k=Object.keys(G.dati);if(!k.length){const id='p'+Date.now();G.dati[id]=nuovoPg();k.push(id);}G.attivo=k[0];S=fill(G.dati[G.attivo]);render();}));
+}
+function problemaScelta(n,x){
+  if(!x)return '';
+  const altri=Object.entries(S.scelte).filter(([k,v])=>+k!==n&&+k<=lv()&&scelta(+k)&&v.k===x.k&&v.id===x.id);
+  if(x.k==='gadget'){const g=GAD[x.id];if(!g)return 'gadget sconosciuto';if(g.req>n)return 'richiede il '+ORD(g.req)+' livello';if(altri.length||gadgetBonus().some(b=>b.id===x.id))return 'già posseduto';
+    if(/Pilotare/.test(g.reqExtra||''))return '';return '';}
+  if(x.k==='dote'){const d=DOTE[x.id];if(!d)return 'dote sconosciuta';if(d.req>n)return 'richiede il '+ORD(d.req)+' livello';if(altri.length||(has('skitari')&&x.id==='competenza_nelle_armi_sperimentali'))return 'già scelta';
+    for(const p of d.prereq){const ok=Object.entries(S.scelte).some(([k,v])=>+k<n&&scelta(+k)&&v.k==='dote'&&v.id===p);if(!ok)return 'richiede '+(DOTE[p]?DOTE[p].nome:p);}return '';}
+  if(x.k==='optional'){const o=OPTK[x.id];if(!o)return 'optional sconosciuto';if(o.req>n)return 'richiede il '+ORD(o.req)+' livello';if(altri.length)return 'già scelto';
+    if(o.ramo==='tecno'&&!haTecno())return 'l\'archetipo non ha tecno-armi';if(o.ramo==='automaton'&&perde('automaton'))return 'l\'archetipo non ha automaton';if(o.ramo==='eso'&&perde('eso'))return 'l\'archetipo non ha esoscheletri';
+    for(const p of o.prereq||[]){const ok=Object.entries(S.scelte).some(([k,v])=>+k<n&&scelta(+k)&&v.k==='optional'&&v.id===o.ramo+':'+p);if(!ok)return 'richiede '+p.replace(/_/g,' ');}return '';}
+  return '';
+}
+function rigaSlot(s){
+  if(s.arch){const a=ARCH[s.arch];const c=a.capacita.find(c=>(c.sost||'').includes(s.liv+'°'));
+    return '<div class="slot"><span class="lv">'+ORD(s.liv)+'</span><div><span class="note">Sostituito da </span><b>'+esc(c?c.nome:a.nome)+'</b> <span class="tag">'+esc(a.nome)+'</span></div></div>';}
+  const x=S.scelte[s.liv];const pb=problemaScelta(s.liv,x);
+  let o='<option value="">— scegli —</option>';
+  const val=x?x.k+'|'+x.id:'';
+  const opzG=D.gadget.elenco.map(g=>'<option value="gadget|'+g.id+'"'+(val==='gadget|'+g.id?' selected':'')+(g.req>s.liv?' disabled':'')+'>'+esc(g.nome)+(g.req>1?' ('+ORD(g.req)+')':'')+'</option>').join('');
+  if(s.tipo==='gadget')o+=opzG;
+  else{
+    o+='<optgroup label="Gadget">'+opzG+'</optgroup>';
+    for(const r of ['tecno','automaton','eso'])o+='<optgroup label="Optional — '+RAMO_N[r]+'">'+OPT.filter(p=>p.ramo===r).map(p=>'<option value="optional|'+p.key+'"'+(val==='optional|'+p.key?' selected':'')+(p.req>s.liv?' disabled':'')+'>'+esc(p.nome)+(p.req>1?' ('+ORD(p.req)+')':'')+'</option>').join('')+'</optgroup>';
+    o+='<optgroup label="Doti da inventore">'+D.doti.map(d=>'<option value="dote|'+d.id+'"'+(val==='dote|'+d.id?' selected':'')+(d.req>s.liv?' disabled':'')+'>'+esc(d.nome)+(d.req>1?' ('+ORD(d.req)+')':'')+'</option>').join('')+'</optgroup>';
+  }
+  return '<div class="slot'+(pb?' bad':'')+'"><span class="lv">'+ORD(s.liv)+'</span><div><select data-slot="'+s.liv+'" aria-label="Scelta del '+ORD(s.liv)+' livello">'+o+'</select>'+(pb?'<div class="note warnT">'+esc(pb)+'</div>':'')+'</div></div>';
+}
+
+/* =================== TAB MECHANUS =================== */
+function rMech(){
+  const L=lv();let h='<section class="panel">';
+  if(!haMech()){main.innerHTML=h+'<div class="card"><h2>Mechanus</h2><p>'+esc(S.archetipi.filter(a=>ARCH[a].perde.includes('mechanus')).map(a=>ARCH[a].nome).join(', '))+': questo archetipo non costruisce mechanus.</p></div></section>';return;}
+  const lm=mechLivMax();
+  h+='<div class="card"><h2>Mechanus al giorno</h2><table class="t"><thead><tr><th>Livello</th>'+[1,2,3,4,5,6].map(l=>'<th>'+l+'°</th>').join('')+'</tr></thead><tbody>'+
+    '<tr><td>Al giorno</td>'+[1,2,3,4,5,6].map(l=>'<td>'+(l<=lm?mechGiorno(l):'—')+'</td>').join('')+'</tr>'+
+    '<tr><td>Conosciuti</td>'+[1,2,3,4,5,6].map(l=>'<td>'+(l<=lm?conosc(l).length+'/'+mechConoscMax(l):'—')+'</td>').join('')+'</tr>'+
+    '<tr><td>CD</td>'+[1,2,3,4,5,6].map(l=>'<td>'+(l<=lm?cdMech(l):'—')+'</td>').join('')+'</tr></tbody></table>'+
+    '<div class="note" style="margin-top:8px">Progressione del tier 6 più i mechanus bonus da Intelligenza'+(has('mechautarca')?', +1 per livello (mechautarca)':'')+'.'+
+    (hasDote('mechanus_extra')?' Dote Mechanus extra: +1 mechanus al giorno di qualsiasi livello.':'')+
+    (hasDote('cellule_energetiche_argus')&&!has('mechautarca')?' Cellule Argus: '+Math.max(0,INT())+' al giorno (+1 CD).':'')+
+    (has('mechautarca')?' Mechautarca: cellula Argus sempre inserita (già nella CD), +6 m al movimento.':'')+'</div></div>';
+  h+='<input class="search" id="mq" placeholder="Cerca un mechanus…" value="'+esc(S._mq||'')+'">';
+  h+='<div id="mlist"></div></section>';
+  main.innerHTML=h;
+  const draw=q=>{
+    let o='';
+    for(let l=1;l<=6;l++){
+      const el=D.mechanus.elenco.filter(m=>m.liv===l&&(!q||m.nome.toLowerCase().includes(q)||m.testo.toLowerCase().includes(q)));
+      if(!el.length)continue;
+      const k=conosc(l).length,mx=mechConoscMax(l),sbl=l<=lm;
+      o+='<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Mechanus di '+l+'° livello</h2>'+(sbl?'<span class="tag'+(k>mx?' no':'')+'">conosciuti '+k+'/'+mx+'</span>':'<span class="tag">non ancora</span>')+'</div><div class="list" style="margin-top:8px">';
+      for(const m of el){const c=S.mechConosciuti.includes(m.id);const pieno=!c&&k>=mx;
+        o+='<div class="opt'+(sbl?'':' dim')+'"><input type="checkbox" data-mc="'+m.id+'" aria-label="Conosciuto: '+esc(m.nome)+'"'+(c?' checked':'')+(!sbl||pieno?' disabled':'')+'>'+
+          '<details style="border:0;padding:0;background:none"><summary><span>'+esc(m.nome)+(m.consumabile?' <span class="tag">consumabile</span>':'')+'</span></summary><div class="txt">'+rich(m.testo)+'<p class="note">CD '+cdMech(l)+'</p></div></details><span></span></div>';}
+      o+='</div></div>';
+    }
+    document.getElementById('mlist').innerHTML=o||'<div class="note">Nessun risultato.</div>';
+    document.querySelectorAll('[data-mc]').forEach(el=>el.addEventListener('change',()=>{const id=el.dataset.mc;if(el.checked)S.mechConosciuti.push(id);else S.mechConosciuti=S.mechConosciuti.filter(x=>x!==id);save();draw(q);
+      const tr=main.querySelectorAll('table.t tbody tr')[1];if(tr)tr.innerHTML='<td>Conosciuti</td>'+[1,2,3,4,5,6].map(l=>'<td>'+(l<=lm?conosc(l).length+'/'+mechConoscMax(l):'—')+'</td>').join('');}));
+  };
+  draw((S._mq||'').toLowerCase());
+  on('mq','input',e=>{S._mq=e.target.value;draw(e.target.value.toLowerCase().trim());});
+}
+const conosc=l=>S.mechConosciuti.filter(id=>MECH[id]&&MECH[id].liv===l);
+
+/* =================== TAB MERAVIGLIE =================== */
+function rMer(){
+  const subs=[];if(haTecno())subs.push(['tecno','Tecno-arma']);if(haAut()||(!perde('automaton')))subs.push(['aut','Automaton']);if(!perde('eso'))subs.push(['eso','Esoscheletro']);if(has('tecnomante'))subs.push(['emett','Emettitore']);
+  if(!subs.some(s=>s[0]===S.sub))S.sub=subs[0]?subs[0][0]:'';
+  let h='<section class="panel"><div class="seg">'+subs.map(([k,n])=>'<button data-sub="'+k+'" aria-pressed="'+(S.sub===k)+'">'+n+'</button>').join('')+'</div>';
+  h+=({tecno:mTecno,aut:mAut,eso:mEso,emett:mEmett}[S.sub]||(()=>''))();
+  h+='</section>';
+  main.innerHTML=h;
+  onAll('[data-sub]','click',el=>{S.sub=el.dataset.sub;render();});
+  ({tecno:bTecno,aut:bAut,eso:bEso,emett:()=>{}}[S.sub]||(()=>{}))();
+}
+/* --- tecno-arma --- */
+function mTecno(){
+  const L=lv(),T=S.tecno,w=armaT(),st=stadioT(),nm=nodiMaxT(),inst=modsT(),usati=nodiUsati(inst,TMOD);
+  const I=calcInv(),C=calcTecno(I);
+  let h='<div class="card"><h2>Arma base</h2><div class="grid">'+
+    '<div class="field" style="grid-column:1/-1"><label class="label" for="t-arma">Arma</label><select id="t-arma"><option value="">Altra arma (manuale)</option>'+
+    D.arnesi.map(a=>'<option value="'+a.id+'"'+(T.arma===a.id?' selected':'')+'>'+esc(a.nome)+' — '+esc(a.cat.replace('Armi da ',''))+'</option>').join('')+'</select></div>';
+  if(!T.arma||!ARN[T.arma]){const m=T.man;
+    h+='<div class="field" style="grid-column:span 2"><label class="label" for="tm-nome">Nome</label><input id="tm-nome" value="'+esc(m.nome)+'"></div>'+
+      '<div class="field"><label class="label" for="tm-dado">Danni (M)</label><input id="tm-dado" value="'+esc(m.dado)+'"></div>'+
+      '<div class="field"><label class="label" for="tm-crit">Critico</label><input id="tm-crit" value="'+esc(m.critico)+'"></div>'+
+      '<div class="field"><label class="label" for="tm-tipo">Tipo</label><select id="tm-tipo">'+['C','P','T','C e P','P o T','C o T'].map(x=>'<option'+(m.tipo===x?' selected':'')+'>'+x+'</option>').join('')+'</select></div>'+
+      '<div class="field"><label class="label" for="tm-cat">Categoria</label><select id="tm-cat">'+[['leggera','Mischia leggera'],['una','Mischia a una mano'],['due','Mischia a due mani'],['tiro','A distanza']].map(([k,n])=>'<option value="'+k+'"'+(m.cat===k?' selected':'')+'>'+n+'</option>').join('')+'</select></div>'+
+      '</div><div class="row" style="margin-top:8px"><label class="check"><input type="checkbox" id="tm-lancio"'+(m.lancio?' checked':'')+'>Da lancio</label><label class="check"><input type="checkbox" id="tm-fuoco"'+(m.fuoco?' checked':'')+'>Arma da fuoco</label>'+(m.cat==='tiro'?'<label class="check"><input type="checkbox" id="tm-2m"'+(m.dueMani?' checked':'')+'>A due mani</label>':'')+'</div><div class="grid" style="margin-top:8px">';
+  }
+  h+=numIn('t-pot','Potenziamento',T.pot,0,5)+'</div>'+
+    (w.cat!=='tiro'&&!w.fuoco?'<label class="check" style="margin-top:8px"><input type="checkbox" id="t-acc"'+(T.accurata?' checked':'')+'>Usa la Destrezza per colpire (Arma accurata)</label>':'')+
+    '<div class="note" style="margin-top:8px">'+esc(w.nome)+': '+esc(C.dado)+', '+esc(w.critico)+', '+esc(w.tipo)+(w.speciale&&w.speciale!=='—'?', '+esc(w.speciale):'')+(w.gittata&&w.gittata!=='—'?', gittata '+esc(w.gittata):'')+'.</div></div>';
+  // scheda
+  h+='<div class="card"><h2>Tecno-arma</h2><div class="kv">'+kv('Cariche',caricheTecno(),'½ liv. + Int'+(hasOpt('tecno:riciclatore_energetico_per_tecno_armi')?' + 2':'')+(has('ingegnere_da_campo')?' + 1':''))+kv('Stadio',STADIO_TL[st]+'°',STADIO_N[st])+kv('Nodi',usati+'/'+nm,'limite: stadio e Int')+'</div>'+
+    '<div class="atk" style="margin-top:10px"><div class="l"><span>'+esc(w.nome)+(T.pot?' +'+T.pot:'')+'</span><span>'+C.bab.map(sg).join('/')+' ('+C.dado+sg(C.dan).replace(/\+0$/,'')+(C.ext.length?' '+C.ext.join(', '):'')+'; '+esc(C.crit)+')</span></div></div>'+
+    '<div class="note" style="margin-top:6px">'+(C.usaDes?'Destrezza':'Forza')+' al tiro per colpire'+(specialista()?' · Specialista delle tecno-armi '+sg(specialista()):'')+'. Le modifiche attive si accendono dalla scheda In gioco.</div></div>';
+  // modifiche
+  h+='<div class="nodi'+(usati>nm?' over':'')+'"><span>Nodi installati</span><b>'+usati+' / '+nm+'</b></div>';
+  for(let s=0;s<=4;s++){
+    const el=D.tecno.mods.filter(m=>m.stadio===s);
+    const blocco=s>st;const spn=s>=3&&spec()!=='tecno';
+    h+='<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">'+STADIO_N[s]+'</h2><span class="tag'+(blocco?'':' acc')+'">'+(blocco?(spn&&lv()>=15?'solo specializzazione':'dal '+ORD(STADIO_TL[s])):'disponibile')+'</span></div><div class="list" style="margin-top:8px">';
+    for(const m of el){
+      const i=inst.includes(m.id);const pb=blocco?'':modOk(m,inst.filter(x=>x!==m.id),TMOD,w);
+      const troppi=!i&&usati+m.nodi>nm;
+      h+='<div class="opt'+(i&&pb?' bad':'')+(blocco?' dim':'')+'"><input type="checkbox" data-tm="'+m.id+'" aria-label="Installa '+esc(m.nome)+'"'+(i?' checked':'')+((blocco||(!i&&(pb||troppi)))?' disabled':'')+'>'+
+        '<details style="border:0;padding:0;background:none"><summary><span>'+esc(m.nome)+(m.passiva?' <span class="tag">passiva</span>':'')+(m.sempre?' <span class="tag">sempre attiva</span>':'')+'</span></summary><div class="txt">'+rich(m.testo)+'</div></details><span class="tag cb">'+m.nodi+' n</span>'+
+        (pb&&!blocco?'<span></span><span class="note warnT">'+esc(pb)+'</span><span></span>':'')+'</div>';
+    }
+    h+='</div></div>';
+  }
+  const op=D.tecno.optional.filter(o=>hasOpt('tecno:'+o.id));
+  h+='<div class="card"><h2>Optional appresi</h2>'+(op.length?op.map(o=>det(esc(o.nome),rich(o.testo))).join(''):'<div class="note">Nessuno. Gli optional si scelgono ai livelli pari nella scheda Inventore.</div>')+'</div>';
+  h+='<div class="card"><h2>Regole</h2>'+D.tecno.regole.map(r=>det(esc(r.nome),rich(r.testo))).join('')+'</div>';
+  return h;
+}
+function bTecno(){
+  const T=S.tecno;
+  on('t-arma','change',e=>{T.arma=e.target.value;render();});
+  on('t-pot','change',e=>{T.pot=Math.max(0,Math.min(5,+e.target.value||0));render();});
+  on('t-acc','change',e=>{T.accurata=e.target.checked;render();});
+  const m=T.man;
+  on('tm-nome','change',e=>{m.nome=e.target.value;render();});on('tm-dado','change',e=>{m.dado=e.target.value.trim();render();});
+  on('tm-crit','change',e=>{m.critico=e.target.value.trim();render();});on('tm-tipo','change',e=>{m.tipo=e.target.value;render();});
+  on('tm-cat','change',e=>{m.cat=e.target.value;render();});on('tm-lancio','change',e=>{m.lancio=e.target.checked;render();});
+  on('tm-fuoco','change',e=>{m.fuoco=e.target.checked;render();});on('tm-2m','change',e=>{m.dueMani=e.target.checked;render();});
+  onAll('[data-tm]','change',el=>{const id=el.dataset.tm;if(el.checked)T.mods.push(id);else{T.mods=T.mods.filter(x=>x!==id);S.gioco.attiviT=S.gioco.attiviT.filter(x=>x!==id);}render();});
+}
+/* --- automaton --- */
+function mAut(){
+  const L=lv();
+  if(perde('automaton'))return '<div class="card"><p>Questo archetipo non costruisce automaton.</p></div>';
+  if(L<3)return '<div class="card"><h2>Automaton</h2><p>L\'inventore impara a costruire gli automaton al 3° livello.</p></div>';
+  const A=S.aut,X=calcAut(),st=X.st;
+  let h='<div class="card"><h2>Modello</h2><div class="seg">'+['destructor','defensor','sagittar'].map(k=>'<button data-mod="'+k+'" aria-pressed="'+(A.modello===k)+'">'+D.automaton.modelli[k].nome+'</button>').join('')+'</div>'+
+    '<div class="txt note" style="margin-top:8px">'+D.automaton.modelli[A.modello].righe.map(rich).join('')+'</div>'+
+    '<div class="grid" style="margin-top:8px">'+numIn('a-ia','Incant. arma',A.incArma,0,X.inc)+numIn('a-is','Incant. scocca',A.incScocca,0,X.inc)+'</div><div class="note">Incantamenti massimi: +'+X.inc+' ciascuno.</div>'+
+    (st>=1&&!(X.alpha&&A.optimus&&L>=20)?'<label class="check" style="margin-top:8px"><input type="checkbox" id="a-gr"'+(A.grande?' checked':'')+'>Aumento di taglia: Grande</label>':'')+
+    (X.alpha&&L>=20?'<label class="check" style="margin-top:8px"><input type="checkbox" id="a-op"'+(A.optimus?' checked':'')+'>Scocca “Optimus prime”: Enorme</label>':'')+'</div>';
+  const pf=X.pf;
+  h+='<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">'+(X.alpha?'Automaton alpha':'Automaton')+' '+esc(X.M0.nome)+'</h2><span class="tag">'+X.tg+' · costrutto</span></div><div class="kv" style="margin-top:10px">'+
+    kv('PF',pf,'10 + 6/DV + bonus'+(X.temp?' · +'+X.temp+' temp.':''))+kv('CA',X.ca)+kv('DV',X.r.dv)+kv('BAB',esc(X.r.bab))+
+    kv('Tempra',sg(X.ts.tempra))+kv('Riflessi',sg(X.ts.rif))+kv('Volontà',sg(X.ts.vol))+
+    kv('For',X.For,sg(X.mF))+kv('Des',X.Des,sg(X.mD))+kv('BMC / DMC',sg(X.bmc)+' / '+X.dmc)+kv('Velocità',X.vel+' m')+kv('Portata',String(X.portata).replace('.',',')+' m')+
+    (X.ri?kv('RI',X.ri):'')+(X.rd?kv('RD','10/adam.'):'')+'</div>'+
+    '<div class="atk" style="margin-top:10px">'+X.att.map(a=>'<div class="l"><span>'+esc(a.nome)+(a.nota?' <span class="note">'+esc(a.nota)+'</span>':'')+'</span><span>'+a.txc.map(sg).join('/')+' ('+esc(a.dan)+' '+esc(a.tipo)+'; '+esc(a.crit)+')</span></div>').join('')+'</div>'+
+    '<div class="note" style="margin-top:6px">Schianto come unico attacco naturale: 1½ × Forza ai danni. A 0 PF è <span class="cond">barcollante</span>, a −15 PF è distrutto. Car 1, immune a Tempra (salvo effetti su oggetti).</div></div>';
+  // stadi
+  const STN=['Funzionalità di base','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'];
+  for(let s=0;s<=3;s++){
+    const v=D.automaton.voci.filter(x=>x.stadio===s&&x.modelli.includes(A.modello)&&!x.nome.startsWith('Incantamenti'));
+    const blocco=s>st;
+    h+='<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">'+STN[s]+'</h2><span class="tag'+(blocco?'':' acc')+'">'+(blocco?(s>=2&&L>=15?'solo specializzazione':'dal '+ORD(STADIO_AL[s])):'attivo')+'</span></div><div style="margin-top:8px">'+v.map(x=>det(esc(x.nome),rich(x.testo))).join('')+'</div></div>';
+  }
+  if(X.alpha){const AL=ARCH.mechautarca.capacita.find(c=>c.nome==='Automaton alpha');h+='<div class="card"><h2>Migliorie alpha</h2>'+det('Automaton alpha',rich(AL.testo),'',true)+'</div>';}
+  const op=D.automaton.optional.filter(o=>hasOpt('automaton:'+o.id));
+  h+='<div class="card"><h2>Optional appresi</h2>'+(op.length?op.map(o=>det(esc(o.nome)+(o.modelli.includes(A.modello)?'':' <span class="tag no">non per questo modello</span>'),rich(o.testo))).join(''):'<div class="note">Nessuno. Gli optional si scelgono ai livelli pari nella scheda Inventore.</div>')+'</div>';
+  h+='<div class="card"><h2>Regole</h2>'+D.automaton.regole.map(r=>det(esc(r.nome),rich(r.testo))).join('')+'</div>';
+  return h;
+}
+function bAut(){
+  const A=S.aut;
+  onAll('[data-mod]','click',el=>{A.modello=el.dataset.mod;render();});
+  on('a-ia','change',e=>{A.incArma=Math.max(0,Math.min(calcAut().inc,+e.target.value||0));render();});
+  on('a-is','change',e=>{A.incScocca=Math.max(0,Math.min(calcAut().inc,+e.target.value||0));render();});
+  on('a-gr','change',e=>{A.grande=e.target.checked;render();});
+  on('a-op','change',e=>{A.optimus=e.target.checked;render();});
+}
+/* --- esoscheletro --- */
+function mEso(){
+  const L=lv();
+  if(!haEso())return '<div class="card"><h2>Esoscheletro</h2><p>L\'inventore impara a costruire gli esoscheletri al '+(has('cibernetico')?'3°':'5°')+' livello.</p></div>';
+  const st=stadioE(),nm=nodiMaxE(),cib=has('cibernetico');
+  let h='';
+  if(!cib)h+='<div class="card"><h2>Tipo</h2><div class="seg">'+[['L','Leggero'],['P','Pesante']].map(([k,n])=>'<button data-et="'+k+'" aria-pressed="'+(S.esoTipo===k)+'">'+n+'</button>').join('')+'</div><div class="note" style="margin-top:6px">Un inventore può avere un solo esoscheletro: cambiare tipo significa smantellarlo e costruirne un altro.</div></div>';
+  else h+='<div class="banner">Cibernetico: esoscheletro leggero e pesante attivi insieme (se ne indossa uno alla volta).</div>';
+  for(const t of esoTipi()){
+    const e=S.esos[t],inst=esoMods(t),usati=nodiUsati(inst,EMOD),a=ARM[e.armatura];
+    h+='<div class="card"><h2>Esoscheletro '+(t==='L'?'leggero':'pesante')+'</h2><div class="grid">'+
+      '<div class="field" style="grid-column:span 2"><label class="label" for="e-arm-'+t+'">Armatura base</label><select id="e-arm-'+t+'" data-earm="'+t+'"><option value="">— scegli —</option>'+D.eso.armature.filter(x=>x.tipo===t).map(x=>'<option value="'+x.id+'"'+(e.armatura===x.id?' selected':'')+'>'+esc(x.nome)+' (+'+x.ca+')</option>').join('')+'</select></div>'+
+      '<div class="field"><label class="label" for="e-pot-'+t+'">Potenziamento</label><input id="e-pot-'+t+'" data-epot="'+t+'" type="number" min="0" max="5" value="'+(+e.pot||0)+'"></div></div>'+
+      (a?'<div class="kv" style="margin-top:10px">'+kv('Bonus armatura','+'+(a.ca+1+(+e.pot||0)),'base '+a.ca+' + 1 migliorata'+(e.pot?' + '+e.pot:''))+kv('Des max',sg(a.maxDes))+kv('Penalità',Math.min(0,a.pen+1))+kv('Cariche',caricheEso())+kv('Nodi',usati+'/'+nm)+(potStrutt(t)?kv('Potenziamento',sg(potStrutt(t)),t==='L'?'Destrezza':'Forza'):'')+'</div>'+(a.speciale?'<div class="note" style="margin-top:6px">Qualità: '+esc(a.speciale)+(/Scomoda/.test(a.speciale)&&hasOpt('eso:imbottitura_deluxe')?' (Scomoda ignorata: Imbottitura deluxe)':'')+'.</div>':''):'<div class="note" style="margin-top:8px">Scegli l\'armatura base (perfetta o magica).</div>')+'</div>';
+    h+='<div class="nodi'+(usati>nm?' over':'')+'"><span>Nodi installati ('+(t==='L'?'leggero':'pesante')+')</span><b>'+usati+' / '+nm+'</b></div>';
+    for(let s=0;s<=3;s++){
+      const el=D.eso.mods.filter(m=>m.stadio===s&&(m.tipo==='C'||m.tipo===t));
+      const blocco=s>st;
+      h+='<details'+(s===st?' open':'')+'><summary><span>'+['Funzionalità di base','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'][s]+'</span><span class="tag'+(blocco?'':' acc')+'">'+(blocco?(s>=2&&L>=15?'solo specializzazione':'dal '+ORD(STADIO_EL[s])):'disponibile')+'</span></summary><div class="list" style="margin-top:8px">';
+      for(const m of el){
+        if(m.auto){h+='<div class="opt"><input type="checkbox" checked disabled aria-label="'+esc(m.nome)+'"><details style="border:0;padding:0;background:none"><summary><span>'+esc(m.nome)+' <span class="tag">sempre attiva</span></span></summary><div class="txt">'+rich(m.testo)+'</div></details><span class="tag cb">0 n</span></div>';continue;}
+        const i=inst.includes(m.id);const scop=S.scoperte.slice(0,scoperteMax()).some(x=>x&&x.tipo===t&&x.id===m.id);
+        const pb=blocco?'':modOk(m,inst.filter(x=>x!==m.id),EMOD,null);
+        const troppi=!i&&usati+m.nodi>nm;
+        h+='<div class="opt'+(i&&pb?' bad':'')+(blocco?' dim':'')+'"><input type="checkbox" data-em="'+t+'|'+m.id+'" aria-label="Installa '+esc(m.nome)+'"'+(i?' checked':'')+((blocco||(!i&&(pb||troppi)))?' disabled':'')+'>'+
+          '<details style="border:0;padding:0;background:none"><summary><span>'+esc(m.nome)+(m.passiva?' <span class="tag">passiva</span>':'')+(m.sempre?' <span class="tag">sempre attiva</span>':'')+(scop?' <span class="tag acc">scoperta</span>':'')+'</span></summary><div class="txt">'+rich(m.testo)+(m.incompatSpeciale?'<p class="note">Non si combina con la capacità speciale '+esc(m.incompatSpeciale)+' dell\'armatura base.</p>':'')+'</div></details><span class="tag cb">'+m.nodi+' n</span></div>';
+      }
+      h+='</div></details>';
+    }
+  }
+  if(cib){
+    const sm=scoperteMax(),im=innestiMax();
+    const opzMod=(sel,base)=>'<option value="">— scegli —</option>'+['L','P'].map(t=>'<optgroup label="'+(t==='L'?'Leggero':'Pesante')+'">'+D.eso.mods.filter(m=>!m.auto&&(m.tipo==='C'||m.tipo===t)&&m.stadio<=(base?0:stadioE())&&!(base&&/potenziamento_strutturale/.test(m.id))).map(m=>'<option value="'+t+'|'+m.id+'"'+(sel&&sel.tipo===t&&sel.id===m.id?' selected':'')+'>'+esc(m.nome)+'</option>').join('')+'</optgroup>').join('');
+    h+='<div class="card"><h2>Scoperte sugli esoscheletri</h2><div class="note" style="margin-bottom:8px">Al 3°, 7°, 11°, 15° e 19° livello: una modifica in più che non occupa nodi.</div><div class="list">'+
+      [3,7,11,15,19].slice(0,sm).map((n,i)=>'<div class="slot"><span class="lv">'+ORD(n)+'</span><select data-scop="'+i+'">'+opzMod(S.scoperte[i],false)+'</select></div>').join('')+'</div></div>';
+    if(im)h+='<div class="card"><h2>Innesti permanenti</h2><div class="note" style="margin-bottom:8px">Una modifica della Funzionalità di base (esclusi i potenziamenti strutturali) sempre attiva, anche senza esoscheletro.</div><div class="list">'+
+      [6,12,18].slice(0,im).map((n,i)=>'<div class="slot"><span class="lv">'+ORD(n)+'</span><select data-inn="'+i+'">'+opzMod(S.innesti[i],true)+'</select></div>').join('')+'</div></div>';
+  }
+  const op=D.eso.optional.filter(o=>hasOpt('eso:'+o.id));
+  h+='<div class="card"><h2>Optional appresi</h2>'+(op.length?op.map(o=>det(esc(o.nome),rich(o.testo))).join(''):'<div class="note">Nessuno. Gli optional si scelgono ai livelli pari nella scheda Inventore.</div>')+'</div>';
+  h+='<div class="card"><h2>Regole</h2>'+D.eso.regole.map(r=>det(esc(r.nome),rich(r.testo))).join('')+'</div>';
+  return h;
+}
+function bEso(){
+  onAll('[data-et]','click',el=>{S.esoTipo=el.dataset.et;render();});
+  onAll('[data-earm]','change',el=>{S.esos[el.dataset.earm].armatura=el.value;render();});
+  onAll('[data-epot]','change',el=>{S.esos[el.dataset.epot].pot=Math.max(0,Math.min(5,+el.value||0));render();});
+  onAll('[data-em]','change',el=>{const [t,id]=el.dataset.em.split('|');const e=S.esos[t];if(el.checked)e.mods.push(id);else{e.mods=e.mods.filter(x=>x!==id);}render();});
+  onAll('[data-scop]','change',el=>{const [t,id]=el.value.split('|');S.scoperte[+el.dataset.scop]=el.value?{tipo:t,id}:null;render();});
+  onAll('[data-inn]','change',el=>{const [t,id]=el.value.split('|');S.innesti[+el.dataset.inn]=el.value?{tipo:t,id}:null;render();});
+}
+/* --- emettitore (tecnomante) --- */
+function roundEmett(){return Math.max(0,(lv()>=20?5:3)*INT());}
+function mEmett(){
+  const L=lv(),c=ARCH.tecnomante.capacita;
+  const raggio=L>=10?'10,5 m':L>=5?'7,5 m':'4,5 m';
+  let h='<div class="card"><h2>Emettitore di campo logico</h2><div class="kv">'+kv('Round al giorno',roundEmett(),(L>=20?'5':'3')+' × Int')+kv('Raggio',raggio)+kv('Attivazione',L>=10?'veloce':'movimento')+
+    (L>=6?kv('Accumulatori Tesla',Math.floor(L/2)+'d6','linea 12 m · CD '+cd()):'')+'</div></div>';
+  h+='<div class="card">'+c.map(x=>det(esc(x.nome)+' <span class="note">'+ORD(x.liv)+'</span>',rich(x.testo),x.liv>L?'<span class="tag">dal '+ORD(x.liv)+'</span>':'')).join('')+'</div>';
+  return h;
+}
+
+/* =================== TAB GADGET =================== */
+function rGad(){
+  const L=lv();let h='<section class="panel">';
+  const mine=gadgets();
+  h+='<div class="card"><h2>I miei gadget</h2>';
+  if(!mine.length)h+='<div class="note">Nessun gadget: si scelgono nella scheda Inventore.</div>';
+  for(const x of mine){const g=GAD[x.id];h+=det(esc(g.nome)+(x.bonus?' <span class="tag">archetipo</span>':''),gadInfo(g)+rich(g.testo),gadTag(g));}
+  h+='</div>';
+  const dt=[...doti()];
+  h+='<div class="card"><h2>Doti da inventore</h2>'+(dt.length?dt.map(id=>det(esc(DOTE[id].nome),rich(DOTE[id].testo),'<span class="tag">'+esc(DOTE[id].cat)+'</span>')).join(''):'<div class="note">Nessuna dote.</div>')+'</div>';
+  const op=[...optional()].map(k=>OPTK[k]).filter(Boolean);
+  h+='<div class="card"><h2>Optional</h2>'+(op.length?op.map(o=>det(esc(o.nome),rich(o.testo),'<span class="tag">'+RAMO_N[o.ramo]+'</span>')).join(''):'<div class="note">Nessun optional.</div>')+'</div>';
+  // catalogo
+  h+='<div class="card"><h2>Catalogo dei gadget</h2><div class="note" style="margin-bottom:8px">Tutti i gadget del manuale. Quelli già posseduti sono evidenziati.</div>';
+  const cats=[...new Set(D.gadget.elenco.map(g=>g.cat))];
+  for(const c of cats){
+    h+='<h3 style="margin:10px 0 6px">'+esc(c)+'</h3>';
+    for(const g of D.gadget.elenco.filter(x=>x.cat===c))h+=det(esc(g.nome)+(hasGad(g.id)?' <span class="tag acc">posseduto</span>':''),gadInfo(g)+rich(g.testo),g.req>L?'<span class="tag">dal '+ORD(g.req)+'</span>':'');
+  }
+  h+='</div><div class="card"><h2>Regole dei gadget</h2>'+D.gadget.regole.map(r=>det(esc(r.nome),rich(r.testo))).join('')+'</div></section>';
+  main.innerHTML=h;
+}
+function gadTag(g){const L=lv();const m=g.migliorie.filter(x=>x<=L+(hasDote('fanatico_dei_gadget')?2:0));return m.length?'<span class="tag acc">migliorie: '+m.map(ORD).join(', ')+'</span>':'';}
+function gadInfo(g){
+  const r=[];
+  if(g.req>1)r.push('Requisito: '+ORD(g.req)+' livello'+(g.reqExtra?', '+g.reqExtra:''));
+  else if(g.reqExtra)r.push('Requisito: '+g.reqExtra);
+  if(g.sperimentale){r.push('Arma sperimentale'+(hasDote('competenza_nelle_armi_sperimentali')?'':' — serve la dote Competenza nelle armi sperimentali'));
+    if(has('skitari')){const L=lv();r.push('Skitari: conta come livello '+(L+(L>=10?2:1))+', '+(L>=16?3:2)+' attivazioni al giorno (1 ora tra una e l\'altra), CD '+(cd()+(L>=7?2:L>=4?1:0)));}
+    else r.push('CD '+cd());}
+  const ch=caricheGad(g);if(ch)r.push('Cariche: '+ch);
+  if(g.usi)r.push(g.usi+' attivazioni al giorno');
+  return r.length?'<p class="note">'+r.map(esc).join(' · ')+'</p>':'';
+}
+function caricheGad(g){
+  const I=Math.max(0,INT());
+  if(g.id==='scanner'){if(has('tecno_infiltratore')&&lv()>=5)return 5+I;return 3+I;}
+  if(g.id==='lente_analitica')return 3+I;
+  if(g.id==='voltometro_a_campo_logico')return 3+2*I;
+  return 0;
+}
+
+/* =================== TAB IN GIOCO =================== */
+function contatore(key,lab,max,sub){
+  const G2=S.gioco;const used=Math.min(max,+(key.split('.').reduce((o,k)=>o?o[k]:0,G2))||0);const left=max-used;
+  return '<div class="ctr"><div><b style="text-align:left;display:inline;min-width:0">'+esc(lab)+'</b>'+(sub?'<div class="note">'+sub+'</div>':'')+'<div class="bar"><i'+(left<=max/4?' class="low"':'')+' style="width:'+(max?left/max*100:0)+'%"></i></div></div>'+
+    '<div class="pips"><button class="btn sm" data-ctr="'+key+'" data-d="1"'+(left<=0?' disabled':'')+' aria-label="Usa">−</button><b>'+left+'/'+max+'</b><button class="btn sm" data-ctr="'+key+'" data-d="-1"'+(used<=0?' disabled':'')+' aria-label="Recupera">+</button></div></div>';
+}
+function rGioco(){
+  const L=lv(),Gg=S.gioco,I=calcInv();
+  let h='<section class="panel"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Giornata</h2><button class="btn pri" id="alba">Nuova alba</button></div>';
+  // PF
+  const pf=dividiPF(I.pf);const fat=Gg.pfFat==null?pf.fat:Gg.pfFat,fer=Gg.pfFer==null?pf.fer:Gg.pfFer;
+  h+='<div class="card"><h2>'+esc(S.nome)+'</h2><div class="grid">'+numIn('g-fat','Punti Fatica (max '+pf.fat+')',fat)+numIn('g-fer','Punti Ferita (max '+pf.fer+')',fer)+
+    '<div class="field"><label class="label" for="g-dan">Danni subiti</label><input id="g-dan" type="number" inputmode="numeric" placeholder="0"></div></div>'+
+    '<div class="note" style="margin-top:6px">I danni colpiscono prima i Punti Fatica.</div>';
+  const es=esoTipi();
+  if(es.length)h+='<div class="seg" style="margin-top:10px"><button data-ind="" aria-pressed="'+(!indossa())+'">Senza esoscheletro</button>'+es.map(t=>'<button data-ind="'+t+'" aria-pressed="'+(indossa()===t)+'">'+(t==='L'?'Leggero':'Pesante')+'</button>').join('')+'</div>';
+  h+='<div class="kv" style="margin-top:10px">'+kv('CA',I.ca,'cont. '+I.contatto+' · impr. '+I.impr)+kv('For',I.c.For,sg(I.M.For))+kv('Des',I.c.Des,sg(I.M.Des))+kv('Tempra',sg(I.ts.tempra))+kv('Riflessi',sg(I.ts.rif))+kv('Volontà',sg(I.ts.vol))+kv('BMC / DMC',sg(I.bmc)+' / '+I.dmc)+'</div></div>';
+  // riserve
+  h+='<div class="card"><h2>Riserve</h2><div class="list">';
+  h+=contatore('rip',has('ingegnere_da_campo')?'Cauterizzare ('+dadiRip()+')':'Riparazioni ('+dadiRip()+')',usiRip(),has('ingegnere_da_campo')?'cura sé stesso; senza AdO la cura è dimezzata':'dimezzate su costrutti non propri');
+  if(haTecno())h+=contatore('tecnoC','Cariche della tecno-arma',caricheTecno());
+  for(const t of es)h+=contatore('esoC.'+t,'Cariche esoscheletro '+(t==='L'?'leggero':'pesante'),caricheEso());
+  if(has('tecnomante'))h+=contatore('emett','Emettitore (round)',roundEmett());
+  if(hasDote('cellule_energetiche_argus')&&!has('mechautarca'))h+=contatore('argus','Cellule Argus',Math.max(0,INT()));
+  for(const x of gadgets()){const g=GAD[x.id];const c=caricheGad(g)||g.usi||(g.sperimentale?(has('skitari')?(L>=16?3:2):1):0);if(c)h+=contatore('gadget.'+g.id,g.nome,c,g.sperimentale&&!hasDote('competenza_nelle_armi_sperimentali')?'serve la dote Competenza nelle armi sperimentali':'');}
+  h+='</div></div>';
+  // mechanus
+  if(haMech()){
+    h+='<div class="card"><h2>Mechanus</h2><div class="list">';
+    for(let l=1;l<=mechLivMax();l++)h+=contatore('mech.'+(l-1),'Mechanus di '+l+'° livello',mechGiorno(l),'CD '+cdMech(l)+' · conosciuti: '+(conosc(l).map(id=>MECH[id].nome).join(', ')||'nessuno'));
+    if(hasDote('mechanus_extra'))h+=contatore('jolly','Mechanus extra (qualsiasi livello)',1);
+    h+='</div></div>';
+  }
+  // tecno-arma in combattimento
+  if(haTecno()){
+    const C=calcTecno(I),inst=modsT().filter(id=>!TMOD[id].sempre);
+    h+='<div class="card"><h2>Tecno-arma</h2><div class="atk"><div class="l"><span>'+esc(C.w.nome)+'</span><span>'+C.bab.map(sg).join('/')+' ('+C.dado+sg(C.dan).replace(/\+0$/,'')+(C.ext.length?' '+C.ext.join(', '):'')+'; '+esc(C.crit)+')</span></div></div>';
+    if(inst.length)h+='<div class="label" style="margin-top:10px">Modifiche attive (1 carica, 1 minuto)</div><div class="chips" style="margin-top:6px">'+inst.map(id=>'<button class="chip" data-att="T|'+id+'" aria-pressed="'+Gg.attiviT.includes(id)+'">'+esc(TMOD[id].nome)+'</button>').join('')+'</div><div class="note" style="margin-top:6px">Accendere una modifica spende 1 carica.</div>';
+    h+='</div>';
+  }
+  // esoscheletro in combattimento
+  if(indossa()){
+    const t=indossa(),inst=esoAttive(t).filter(id=>!EMOD[id].sempre&&!EMOD[id].auto);
+    if(inst.length)h+='<div class="card"><h2>Esoscheletro '+(t==='L'?'leggero':'pesante')+'</h2><div class="chips">'+inst.map(id=>'<button class="chip" data-att="E|'+id+'" aria-pressed="'+Gg.attiviE.includes(id)+'">'+esc(EMOD[id].nome)+'</button>').join('')+'</div><div class="note" style="margin-top:6px">Accendere una modifica spende 1 carica.</div></div>';
+  }
+  if(has('cibernetico')&&S.innesti.filter(Boolean).length)h+='<div class="card"><h2>Innesti permanenti</h2><div class="note">'+S.innesti.filter(Boolean).map(x=>esc(EMOD[x.id]?EMOD[x.id].nome:x.id)).join(', ')+' — sempre attivi, senza cariche.</div></div>';
+  // automaton
+  if(haAut()){
+    const X=calcAut();const cur=Gg.autPF==null?X.pf:Gg.autPF;const tmp=Gg.autTemp==null?X.temp:Gg.autTemp;
+    h+='<div class="card"><h2>Automaton '+esc(X.M0.nome)+'</h2><div class="grid">'+numIn('g-apf','PF (max '+X.pf+')',cur)+(X.temp?numIn('g-atmp','PF temporanei',tmp):'')+
+      '<div class="field"><label class="label" for="g-adan">Danni</label><input id="g-adan" type="number" inputmode="numeric" placeholder="0"></div></div>'+
+      (cur<=0?'<div class="banner warn" style="margin-top:8px">A 0 PF o meno l\'automaton è <span class="cond">barcollante</span>; a −15 PF è distrutto.</div>':'')+
+      '<div class="kv" style="margin-top:10px">'+kv('CA',X.ca)+kv('Tempra',sg(X.ts.tempra))+kv('Riflessi',sg(X.ts.rif))+kv('Volontà',sg(X.ts.vol))+'</div>'+
+      '<div class="atk" style="margin-top:10px">'+X.att.map(a=>'<div class="l"><span>'+esc(a.nome)+'</span><span>'+a.txc.map(sg).join('/')+' ('+esc(a.dan)+'; '+esc(a.crit)+')</span></div>').join('')+'</div>';
+    const odK={destructor:'modulo_overdrive_alpha',defensor:'modulo_overdrive_beta',sagittar:'modulo_overdrive_gamma'}[S.aut.modello];
+    if(autOpt(odK))h+='<div class="row" style="margin-top:10px"><button class="chip" id="od" aria-pressed="'+!!Gg.overdriveOn+'">'+esc(OPTK['automaton:'+odK].nome)+' ('+(1+Math.floor(Math.max(0,INT())/2))+' round)</button><span class="note">'+(Gg.overdrive?'usato oggi':'1 al giorno')+'</span></div>';
+    if(autOpt('modulo_di_difesa_istrice'))h+='<div class="row" style="margin-top:6px"><button class="chip" id="ist" aria-pressed="'+!!Gg.istrice+'">Punte “Istrice” fuori</button></div>';
+    h+='</div>';
+  }
+  h+='<div class="card"><h2>Appunti</h2><textarea id="g-note" style="width:100%;min-height:80px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit">'+esc(Gg.note)+'</textarea></div>';
+  h+='</section>';
+  main.innerHTML=h;
+  onAll('[data-ctr]','click',el=>{const ks=el.dataset.ctr.split('.');let o=S.gioco;for(let i=0;i<ks.length-1;i++){if(o[ks[i]]==null)o[ks[i]]={};o=o[ks[i]];}const k=ks[ks.length-1];o[k]=Math.max(0,(+o[k]||0)+(+el.dataset.d));render();});
+  on('alba','click',()=>conferma('Nuova alba: ripristinare cariche, usi e mechanus?','Ripristina',()=>{const g=S.gioco;Object.assign(g,{rip:0,mech:[0,0,0,0,0,0],jolly:0,argus:0,tecnoC:0,esoC:{L:0,P:0},emett:0,gadget:{},overdrive:0,overdriveOn:false,attiviT:[],attiviE:[],autTemp:null});render();}));
+  on('g-fat','change',e=>{Gg.pfFat=+e.target.value;render();});
+  on('g-fer','change',e=>{Gg.pfFer=+e.target.value;render();});
+  on('g-dan','change',e=>{let d=+e.target.value||0;let f=fat,r=fer;if(d>0){const a=Math.min(Math.max(0,f),d);f-=a;r-=d-a;}else{r=Math.min(pf.fer,r-d);}Gg.pfFat=f;Gg.pfFer=r;render();});
+  onAll('[data-ind]','click',el=>{Gg.indossa=el.dataset.ind;Gg.attiviE=[];render();});
+  onAll('[data-att]','click',el=>{const [t,id]=el.dataset.att.split('|');const arr=t==='T'?Gg.attiviT:Gg.attiviE;const i=arr.indexOf(id);
+    if(i>=0)arr.splice(i,1);else{arr.push(id);if(t==='T')Gg.tecnoC=Math.min(caricheTecno(),(+Gg.tecnoC||0)+1);else{const w=indossa();Gg.esoC[w]=Math.min(caricheEso(),(+Gg.esoC[w]||0)+1);}}
+    render();});
+  on('g-apf','change',e=>{Gg.autPF=+e.target.value;render();});
+  on('g-atmp','change',e=>{Gg.autTemp=+e.target.value;render();});
+  on('g-adan','change',e=>{const X=calcAut();let d=+e.target.value||0;let tmp=Gg.autTemp==null?X.temp:Gg.autTemp;let cur=Gg.autPF==null?X.pf:Gg.autPF;if(d>0){const a=Math.min(tmp,d);tmp-=a;d-=a;cur-=d;}else cur=Math.min(X.pf,cur-d);Gg.autTemp=tmp;Gg.autPF=cur;render();});
+  on('od','click',()=>{if(!Gg.overdriveOn&&!Gg.overdrive){Gg.overdriveOn=true;Gg.overdrive=1;}else Gg.overdriveOn=false;render();});
+  on('ist','click',()=>{Gg.istrice=!Gg.istrice;render();});
+  on('g-note','change',e=>{Gg.note=e.target.value;save();});
+}
+
+/* ---------- finestre ---------- */
+const M=document.getElementById('modal');
+function modal(h){M.innerHTML='<div class="overlay" role="dialog" aria-modal="true">'+h+'</div>';M.querySelector('.overlay').addEventListener('click',e=>{if(e.target.classList.contains('overlay')||e.target.hasAttribute('data-close'))closeModal();});}
+function closeModal(){M.innerHTML='';}
+function conferma(testo,ok,fn){modal('<div class="card"><p>'+esc(testo)+'</p><div class="row"><button class="btn danger" id="okC">'+ok+'</button><button class="btn" data-close>Annulla</button></div></div>');document.getElementById('okC').addEventListener('click',()=>{closeModal();fn();});}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+render();
+</script>
