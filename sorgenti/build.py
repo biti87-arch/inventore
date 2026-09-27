@@ -6,7 +6,7 @@ import json, sys, os, re
 R=os.path.dirname(os.path.abspath(__file__))
 t=open(os.path.join(R,'template.html'),encoding='utf8').read()
 mini=lambda f: json.dumps(json.load(open(os.path.join(R,f),encoding='utf8')),ensure_ascii=False,separators=(',',':'))
-t=t.replace('__DATI__',mini('inventore.json'))
+t=t.replace('__DATI__',mini('inventore.json')).replace('__ARMI__',mini('armi.json'))
 if len(sys.argv)>1: open(sys.argv[1],'w',encoding='utf8').write(t)
 fonts=re.compile(r'<link rel="preconnect"[^>]*>\n<link rel="preconnect"[^>]*>\n<link rel="stylesheet" href="https://fonts.googleapis.com[^>]*>')
 assert fonts.search(t)

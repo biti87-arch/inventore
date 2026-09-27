@@ -1,0 +1,1153 @@
+ARMI, ARMATURE E SCUDI MAGICI
+Regole di Sintonia, Progressione e Capacità Speciali · Pathfinder Prima Edizione
+
+Questo documento raccoglie le regole complete per la sintonia degli oggetti magici personali, il sistema di progressione con il livello del personaggio, i costi per applicare capacità speciali e le tabelle dettagliate di tutte le capacità disponibili per armi, armature e scudi. Le voci contrassegnate con ★ sono capacità nuove aggiunte a integrazione delle fonti originali.
+
+INDICE DEI CONTENUTI
+1. Capitolo 1: Regole di Sintonia
+2. Capitolo 2: Costi delle Capacità Speciali
+3. Capitolo 3: Procedura di Applicazione
+4. Capitolo 4: Capacità Speciali delle Armature
+5. Capitolo 5: Capacità Speciali degli Scudi
+6. Capitolo 6: Capacità Speciali delle Armi da Mischia
+7. Capitolo 7: Capacità Speciali delle Armi a Distanza
+
+Capitolo 1: Regole di Sintonia
+Come armi e armature crescono con il personaggio
+
+Cos'è la Sintonia?
+La sintonia è il legame magico che un personaggio instaura con un'arma, un'armatura o uno scudo. Senza sintonia, un oggetto è semplicemente un oggetto ordinario (per quanto di ottima qualità). Con la sintonia, l'oggetto inizia a manifestare il proprio potenziale magico, crescendo di pari passo con il padrone man mano che questi acquisisce esperienza e potere.
+La sintonia si stabilisce dopo aver posseduto l'oggetto per almeno 24 ore consecutive. Non è richiesta alcuna prova: l'attunement avviene automaticamente, purché il personaggio sia volontariamente in contatto con l'oggetto. Una volta attivata, la sintonia permane finché il personaggio la spezza volontariamente o l'oggetto viene distrutto.
+Tabella di Sintonia per Livello
+Il bonus di potenziamento indicato è il massimo distribuibile a parità di livello.
+
+Livello
+Arma
+Armatura e Scudo
+Base
+Può sintonizzarsi con un'arma in suo possesso. Può cambiare la sintonia una volta al giorno.
+Può sintonizzarsi con un'armatura o uno scudo in suo possesso. Può cambiare la sintonia una volta al giorno.
+4°
+L'arma sintonizzata ottiene +1 al bonus di potenziamento.
+L'armatura o lo scudo sintonizzati ottengono +1 al bonus di potenziamento.
+8°
+Può distribuire la sintonia tra due armi, concedendo a entrambe +1.
+Può sintonizzarsi contemporaneamente su armatura e scudo, concedendo a entrambi +1.
+9°
+In alternativa a due armi a +1, può concentrare il bonus su un'arma sola portandola a +2.
+In alternativa ad armatura e scudo a +1, può concentrare il bonus su uno solo portandolo a +2.
+12°
+Può dare +3 a un'arma, oppure +2 a ciascuna di due armi.
+Può dare +3 all'armatura, oppure +2 a entrambi (armatura e scudo).
+15°
+Può dare +4 a un'arma, oppure +3 a ciascuna di due armi.
+Può dare +4 all'armatura, oppure +3 a entrambi.
+17°
+Può dare +5 a un'arma, oppure +4 a una e +3 all'altra.
+Può dare +5 all'armatura, oppure +4 a una e +3 all'altra (armatura/scudo).
+20°
+Può dare +5 a un'arma, oppure +5 a una e +4 all'altra.
+Può dare +5 all'armatura, oppure +5 a una e +4 all'altra.
+
+Note Importanti sulla Sintonia
+Applicazione del Bonus: Il bonus di potenziamento si applica direttamente all'oggetto sintonizzato (arma, armatura o scudo). Nel caso delle armi il bonus va ai tiri per colpire e ai danni; per armature e scudi va alla CA.
+Nessuna Divisione della CA: Non esiste alcuna meccanica che frazioni la Classe Armatura complessiva. I bonus si applicano agli oggetti come indicato nella tabella.
+Vestiti come Armatura: Se si sceglie come «armatura» un normale set di abiti, questi contano come armatura sintonizzata con bonus di potenziamento iniziale +0.
+Cambio di Sintonia: La sintonia può essere cambiata una volta al giorno (dopo 24 ore dalla precedente). Farlo non ha effetti negativi.
+Scelta al Momento della Sintonia: Quando è possibile distribuire il bonus tra due oggetti, la configurazione (quanto va a ciascuno) viene scelta al momento della sintonia e non può essere modificata fino al successivo cambio.
+Bonus e Capacità Speciali: Il bonus di potenziamento è distinto dalle capacità speciali. Un'arma +3 con capacità «Folgorante +1» ha un valore totale di +4 ma il bonus ai tiri e ai danni è solo +3. Vedere Capitolo 2 per i dettagli.
+
+Capitolo 2: Costi delle Capacità Speciali
+Tabelle prezzi e calcolo della spesa
+
+Quando si aggiunge una capacità speciale a un'arma, armatura o scudo, il costo non si calcola sommando il prezzo di ogni singola capacità. Si paga invece in base al valore totale dell'oggetto (somma di tutti i modificatori). Se l'oggetto ha già delle capacità e ne si aggiunge un'altra, si paga solo la differenza tra il costo corrispondente al nuovo valore totale e quello precedente.
+
+Modificatore totale
+Costo Arma (MO)
+Costo Armatura / Scudo (MO)
++1
+2.000
+1.000
++2
+8.000
+4.000
++3
+18.000
+9.000
++4
+32.000
+16.000
++5
+50.000
+25.000
+
+Procedura di Calcolo (Passo per Passo)
+1. Somma i modificatori di tutte le capacità che vuoi sull'oggetto per ottenere il valore totale (es. +1 e +2 → totale +3).
+2. Trova il costo corrispondente al valore totale nella colonna appropriata (arma o armatura/scudo).
+3. Se l'oggetto non ha capacità precedenti, paghi il costo corrispondente al valore totale.
+4. Se l'oggetto ha già capacità, calcola il costo corrispondente al valore totale precedente e paga solo la differenza.
+Esempi Pratici
+Esempio 1: Aggiungere due capacità +1 su un'arma vuota. Valore totale = +2 → costo arma = 8.000 MO. Non si pagano 2.000 + 2.000; si paga 8.000 MO in una sola volta.
+Esempio 2: Aggiungere +2 a un'arma che ha già +1. Valore precedente +1 → 2.000 MO. Nuovo valore +3 → 18.000 MO. Differenza da pagare = 18.000 − 2.000 = 16.000 MO.
+Costo per i Personaggi vs PNG
+Applicazione da parte di un PNG: si paga il valore pieno come indicato nella tabella.
+Applicazione da parte del PG: il costo monetario è la metà del valore indicato. Sono comunque necessari i materiali e la prova di applicazione.
+
+Capitolo 3: Procedura di Applicazione
+Come applicare una capacità speciale a un oggetto
+
+Per applicare una capacità speciale a un'Arma, un'Armatura o uno Scudo il personaggio deve seguire la procedura indicata di seguito. Questa procedura si applica quando il personaggio esegue l'operazione autonomamente; se viene eseguita da un PNG il costo raddoppia ma non è necessaria alcuna prova.
+
+1. Tempo Richiesto
+L'operazione richiede 30 minuti di lavoro concentrato e ininterrotto sull'oggetto. Qualsiasi interruzione (attacchi, incantesimi subiti, ecc.) rende necessario ricominciare dall'inizio.
+2. Prova Richiesta
+Il personaggio effettua una prova di Sapienza Magica oppure una prova di Professione specifica per il materiale dell'oggetto. Esempi: Fabbro per oggetti di metallo, Intagliatore per oggetti di legno, Pellettiere per oggetti di cuoio. Si seleziona sempre l'abilità più pertinente in base al materiale e al tipo di capacità da applicare.
+3. Modalità della Prova
+La prova viene eseguita senza applicare il modificatore di Intelligenza: si usa il valore base dell'abilità. Competenze, bonus di grado e altri bonus non legati all'Intelligenza rimangono validi.
+4. Esiti della Prova
+Successo: La capacità speciale viene applicata all'oggetto come previsto.
+Fallimento Normale: L'operazione non riesce. I materiali non vengono persi e l'oggetto non subisce danni. Si può ritentare la stessa operazione sullo stesso oggetto dopo 1 settimana.
+Fallimento Critico (1 Naturale): I materiali impiegati per l'operazione vengono perduti. L'oggetto può subire danni a discrezione del master. Per ritentare con lo stesso oggetto è necessario procurarsi nuovi materiali e seguire nuovamente l'intera procedura.
+
+Tabella CD Incantamento
+La CD si applica alla prova di Sapienza Magica o Professione per applicare la capacità speciale.
+
+Qualità / Bonus
+CD Incantamento (Armi)
+CD Incantamento (Armature e Scudi)
++2
+16
+15
++3
+19
+18
++4
+22
+21
++5
+25
+24
++6
+26
+26
++7
+27
+27
++8
+28
+28
++9
+29
+29
++10
+29
+29
+
+Capitolo 4: Capacità Speciali delle Armature
+Tabelle complete con nuove aggiunte (★)
+
+Le seguenti tabelle elencano tutte le capacità speciali disponibili per le armature, organizzate per valore equivalente. Ricorda che la somma dei valori equivalenti di tutte le capacità speciali non può superare il bonus di potenziamento dell'armatura. Le capacità contrassegnate con ★ sono nuove aggiunte non presenti nei manuali originali.
+
+Capacità Equivalenti a +1
+Capacità
+Effetto
+1. Accumula Incantesimi
+Permette a un incantatore di immagazzinare un singolo incantesimo a contatto di 3° livello o inferiore. Quando una creatura colpisce il portatore con un attacco in mischia, l'armatura può lanciare su di lei l'incantesimo come azione immediata.
+2. Acida
+Infligge ogni round 2d4 danni da acido agli avversari in lotta col portatore.
+3. Agile
+Il portatore ottiene bonus +1 ai Tiri Salvezza su Riflessi.
+4. Amara
+Le creature che tentano manovre di lottare tramite morso, o attaccano con morso il portatore, devono superare un TS su Tempra (CD 5 + ½ DV portatore + bonus totale armatura) o fallire automaticamente. Se il portatore viene inghiottito, la creatura deve superare il TS ogni turno o essere nauseata 1 round. Effetto [veleno].
+5. Ammortizzante
+Il portatore ignora i primi 15 m di caduta.
+6. Anti-contatto
+L'armatura fornisce il proprio bonus di potenziamento anche contro gli attacchi di contatto, inclusi quelli di creature incorporee.
+7. Antiemorragica
+Il portatore è immune agli effetti di [sanguinamento] e ha il 50% di sanare immediatamente le emorragie da ferite gravi.
+8. Anti-penetrazione
+Il portatore ottiene RD 5/contundente o tagliente.
+9. Assicurante
+Il portatore ottiene RD 8/– mentre è privo di sensi, nauseato, stordito o immobilizzato. Questa RD si cumula con qualsiasi altra. Non funziona se il portatore può agire normalmente in quelle condizioni.
+10. Bilanciata
+Il portatore ottiene +4 alla DMC contro manovre di Oltrepassare e +4 ad Acrobazia (equilibrio). Solo armature leggere e medie.
+11. Campione
+Il portatore ottiene bonus sacro +2 alla CA contro gli attacchi dell'avversario scelto tramite Sfida o Punire il Male (o equivalenti).
+12. Del Comando
+Il portatore ottiene bonus di competenza +2 a Diplomazia e ogni alleato entro 9 m ottiene +1 morale ai TS su Volontà.
+13. Dentellata
+Ogni volta che una creatura supera una manovra di Lottare contro il portatore, subisce 2d4 × bonus di potenziamento dell'armatura. Conta come chiodature per attacchi nel turno del portatore.
+14. Difesa Energetica
+Una volta al giorno, come azione veloce il portatore sceglie un elemento: per 1 minuto chi lo tocca o colpisce senz'armi subisce 1d6+10 danni dell'elemento scelto.
+15. Divora Magia
+Ogni volta che il portatore supera un TS contro un incantesimo o capacità magica, si cura di 5 × livello dell'incantesimo.
+16. Flagello Ectoplasmico
+Ogni volta che il portatore viene colpito in mischia da una creatura incorporea, questa subisce 2d4 × bonus di potenziamento danni.
+17. Fortificazione Leggera
+Il portatore ha il 25% di ignorare i danni extra da colpi critici e attacchi di precisione.
+18. Galleggiante
+L'armatura non applica la penalità alle prove di Nuotare. Il portatore ottiene bonus di competenza +2 a Nuotare.
+19. Illuminante
+Come azione veloce, il portatore può fare brillare l'armatura come Luce diurna. Fino a 30 min/giorno, in incrementi di 10 min.
+20. Immortalità
+Il portatore ottiene RE (energia positiva o negativa) 10 e ha il 25% di ignorare i livelli negativi trasmessi tramite tocco.
+21. Irrintracciabile
+Il portatore può non lasciare tracce mentre si muove, se lo desidera.
+22. Mascheramento
+Come azione standard, l'armatura muta forma apparendo come normali abiti, conservando tutte le proprietà. Solo Visione del Vero ne rivela la natura.
+23. Mobile
+Il portatore ottiene Mobilità come talento bonus.
+24. Passo Veloce
+Il portatore ottiene bonus di potenziamento +3 m alla velocità su terreno.
+25. Psicoschermante
+Una volta al giorno, il portatore ottiene bonus +5 a un TS contro un effetto di [influenza mentale].
+26. Resistenza al Veleno
+Il portatore ottiene bonus di resistenza +3 ai TS contro effetti di [veleno].
+27. Richiamabile
+Come azione standard, se l'armatura è entro 15 m il portatore la richiama volando e la indossa istantaneamente.
+28. Rincuorante
+Il portatore è immune agli effetti di [paura]; gli alleati entro 9 m ottengono bonus morale +4 ai TS contro tali effetti.
+29. Schivadraghi
+Il portatore ottiene Eludere contro gli attacchi a soffio. Solo armature leggere.
+30. Sfocata
+Tre volte al giorno, come azione standard il portatore ottiene Occultamento 20% per 5 round.
+31. Specchio
+Può essere usata come specchio. Aiuta contro attacchi con lo sguardo: il portatore tira due volte la probabilità di incrociare lo sguardo del nemico. Fornisce bonus di potenziamento anche contro raggi. Solo armature metalliche.
+32. Sprezzante
+Tira 1d12 per il tipo nemico. Contro di essi il bonus di potenziamento alla CA è migliore di +2 e l'armatura conferisce RD 2/– contro i loro attacchi.
+33. Stamina
+Il portatore ottiene bonus +1 ai TS su Tempra.
+34. Torneo
+Il portatore ottiene bonus +5 a Cavalcare.
+35. Alacre ★ ★
+Una volta al giorno, come azione veloce il portatore può agire come se beneficiasse di Iniziativa migliorata per 1 round, ottenendo +4 a Iniziativa retroattivamente al primo turno di combattimento.
+36. Antipietrificante ★ ★
+Il portatore ottiene bonus di resistenza +4 ai TS contro effetti di [pietrificazione] e [paralisi]. Se pietrificato, ha il 25% di negare l'effetto ogni round.
+37. Camaleontica ★ ★
+Il colore e la texture dell'armatura si adattano automaticamente all'ambiente circostante: il portatore ottiene bonus di competenza +3 a Furtività (nascondersi) in ambienti naturali.
+38. Coriacea ★ ★
+Ogni volta che il portatore subisce danni da un attacco fisico, riduce automaticamente di 1 il danno subito (minimo 0), indipendentemente da altre forme di RD.
+39. Destabilizzante ★ ★
+Ogni volta che una creatura tenta una manovra di combattimento contro il portatore e fallisce, subisce penalità –1 a tutti i tiri per colpire per 1 round.
+40. Doppiofondo ★ ★
+L'armatura dispone di un vano segreto in cui è possibile nascondere un oggetto di dimensioni massime pari a un'arma leggera. La CD per trovarlo con Percezione è 20 + bonus di potenziamento.
+41. Equilibratrice ★ ★
+Il portatore non può essere sbilanciato da effetti di terreno magico o non-magico e ottiene bonus di competenza +2 ad Acrobazia in qualsiasi situazione.
+42. Fono-schermante ★ ★
+Il portatore ottiene bonus di resistenza +3 ai TS contro effetti sonori o di [assordamento] e riduce di 1 round la durata di qualsiasi effetto di [assordamento] subito.
+43. Incanalante ★ ★
+Se il portatore è un incantatore, può usare l'armatura come focus per incantesimi di tocco: l'incantesimo resta «in carica» nell'armatura per 1 round extra prima di dissolversi.
+44. Confortevole ★ ★
+Riduce di 1 la penalità di armatura alle prove (minimo 0) e aumenta di 1 il limite massimo di destrezza consentito.
+
+Capacità Equivalenti a +2
+Capacità
+Effetto
+1. Agile, Migliorata
+Il portatore ottiene bonus +3 ai TS su Riflessi.
+2. Anti-contusione
+Il portatore ottiene RD 5/tagliente o perforante.
+3. Anti-taglio
+Il portatore ottiene RD 5/contundente o perforante.
+4. Brillante
+Come azione standard, l'armatura irradia luce come una torcia. Una volta al giorno, può brillare come Luce diurna per 1 ora.
+5. Curativa
+Una volta al giorno, quando i PF del portatore scendono da 0 a –1, l'armatura lo cura automaticamente di 2d8+5 danni.
+6. Immunità Energetica
+Come azione standard, il portatore ottiene per 1 minuto immunità a un tipo di energia a scelta.
+7. Intermittente
+Una volta al giorno, il portatore lancia Intermittenza come capacità magica (durata 1 minuto).
+8. Ombra
+Il portatore ottiene bonus di competenza +5 a Furtività (nascondersi).
+9. Radicante
+Il portatore ottiene +10 alla DMC contro manovre di Oltrepassare, Sbilanciare e Spingere.
+10. Rapida
+Il portatore ottiene Mobilità come talento. Una volta al giorno, come azione veloce può muoversi alla propria velocità come azione di movimento.
+11. Resistenza agli Incantesimi 13
+Il portatore ottiene RI 13.
+12. Riposante
+Il portatore non è affaticato dopo aver dormito in armatura. Un incantatore necessita di sole 2 ore di riposo per preparare incantesimi.
+13. Ritorsione
+Quando il portatore subisce 10+ danni da un attacco in mischia, infligge 1d6 danni all'attaccante (magici). Se l'attacco riduce i PF a meno di 0, infligge 4d6 danni.
+14. Schiva Incantesimi
+Il portatore ottiene bonus di schivare +4 alla CA contro attacchi di incantesimi e capacità magiche.
+15. Scivolosa
+Il portatore ottiene bonus di competenza +5 ad Artista della Fuga.
+16. Selvatica
+Un druido conserva il bonus di armatura (incluso quello di potenziamento) anche in forma selvatica.
+17. Stamina, Migliorata
+Il portatore ottiene bonus +3 ai TS su Tempra. Richiede Stamina.
+18. Stridente
+Tre volte al giorno, come azione immediata quando colpito in mischia, il portatore induce vibrazioni stridenti attraverso l'arma attaccante: l'attaccante supera un TS su Tempra (CD 5 + ½ DV + bonus totale armatura) o è frastornato per 1 round.
+19. Titanica
+Il portatore è considerato di una categoria di taglia superiore per attacchi speciali che dipendono dalla taglia. Una volta al giorno, può aumentare la propria taglia per 1 minuto come Ingrandire persone. Può aggiungere il bonus di potenziamento a una prova di Forza, MC o DMC per round come azione gratuita. La penalità di armatura aumenta di un valore pari al bonus di potenziamento.
+20. Accumulatrice ★ ★
+L'armatura assorbe parte dei danni magici subiti: ogni volta che il portatore supera un TS contro un incantesimo, accumula 1 «carica». Può spendere fino a 3 cariche per ottenere bonus +1 per carica a un TS successivo (massimo 3 cariche accumulate).
+21. Cinetica ★ ★
+Tre volte al giorno, quando il portatore viene colpito in mischia e supera un TS su Riflessi (CD 15), può deflettere parte del danno: riduce i danni fisici subiti di 1d6 × bonus di potenziamento.
+22. Corazza Proiettante ★ ★
+Una volta al giorno, come azione standard il portatore può proiettare un'immagine illusoria di sé a 3 m di distanza per 3 round, causando il 20% di probabilità di mancare negli attacchi.
+23. Disperdente ★ ★
+Ogni volta che il portatore supera un TS contro un effetto di area, riduce i danni subiti di un ulteriore 25% (cumulativo con Eludere e simili).
+24. Energetica ★ ★
+Il portatore ottiene bonus +2 ai TS contro tutti i tipi di energia (acido, elettricità, fuoco, freddo, sonico). Questo bonus diventa +4 contro il tipo di energia a cui è più vulnerabile.
+25. Gravitante ★ ★
+Il portatore ottiene RD 3/– contro attacchi a distanza fisici (frecce, pallottole, dardi). Non si applica contro armi da lancio esplosive o attacchi magici.
+26. Infusa ★ ★
+L'armatura contiene riserve di energia magica: una volta al giorno, quando un incantamento del portatore fallirebbe per qualsiasi ragione, l'armatura fornisce l'energia mancante e consente all'incantesimo di funzionare normalmente.
+27. Nemesi ★ ★
+Il portatore può designare un tipo di creatura al momento della sintonia. Contro quel tipo, l'armatura fornisce bonus +2 ai TS e RD 2/– aggiuntiva.
+28. Vendicativa ★ ★
+Ogni round in cui il portatore viene colpito da almeno un attacco in mischia, accumula 1 «segno di vendetta» (massimo 5). Come azione veloce può spendere tutti i segni per ottenere bonus +1 per segno al tiro per colpire del prossimo attacco.
+
+Capacità Equivalenti a +3
+Capacità
+Effetto
+1. Acceca Nemesi
+Tira 1d12 per il tipo nemico. Tre volte al giorno, per 1 minuto il portatore può rendersi invisibile a creature del tipo designato, eludendo anche Fiuto, Percezione tellurica e Vista cieca.
+2. Adesiva
+Il portatore ottiene velocità di scalare 6 m e bonus +2 alle manovre di Lottare, Riposizionare e Sbilanciare con armi naturali o senz'armi. Fino a 10 round/giorno non consecutivi. Incompatibile con Scivolosa.
+3. Agile, Superiore
+Il portatore ottiene +5 ai TS su Riflessi. Richiede Agile o Agile Migliorata.
+4. Del Magus
+Il portatore ottiene bonus di competenza +4 alle prove di Concentrazione.
+5. Dell'Equilibrio
+Il portatore ottiene bonus di competenza +10 ad Acrobazia (equilibrio).
+6. Distorcente
+Una volta al giorno, come azione standard il portatore ottiene Occultamento 50% per 5 round.
+7. Fortificazione Moderata
+Il portatore ha il 50% di ignorare i danni extra da colpi critici e attacchi di precisione.
+8. Invulnerabilità
+Il portatore ottiene RD 5/magia.
+9. Ombra Migliorata
+Il portatore ottiene bonus di competenza +10 a Furtività (nascondersi). Richiede Ombra.
+10. Percettiva
+Il portatore ottiene Vista cieca 1,5 m e Percezione cieca 18 m ogni volta che è accecato o non può vedere per oscurità totale.
+11. Putrida
+Ogni creatura entro 3 m deve superare un TS su Tempra (CD 2 + ½ DV + bonus totale armatura) o essere inferma per 5 round [veleno]. Chi supera è immune per 24 ore. Il fetore può essere soppresso.
+12. Resistenza agli Incantesimi 15
+Il portatore ottiene RI 15.
+13. Ruggente
+Ogni volta che il portatore subisce 10 o meno danni da un'arma a distanza, non subisce alcun danno: l'armatura rispedisce il colpo infliggendo quei danni al mittente. La testa di drago in rilievo fornisce +4 all'Iniziativa.
+14. Scavatrice
+Il portatore ottiene velocità di Scavare 3 m attraverso qualsiasi suolo eccetto roccia solida. Richiede di trattenere il respiro.
+15. Scivolosa Migliorata
+Il portatore ottiene bonus di competenza +10 ad Artista della Fuga. Richiede Scivolosa.
+16. Spaventosa
+Tre volte al giorno, come azione veloce, il portatore rende spaventati i nemici entro 6 m (TS Volontà CD 2 + ½ DV + bonus totale armatura, altrimenti scossi 1 round).
+17. Stamina, Superiore
+Il portatore ottiene +5 ai TS su Tempra. Richiede Stamina o Stamina Migliorata.
+18. Svanente
+Una volta al giorno, il portatore lancia Svanire come capacità magica.
+19. Tocco Fantasma
+L'armatura fornisce il proprio bonus di potenziamento e di armatura contro gli attacchi delle creature incorporee.
+20. Ammantata ★ ★
+Il portatore ottiene un'aura protettiva entro 1,5 m: qualsiasi creatura alleata adiacente beneficia di copertura dal portatore contro gli attacchi a distanza (bonus +2 CA).
+21. Barriera Arcana ★ ★
+Una volta al giorno, quando il portatore sarebbe colpito da un incantesimo, può attivare l'armatura come azione immediata: l'armatura assorbe fino a 30 danni da incantesimo prima di cessare l'effetto.
+22. Cristallizzante ★ ★
+Ogni volta che una creatura colpisce il portatore con un critico, l'armatura proietta un'esplosione di cristalli di forza: la creatura subisce 2d6 danni di forza e deve superare un TS su Riflessi (CD = 10 + ½ DV portatore + bonus potenziamento) o essere rallentata 1 round.
+23. Del Custode ★ ★
+Il portatore può designare fino a 2 creature adiacenti come 'protetti'. Qualsiasi attacco contro i protetti soffre –2 al tiro per colpire fintanto che il portatore è adiacente e non è privo di sensi.
+24. Eco Difensivo ★ ★
+L'armatura «ricorda» gli attacchi ricevuti: dopo aver subito lo stesso tipo di danno fisico per 3 round consecutivi, ottiene RD 2/– contro quel tipo per le successive 2 ore.
+25. Fusione Elementale ★ ★
+Al momento della sintonia il portatore sceglie un elemento (fuoco, freddo, elettricità, acido): ottiene RE 5 per quell'elemento e i propri attacchi senz'armi infliggono 1d4 danni extra di quell'elemento.
+26. Tempra d'Acciaio ★ ★
+Il portatore ottiene bonus +2 ai TS su Tempra e non può essere portato a meno di –5 PF da un singolo attacco (il danno eccedente va perduto).
+
+Capacità Equivalenti a +4
+Capacità
+Effetto
+1. Curativa, Superiore
+Due volte al giorno, quando i PF del portatore scendono da 0 a –1, l'armatura lo cura automaticamente di 3d8+15 danni. Richiede Curativa.
+2. Denegante
+Una volta al giorno, il portatore può negare i danni extra di un colpo critico o di un attacco di precisione. Solo armature pesanti.
+3. Martirio
+Una volta al giorno, come azione immediata, quando il portatore subisce danni da un critico, cura 1d8+9 PF a tutti gli alleati entro 18 m.
+4. Ombra Superiore
+Il portatore ottiene bonus di competenza +15 a Furtività (nascondersi). Richiede Ombra Migliorata.
+5. Radiosa
+Il portatore ottiene RE 10 contro tutti i tipi di energia.
+6. Resistenza agli Incantesimi 17
+Il portatore ottiene RI 17.
+7. Scivolosa Superiore
+Il portatore ottiene bonus di competenza +15 ad Artista della Fuga. Richiede Scivolosa Migliorata.
+8. Terrificante
+Come azione standard, il portatore rende in preda al panico i nemici entro 9 m (TS Volontà CD 10 + ½ DV + bonus totale armatura, altrimenti scossi 1 round). Chi supera è immune per 24 ore.
+9. Annichilatrice ★ ★
+Tre volte al giorno, come azione immediata quando colpito da un attacco che infliggerebbe danni letali, il portatore può ridurre quei danni a 0. L'armatura deve «ricaricarsi» per 1 ora prima di poter usare di nuovo questa capacità.
+10. Corazza dell'Aurora ★ ★
+Il portatore è circondato da un'aura luminosa (6 m): i non morti nell'aura subiscono penalità –2 ai tiri per colpire e ai TS. Una volta al giorno, l'aura esplode infliggendo 5d6 danni sacri ai non morti nell'area.
+11. Eterea ★ ★
+Una volta al giorno, come azione standard il portatore può diventare incorporeo per 3 round, come il potere Incorporea (+5) ma di durata inferiore. In questa forma può ancora attaccare con armi con Tocco Fantasma.
+12. Fortezza Vivente ★ ★
+Il portatore tratta qualsiasi posizione difensiva come terreno vantaggio: ottiene +2 CA e +1 TS quando non si è mosso nel turno precedente (bonus di circostanza).
+13. Muro di Scaglie ★ ★
+Come azione standard, una volta al giorno il portatore può creare un muro di scaglie metalliche: un muro lungo 6 m e alto 3 m con 60 PF e durezza 10. Il muro persiste per 5 round o finché non viene distrutto.
+14. Scudo della Volontà ★ ★
+Il portatore ottiene RI 17 contro effetti di [influenza mentale] e [compulsione] specificamente, indipendentemente da altri valori di RI. Questa RI si applica anche agli effetti che bypassano normalmente la RI.
+15. Sigillo del Sangue ★ ★
+Quando il portatore viene ridotto a meno della metà dei PF massimi per la prima volta in un combattimento, l'armatura attiva un'aura di forza per 3 round: il portatore ottiene RD 10/– e RE 10 per tutti i tipi.
+16. Velo dell'Acciaio ★ ★
+Il portatore è difficile da localizzare magicamente: tutti gli incantesimi di localizzazione e divinazione che lo riguardano falliscono automaticamente se il loro livello è inferiore al bonus di potenziamento dell'armatura.
+
+Capacità Equivalenti a +5
+Capacità
+Effetto
+1. Determinazione
+Una volta a settimana, quando i PF del portatore scendono da 0 a –1, l'armatura lo cura automaticamente di tutti i danni; l'eventuale eccedenza viene applicata normalmente.
+2. Fortificazione Pesante
+Il portatore ha il 75% di ignorare i danni extra da colpi critici e attacchi di precisione.
+3. Giusta
+Come azione standard, una volta al giorno il portatore lancia Giusto Potere (10 round). L'armatura conta come allineata Bene e infligge un Livello Negativo permanente a qualsiasi creatura malvagia che la indossi (scompare solo rimuovendo l'armatura).
+4. Incorporea
+Una volta al giorno, come azione standard il portatore diventa incorporeo per 5 round.
+5. Iniqua
+Come Giusta ma allineata Male: infligge Livello Negativo alle creature buone.
+6. Intrasmutabile
+Una volta al giorno, il portatore può negare qualsiasi effetto di [metamorfosi] o [pietrificazione] subito.
+7. Libertà di Movimento
+Il portatore beneficia costantemente degli effetti di Libertà di Movimento.
+8. Resistenza agli Incantesimi 19
+Il portatore ottiene RI 19.
+9. Sovversiva
+Come Giusta ma allineata Caos: invece di RD/Male il portatore ottiene RD 5/Legale e infligge Livello Negativo alle creature legali.
+10. Vigilante
+Come Giusta ma allineata Legge: invece di RD/Male il portatore ottiene RD 5/Caos e infligge Livello Negativo alle creature caotiche.
+11. Ascensione Divina ★ ★
+Una volta a settimana, come azione standard il portatore può assumere temporaneamente tratti del piano di allineamento dell'armatura per 1 minuto: ottiene +2 ai tiri per colpire e al danno, RD 10/magia e RE 15 a tutti i tipi di energia.
+12. Cuore dell'Acciaio ★ ★
+Il portatore ottiene immunità agli effetti di morte istantanea e ai Livelli Negativi. Inoltre, qualsiasi fonte di Guarigione rapida o Rigenerazione che lo colpisca funziona al doppio della sua efficacia normale.
+13. Resurrezione ★ ★
+Una volta sola: se il portatore viene ucciso, l'armatura si attiva automaticamente riportandolo in vita dopo 1d4 round con 1 PF. Dopo questo effetto l'armatura si distrugge.
+14. Sigillo Divino ★ ★
+L'armatura è inscindibile dall'anima del portatore: non può essere rubata, dissolvendosi magicamente e riapparendo al portatore entro 24 ore. Qualsiasi tentativo di distruggerla richiede prima di neutralizzare magicamente il legame (RI 19 dell'armatura stessa).
+
+Capitolo 5: Capacità Speciali degli Scudi
+Tabelle complete con nuove aggiunte (★)
+
+Le seguenti tabelle elencano tutte le capacità speciali disponibili per gli scudi. Le regole sul limite di valore totale si applicano identicamente come per le armature. Le capacità contrassegnate con ★ sono nuove.
+
+Capacità Scudi +1
+Capacità
+Effetto
+1. Accecante
+Due volte al giorno, come azione standard: tutte le creature entro 6 m (escluso il portatore) superano un TS su Riflessi (CD 5 + ½ DV + bonus totale) o sono accecate per 1d4 round.
+2. Acido
+Infligge ogni round 2d4 danni da acido agli avversari in lotta col portatore.
+3. Anti-contatto
+Lo scudo fornisce il proprio bonus di potenziamento anche contro attacchi di contatto, incluse creature incorporee.
+4. Anti-penetrazione
+Il portatore ottiene RD 5/contundente o tagliente.
+5. Ariete
+Quando il portatore attacca con lo scudo durante una carica, aggiunge il bonus di potenziamento ai tiri per colpire e ai danni; se colpisce, come azione veloce può tentare una manovra di Spingere (+2 carica + bonus potenziamento). Solo scudi che effettuano attacchi.
+6. Attirare Frecce
+Il portatore ottiene bonus di deviazione +1 contro attacchi a distanza. Gli attacchi a distanza entro 1,5 m dal portatore sono deviati verso di lui (se non ha copertura totale). Attivabile o disattivabile come azione standard.
+7. Da Lancio
+Il portatore può lanciare lo scudo entro 9 m (danni 1d6 leggero / 1d8 pesante + Forza + bonus potenziamento). Lo scudo torna dopo ogni attacco. Finché è lanciato, non fornisce CA.
+8. Dentellato
+Ogni volta che una creatura supera una manovra di Lottare, subisce 2d4 × bonus di potenziamento dello scudo.
+9. Difesa Energetica
+Una volta al giorno, come azione veloce: per 1 minuto chi tocca o colpisce il portatore senz'armi subisce 1d6+10 danni dell'elemento scelto.
+10. Fortificazione Leggera
+Il portatore ha il 25% di ignorare i danni extra da critici e attacchi di precisione.
+11. Guardia
+Come azione gratuita a inizio turno, il portatore trasferisce parte o tutto il bonus di potenziamento alla CA di una creatura adiacente fino al turno successivo o finché non si allontanano.
+12. Illuminante
+Come azione veloce, lo scudo brilla come Luce diurna. Fino a 30 min/giorno in incrementi di 10 min.
+13. Psicoschermante
+Una volta al giorno, bonus +5 a un TS contro un effetto di [influenza mentale].
+14. Radicante
+Il portatore ottiene +5 contro manovre di Oltrepassare, Sbilanciare e Spingere.
+15. Resistenza al Veleno
+Il portatore ottiene bonus di resistenza +3 ai TS contro [veleno].
+16. Richiamabile
+Come azione standard, se entro 15 m il portatore richiama lo scudo e lo impugna istantaneamente.
+17. Rincuorante
+Il portatore è immune a [paura]; gli alleati entro 9 m ottengono bonus morale +4 ai TS.
+18. Rinvigorente
+Due volte al giorno, come azione standard il portatore ottiene 1d8+1 PF temporanei (svaniscono dopo 1 ora).
+19. Sfondamento
+Lo scudo infligge danni come un'arma di due categorie di taglia superiore ed è considerato arma +1 negli attacchi. Incompatibile con scudi piccoli e torre.
+20. Specchio
+Può essere usato come specchio. Contro attacchi con lo sguardo: tira due volte la probabilità di incrociare lo sguardo del nemico. Fornisce bonus di potenziamento anche contro raggi. Solo scudi metallici.
+21. Sprezzante
+Tira 1d12 per il tipo nemico. Contro di essi il bonus di potenziamento alla CA è migliore di +2 e lo scudo conferisce RD 2/– contro i loro attacchi.
+22. Stamina
+Il portatore ottiene bonus +1 ai TS su Tempra.
+23. Torneo
+Il portatore ottiene bonus +5 a Cavalcare.
+24. Agile da Scudo ★ ★
+Il portatore ottiene bonus di schivare +1 alla CA contro attacchi in mischia quando impugna questo scudo e non ha usato azioni di movimento nel turno precedente.
+25. Echeggiante ★ ★
+Tre volte al giorno, quando lo scudo para un attacco (il portatore supera un TS su Riflessi con Deviazione Frecce o simile), emette un'onda sonora che infligge 1d4 × bonus di potenziamento danni sonori a tutte le creature entro 1,5 m.
+26. Muraglia ★ ★
+Il portatore può usare lo scudo per bloccare un'intera casella adiacente: quella casella è considerata terreno difficile per i nemici che tentano di attraversarla. Effetto attivo finché il portatore rimane adiacente.
+27. Parante ★ ★
+Una volta per round, come azione immediata, il portatore può usare lo scudo per ridurre i danni di un attacco in mischia di 1d6+bonus di potenziamento.
+28. Provocante ★ ★
+Il portatore può usare lo scudo per attirare l'attenzione dei nemici: come azione standard, un nemico entro 6 m deve superare un TS su Volontà (CD 10 + ½ DV + bonus potenziamento) o essere costretto ad attaccare il portatore nel prossimo turno.
+29. Resonante ★ ★
+Lo scudo vibra alla frequenza degli incantesimi nemici: il portatore ottiene bonus di competenza +2 ai TS contro incantesimi e capacità magiche.
+30. Scudo Sacro ★ ★
+Una volta al giorno, come azione standard il portatore può consacrare lo scudo: per 1 minuto, qualsiasi non morto che si trovi entro 3 m all'inizio del proprio turno subisce 1d6 danni sacri.
+
+Capacità Scudi +2
+Capacità
+Effetto
+1. Animato
+Come azione di movimento, lo scudo si anima per 4 round difendendo il portatore autonomamente (con tutti i bonus passivi). Non compie azioni attive autonomamente. Una volta ripreso, non può rianinarsi per 4 round. Incompatibile con scudi torre.
+2. Anti-contusione
+Il portatore ottiene RD 5/tagliente o perforante.
+3. Anti-taglio
+Il portatore ottiene RD 5/contundente o perforante.
+4. Brillante
+Come azione standard, irradia luce come torcia. Una volta al giorno, può brillare come Luce diurna per 1 ora.
+5. Deviazione delle Frecce
+Una volta per round, quando colpito da un'arma da tiro o lancio, il portatore può effettuare un TS su Riflessi (CD 20 + bonus potenziamento arma) per deviare l'attacco. Non funziona su armi eccezionali.
+6. Guardia Superiore
+Come Guardia, ma il portatore può distribuire il bonus di potenziamento a qualsiasi numero di creature adiacenti. Richiede Guardia.
+7. Immunità Energetica
+Come azione standard, per 1 minuto immunità a un tipo di energia a scelta.
+8. Muro Ectoplasmico
+Una volta al giorno, crea un muro di ectoplasma (3 m², o sfera con raggio 3 m, 20 PF, durezza 5). Blocca creature incorporee. Persiste 7 round.
+9. Rapido
+Il portatore ottiene Mobilità. Una volta al giorno, come azione veloce può effettuare un'azione di movimento.
+10. Resistenza agli Incantesimi 13
+Il portatore ottiene RI 13.
+11. Soffio del Dragone
+Accumula cariche (1 per ogni 5 danni di un tipo di energia scelto subiti). Come azione standard, spende fino a 5 cariche per emettere un cono di 4,5 m (1d6/carica). TS su Riflessi per dimezzare. Max 5 cariche, svaniscono dopo 24 ore.
+12. Stridente
+Tre volte al giorno, come azione immediata quando colpito in mischia: vibrazioni attraverso l'arma attaccante. L'attaccante supera un TS su Tempra (CD 5 + ½ DV + bonus totale) o è frastornato 1 round.
+13. Cattura Incantesimi ★ ★
+Una volta al giorno, come azione immediata quando il portatore sarebbe colpito da un incantesimo, lo scudo assorbe l'incantesimo (livello massimo pari al bonus di potenziamento). L'incantesimo è neutralizzato.
+14. Coperta di Forza ★ ★
+Il portatore può estendere un campo di forza attorno allo scudo che funziona come uno scudo di taglia superiore (+1 bonus di scudo aggiuntivo) per 5 round al giorno.
+15. Deflettore Magico ★ ★
+Ogni incantesimo che colpisce lo scudo (TS su Riflessi riuscito) ha il 25% di essere riflesso verso la casella di origine.
+16. Fortezza dello Scudo ★ ★
+Quando il portatore usa l'azione difendersi (Combat Expertise o equivalente), il bonus CA ottenuto aumenta di 1 grazie allo scudo.
+17. Muro Reattivo ★ ★
+Una volta al giorno, come azione immediata, quando un alleato entro 9 m sarebbe colpito, il portatore può proiettare un campo di protezione: l'alleato ottiene copertura totale contro quell'attacco.
+18. Ribaltante ★ ★
+Quando il portatore supera con successo una manovra di Sbilanciare, lo scudo può essere usato come parte della manovra: il nemico sbilanciato subisce anche 1d6+bonus potenziamento danni contundenti.
+19. Scudo Assorbente ★ ★
+Ogni round in cui il portatore subisce danni fisici da attacchi in mischia, lo scudo assorbe 2 danni (riduzione automatica), cumulandola con qualsiasi RD.
+20. Scudo del Guardiano ★ ★
+Una volta al giorno, come azione immediata il portatore può trasferire su sé stesso tutto il danno che un alleato adiacente avrebbe subito da un singolo attacco.
+21. Turbine di Scudi ★ ★
+Come azione di round completo, il portatore può fare roteare lo scudo colpendo tutte le creature adiacenti con un attacco (tiro per colpire separato per ognuna, danni base dello scudo + bonus potenziamento).
+22. Vibrante ★ ★
+Ogni volta che il portatore blocca un attacco con una parata (tramite Deviazione Frecce o simili), lo scudo emette un campo vibrante: tutte le creature entro 1,5 m subiscono 1d4 × bonus di potenziamento danni sonori.
+
+Capacità Scudi +3
+Capacità
+Effetto
+1. Barriera di Forza
+Una volta al giorno, il portatore emette un muro di forza lungo 6 m e alto 3 m che blocca tutti gli attacchi frontali. Attivo finché lo scudo è sollevato o dopo 5 round.
+2. Deflettente
+Tre volte al giorno, ventiquattro placche di metallo orbitano attorno al portatore fornendo a lui e agli alleati entro 3 m un bonus di deviazione alla CA pari al bonus di potenziamento. Dura 1 minuto. Solo scudi metallici.
+3. Fortificazione Moderata
+Il portatore ha il 50% di ignorare i danni extra da critici e attacchi di precisione.
+4. Repellente
+Tre volte al giorno, come azione standard: i nemici che possono vedere lo scudo superano un TS su Volontà (CD 5 + ½ DV + bonus totale) o non possono avvicinarsi entro 4,5 m per 3 round [compulsione].
+5. Resistenza agli Incantesimi 15
+Il portatore ottiene RI 15.
+6. Svanente
+Una volta al giorno, il portatore lancia Svanire come capacità magica.
+7. Terrificante
+Tre volte al giorno, come azione veloce: i nemici entro 6 m sono spaventati (TS Volontà CD 2 + ½ DV + bonus totale, altrimenti scossi 1 round).
+8. Tocco Fantasma
+Lo scudo fornisce il proprio bonus di potenziamento e di scudo contro attacchi di creature incorporee.
+9. Esplodente ★ ★
+Una volta al giorno, come azione standard il portatore può lanciare lo scudo in avanti con forza esplosiva: l'arma esplode in un cono di 6 m infliggendo 6d6 danni contundenti (TS Riflessi CD 10 + ½ DV + bonus potenziamento per dimezzare). Lo scudo ritorna al portatore al termine del round.
+10. Fortezza dell'Anima ★ ★
+Il portatore ottiene RI 15 specificatamente contro effetti di [influenza mentale], [controllo] e [compulsione], aggiuntiva rispetto a qualsiasi altra RI posseduta e non cumulabile.
+11. Pararinforzato ★ ★
+Ogni volta che il portatore ottiene Deviazione delle Frecce con questo scudo, il proiettile deviato viene rispedito verso l'attaccante con un tiro per colpire pari all'attacco originale.
+12. Proiettile di Scudo ★ ★
+Come azione veloce, tre volte al giorno il portatore può proiettare lo scudo come un raggio di energia: raggio di 9 m, 4d6 danni di forza (TS Riflessi per dimezzare). Lo scudo ritorna immediatamente.
+13. Scudo della Negazione ★ ★
+Una volta al giorno, come azione immediata, il portatore può negare un'intera azione di un nemico adiacente (come Contrastare azione, senza richiedere azione preparata).
+14. Scudo Paralizzante ★ ★
+Come azione immediata, tre volte al giorno, quando il portatore blocca un attacco fisico, può inviare una scarica di energia paralitica attraverso l'arma dell'attaccante: TS su Tempra (CD 10 + ½ DV + bonus potenziamento) o paralizzato 1 round.
+15. Tessuto di Forza ★ ★
+Lo scudo proietta una rete di forza attorno al portatore: qualsiasi attacco di grapple, lottare o inghiottire contro il portatore soffre penalità –4 al tiro.
+
+Capacità Scudi +4
+Capacità
+Effetto
+1. Resistenza agli Incantesimi 17
+Il portatore ottiene RI 17.
+2. Riflettente
+Una volta al giorno, il portatore può riflettere un incantesimo verso l'incantatore come per Riflettere Incantesimo.
+3. Barriera Assoluta ★ ★
+Una volta a settimana, come azione immediata, il portatore può rendere lo scudo completamente impenetrabile per 1 round: nessun attacco, incantesimo, o effetto può colpire il portatore da davanti (180°). Lo scudo non fornisce bonus CA per quel round.
+4. Grandine di Scudo ★ ★
+Come azione di round completo, una volta al giorno, il portatore può moltiplicare lo scudo in dieci copie fantasma che si lanciano in tutte le direzioni: ogni creatura entro 6 m riceve un attacco separato (tiro per colpire base del portatore, danni 2d6+bonus potenziamento).
+5. Incarnazione dello Scudo ★ ★
+Lo scudo diventa parte del portatore: non può essere disarmato o rimosso contro la sua volontà. Il portatore non subisce penalità al tiro per colpire per l'uso dello scudo in attacco e può effettuare attacchi con lo scudo come azione libera una volta per round.
+6. Rifugio di Scudo ★ ★
+Una volta al giorno, come azione standard, il portatore può creare una cupola di forza di raggio 3 m che dura 3 round. Chiunque all'interno beneficia di CA 25 contro gli attacchi provenienti dall'esterno.
+7. Scudo della Resurrezione ★ ★
+Una volta a settimana, se il portatore viene ridotto a 0 PF mentre impugna questo scudo, lo scudo si attiva automaticamente curandolo di 4d8+20 PF. Lo scudo diventa non funzionante fino al prossimo riposo.
+8. Sigillo di Protezione ★ ★
+Il portatore può incidere un sigillo protettivo su questo scudo che dura 24 ore: qualsiasi creatura che superi la guardia del portatore e lo colpisca subisce 2d8 danni di forza come reazione immediata.
+
+Capacità Scudi +5
+Capacità
+Effetto
+1. Determinazione
+Una volta a settimana, quando i PF del portatore scendono da 0 a –1, lo scudo lo cura automaticamente di tutti i danni; l'eventuale eccedenza viene applicata normalmente.
+2. Fortificazione Pesante
+Il portatore ha il 75% di ignorare i danni extra da critici e attacchi di precisione.
+3. Resistenza agli Incantesimi 19
+Il portatore ottiene RI 19.
+4. Schermo Temporale
+Una volta al giorno, come azione standard il portatore diventa invulnerabile a tutti gli attacchi, incantesimi, capacità ed effetti (sia dannosi che benefici) fino all'inizio del suo prossimo round.
+5. Paladino Scudo ★ ★
+Lo scudo è un'entità senziente (Intelligenza e Saggezza 14, Carisma 16, Int. magica/comunicazione telepatica). Una volta al giorno può agire autonomamente per 5 round per proteggere il portatore anche se questi è privo di sensi.
+6. Sacrificio Ultimo ★ ★
+Se il portatore viene ucciso (ridotto a –(DV) PF), lo scudo si distrugge per riportarlo in vita con 1 PF, come Resurrezione ma senza bisogno di un incantatore. Dopo questo effetto lo scudo si dissolve permanentemente.
+7. Scudo della Perfezione ★ ★
+Il portatore ottiene RD 10/–, RI 19, Libertà di Movimento, e immunità agli effetti di [paura], [confusione] e [influenza mentale]. Questi effetti non si cumulano con altre capacità dello stesso scudo.
+8. Supremazia della Difesa ★ ★
+Ogni round, il portatore può scegliere di non attaccare per ottenere +4 CA (bonus di schivare), +4 a tutti i TS e Indurimento (riduzione 5 danni da qualsiasi fonte) per quel round.
+9. Vincolo d'Acciaio ★ ★
+Il portatore e lo scudo sono legati anima-oggetto: il portatore ottiene RE 20 a tutti i tipi e RI 19. Se lo scudo viene distrutto, il portatore perde queste capacità ma lo scudo si riforma dopo 30 giorni.
+
+Capitolo 6: Capacità Speciali delle Armi da Mischia
+Tabelle complete con nuove aggiunte (★)
+
+Tutte le capacità speciali applicabili alle armi da mischia, dalla più semplice alla più potente. Come per armature e scudi, la somma dei valori equivalenti delle capacità non può superare il bonus di potenziamento dell'arma. Le capacità contrassegnate con ★ sono nuove.
+
+Capacità Armi da Mischia +1
+Capacità
+Effetto
+1. Accumula Incantesimi
+Un incantatore può immagazzinare un singolo incantesimo con bersaglio di 3° liv. o inferiore. Quando il portatore infligge danni può lanciare l'incantesimo sulla vittima come azione immediata.
+2. Affilata
+L'intervallo di minaccia dell'arma raddoppia. Solo armi taglienti.
+3. Alleanza
+Come azione gratuita a inizio turno, il portatore trasferisce parte o tutto il bonus di potenziamento a un'arma di una creatura in vista (non cumulabile con il potenziamento di quella creatura).
+4. Anatema
+Tira 1d12 per il tipo nemico. Contro di essi il bonus di potenziamento è migliore di +2 e l'arma infligge 2d6 danni extra.
+5. Anatema delle Illusioni
+Il portatore ignora le probabilità di mancare da effetti di [illusione] (inclusi spostamenti). Una volta al giorno, dopo un colpo, può tentare una prova di dissoluzione (1d20+10) contro ogni illusione attiva su di sé.
+6. Ancorante
+Quando l'arma colpisce, come azione veloce il portatore inibisce la capacità di teletrasportarsi del bersaglio per 10 minuti.
+7. Anti-incantesimo
+Come azione gratuita quando deve superare un TS contro un incantesimo, il portatore trasferisce parte o tutto il bonus di potenziamento come bonus cumulabile al tiro. Dura fino al turno successivo.
+8. Astuzia
+In caso di minaccia di critico, il portatore ottiene +4 al tiro di conferma se ha 5+ gradi in Conoscenze per identificare il tipo di creatura (+6 se ha 15+).
+9. Benedetta
+L'arma conta come allineata Bene. Tre volte al giorno, il portatore può confermare automaticamente minacce di critico contro nemici malvagi per 1 round.
+10. Berserker
+Il portatore infligge 1d8 danni extra mentre è in ira.
+11. Bramosa
+Il portatore può estrarre l'arma come azione gratuita e ottiene +2 all'Iniziativa. L'arma infligge 2 danni extra nel primo round di ogni combattimento.
+12. Cercacuore
+Il portatore ignora la probabilità di mancare per occultamento contro la maggior parte dei bersagli viventi (non contro aberrazioni, melme, vegetali, elementali o creature notoriamente prive di cuore).
+13. Colpo d'Ombra
+Una volta al giorno, fino alla fine del turno il portatore allunga la portata dell'arma di 1,5 m. Il primo attacco nega il bonus di Destrezza alla CA del bersaglio.
+14. Concussiva
+L'intervallo di minaccia raddoppia. Solo armi contundenti.
+15. Coraggiosa
+Il portatore ottiene bonus +4 morale ai TS contro [paura].
+16. Corrosiva
+L'arma infligge 1d6 danni da acido extra. Incompatibile con Folgorante, Gelida, Infuocata, Sonica.
+17. Crudele
+Quando colpisce una creatura scossa/spaventata/in preda al panico, la rende inferma 1 round. Se uccide o stordisce, il portatore ottiene 5 PF temporanei (10 min).
+18. Da Caccia
+L'arma infligge 4 danni extra contro i nemici prescelti del possessore.
+19. Delineante
+Quando colpisce, per 1 round delinea con Luminescenza i bersagli occultati magicamente o soprannaturalmente.
+20. Difensiva
+Come azione gratuita a inizio turno, il portatore trasferisce parte o tutto il bonus di potenziamento alla propria CA come bonus cumulabile. Dura fino al turno successivo.
+21. Disincantante
+Ogni volta che l'arma colpisce un nemico con RI, quella RI è ridotta di 2 punti in modo cumulabile per 1 round.
+22. Dissolvente
+Come Accumula Incantesimi ma solo per Dissolvi Magie. La prova di livello di incantatore ottiene bonus pari al bonus di potenziamento dell'arma.
+23. Esplosione Celestiale
+In caso di critico contro una creatura malvagia, infligge 3d6 danni extra. Se fallisce un TS (CD 10 + ½ DV + bonus totale), è accecata 1 round.
+24. Essiccante
+L'arma infligge 1d4 danni extra alle creature viventi (1d8 contro vegetali, melme ed elementali [acqua]).
+25. Estingui Fuoco
+Il portatore può estinguere un fuoco non magico di taglia media o inferiore. Infligge 1d6 danni extra contro creature con il sottotipo [fuoco]. Bonus +2 ai TS contro effetti di fuoco.
+26. Flagello Draconico
+L'arma infligge 1d8 danni extra a draghi, draconici e coboldi.
+27. Folgorante
+L'arma infligge 1d6 danni da elettricità extra. Incompatibile con Corrosiva, Gelida, Infuocata, Sonica.
+28. Fortuita
+Una volta per round, quando il portatore colpisce con un attacco di opportunità, può effettuare un secondo attacco di opportunità contro lo stesso nemico con penalità –5.
+29. Fortunosa
+Una volta al giorno, il portatore può ripetere un tiro per colpire fallito.
+30. Frastornante
+In caso di critico, la vittima è frastornata per 5 round (TS Volontà per porre fine all'effetto ogni turno, CD 10 + ½ DV + bonus totale).
+31. Gelida
+L'arma infligge 1d6 danni da freddo extra. Incompatibile con Corrosiva, Folgorante, Infuocata, Sonica.
+32. Guardiana
+Come azione gratuita a inizio turno, il portatore trasferisce parte o tutto il bonus di potenziamento ai TS come bonus cumulabile. Dura fino al turno successivo.
+33. Immorale
+Gli attacchi infliggono 2d6 danni extra ai nemici e 1d6 al portatore.
+34. Impalamento
+Tre volte al giorno, come azione veloce il prossimo attacco del turno è effettuato come attacco di contatto.
+35. Impetuosa
+L'arma infligge 2d6 danni extra quando il portatore effettua una carica in arcione.
+36. Incalzare Rafforzato
+L'arma concede Incalzare per un attacco extra se il primo va a segno, purché l'avversario successivo sia adiacente. Quell'attacco non può essere sul primo avversario.
+37. Infuocata
+L'arma infligge 1d6 danni da fuoco extra. Incompatibile con Corrosiva, Folgorante, Gelida, Sonica.
+38. Isolante
+Il portatore può toccare superfici cariche elettricamente senza danni. Infligge 1d6 danni extra contro creature [aria]. Bonus +2 ai TS contro effetti [aria] o [elettricità].
+39. Lancio
+L'arma ottiene un incremento di gittata +3 m e può essere lanciata.
+40. Marina
+Il portatore ottiene bonus a Nuotare pari al doppio del bonus di potenziamento e non subisce penalità sott'acqua a tiri per colpire e danni (come Libertà di Movimento).
+41. Mascheramento
+Come azione standard, l'arma muta forma apparendo come un oggetto simile. Solo Visione del Vero ne rivela la natura. Si rivela se usata in attacco (sopprime per 1 min).
+42. Menomante
+In caso di critico, infligge danni extra: +1d6 per ×2, +2d6 per ×3, +3d6 per ×4.
+43. Minacciosa
+Quando il portatore è adiacente a una creatura attaccata ai fianchi da un alleato, il bonus di fiancheggiamento di tutti gli alleati aumenta di +2.
+44. Neutralizzante
+Il portatore può trasformare fino a 4,5 L di acido al giorno in acqua. L'arma infligge 1d6 danni extra contro creature [terra]. Bonus +2 ai TS contro [acido] o [terra].
+45. Planare
+L'arma ignora 5 punti di RD degli esterni.
+46. Precisione Letale
+Il portatore migliora di 1d6 il danno dei propri attacchi di precisione già esistenti.
+47. Rallentante
+Un critico costringe la vittima a superare un TS su Tempra (CD 5 + ½ DV + bonus totale) o è rallentata 1d3 round. Immuni al freddo non vengono rallentate; vulnerabili al fuoco raddoppiano i round.
+48. Richiamabile
+Come azione veloce, il portatore teletrasporta l'arma nelle proprie mani (max 15 m). L'arma deve essere in suo possesso per almeno 24 ore.
+49. Risonante
+Quando l'arma colpisce, emette un «ding» che fornisce a tutti gli alleati +1 morale ai tiri per colpire fino al turno successivo del portatore (non cumulabile per attacchi multipli).
+50. Rissosa
+Il portatore ottiene bonus alle manovre in combattimento pari al bonus di potenziamento.
+51. Scongelante
+Il portatore può rimuovere il ghiaccio da un oggetto di taglia media o inferiore. L'arma infligge 1d6 danni extra contro creature [freddo]. Bonus +2 ai TS contro [freddo].
+52. Sonica
+L'arma infligge 1d6 danni sonori extra. Incompatibile con Corrosiva, Folgorante, Gelida, Infuocata.
+53. Spezza-carica
+Quando il portatore subisce una carica, può effettuare un attacco di opportunità. Se colpisce, l'attaccante supera un TS su Tempra (CD 5 + ½ DV + bonus totale) o finisce prono e termina il turno.
+54. Tocco Fantasma
+La capacità di ridurre del 50% i danni corporei delle creature incorporee non si applica a questa arma. Può essere usata dalle creature incorporee.
+55. Tonante
+Infligge 1d8 danni sonori extra per critico (2d8 per ×3, 3d8 per ×4). Chi subisce il critico supera un TS su Tempra (CD 10 + ½ DV + bonus totale) o è assordato per 1 ora.
+56. Trascinante
+Cinque volte al giorno, quando colpisce, il portatore può spostare la vittima di 1 casella.
+57. Troglodita
+Quando il portatore entra in ira impugnando l'arma, l'ira dura 3 turni extra.
+58. Vampirica
+Il primo colpo per round su un bersaglio vivente ripristina PF pari alla metà dei danni inflitti (max = DV del portatore; max 2 PF/DV/giorno). Solo creature viventi o non morti beneficiano. L'arma deve essere posseduta 24 ore.
+59. Agganciatrice ★ ★
+In caso di colpo critico, l'arma lega il bersaglio al portatore: per 3 round, il bersaglio non può allontanarsi a più di 3 m dal portatore senza superare un TS su Tempra (CD 10 + ½ DV + bonus totale).
+60. Beffarda ★ ★
+Ogni volta che il portatore manca un attacco, il bersaglio subisce comunque 1 danno psichico (non ridotto da RD) per la frustrazione inaspettata.
+61. Cacciasangue ★ ★
+L'arma può percepire le creature ferite (PF inferiori al 50% del massimo) entro 9 m, permettendo al portatore di individuarne la posizione anche se invisibili o nascoste.
+62. Cangiante ★ ★
+L'arma può cambiare apparenza e tipo (da spada a mazza, da ascia a lancia) come azione veloce, mantenendo le stesse statistiche di base. Solo armi della stessa categoria di peso.
+63. Catalizzatrice ★ ★
+Tre volte al giorno, quando il portatore usa un'abilità di classe basata su un tiro (come Attacco furtivo), l'arma amplifica l'effetto: ottiene +1d6 ai danni extra.
+64. Destrorsa ★ ★
+Se il portatore combatte con due armi, la penalità ai tiri per colpire con questa arma è ridotta di 1.
+65. Esplodente ★ ★
+Una volta al giorno, come azione veloce, il portatore può caricare l'arma di energia esplosiva: il prossimo attacco, se colpisce, genera un'esplosione di 1,5 m che infligge 2d6 danni dello stesso tipo dell'arma a tutte le creature nell'area (TS Riflessi per dimezzare).
+66. Fastidiosa ★ ★
+Ogni volta che l'arma colpisce un bersaglio, questi subisce penalità –1 cumulativa (max –3) a tutte le azioni di concentrazione per il resto del combattimento.
+67. Frantumante ★ ★
+Quando l'arma colpisce un'armatura o uno scudo (attacco diretto all'oggetto), riduce il bonus di potenziamento dell'oggetto di 1 per 1 round (non permanente). Solo armi contundenti.
+68. Glaciale ★ ★
+L'arma infligge 1d4 danni extra da freddo e rallenta il primo movimento della vittima per 1 round (il suo prossimo movimento dimezza la velocità). Non cumulabile con Gelida.
+69. Lucentissima ★ ★
+L'arma emette luce intensa (come torcia) che non può essere soppressa magicamente. I non morti nell'aura di luce (6 m) subiscono penalità –1 ai tiri per colpire.
+70. Paziente ★ ★
+Per ogni round consecutivo in cui il portatore non attacca e si limita a difendersi, accumula un bonus +1 al prossimo attacco (massimo +4). Il bonus si azzera dopo il primo attacco.
+71. Persecutrice ★ ★
+Tre volte al giorno, il portatore designa un bersaglio (azione gratuita): l'arma infligge 1d6 danni extra contro quel solo bersaglio per 1 minuto. Può avere solo un bersaglio designato alla volta.
+72. Risonante Superiore ★ ★
+Come Risonante ma il bonus ai tiri per colpire degli alleati è +2, dura fino all'inizio del prossimo turno e si applica anche ai TS. Non richiede la capacità base Risonante.
+73. Sbilanciante ★ ★
+Ogni colpo di questa arma riduce la stabilità del bersaglio: questi subisce –1 cumulativo (massimo –3) alla DMC contro manovre di Sbilanciare e Spingere per 1 round.
+74. Sorprendente ★ ★
+La prima volta per combattimento che il portatore attacca un nemico, questi è considerato privo del bonus di Destrezza alla CA (come per un attacco furtivo). Richiede che il portatore non abbia ancora attaccato quel nemico.
+75. Tessitrice di Ombre ★ ★
+Tre volte al giorno, quando l'arma infligge danni, crea un'ombra residua: per 1 round il bersaglio ha occultamento 20% verso tutti eccetto il portatore.
+
+Capacità Armi da Mischia +2
+Capacità
+Effetto
+1. Anarchica
+L'arma conta come allineata Caos e infligge un Livello Negativo permanente a qualsiasi creatura legale che la impugni (scompare rimuovendo l'arma). Infligge 2d6 danni extra ai nemici legali.
+2. Assiomatica
+L'arma conta come allineata Legge e infligge un Livello Negativo permanente a creature caotiche che la impugnino. Infligge 2d6 danni extra ai nemici caotici.
+3. Aura Energetica
+L'arma infligge 1d6 danni extra di un tipo di energia a scelta (acido, elettricità, fuoco, freddo). Il portatore può cambiare tipo come azione standard. Incompatibile con Corrosiva, Folgorante, Gelida, Infuocata, Sonica.
+4. Avanzante
+Una volta per round, quando il portatore infligge danni in mischia, come azione veloce può effettuare un passo di 1,5 m (non conta ai fini del movimento ordinario né dei passi normali).
+5. Consunzione
+L'arma infligge 1d8 danni da energia negativa extra alle creature viventi. Non cura i non morti.
+6. Debilitante
+In caso di critico, l'arma infligge 1 Livello Negativo alla vittima (scompare dopo 1 ora).
+7. Del Colpo Sfocato
+Cinque volte al giorno, l'arma nega il bonus di Destrezza alla vittima al primo attacco contro di lei in quel round.
+8. Della Collisione
+L'arma infligge 3 danni extra.
+9. Della Vista Cieca
+Tre volte al giorno, come azione standard il portatore chiede all'arma la posizione dei nemici: per 1 minuto, a inizio turno può superare una prova di Percezione (udito) CD 10. Se riesce, ottiene Vista cieca 9 m per quel round.
+10. Distruzione
+I non morti colpiti superano un TS su Volontà (CD 2 + ½ DV + bonus totale) o sono distrutti (max una volta per round dalla stessa arma).
+11. Esplosione Corrosiva
+Come Corrosiva. In caso di critico, infligge danni extra da acido: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+12. Esplosione di Fiamme
+Come Infuocata. In caso di critico, infligge danni extra da fuoco: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+13. Esplosione di Ghiaccio
+Come Gelida. In caso di critico, infligge danni extra da freddo: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+14. Esplosione Folgorante
+Come Folgorante. In caso di critico, infligge danni extra da elettricità: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+15. Furia Innata
+Ogni volta che l'arma infligge danni, il suo bonus di potenziamento aumenta di +1 verso quel nemico (max +5). Azzera alla morte del nemico, se si attacca un altro o dopo 1 ora.
+16. Gloriosa
+L'arma irradia Luce diurna quando estratta (non sopprimibile). Ogni creatura attaccata in mischia è abbagliata automaticamente fino al turno successivo. In caso di critico, la vittima è accecata (TS Tempra CD 5 + ½ DV + bonus totale per ridurre a 1 round).
+17. Impatto
+L'arma infligge danni come di una categoria di taglia superiore. Le manovre di Spingere ottengono bonus pari al bonus di potenziamento. Solo armi non leggere.
+18. Impulso Vitale
+Il portatore ottiene bonus ai TS contro Necromanzia pari al bonus di potenziamento. Ogni fonte di PF temporanei viene amplificata di quel valore. L'intervallo di minaccia critica raddoppia contro i non morti. In caso di critico, emette energia positiva: +1d8 per ×2, +2d8 per ×3, +3d8 per ×4 (danni o cura al portatore).
+19. Incendiaria
+Come Infuocata, ma fa prendere automaticamente fuoco le vittime di un colpo critico.
+20. Negante
+Ogni volta che l'arma infligge danni a un nemico con RD/caos, male, bene, legge o magia, riduce quel valore di 5 per 1 round. Non cumulabile.
+21. Parante
+Il portatore ottiene bonus cognitivo +1 alla CA e +1 ai TS.
+22. Posta
+Come azione standard, il portatore studia una creatura entro 18 m: quando la attacca, infligge 1d6 danni da precisione extra per ogni round di studio (max 1d6/bonus potenziamento). Solo il primo colpo. Max una creatura studiata alla volta.
+23. Rinvigorente
+Quando il portatore uccide un nemico: se affaticato, rimuove tale condizione; se esausto, diventa affaticato; altrimenti ottiene +2 morale ai tiri per colpire e +3 m alla velocità fino alla fine del prossimo turno.
+24. Sacra
+Come Anarchica ma allineata Bene: Livello Negativo alle creature malvagie e 2d6 danni extra ai nemici malvagi.
+25. Sacrilega
+Come Anarchica ma allineata Male: Livello Negativo alle creature buone e 2d6 danni extra ai nemici buoni.
+26. Sprezzante
+L'arma rimane in mano anche se il portatore è in preda al panico, stordito o privo di sensi. Bonus ai TS per porre fine a incantesimi con TS multipli. Con talenti Riflessi/Tempra/Volontà migliorati: extra usi giornalieri pari al bonus di potenziamento.
+27. Trasmutante
+Se l'arma colpisce un nemico con RD, all'inizio del turno successivo si trasforma assumendo le proprietà per superare quella RD per 1 minuto o finché non colpisce una creatura con RD diversa.
+28. Vampirica Superiore
+Come Vampirica ma recupera max 5 PF/DV/giorno.
+29. Cattura Anima ★ ★
+In caso di critico contro una creatura con TS su Volontà fallito (CD 10 + ½ DV + bonus totale), un frammento dell'anima è catturato nell'arma: la vittima subisce penalità –2 a tutti i tiri per 1 ora.
+30. Corrosiva Potenziata / Elementale ★ ★
+Come la relativa capacità elementale (Corrosiva, Gelida, Folgorante, Infuocata o Sonica) ma infligge 1d8 danni extra invece di 1d6. Inoltre, il danno di quel tipo persiste: la vittima subisce 1d8 danni dello stesso tipo all'inizio di ogni suo turno per un numero di round pari al bonus di potenziamento dell'arma. Non cumulabile con la rispettiva capacità base.
+31. Dissanguante Critico ★ ★
+In caso di critico, la vittima subisce un effetto di [sanguinamento] pari al dado di danno dell'arma (es. 1d8 per una spada lunga) per 3 round. Questo sanguinamento si cumula con altri.
+32. Eco d'Attacco ★ ★
+Ogni volta che il portatore effettua un attacco con questa arma e manca, il prossimo attacco contro lo stesso bersaglio guadagna +1 cumulativo (max +4). Il bonus si azzera se il portatore attacca un bersaglio diverso.
+33. Frantumante Incantesimi ★ ★
+Ogni colpo riuscito riduce di 1 round la durata di qualsiasi incantesimo benefico attivo sul bersaglio (a scelta del portatore). Questo effetto non si applica a capacità magiche innate.
+34. Mirino Perfetto ★ ★
+Il portatore può spendere 1 round in assenza di attacchi (azione di puntare) per ottenere il colpo seguente come se avesse piena concentrazione: il prossimo tiro per colpire ottiene bonus +4 e ignora copertura (ma non copertura totale).
+35. Rubaforza ★ ★
+In caso di critico, la vittima perde 1d4 punti di Forza temporaneamente (recuperati dopo 10 min). Il portatore guadagna questi punti di Forza per la stessa durata.
+36. Sigillo del Caos ★ ★
+Ogni attacco riuscito applica un sigillo instabile al bersaglio. Al terzo sigillo applicato entro 1 round, il bersaglio è confuso per 1 round (TS Volontà CD 10 + ½ DV + bonus totale per negare). I sigilli si azzerano.
+37. Striatura Corrosiva ★ ★
+Tre volte al giorno, l'arma lascia una striatura magica sul bersaglio colpito: per 3 round, qualsiasi danno fisico che il bersaglio subisce è aumentato di 2.
+
+Capacità Armi da Mischia +3
+Capacità
+Effetto
+1. Colpo Prismatico
+In caso di critico, il bersaglio è soggetto a Spruzzo Prismatico.
+2. Estenuante
+In caso di critico, il portatore può rinunciare al danno extra per rendere la vittima esausta. Immune ai critici = immune all'effetto.
+3. Implacabile
+Le vittime subiscono 2 danni da sanguinamento/turno per 5 round (cumulativo). Fermabile con Sopravvivenza CD 15 o Professione (cerusico) CD 10 o cura magica. Mentre attivo, la cura magica richiede una prova di livello di incantatore CD 15. Conta come adamantio contro aberrazioni per la RD.
+4. Mietitrice Eterea
+Come Tocco Fantasma. Il portatore è in grado di vedere le creature invisibili.
+5. Nullificante
+Ogni volta che l'arma infligge danni a una creatura con RI, la RI è ridotta di 1 per 1 minuto (non cumulabile). In caso di critico, ridotta di un ammontare pari al moltiplicatore di critico.
+6. Riposizionante
+Bonus +4 alle manovre di Riposizionare. In caso di critico, il portatore può tentare Riposizionare come azione gratuita senza provocare attacchi di opportunità.
+7. Rubaincantesimi
+In caso di minaccia di critico, il portatore può rinunciare al tiro di conferma per sapere automaticamente quali effetti magici sono attivi sul bersaglio. Può poi effettuare una prova di livello (arma + bonus totale vs CD 11 + livello effetto) per rubare un effetto per 1 minuto. Per ×3 può rubarne due, per ×4 tre.
+8. Velocità
+Se il portatore attacca solo con quest'arma, può effettuare un attacco extra come azione di round completo.
+9. Agonizzante ★ ★
+In caso di critico, la vittima subisce penalità –4 alla CA e ai TS per 3 round di dolore estremo (TS Tempra CD = 10 + ½ DV + bonus totale per ridurre a –2 per 1 round).
+10. Annientatrice ★ ★
+Ogni colpo riuscito su un costrutto o non morto infligge danni extra da forza pari a 1d6 × bonus di potenziamento dell'arma, che bypassano qualsiasi RD o RE.
+11. Cancellante ★ ★
+In caso di critico, rimuove completamente un effetto benefico a scelta del portatore attivo sul bersaglio (senza possibilità di TS).
+12. Destabilizzante ★ ★
+Ogni colpo riuscito riduce il punteggio di Destrezza del bersaglio di 1 (recuperato dopo 1 ora o con cura magica). Massimo –6 dalla stessa arma in 24 ore.
+13. Drago Interiore ★ ★
+L'arma canalizza il potere dei draghi: ogni attacco riuscito ha il 10% di emettere un soffio del tipo scelto al momento della sintonia (area 3 m di raggio, 3d6 danni, TS Riflessi per dimezzare).
+14. Eruzione di Forza ★ ★
+In caso di critico, l'arma emette un'onda di forza cieca: tutte le creature entro 3 m dal bersaglio (escluso il portatore) subiscono 2d8 danni di forza e sono spostate di 1,5 m (TS Riflessi per resistere).
+15. Marchio del Predatore ★ ★
+L'arma marca il primo bersaglio colpito in ogni combattimento. Contro quel bersaglio il portatore ottiene sempre vantaggio (ritira un tiro per colpire e prende il migliore) e il bersaglio non ottiene il bonus di Destrezza alla CA.
+16. Nervo Esposto ★ ★
+In caso di critico, il bersaglio è soggetto a dolore acuto: per 2 round non può usare azioni standard che richiedano concentrazione (incantesimi, capacità speciali con requisiti di concentrazione).
+17. Plagio ★ ★
+Una volta al giorno, dopo aver colpito con successo, l'arma può copiare l'ultima capacità speciale usata dal bersaglio. Il portatore può usarla una volta entro 1 minuto, come se fosse una sua capacità di classe con CD basata sul proprio bonus.
+18. Umbrale ★ ★
+L'arma infligge metà dei danni come danno da ombra che bypassa la RE e la RD normale. Il danno da ombra non può essere curato da effetti di luce o energie positive.
+
+Capacità Armi da Mischia +4
+Capacità
+Effetto
+1. Danzante
+Come azione standard, l'arma combatte da sola per 4 round usando il bonus di attacco base del portatore. Non compie attacchi di opportunità. Il portatore non è considerato armato. Cade dopo 4 round; può essere ripresa come azione gratuita se si ha una mano libera (poi non può danzare per altri 4 round).
+2. Duello
+Il portatore ottiene bonus +4 all'Iniziativa se impugna l'arma. Bonus +2 alle prove di Fintare e +2 alla CD per Fintare contro il portatore. Solo armi usabili con Arma Accurata.
+3. Energia Luminosa
+L'arma è in gran parte di luce (non influisce sul peso). Fornisce luce come torcia. Contro gli attacchi del portatore, il bonus di armatura e scudo alla CA (incluso il potenziamento) non contano. Non può ferire non morti, costrutti e oggetti.
+4. Vomita Maledizioni
+In caso di critico, la vittima subisce penalità –4 ai tiri per colpire e ai TS per 1 minuto [maledizione].
+5. Cattura Essenza ★ ★
+Ogni volta che l'arma uccide un bersaglio vivente, il portatore assorbe la sua forza vitale: recupera PF pari ai DV della creatura uccisa (massimo una volta per round) e ottiene bonus +1 a tutti i tiri per 1 minuto.
+6. Dimensionale ★ ★
+L'arma può colpire creature su un piano adiacente: una volta al giorno come azione veloce il portatore può effettuare un attacco in mischia contro una creatura eterea o incorporea entro 3 m come se fosse corporea.
+7. Flagello dei Re ★ ★
+L'arma riconosce il potere e lo sovverte: contro creature con capacità di comando (come Sfida, Aura del Paladino, ecc.), il portatore ottiene bonus +2 ai tiri per colpire e danni, e quelle capacità sono soppresse per 1 round dopo ogni colpo.
+8. Negazione Totale ★ ★
+L'arma bypassa tutte le forme di immunità ai danni fisici non derivanti dall'allineamento o da costrutti/non morti (es. RD/–, RD/Adamantio, RD/Magia). Contro costrutti e non morti, l'effetto è dimezzato.
+9. Sigillo del Berserk ★ ★
+In caso di critico, il bersaglio è soggetto a una furia incontrollabile per 2 round: deve attaccare la creatura più vicina (indipendentemente dall'alleanza), non può usare incantesimi o capacità che richiedano concentrazione. TS su Volontà per negare.
+10. Sterminasogni ★ ★
+L'arma infligge danni extra ai bersagli che hanno dormito nelle ultime 8 ore: +2d6 danni psichici. Questi danni non possono essere ridotti da RI o RE e causano anche penalità –1 a Saggezza per 24 ore (non permanente).
+
+Capacità Armi da Mischia +5
+Capacità
+Effetto
+1. Vorpal
+Dopo un 20 naturale confermato come critico, l'arma stacca la testa dell'avversario (se ne ha una). Solo armi taglienti.
+2. Volante
+Come Danzante ma l'arma può essere inviata contro nemici entro 18 m durante il periodo di danza.
+3. Apocalisse ★ ★
+Una volta a settimana, come azione standard, il portatore può scatenare tutta la potenza dell'arma: effettua un attacco contro tutti i nemici entro 9 m (separati). Ogni colpo riuscito infligge il massimo del danno possibile e applica automaticamente una condizione casuale (1d6: 1=accecato, 2=assordato, 3=nauseato, 4=stordito, 5=spaventato, 6=paralizzato) per 3 round.
+4. Dissolvi Esistenza ★ ★
+In caso di critico contro un non morto o un costrutto, la creatura deve superare un TS su Tempra (CD 20 + ½ DV + bonus totale) o essere immediatamente distrutta. Contro creature viventi, il critico riduce permanentemente di 2 i DV della vittima (recuperabili solo con Rigenerare o simile).
+5. Fato Inevitabile ★ ★
+Una volta al mese, il portatore può dichiarare un «attacco del destino»: il tiro per colpire è automaticamente 20, si ripetono i dadi che mostrano 1 o 2 (una volta sola) e l'attacco bypassa qualsiasi immunità (eccetto immunità divine). L'arma poi diventa non potenziata per 7 giorni.
+6. Morte Sussurrata ★ ★
+Due volte al giorno, quando l'arma infligge danni a un bersaglio con PF inferiori al 25% del massimo, questi deve superare un TS su Tempra (CD 20 + ½ DV + bonus totale) o morire istantaneamente. Effetto [morte]. Immune ai non morti e ai costrutti.
+7. Sigillo dell'Eroe ★ ★
+L'arma riconosce il portatore come campione: una volta al giorno il portatore può agire due volte nel proprio turno (raddoppiando le azioni, non le azioni immediate o libere). Dopo questo uso, il portatore è affaticato per 1 ora.
+8. Tessitore di Destino ★ ★
+Due volte al giorno, dopo aver conosciuto l'esito di un qualsiasi tiro d20 (prima che gli effetti siano applicati), il portatore può dichiarare che l'esito è invertito (successo diventa fallimento o viceversa).
+9. Ultima Lama ★ ★
+Quando il portatore è a 0 PF o meno ma ancora in piedi, l'arma amplifica la sua determinazione: ottiene bonus +5 a tutti i tiri per colpire, i danni sono massimizzati e non può essere stordito. Questi bonus durano finché il portatore ha PF negativi o finché il combattimento finisce.
+
+Capitolo 7: Capacità Speciali delle Armi a Distanza
+Tabelle complete con nuove aggiunte (★)
+
+Le capacità seguenti si applicano ad archi, balestre, armi da fuoco e armi da lancio. Alcune capacità sono condivise con le armi da mischia, altre sono esclusive di questa categoria. Le capacità contrassegnate con ★ sono nuove.
+
+Capacità Armi a Distanza +1
+Capacità
+Effetto
+1. Adattiva
+Il portatore può aggiungere il proprio bonus di Forza ai danni dell'arma. Solo archi.
+2. Affidabile
+L'arma ignora un Inceppamento, ma massimo una volta al minuto. Solo armi da fuoco.
+3. Alleanza
+Come azione gratuita a inizio turno, il portatore trasferisce parte o tutto il bonus di potenziamento a un'arma di una creatura in vista (non cumulabile).
+4. Anatema
+Tira 1d12 per il tipo nemico. Contro di essi il bonus di potenziamento è migliore di +2 e l'arma infligge 2d6 danni extra.
+5. Anti-incantesimo
+Come azione gratuita, trasferisce parte o tutto il bonus di potenziamento come bonus a un TS contro un incantesimo. Dura fino al turno successivo.
+6. Astuzia
+Minaccia di critico: bonus +4 al tiro di conferma se ha 5+ gradi in Conoscenze per il tipo della creatura (+6 se 10+).
+7. Benedetta
+Conta come allineata Bene. Tre volte al giorno, conferma automaticamente minacce di critico contro nemici malvagi.
+8. Corrosiva
+Infligge 1d6 danni da acido extra. Incompatibile con Folgorante, Gelida, Infuocata, Sonica.
+9. Crudele
+Quando colpisce una creatura scossa/spaventata, la rende inferma 1 round. Se la uccide o stordisce, il portatore ottiene 5 PF temporanei.
+10. Da Caccia
+Infligge 4 danni extra contro i nemici prescelti.
+11. Delineante
+Quando colpisce, per 1 round delinea con Luminescenza i bersagli occultati magicamente.
+12. Esplosione Celestiale
+In caso di critico contro un nemico malvagio, infligge 3d6 danni extra. TS Tempra o accecato 1 round.
+13. Essiccante
+Infligge 1d4 danni extra alle creature viventi (1d8 contro vegetali, melme ed elementali [acqua]).
+14. Flagello Draconico
+Infligge 1d8 danni extra a draghi, draconici e coboldi.
+15. Folgorante
+Infligge 1d6 danni da elettricità extra. Incompatibile con Corrosiva, Gelida, Infuocata, Sonica.
+16. Fortunata
+Una volta al giorno, il portatore può ripetere un tiro per colpire fallito.
+17. Gelida
+Infligge 1d6 danni da freddo extra. Incompatibile con Corrosiva, Folgorante, Infuocata, Sonica.
+18. Infuocata
+Infligge 1d6 danni da fuoco extra. Incompatibile con Corrosiva, Folgorante, Gelida, Sonica.
+19. Mascheramento
+Come azione standard, l'arma muta forma. Si rivela se usata.
+20. Munizioni Infinite
+L'arma si ricarica automaticamente con munizioni comuni. Le munizioni speciali possono essere caricate normalmente. Le munizioni comuni svaniscono se rimosse o dopo essere sparate. Solo archi e balestre.
+21. Planare
+Ignora 5 punti di RD degli esterni.
+22. Potenza Arcana
+Come azione veloce, il portatore può sacrificare uno slot incantesimo per bonus ai danni del prossimo attacco pari a 1d4 per livello.
+23. Precisione Letale
+Migliora di 1d6 il danno degli attacchi di precisione già esistenti.
+24. Ricercante
+Le munizioni virano verso il bersaglio, negando qualsiasi probabilità di mancare per occultamento. Bisogna mirare nella casella giusta.
+25. Richiamabile
+Come azione veloce, teletrasporta l'arma nelle proprie mani (max 15 m; deve essere posseduta 24 ore).
+26. Ritornante
+Dopo ogni attacco l'arma torna al portatore (azione gratuita per afferrarla). Solo armi da lancio.
+27. Sonica
+Infligge 1d6 danni sonori extra. Incompatibile con Corrosiva, Folgorante, Gelida, Infuocata.
+28. Tonante
+In caso di critico: 1d8 danni sonori extra (2d8 per ×3, 3d8 per ×4). TS Tempra o assordato 1 ora.
+29. Calibrata ★ ★
+Il portatore può scegliere di regolare la potenza del colpo: può infliggere danni non letali con un'arma a distanza senza penalità al tiro per colpire.
+30. Dardeggiante ★ ★
+Il raggio di portata dell'arma aumenta di 50% (es. un arco lungo con portata 30 m diventa 45 m). Questo non influenza gli incrementi multipli di gittata.
+31. Dispersione ★ ★
+Una volta al giorno, come azione di round completo, il portatore può sparare in dispersione: effettua attacchi contro tutte le creature in un cono di 9 m, usando il tiro per colpire normale per ognuna.
+32. Implacabile a Distanza ★ ★
+Le vittime colpite subiscono 1 danno da sanguinamento/turno per 3 round. Fermabile con Professione (cerusico) CD 10 o cura magica.
+33. Sensibile ★ ★
+L'arma può «sentire» i bersagli attraverso ostacoli leggeri (vegetazione, nebbia, fumo): riduce le penalità per copertura parziale di 2.
+34. Silenziosa ★ ★
+I colpi di questa arma non producono suono. Il portatore non rivela la propria posizione sparando. Solo per balestre e archi.
+35. Tracciante ★ ★
+Le munizioni lasciano una scia visibile di luce per 1 round dopo il colpo, permettendo al portatore di sapere esattamente dove hanno colpito (anche se il bersaglio non è visibile). Non si applica a munizioni speciali.
+36. Turbocaricata ★ ★
+Una volta per round, il portatore può caricare e sparare più velocemente: aggiunge un attacco extra con penalità –4 al tiro per colpire durante un'azione di round completo (solo per armi da fuoco).
+
+Capacità Armi a Distanza +2
+Capacità
+Effetto
+1. Anarchica
+Allineata Caos: Livello Negativo permanente a creature legali. 2d6 danni extra ai nemici legali.
+2. Ancorante
+Quando colpisce, come azione veloce inibisce la capacità di teletrasportarsi del bersaglio per 10 minuti.
+3. Assiomatica
+Allineata Legge: Livello Negativo permanente a creature caotiche. 2d6 danni extra ai nemici caotici.
+4. Aura Energetica
+Infligge 1d6 danni extra di un tipo di energia scelto (cambiabile come azione standard). Incompatibile con Corrosiva, Folgorante, Gelida, Infuocata, Sonica.
+5. Consunzione
+Infligge 1d8 danni da energia negativa extra alle creature viventi. Non cura i non morti.
+6. Debilitante
+In caso di critico, infligge 1 Livello Negativo alla vittima (scompare dopo 1 minuto).
+7. Della Collisione
+Infligge 3 danni extra.
+8. Della Vista Cieca
+Tre volte al giorno: per 1 minuto a inizio turno può superare Percezione (udito) CD 10 per ottenere Vista cieca 9 m per quel round.
+9. Designante Inferiore
+L'arma designa il bersaglio: tutti gli alleati del portatore ottengono +2 morale ai tiri per colpire e ai danni contro quel bersaglio per 1 round. Non cumulabile.
+10. Esplosione Corrosiva
+Come Corrosiva. Critico: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+11. Esplosione di Fiamme
+Come Infuocata. Critico: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+12. Esplosione di Ghiaccio
+Come Gelida. Critico: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+13. Esplosione Folgorante
+Come Folgorante. Critico: +1d10 per ×2, +2d10 per ×3, +3d10 per ×4.
+14. Incendiaria
+Come Infuocata ma i bersagli di un critico prendono automaticamente fuoco.
+15. Negante
+Ogni colpo su nemici con RD/caos, male, bene, legge o magia riduce quel valore di 5 per 1 round. Non cumulabile.
+16. Posta
+Come azione di movimento, studia una creatura entro 36 m: danni da precisione extra pari a 1d6/round di studio (max 1d6/bonus potenziamento) al primo colpo a segno.
+17. Sacra
+Allineata Bene: Livello Negativo alle creature malvagie. 2d6 danni extra ai nemici malvagi.
+18. Sacrilega
+Allineata Male: Livello Negativo alle creature buone. 2d6 danni extra ai nemici buoni.
+19. Trasmutante
+Se colpisce un nemico con RD, all'inizio del turno successivo si trasforma per superare quella RD per 1 minuto.
+20. Baluardo Arcano ★ ★
+Una volta al giorno, come azione immediata, quando il portatore sarebbe colpito da un incantesimo, l'arma proietta uno schermo di forza che assorbe fino a 20 danni magici.
+21. Catapulta di Energia ★ ★
+Come azione di round completo, una volta al giorno, il portatore può sparare un colpo concentrato di energia pura: 6d8 danni di forza a un bersaglio entro gittata normale (nessun TS per dimezzare). L'arma non può sparare nel round successivo.
+22. Esplosiva ★ ★
+Una volta al giorno, le munizioni esplodono all'impatto: area di esplosione di 3 m, danni 3d6 del tipo dell'arma (TS Riflessi per dimezzare, CD 10 + ½ DV + bonus totale).
+23. Perforante Magia ★ ★
+Le munizioni di questa arma riducono la RI del bersaglio di 5 (non si cumula con altre capacità che riducono la RI).
+24. Scacco Matto ★ ★
+In caso di critico, il bersaglio è vincolato dalla posizione: non può effettuare reazioni né attacchi di opportunità per 1 round, e qualsiasi tentativo di muoversi richiede un TS su Tempra (CD 10 + ½ DV + bonus totale) o fallisce.
+25. Tiro Multiplo Perfetto ★ ★
+Quando il portatore effettua più attacchi in un round completo, la penalità al tiro per colpire per gli attacchi multipli è ridotta di 1 per ogni attacco (es. –4/–8 diventa –3/–7).
+26. Tracciante Magico ★ ★
+Tre volte al giorno, quando il portatore colpisce con questa arma, il bersaglio è marcato per 1 ora: il portatore ottiene +2 ai tiri per colpire contro quel bersaglio e può individuarne la posizione esatta anche se nascosto o invisibile.
+
+Capacità Armi a Distanza +3
+Capacità
+Effetto
+1. Colpo Agile
+L'arma non provoca attacchi di opportunità quando fa fuoco.
+2. Nullificante
+Ogni colpo su creature con RI riduce la RI di 1 per 1 minuto (max bonus totale dell'arma). Critico: riduzione pari al moltiplicatore di critico.
+3. Seconda Possibilità
+Quando l'arma manca il bersaglio, come azione gratuita il portatore può ripetere il tiro. Dopo l'utilizzo, bisogna attendere 1d3 round.
+4. Cecchino dell'Oscurità ★ ★
+Il portatore ignora le penalità al tiro per colpire dovute a oscurità, luce fioca, nebbia o occultamento totale. L'arma «vede» dove mirare attraverso qualsiasi ostacolo visivo non fisico.
+5. Controllo del Campo ★ ★
+Come azione standard, una volta al giorno il portatore può dichiarare una zona di controllo di 9 m di raggio: qualsiasi creatura nemica che entri o si muova all'interno di questa zona subisce un attacco di opportunità dalla distanza (un solo attacco gratuito).
+6. Eco Ballistico ★ ★
+Quando il portatore effettua un attacco mancato, l'eco del colpo può riattaccare: tira 1d6; con risultato 5-6, il colpo rimbalza e colpisce automaticamente il bersaglio per metà dei danni.
+7. Miglioramento Continuo ★ ★
+Per ogni round consecutivo in cui il portatore spara allo stesso bersaglio (minimo 2), guadagna +1 ai tiri per colpire e danni cumulativi (max +4). Il bonus si azzera se cambia bersaglio.
+8. Penetrazione Critica ★ ★
+In caso di critico, il colpo attraversa il bersaglio e può colpire un secondo bersaglio su una linea retta entro 9 m con tiro per colpire separato (danni ridotti della metà).
+9. Ricarica Rapida ★ ★
+Il portatore può ricaricare l'arma come azione veloce invece che come azione di movimento. Solo balestre e armi da fuoco.
+10. Soppressione ★ ★
+Ogni colpo riuscito applica un effetto di soppressione al bersaglio: per 1 round, il bersaglio deve superare un TS su Volontà (CD 10 + ½ DV + bonus totale) o non potrà effettuare azioni di movimento verso il portatore.
+11. Tiro Curvo ★ ★
+Il portatore può ignorare la copertura parziale (non totale) del bersaglio: le munizioni curvano leggermente la traiettoria per colpire angoli impossibili. Solo archi.
+
+Capacità Armi a Distanza +4
+Capacità
+Effetto
+1. Designante Superiore
+Designa il bersaglio: tutti gli alleati ottengono +4 morale ai tiri per colpire e +6 ai danni contro quel bersaglio per 1 round.
+2. Energia Luminosa
+L'arma è in gran parte di luce (non influisce sul peso). Irradia luce come torcia. Contro gli attacchi del portatore, il bonus CA di armatura e scudo non conta. Non può ferire non morti, costrutti e oggetti.
+3. Velocità
+Se il portatore attacca solo con quest'arma, può effettuare un attacco extra come azione di round completo.
+4. Vomita Maledizioni
+In caso di critico, la vittima subisce –4 ai tiri per colpire e ai TS per 1 minuto [maledizione].
+5. Barriera di Proiettili ★ ★
+Come azione standard, una volta al giorno il portatore crea una barriera di proiettili di forza attorno a sé (raggio 3 m): qualsiasi attacco a distanza contro il portatore ha il 25% di essere deviato e ri-diretto verso l'attaccante.
+6. Catapulta Critica ★ ★
+In caso di critico, l'arma scaglia il proiettile con tale forza da causare un'onda d'urto: tutte le creature entro 1,5 m dal punto d'impatto subiscono metà dei danni del colpo critico (TS Riflessi per negare).
+7. Colpo dell'Angelo ★ ★
+Una volta al giorno, come azione standard il portatore può scagliare un colpo guidato dall'alto: l'attacco non può mancare (automaticamente centrato) e bypassa qualsiasi forma di copertura, inclusa quella totale. I danni sono massimizzati.
+8. Freccia dell'Oblio ★ ★
+In caso di critico, il bersaglio perde i ricordi degli ultimi 10 minuti: non ricorda di essere in combattimento e non agisce per 1 round, trattando tutti come neutri finché non viene attaccato di nuovo. TS Volontà per negare.
+9. Silenziatore Totale ★ ★
+Qualsiasi attacco con questa arma è assolutamente silenzioso e non lascia tracce: il portatore non può essere localizzato per direzione del colpo. Inoltre, il primo attacco per round ha il 50% di sorprendere il bersaglio (negazione del bonus Dex).
+10. Turno Impossibile ★ ★
+Come azione di round completo, una volta al giorno, il portatore può scagliare un proiettile che curva impossibilmente: può colpire qualsiasi bersaglio entro gittata massima dell'arma indipendentemente da qualsiasi ostacolo fisico (eccetto barriere di forza).
+11. Vigile ★ ★
+Il portatore può effettuare attacchi di opportunità con quest'arma a distanza (entro gittata normale): può reagire agli avversari che si muovono o effettuano azioni entro gittata come se fosse in mischia.
+
+Capacità Armi a Distanza +5
+Capacità
+Effetto
+1. Colpo del Destino ★ ★
+Una volta a settimana, il portatore può effettuare il «Colpo del Destino»: un attacco a distanza che colpisce automaticamente qualsiasi bersaglio entro gittata massima, bypassando qualsiasi immunità, RD o RE, e infliggendo il massimo possibile dei danni. L'arma poi non può essere usata per 24 ore.
+2. Freccia dell'Eternità ★ ★
+Le munizioni di questa arma persistono nel tempo: non svaniscono dopo l'impatto ma rimangono fisicamente presenti. Inoltre, ogni bersaglio colpito da questa arma porta un marchio permanente che permette al portatore di localizzarlo esattamente finché è sul medesimo piano.
+3. Occhio dell'Universo ★ ★
+Il portatore vede tutto nel raggio di gittata massima come se stesse guardando da 0 cm di distanza: nessuna penalità per distanza, occultamento, oscurità, invisibilità o barriere visive. Una volta per round può effettuare un attacco contro qualsiasi creatura nella gittata.
+4. Proiettile Assoluto ★ ★
+Una volta al giorno, come azione standard il portatore può scagliare un proiettile di forza pura che ignora totalmente RD, RE, RI, immunità, copertura e qualsiasi altra difesa. Infligge 10d10 danni di forza al bersaglio entro gittata normale.
+5. Tiro dell'Eco ★ ★
+Ogni attacco con questa arma genera una replica fantasma: il round successivo, una copia illusoria dell'attacco viene ripetuta automaticamente sullo stesso bersaglio con il medesimo tiro per colpire e la metà dei danni (una volta per round).
+6. Ultima Freccia ★ ★
+Quando il portatore è a 0 PF o meno, questa arma concede un ultimo attacco automatico: come azione immediata, effettua un attacco contro il nemico responsabile del danno finale con bonus +10 al tiro e danni massimizzati. Dopo quest'attacco il portatore cade privo di sensi.
+7. Vincolante ★ ★
+Ogni colpo dell'arma applica un vincolo energetico al bersaglio: dopo 3 colpi sullo stesso bersaglio nello stesso combattimento, questi è immobilizzato per 1 round (TS Tempra CD 20 + ½ livello portatore + bonus potenziamento per liberarsi). I vincoli si azzerano se il portatore non colpisce il bersaglio per 1 round.
+
+Note e Avvertenze
+★ Nuove capacità: Le capacità contrassegnate con il simbolo ★ sono aggiunte originali pensate per integrare le opzioni esistenti. Il Master può scegliere di limitarne la disponibilità o modificarne gli effetti in base alle esigenze della campagna.
+Compatibilità: tutte le capacità originali sono tratte dai manuali di Pathfinder Prima Edizione (Golarion e Magic Item Compendium). Le nuove capacità ★ seguono le stesse regole di bilanciamento e sono compatibili con il sistema esistente.
+CD variabili: le CD indicate come «CD X + ½ DV portatore + bonus totale» si calcolano usando i DV del portatore al momento dell'uso e il bonus di potenziamento attuale dell'oggetto (incluse le capacità speciali).

@@ -17,6 +17,11 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 | I | Cibernetico | Nuova capacità *Esoscheletri precoci* (3°, modifica Esoscheletri al 5°); le scoperte partono dal 3° |
 | J | Scheda dell'inventore | 6 caratteristiche, BAB e TS dalla tabella, CA con esoscheletro (armatura base dal Vol. 3 + 1 migliorata + potenziamento; taglia Media per chi è Piccolo; Grande con Scocca Titan), tiro per colpire e danni della tecno-arma, bonus manuali |
 
+| K | Tecno-arma e sintonia | La tecno-arma si sintonizza come le altre armi: bonus di potenziamento dalla sintonia dell'inventore (divisibile con una seconda arma). Capacità speciali dal manuale *armi armature scudi Definitivo* (elenco mischia o distanza secondo l'arma base), applicate con le parti di potenziamento; somma ≤ bonus. Le modifiche della tecno-arma restano un sistema separato |
+| L | Esoscheletro e sintonia | Armatura sintonizzabile (armatura e scudo); capacità speciali dell'elenco armature con le parti. Il +1 dell'Armatura migliorata resta separato. Cibernetico: i due esoscheletri contano come una sola armatura per la sintonia |
+| M | Sintonia meccanica dell'automaton | Arma e scocca hanno bonus di potenziamento automatico: +1 dal 3°, +2 dal 10°; con la specializzazione +3 dal 15°, **+4 dal 17°**, +5 al 20°. Capacità speciali applicate dall'inventore con le parti (schianto del Destructor e del Defensor: armi da mischia; Sparaculei: armi a distanza; scocca: armature, come armatura pesante); somma ≤ bonus. Lo schianto del Sagittar resta non incantabile |
+| N | Smantellare | Tecno-arma ed esoscheletro restituiscono l'oggetto base con le sue capacità speciali; l'automaton restituisce le parti di potenziamento di arma e scocca |
+
 ## Altre scelte dell'app
 - PF dell'inventore: 8 + 5 per livello successivo + Cos per livello (come le altre app), metà Fatica e metà Ferita, il punto dispari ai Ferita. Campo manuale.
 - Armature base degli esoscheletri: tabella «Armature e scudi» del Vol. 3 Miscellanea 2.5.1 (leggere e pesanti).
@@ -32,6 +37,8 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 4. Motosega «Demolisher»: danno 3d6, critico 18–20/×2 (era «1d12, 3d6 minaccia di critico, x3»).
 5. Ingegnere da campo, *Batterie migliorate*: «50% di probabilità di ignorare».
 6. Skitari: «può utilizzare Professione (ingegnere bellico) al posto di Professione (fabbro)».
+8. Tecno-armi ed esoscheletri: «perfetta o magica» → «perfetta»; «incantamenti» → «capacità speciali»; aggiungere il rimando alla sintonia (decisioni K, L, N).
+9. Automaton: riscrivere *Incantare armi e scocca* e le voci *Incantamenti* degli aggiornamenti con la Sintonia meccanica (decisione M, compreso il +4 al 17°).
 7. Privilegio *Gadget*: «Al 1°, 3°, 5°, 7°, 9° e 11° livello impara un nuovo gadget; ai livelli pari dal 2° al 18° sceglie un gadget, un optional o una dote.»
 
 ## Aperti (non bloccano l'app)

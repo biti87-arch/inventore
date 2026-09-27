@@ -142,6 +142,7 @@ table.t tr.cur td{background:var(--mark)}
 
 <script>
 const D = __DATI__;
+const AR = __ARMI__;
 
 /* ---------- utilità ---------- */
 const mod=v=>Math.floor(((+v||10)-10)/2);
@@ -183,7 +184,7 @@ const DEFAULT={esempio:true,nome:'Esempio — Tessa Ingranaggi',livello:8,taglia
   tecno:{arma:'mazzuolo',man:{nome:'Arma',dado:'1d8',critico:'x2',tipo:'C',cat:'una'},pot:1,accurata:false,mods:['chip_di_combattimento_assistito_superiore']},
   aut:{modello:'destructor',grande:false,incArma:1,incScocca:1,optimus:false},
   esoTipo:'P',esos:{L:{armatura:'giaco_di_maglia',pot:0,mods:[]},P:{armatura:'mezza_armatura',pot:0,mods:['potenziamento_strutturale_2_P','scocca_anti_urto_P']}},
-  scoperte:[],innesti:[],armaturaNormale:'corpetto_di_cuoio_borchiato',scudo:0,bonus:{ca:0,colpire:0,danni:0,tempra:0,rif:0,vol:0},pfMan:'',
+  sint:{armi:'a',armiSlot:0,arm:'a',armSlot:0},cap:{tecno:[],esoL:[],esoP:[],autArma:[],autScocca:[]},scoperte:[],innesti:[],armaturaNormale:'corpetto_di_cuoio_borchiato',scudo:0,bonus:{ca:0,colpire:0,danni:0,tempra:0,rif:0,vol:0},pfMan:'',
   gioco:JSON.parse(JSON.stringify(VUOTO_GIOCO)),tab:'inv',sub:'tecno'};
 function nuovoPg(n){const s=JSON.parse(JSON.stringify(DEFAULT));return Object.assign(s,{esempio:false,nome:n||'Nuovo inventore',livello:1,scelte:{},mechConosciuti:[],
   tecno:{arma:'',man:{nome:'Arma',dado:'1d6',critico:'x2',tipo:'C',cat:'una'},pot:0,accurata:false,mods:[]},aut:{modello:'destructor',grande:false,incArma:0,incScocca:0,optimus:false},
@@ -279,6 +280,41 @@ function usiRip(){
   return Math.max(0,n+(hasDote('riparazioni_extra')?2:0));
 }
 
+/* ---------- sintonia e capacità speciali (manuale armi armature scudi) ---------- */
+function sintRiga(){let r=AR.sintonia[0];for(const x of AR.sintonia)if(x[0]<=lv())r=x;return r[1];}
+function sintValori(k){const o=sintRiga();const due=o[1]&&S.sint[k]==='b';return due?o[1]:o[0];}
+function sintArma(){const v=sintValori('armi');return v[Math.min(v.length-1,S.sint.armiSlot||0)];}
+function sintArmatura(){const v=sintValori('arm');return v[Math.min(v.length-1,S.sint.armSlot||0)];}
+function sintScudo(){const v=sintValori('arm');return v.length>1?v[1-(S.sint.armSlot||0)]:0;}
+function autBonus(){const L=lv(),s=spec()==='automaton';return L>=20&&s?5:L>=17&&s?4:L>=15&&s?3:L>=10?2:1;}
+const CAPK=Object.fromEntries(['armatura','scudo','mischia','distanza'].flatMap(k=>AR[k].map(c=>[k+':'+c.id,{...c,lista:k}])));
+function capList(chiave,lista){return (S.cap[chiave]||[]).filter(id=>CAPK[lista+':'+id]).map(id=>CAPK[lista+':'+id]);}
+function capSomma(chiave,lista){return capList(chiave,lista).reduce((s,c)=>s+c.val,0);}
+function pannelloCap(chiave,lista,bonus,titolo,arma){
+  const sel=capList(chiave,lista),somma=capSomma(chiave,lista),tot=bonus+somma;
+  const costi=AR.costi[arma?'arma':'armatura'],cdT=AR.cd[arma?'arma':'armatura'];
+  const q=(S._cq&&S._cq[chiave])||'';
+  let h='<div class="card"><h2>'+titolo+'</h2><div class="nodi'+(somma>bonus?' over':'')+'"><span>Capacità speciali / bonus di potenziamento</span><b>'+somma+' / '+bonus+'</b></div>'+
+    '<div class="note" style="margin-top:6px">Valore totale +'+tot+(somma?' · costo delle capacità per il PG '+(costi[Math.min(5,somma)]/2).toLocaleString('it-IT')+' mo (metà del prezzo; si paga la differenza rispetto al valore precedente)':'')+(cdT[tot]?' · CD di applicazione '+cdT[tot]:'')+'. Prova di Sapienza magica o Professione senza bonus di Intelligenza, 30 minuti, con le parti di potenziamento.</div>';
+  if(sel.length)h+='<div style="margin-top:8px">'+sel.map(c=>det(esc(c.nome)+' <span class="tag cb">+'+c.val+'</span>',rich(c.testo)+'<p><button class="btn sm danger" data-caprm="'+chiave+'|'+c.id+'">Rimuovi</button></p>')).join('')+'</div>';
+  if(!bonus)h+='<div class="note" style="margin-top:8px">Senza bonus di potenziamento non si possono applicare capacità speciali.</div>';
+  else h+='<details style="margin-top:8px"><summary><span>Aggiungi una capacità ('+{armatura:'armature',scudo:'scudi',mischia:'armi da mischia',distanza:'armi a distanza'}[lista]+')</span></summary><input class="search" data-cq="'+chiave+'" placeholder="Cerca…" value="'+esc(q)+'" style="margin-top:8px"><div class="list" style="margin-top:8px" data-cl="'+chiave+'|'+lista+'|'+bonus+'"></div></details>';
+  return h+'</div>';
+}
+function disegnaCap(el){
+  const [chiave,lista,bonus]=el.dataset.cl.split('|');const q=((S._cq&&S._cq[chiave])||'').toLowerCase();
+  const somma=capSomma(chiave,lista),sel=S.cap[chiave]||[];
+  const ok=AR[lista].filter(c=>!sel.includes(c.id)&&(!q||c.nome.toLowerCase().includes(q)||c.testo.toLowerCase().includes(q)));
+  el.innerHTML=ok.slice(0,q?80:400).map(c=>{const troppo=somma+c.val>+bonus;
+    return '<div class="opt'+(troppo?' dim':'')+'"><button class="btn sm" data-capadd="'+chiave+'|'+c.id+'"'+(troppo?' disabled':'')+' aria-label="Aggiungi '+esc(c.nome)+'">+</button><details style="border:0;padding:0;background:none"><summary><span>'+esc(c.nome)+(c.nuova?' <span class="tag">★</span>':'')+'</span></summary><div class="txt">'+rich(c.testo)+'</div></details><span class="tag cb">+'+c.val+'</span></div>';}).join('')||'<div class="note">Nessuna capacità.</div>';
+  el.querySelectorAll('[data-capadd]').forEach(b=>b.addEventListener('click',()=>{const [k,id]=b.dataset.capadd.split('|');(S.cap[k]=S.cap[k]||[]).push(id);render();}));
+}
+function bindCap(){
+  main.querySelectorAll('[data-cl]').forEach(el=>{const d=el.closest('details');if(d.open)disegnaCap(el);d.addEventListener('toggle',()=>{if(d.open)disegnaCap(el);});});
+  onAll('[data-cq]','input',el=>{S._cq=S._cq||{};S._cq[el.dataset.cq]=el.value;const l=main.querySelector('[data-cl^="'+el.dataset.cq+'|"]');if(l)disegnaCap(l);});
+  onAll('[data-caprm]','click',el=>{const [k,id]=el.dataset.caprm.split('|');S.cap[k]=(S.cap[k]||[]).filter(x=>x!==id);render();});
+}
+
 /* ---------- esoscheletri ---------- */
 function esoTipi(){if(!haEso())return [];return has('cibernetico')?['L','P']:[S.esoTipo];}
 function esoMods(t){const e=S.esos[t];return (e.mods||[]).filter(id=>EMOD[id]&&EMOD[id].stadio<=stadioE()&&(EMOD[id].tipo==='C'||EMOD[id].tipo===t));}
@@ -305,13 +341,13 @@ function calcInv(){
   const M=Object.fromEntries(CAR.map(k=>[k,mod(c[k])]));
   const tg=TAGLIA[taglIa()];
   let arm=null;
-  if(t){const e=S.esos[t],a=ARM[e.armatura];if(a)arm={nome:'Esoscheletro '+(t==='L'?'leggero':'pesante')+' ('+a.nome+')',ca:a.ca+1+(+e.pot||0),maxDes:a.maxDes,pen:Math.min(0,a.pen+1)};}
-  else{const a=ARM[S.armaturaNormale];if(a&&a.tipo==='L')arm={nome:a.nome,ca:a.ca,maxDes:a.maxDes,pen:a.pen};}
+  if(t){const e=S.esos[t],a=ARM[e.armatura];if(a)arm={nome:'Esoscheletro '+(t==='L'?'leggero':'pesante')+' ('+a.nome+')',ca:a.ca+1+sintArmatura(),maxDes:a.maxDes,pen:Math.min(0,a.pen+1)};}
+  else{const a=ARM[S.armaturaNormale];if(a&&a.tipo==='L')arm={nome:a.nome,ca:a.ca+sintArmatura(),maxDes:a.maxDes,pen:a.pen};}
   const desCA=arm?Math.min(M.Des,arm.maxDes):M.Des;
   const att=new Set(S.gioco.attiviE);
   let defl=0;
   if(t&&esoAttive(t).includes('generatore_di_campo_difensivo')&&att.has('generatore_di_campo_difensivo'))defl=L>=18?4:L>=14?3:2;
-  const scudo=+S.scudo||0,alt=+S.bonus.ca||0;
+  const scudo=(+S.scudo||0)+((+S.scudo||0)?sintScudo():0),alt=+S.bonus.ca||0;
   const ca=10+(arm?arm.ca:0)+desCA+tg.ca+scudo+defl+alt;
   let contatto=10+desCA+tg.ca+defl;
   if(t&&esoAttive(t).includes('campo_anti_contatto')&&att.has('campo_anti_contatto'))contatto=Math.min(ca,contatto+Math.max(0,M.Int));
@@ -363,8 +399,8 @@ function calcTecno(inv){
   let dado=tg==='Piccola'?w.dP:w.dM;if(tg==='Grande')dado=stepD(w.dM,1);
   if(on('contrappesi_minerva'))dado=stepD(dado,1);
   const usaDes=w.cat==='tiro'||w.fuoco||T.accurata;
-  let colp=(usaDes?inv.M.Des:inv.M.For)+(+T.pot||0)+inv.tg.txc+specialista()+(+S.bonus.colpire||0);
-  let dan=(+T.pot||0)+specialista()+(+S.bonus.danni||0);
+  let colp=(usaDes?inv.M.Des:inv.M.For)+sintArma()+inv.tg.txc+specialista()+(+S.bonus.colpire||0);
+  let dan=sintArma()+specialista()+(+S.bonus.danni||0);
   const forD=(w.cat==='tiro'&&!w.lancio)||w.fuoco?0:(w.dueMani&&mischia(w)?Math.floor(inv.M.For*1.5):inv.M.For);
   dan+=forD;
   const ext=[];
@@ -399,7 +435,8 @@ function calcAut(){
   if(tg==='Grande'){For+=2;Des-=2;}
   if(tg==='Enorme')For+=4;
   const mF=mod(For),mD=mod(Des),T=TAGLIA[tg];
-  let ca=r.ca[A.modello]+T.ca+(+A.incScocca||0);
+  const ab=autBonus();
+  let ca=r.ca[A.modello]+T.ca+ab;
   if(alpha&&L>=10)ca+=1;
   const od=S.gioco.overdriveOn;
   if(A.modello==='defensor'&&od&&autOpt('modulo_overdrive_beta'))ca+=2;
@@ -408,8 +445,8 @@ function calcAut(){
   if(tg==='Grande')pf+=10;if(tg==='Enorme')pf+=20;
   const temp=alpha&&L>=5?L:0;
   const bab=babList(r.bab);
-  const bonusTxc=T.txc+(alpha?1:0)+(+A.incArma||0);
-  const bonusDan=(alpha&&L>=5?2:0)+(+A.incArma||0);
+  const bonusTxc=T.txc+(alpha?1:0)+ab;
+  const bonusDan=(alpha&&L>=5?2:0)+ab;
   const att2=[];
   const n78=st>=2&&A.modello!=='defensor';
   const critUp=c=>{if(!n78)return c;const k=/^(\d+)-20\/(x\d)$/.exec(c);if(k)return (+k[1]-1)+'-20/'+k[2];const k2=/^20\/(x\d)$/.exec(c);return k2?'19-20/'+k2[1]:c;};
@@ -431,7 +468,7 @@ function calcAut(){
   let vel=6+(alpha?3:0)+(odA&&od?3:0);
   let portata=tg==='Enorme'?4.5:tg==='Grande'?3:1.5;if(alpha)portata+=1.5;
   const bmc=bab[0]+mF+T.bmc,dmc=10+bab[0]+mF+mD+T.bmc;
-  const inc=[1,2,3,5][st];
+  const inc=ab;
   return {r,M0,tg,For,Des,mF,mD,ca,pf,temp,bab,att:att2,vel,portata,bmc,dmc,inc,st,alpha,
     ts:{tempra:r.tempra,rif:r.rif+mD,vol:r.vol},rd:st>=3?'RD 10/adamantio':'',ri:alpha&&L>=10?11+L:0};
 }
@@ -482,6 +519,15 @@ function rInv(){
     numIn('b-colpire','Colpire',S.bonus.colpire)+numIn('b-danni','Danni',S.bonus.danni)+
     '<div class="field"><label class="label" for="f-pfm">PF manuali</label><input id="f-pfm" type="number" placeholder="'+I.pfBase+'" value="'+esc(S.pfMan)+'"></div>'+
     '</div><div class="note" style="margin-top:6px">PF calcolati: 8 al 1° livello + 5 per livello successivo + Cos per livello. Metà Punti Fatica e metà Punti Ferita (il punto dispari ai Ferita).</div></details></div>';
+  // sintonia
+  {const o=sintRiga();const due=!!o[1];
+    const lab=v=>v.length>1?'+'+v[0]+' e +'+v[1]:'+'+v[0]+' a un solo oggetto';
+    const blocco=(k,tit,a,b,nomi)=>{const v=sintValori(k);const slot=S.sint[k+'Slot']||0;
+      return '<div style="margin-top:10px"><div class="label">'+tit+'</div><div class="seg" style="margin-top:4px"><button data-sk="'+k+'" data-sv="a" aria-pressed="'+(!due||S.sint[k]!=='b')+'">'+lab(o[0])+'</button>'+(due?'<button data-sk="'+k+'" data-sv="b" aria-pressed="'+(S.sint[k]==='b')+'">'+lab(o[1])+'</button>':'')+'</div>'+
+        (v.length>1&&v[0]!==v[1]?'<div class="seg" style="margin-top:4px">'+[0,1].map(i=>'<button data-ss="'+k+'" data-si="'+i+'" aria-pressed="'+(slot===i)+'">'+nomi[0]+' +'+v[i]+', '+nomi[1]+' +'+v[1-i]+'</button>').join('')+'</div>':'')+'</div>';};
+    h+='<div class="card"><h2>Sintonia</h2><div class="note">Bonus di potenziamento degli oggetti sintonizzati (manuale armi armature scudi). Si cambia una volta al giorno.</div>'+
+      blocco('armi','Armi',0,0,[haTecno()?'tecno-arma':'arma principale','seconda arma'])+blocco('arm','Armatura e scudo',0,0,['armatura'+(haEso()?' / esoscheletro':''),'scudo'])+
+      '<div class="kv" style="margin-top:10px">'+kv(haTecno()?'Tecno-arma':'Arma','+'+sintArma())+kv(haEso()?'Armatura / eso':'Armatura','+'+sintArmatura())+(sintValori('arm').length>1?kv('Scudo','+'+sintScudo()):'')+'</div></div>';}
   // archetipi
   h+='<div class="card"><h2>Archetipi</h2><div class="note" style="margin-bottom:8px">Due archetipi che modificano o sostituiscono lo stesso privilegio non si possono combinare.</div><div class="list">';
   for(const a of D.archetipi){
@@ -520,6 +566,8 @@ function rInv(){
   on('f-scudo','change',e=>{S.scudo=+e.target.value||0;render();});
   ['ca','tempra','rif','vol','colpire','danni'].forEach(k=>on('b-'+k,'change',e=>{S.bonus[k]=+e.target.value||0;render();}));
   on('f-pfm','change',e=>{S.pfMan=e.target.value;render();});
+  onAll('[data-sk]','click',el=>{S.sint[el.dataset.sk]=el.dataset.sv;render();});
+  onAll('[data-ss]','click',el=>{S.sint[el.dataset.ss+'Slot']=+el.dataset.si;render();});
   onAll('[data-arch]','change',(el)=>{const id=el.dataset.arch;if(el.checked)S.archetipi.push(id);else S.archetipi=S.archetipi.filter(x=>x!==id);render();});
   onAll('[data-spec]','click',(el)=>{S.spec=el.dataset.spec;render();});
   onAll('[data-iper]','click',(el)=>{S.iper=el.dataset.iper;render();});
@@ -618,13 +666,14 @@ function mTecno(){
       '<div class="field"><label class="label" for="tm-cat">Categoria</label><select id="tm-cat">'+[['leggera','Mischia leggera'],['una','Mischia a una mano'],['due','Mischia a due mani'],['tiro','A distanza']].map(([k,n])=>'<option value="'+k+'"'+(m.cat===k?' selected':'')+'>'+n+'</option>').join('')+'</select></div>'+
       '</div><div class="row" style="margin-top:8px"><label class="check"><input type="checkbox" id="tm-lancio"'+(m.lancio?' checked':'')+'>Da lancio</label><label class="check"><input type="checkbox" id="tm-fuoco"'+(m.fuoco?' checked':'')+'>Arma da fuoco</label>'+(m.cat==='tiro'?'<label class="check"><input type="checkbox" id="tm-2m"'+(m.dueMani?' checked':'')+'>A due mani</label>':'')+'</div><div class="grid" style="margin-top:8px">';
   }
-  h+=numIn('t-pot','Potenziamento',T.pot,0,5)+'</div>'+
+  h+='</div><div class="note" style="margin-top:8px">Bonus di potenziamento dalla sintonia: <b>+'+sintArma()+'</b> (sezione Sintonia della scheda Inventore).</div>'+
     (w.cat!=='tiro'&&!w.fuoco?'<label class="check" style="margin-top:8px"><input type="checkbox" id="t-acc"'+(T.accurata?' checked':'')+'>Usa la Destrezza per colpire (Arma accurata)</label>':'')+
     '<div class="note" style="margin-top:8px">'+esc(w.nome)+': '+esc(C.dado)+', '+esc(w.critico)+', '+esc(w.tipo)+(w.speciale&&w.speciale!=='—'?', '+esc(w.speciale):'')+(w.gittata&&w.gittata!=='—'?', gittata '+esc(w.gittata):'')+'.</div></div>';
   // scheda
   h+='<div class="card"><h2>Tecno-arma</h2><div class="kv">'+kv('Cariche',caricheTecno(),'½ liv. + Int'+(hasOpt('tecno:riciclatore_energetico_per_tecno_armi')?' + 2':'')+(has('ingegnere_da_campo')?' + 1':''))+kv('Stadio',STADIO_TL[st]+'°',STADIO_N[st])+kv('Nodi',usati+'/'+nm,'limite: stadio e Int')+'</div>'+
-    '<div class="atk" style="margin-top:10px"><div class="l"><span>'+esc(w.nome)+(T.pot?' +'+T.pot:'')+'</span><span>'+C.bab.map(sg).join('/')+' ('+C.dado+sg(C.dan).replace(/\+0$/,'')+(C.ext.length?' '+C.ext.join(', '):'')+'; '+esc(C.crit)+')</span></div></div>'+
+    '<div class="atk" style="margin-top:10px"><div class="l"><span>'+esc(w.nome)+(sintArma()?' +'+sintArma():'')+'</span><span>'+C.bab.map(sg).join('/')+' ('+C.dado+sg(C.dan).replace(/\+0$/,'')+(C.ext.length?' '+C.ext.join(', '):'')+'; '+esc(C.crit)+')</span></div></div>'+
     '<div class="note" style="margin-top:6px">'+(C.usaDes?'Destrezza':'Forza')+' al tiro per colpire'+(specialista()?' · Specialista delle tecno-armi '+sg(specialista()):'')+'. Le modifiche attive si accendono dalla scheda In gioco.</div></div>';
+  h+=pannelloCap('tecno',(w.cat==='tiro'||w.fuoco)?'distanza':'mischia',sintArma(),'Capacità speciali dell\'arma',true);
   // modifiche
   h+='<div class="nodi'+(usati>nm?' over':'')+'"><span>Nodi installati</span><b>'+usati+' / '+nm+'</b></div>';
   for(let s=0;s<=4;s++){
@@ -648,13 +697,13 @@ function mTecno(){
 function bTecno(){
   const T=S.tecno;
   on('t-arma','change',e=>{T.arma=e.target.value;render();});
-  on('t-pot','change',e=>{T.pot=Math.max(0,Math.min(5,+e.target.value||0));render();});
   on('t-acc','change',e=>{T.accurata=e.target.checked;render();});
   const m=T.man;
   on('tm-nome','change',e=>{m.nome=e.target.value;render();});on('tm-dado','change',e=>{m.dado=e.target.value.trim();render();});
   on('tm-crit','change',e=>{m.critico=e.target.value.trim();render();});on('tm-tipo','change',e=>{m.tipo=e.target.value;render();});
   on('tm-cat','change',e=>{m.cat=e.target.value;render();});on('tm-lancio','change',e=>{m.lancio=e.target.checked;render();});
   on('tm-fuoco','change',e=>{m.fuoco=e.target.checked;render();});on('tm-2m','change',e=>{m.dueMani=e.target.checked;render();});
+  bindCap();
   onAll('[data-tm]','change',el=>{const id=el.dataset.tm;if(el.checked)T.mods.push(id);else{T.mods=T.mods.filter(x=>x!==id);S.gioco.attiviT=S.gioco.attiviT.filter(x=>x!==id);}render();});
 }
 /* --- automaton --- */
@@ -665,7 +714,7 @@ function mAut(){
   const A=S.aut,X=calcAut(),st=X.st;
   let h='<div class="card"><h2>Modello</h2><div class="seg">'+['destructor','defensor','sagittar'].map(k=>'<button data-mod="'+k+'" aria-pressed="'+(A.modello===k)+'">'+D.automaton.modelli[k].nome+'</button>').join('')+'</div>'+
     '<div class="txt note" style="margin-top:8px">'+D.automaton.modelli[A.modello].righe.map(rich).join('')+'</div>'+
-    '<div class="grid" style="margin-top:8px">'+numIn('a-ia','Incant. arma',A.incArma,0,X.inc)+numIn('a-is','Incant. scocca',A.incScocca,0,X.inc)+'</div><div class="note">Incantamenti massimi: +'+X.inc+' ciascuno.</div>'+
+    '<div class="note" style="margin-top:8px">Sintonia meccanica: arma e scocca hanno bonus di potenziamento <b>+'+X.inc+'</b> (+1 dal 3°, +2 dal 10°; con la specializzazione +3 dal 15°, +4 dal 17°, +5 al 20°).'+(A.modello==='sagittar'?' Lo schianto del Sagittar non riceve il bonus né capacità speciali.':'')+'</div>'+
     (st>=1&&!(X.alpha&&A.optimus&&L>=20)?'<label class="check" style="margin-top:8px"><input type="checkbox" id="a-gr"'+(A.grande?' checked':'')+'>Aumento di taglia: Grande</label>':'')+
     (X.alpha&&L>=20?'<label class="check" style="margin-top:8px"><input type="checkbox" id="a-op"'+(A.optimus?' checked':'')+'>Scocca “Optimus prime”: Enorme</label>':'')+'</div>';
   const pf=X.pf;
@@ -676,6 +725,8 @@ function mAut(){
     (X.ri?kv('RI',X.ri):'')+(X.rd?kv('RD','10/adam.'):'')+'</div>'+
     '<div class="atk" style="margin-top:10px">'+X.att.map(a=>'<div class="l"><span>'+esc(a.nome)+(a.nota?' <span class="note">'+esc(a.nota)+'</span>':'')+'</span><span>'+a.txc.map(sg).join('/')+' ('+esc(a.dan)+' '+esc(a.tipo)+'; '+esc(a.crit)+')</span></div>').join('')+'</div>'+
     '<div class="note" style="margin-top:6px">Gli attacchi dell\'automaton funzionano come armi: attacchi multipli secondo il BAB; lo schianto del Destructor è a due mani (1½ × For), gli altri usano la For intera. A 0 PF è <span class="cond">barcollante</span>, a −15 PF è distrutto. Car 1, immune a Tempra (salvo effetti su oggetti).</div></div>';
+  h+=pannelloCap('autArma',A.modello==='sagittar'?'distanza':'mischia',X.inc,'Capacità speciali: '+(A.modello==='destructor'?'Schianto idraulico':A.modello==='defensor'?'Schianto meccanico':'Sparaculei'),true);
+  h+=pannelloCap('autScocca','armatura',X.inc,'Capacità speciali: scocca',false);
   // stadi
   const STN=['Funzionalità di base','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'];
   for(let s=0;s<=3;s++){
@@ -692,8 +743,7 @@ function mAut(){
 function bAut(){
   const A=S.aut;
   onAll('[data-mod]','click',el=>{A.modello=el.dataset.mod;render();});
-  on('a-ia','change',e=>{A.incArma=Math.max(0,Math.min(calcAut().inc,+e.target.value||0));render();});
-  on('a-is','change',e=>{A.incScocca=Math.max(0,Math.min(calcAut().inc,+e.target.value||0));render();});
+  bindCap();
   on('a-gr','change',e=>{A.grande=e.target.checked;render();});
   on('a-op','change',e=>{A.optimus=e.target.checked;render();});
 }
@@ -709,8 +759,8 @@ function mEso(){
     const e=S.esos[t],inst=esoMods(t),usati=nodiUsati(inst,EMOD),a=ARM[e.armatura];
     h+='<div class="card"><h2>Esoscheletro '+(t==='L'?'leggero':'pesante')+'</h2><div class="grid">'+
       '<div class="field" style="grid-column:span 2"><label class="label" for="e-arm-'+t+'">Armatura base</label><select id="e-arm-'+t+'" data-earm="'+t+'"><option value="">— scegli —</option>'+D.eso.armature.filter(x=>x.tipo===t).map(x=>'<option value="'+x.id+'"'+(e.armatura===x.id?' selected':'')+'>'+esc(x.nome)+' (+'+x.ca+')</option>').join('')+'</select></div>'+
-      '<div class="field"><label class="label" for="e-pot-'+t+'">Potenziamento</label><input id="e-pot-'+t+'" data-epot="'+t+'" type="number" min="0" max="5" value="'+(+e.pot||0)+'"></div></div>'+
-      (a?'<div class="kv" style="margin-top:10px">'+kv('Bonus armatura','+'+(a.ca+1+(+e.pot||0)),'base '+a.ca+' + 1 migliorata'+(e.pot?' + '+e.pot:''))+kv('Des max',sg(a.maxDes))+kv('Penalità',Math.min(0,a.pen+1))+kv('Cariche',caricheEso())+kv('Nodi',usati+'/'+nm)+(potStrutt(t)?kv('Potenziamento',sg(potStrutt(t)),t==='L'?'Destrezza':'Forza'):'')+'</div>'+(a.speciale?'<div class="note" style="margin-top:6px">Qualità: '+esc(a.speciale)+(/Scomoda/.test(a.speciale)&&hasOpt('eso:imbottitura_deluxe')?' (Scomoda ignorata: Imbottitura deluxe)':'')+'.</div>':''):'<div class="note" style="margin-top:8px">Scegli l\'armatura base (perfetta o magica).</div>')+'</div>';
+      '</div>'+
+      (a?'<div class="kv" style="margin-top:10px">'+kv('Bonus armatura','+'+(a.ca+1+sintArmatura()),'base '+a.ca+' + 1 migliorata'+(sintArmatura()?' + '+sintArmatura()+' sintonia':''))+kv('Des max',sg(a.maxDes))+kv('Penalità',Math.min(0,a.pen+1))+kv('Cariche',caricheEso())+kv('Nodi',usati+'/'+nm)+(potStrutt(t)?kv('Potenziamento',sg(potStrutt(t)),t==='L'?'Destrezza':'Forza'):'')+'</div>'+(a.speciale?'<div class="note" style="margin-top:6px">Qualità: '+esc(a.speciale)+(/Scomoda/.test(a.speciale)&&hasOpt('eso:imbottitura_deluxe')?' (Scomoda ignorata: Imbottitura deluxe)':'')+'.</div>':''):'<div class="note" style="margin-top:8px">Scegli l\'armatura base (perfetta o magica).</div>')+'</div>';
     h+='<div class="nodi'+(usati>nm?' over':'')+'"><span>Nodi installati ('+(t==='L'?'leggero':'pesante')+')</span><b>'+usati+' / '+nm+'</b></div>';
     for(let s=0;s<=3;s++){
       const el=D.eso.mods.filter(m=>m.stadio===s&&(m.tipo==='C'||m.tipo===t));
@@ -727,6 +777,8 @@ function mEso(){
       h+='</div></details>';
     }
   }
+  h+=pannelloCap(cib?'esoL':'eso'+S.esoTipo,'armatura',sintArmatura(),'Capacità speciali dell\'esoscheletro',false);
+  if(cib)h+='<div class="note">Cibernetico: i due esoscheletri contano come una sola armatura per la sintonia; le capacità speciali elencate valgono per entrambi.</div>';
   if(cib){
     const sm=scoperteMax(),im=innestiMax();
     const opzMod=(sel,base)=>'<option value="">— scegli —</option>'+['L','P'].map(t=>'<optgroup label="'+(t==='L'?'Leggero':'Pesante')+'">'+D.eso.mods.filter(m=>!m.auto&&(m.tipo==='C'||m.tipo===t)&&m.stadio<=(base?0:stadioE())&&!(base&&/potenziamento_strutturale/.test(m.id))).map(m=>'<option value="'+t+'|'+m.id+'"'+(sel&&sel.tipo===t&&sel.id===m.id?' selected':'')+'>'+esc(m.nome)+'</option>').join('')+'</optgroup>').join('');
@@ -743,7 +795,7 @@ function mEso(){
 function bEso(){
   onAll('[data-et]','click',el=>{S.esoTipo=el.dataset.et;render();});
   onAll('[data-earm]','change',el=>{S.esos[el.dataset.earm].armatura=el.value;render();});
-  onAll('[data-epot]','change',el=>{S.esos[el.dataset.epot].pot=Math.max(0,Math.min(5,+el.value||0));render();});
+  bindCap();
   onAll('[data-em]','change',el=>{const [t,id]=el.dataset.em.split('|');const e=S.esos[t];if(el.checked)e.mods.push(id);else{e.mods=e.mods.filter(x=>x!==id);}render();});
   onAll('[data-scop]','change',el=>{const [t,id]=el.value.split('|');S.scoperte[+el.dataset.scop]=el.value?{tipo:t,id}:null;render();});
   onAll('[data-inn]','change',el=>{const [t,id]=el.value.split('|');S.innesti[+el.dataset.inn]=el.value?{tipo:t,id}:null;render();});

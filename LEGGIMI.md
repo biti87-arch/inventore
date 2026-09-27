@@ -13,7 +13,8 @@ Le app si ricompilano da sole a ogni aggiornamento del ramo `main`.
 1. Metti il .docx aggiornato dell'Inventore in `sorgenti/docx/` (togli il vecchio).
 2. `python3 sorgenti/estrai_testo.py` → testo in `sorgenti/txt/`
 3. `python3 sorgenti/parse_inventore.py` → `sorgenti/inventore.json`
-4. `python3 sorgenti/build.py` → `www/index.html`
+4. `python3 sorgenti/parse_armi.py` → `sorgenti/armi.json` (capacità speciali dal manuale armi armature scudi, anch'esso in `sorgenti/docx/`)
+5. `python3 sorgenti/build.py` → `www/index.html`
 
 Le decisioni prese in chat e non ancora riportate nel manuale sono applicate da `CORREZIONI` in fondo a `parse_inventore.py`: quando il manuale viene corretto, quelle righe non fanno più nulla.
 Le icone si rigenerano con `python3 sorgenti/icone.py`.
