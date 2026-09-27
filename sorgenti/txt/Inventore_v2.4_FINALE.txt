@@ -1,9 +1,21 @@
+
+
+
+
+
+
 INVENTORE
 
 “La magia è un mistero,
 ma le mie invenzioni sono la prova
 che il mondo è comprensibile.”
 — Dottor Theobald von Krause
+
+
+
+
+
+
 
 INVENTORE
 “La magia è un mistero, ma le mie invenzioni sono la prova che il mondo è comprensibile.” − Dottor Theobald von Krause
@@ -49,7 +61,7 @@ Gadget, optional o dote da inventore
 +4
 +1
 +4
-Gadget, Esoscheletri, Aggiornamento #1 delle meraviglie
+Gadget, Esoscheletri, Aggiornamento delle meraviglie
 6°
 +4
 +5
@@ -73,13 +85,13 @@ Gadget, optional o dote da inventore
 +6
 +3
 +6
-Pensiero tecnologico
+Gadget, Pensiero tecnologico
 10°
 +7/+2
 +7
 +3
 +7
-Gadget, optional o dote da inventore, Aggiornamento #2 delle meraviglie
+Gadget, optional o dote da inventore, Aggiornamento delle meraviglie
 11°
 +8/+3
 +7
@@ -109,7 +121,7 @@ Gadget, optional o dote da inventore
 +9
 +5
 +9
-Specializzazione, Aggiornamento #3 delle meraviglie
+Specializzazione, Aggiornamento delle meraviglie
 16°
 +12/+7/+2
 +10
@@ -139,7 +151,7 @@ Maestria delle modifiche
 +12
 +6
 +12
-Aggiornamento finale delle meraviglie
+Aggiornamento delle meraviglie
 Arnesi da inventore
 Arma
 Costo ($)
@@ -269,7 +281,7 @@ Al 1° livello, come azione standard che provoca attacchi di opportunità, un in
 Mechanus
 Al 1° livello, un inventore impara come creare i mechanus. Vedi sezione dedicata per le regole complete e l'elenco dei mechanus disponibili.
 Gadget
-Al 1° livello e ad ogni livello pari di inventore (eccetto i livelli in cui si ottengono altri privilegi specifici), un inventore impara a costruire un nuovo gadget a sua scelta tra quelli disponibili, di cui soddisfa i requisiti. Vedi sezione dedicata per le regole complete e l'elenco dei gadget.
+Al 1°, 3°, 5°, 7°, 9° e 11° livello, un inventore impara a costruire un nuovo gadget a sua scelta tra quelli disponibili, di cui soddisfa i requisiti. Ai livelli pari dal 2° al 18°, invece, sceglie un gadget, un optional o una dote da inventore. Vedi sezione dedicata per le regole complete e l'elenco dei gadget.
 Tecno-armi
 Al 1° livello, un inventore impara come creare le tecno-armi. Vedi sezione dedicata per le regole complete, le modifiche e gli optional disponibili.
 Automaton
@@ -281,23 +293,321 @@ Al 9° livello, un inventore ottiene bonus di competenza pari a metà livello (a
 Razziatore esperto
 Al 13° livello, un inventore ha sviluppato un occhio raffinato per smantellare e recuperare componenti utili. Può usare Conoscenze (ingegneria) invece di Percezione per razziare costrutti o meraviglie distrutte e recuperare materiale utile (da vendere o utilizzare per altri scopi a discrezione del GM) o informazioni importanti. Inoltre, ottiene bonus +4 alle prove di Valutare per stimare il valore di oggetti tecnologici o di metallo.
 Specializzazione
-Al 15° livello (in concomitanza con l'Aggiornamento #3 delle meraviglie), un inventore deve scegliere una delle proprie meraviglie come specializzazione: tecno-armi, automaton o esoscheletri. Solo la meraviglia scelta beneficia degli Aggiornamenti #3 (15° livello) e finale (20° livello); le altre meraviglie rimangono fissate all'Aggiornamento #2. Questa scelta non può essere modificata.
+Al 15° livello (in concomitanza con l'aggiornamento delle meraviglie del 15° livello), un inventore deve scegliere una delle proprie meraviglie come specializzazione: tecno-armi, automaton o esoscheletri. Solo la meraviglia scelta beneficia degli aggiornamenti del 15° e del 20° livello; le altre meraviglie restano all'aggiornamento del 10° livello. Questa scelta non può essere modificata.
 Officina mobile
 Al 17° livello, l'esperienza dell'inventore gli consente di lavorare con un'efficienza eccezionale. Il tempo richiesto per costruire, smantellare, modificare o aggiornare qualsiasi creazione (mechanus esclusi) viene ridotto del 25%. Inoltre, l'inventore può lavorare fino a 12 ore al giorno (invece delle normali 8) ai propri progetti senza penalità.
 Maestria delle modifiche
 Al 19° livello, l'inventore ha così tanta familiarità con le sue creazioni da poterle azionare quasi senza pensarci. Una volta per round, l'inventore può attivare una modifica di una tecno-arma o di un esoscheletro senza spendere cariche. Questa capacità non si applica alle modifiche con costo in cariche maggiore di 1.
 Aggiornamento delle meraviglie
-Ai livelli 5°, 10°, 15° e 20°, un inventore migliora le proprie meraviglie aggiungendo nodi disponibili e accedendo a nuove modifiche. Gli Aggiornamenti #3 (15° livello) e finale (20° livello) si applicano solo alla meraviglia scelta come Specializzazione. Vedi le sezioni dedicate alle singole meraviglie per i dettagli.
+Ai livelli 5°, 10°, 15° e 20°, un inventore migliora le proprie meraviglie aggiungendo nodi disponibili e accedendo a nuove modifiche. Ogni meraviglia si aggiorna ai livelli indicati nella propria sezione: tecno-armi al 5°, 10°, 15° e 20°; automaton ed esoscheletri al 10°, 15° e 20°. Gli aggiornamenti del 15° e del 20° livello si applicano solo alla meraviglia scelta come Specializzazione. Vedi le sezioni dedicate alle singole meraviglie per i dettagli.
 Da sapere prima di mettersi all'opera
-1. Brevetti: il libro dei brevetti annota le creazioni dell'inventore (gadget, mechanus, meraviglie, optional, ecc.), ma non è un gating meccanico. Le creazioni vengono apprese automaticamente al raggiungere il livello appropriato.
-2. Tipi di meraviglia: tecno-armi, automaton e esoscheletri. Ogni inventore impara progressivamente a costruirne tutti i tipi, ma deve specializzarsi in uno solo al 15° livello per accedere agli Aggiornamenti #3 e finale.
+1. Brevetti: il libro dei brevetti annota le creazioni dell'inventore (gadget, mechanus, meraviglie, optional, ecc.), ma non è un gating meccanico. Le creazioni vengono apprese automaticamente al raggiungere il livello appropriato. Fanno eccezione i mechanus: quelli conosciuti sono limitati dalla tabella Mechanus Conosciuti e si scelgono liberamente tra i livelli disponibili.
+2. Tipi di meraviglia: tecno-armi, automaton e esoscheletri. Ogni inventore impara progressivamente a costruirne tutti i tipi, ma deve specializzarsi in uno solo al 15° livello per accedere agli aggiornamenti del 15° e del 20° livello.
 3. Creazioni limitate: fatta eccezione per i mechanus, un inventore può dar vita a una sola meraviglia dello stesso tipo e a un solo gadget dello stesso tipo. Se supera il limite, il più vecchio si distrugge automaticamente.
 4. Tiri Salvezza (regola generale): qualsiasi Tiro Salvezza provocato da gadget, tecno-armi, automaton, esoscheletri e capacità di questa classe ha una CD pari a 10 + metà livello di inventore + bonus di Intelligenza. La CD di un Tiro Salvezza provocato da un mechanus è invece pari a 10 + il livello del mechanus + bonus di Intelligenza.
 5. Aggiornamenti: gli aggiornamenti delle meraviglie sono progressivi e devono essere eseguiti in ordine. Quando installa un nuovo aggiornamento, un inventore può riconfigurare le vecchie decisioni effettuate negli aggiornamenti precedenti (sostituendo modifiche, riassegnando nodi, ecc.).
 
 Mechanus
 Ogni inventore ha dei magneti posti sulla cintura ai quali appende i propri mechanus. Come azione standard che provoca attacchi di opportunità, un inventore può posizionare un mechanus nel proprio spazio e questo agirà come da programmazione. I mechanus sono dotati di cingoli, piedi chiodati, pattini, galleggianti, sci e in alcuni casi rotori per librarsi in aria e per questo ignorano le penalità al movimento dovute ai terreni difficili e possono planare persino sull'acqua. I mechanus sono rapidissimi e dall'aspetto simile a giocattoli e per questo motivo non provocano mai attacchi di opportunità per il muoversi e non possono essere attaccati durante le fasi concitate di un combattimento. I mechanus non minacciano mai i nemici entro la loro portata.
-L'inventore segue la progressione standard di un incantatore con livelli massimi 6, applicata ai mechanus. Il numero di mechanus creabili al giorno scala con il livello e il bonus di Intelligenza.
+Un inventore crea i mechanus come un incantatore fino al 6° livello: il numero di mechanus di ciascun livello che conosce e che può creare ogni giorno è indicato nelle tabelle Mechanus Conosciuti e Mechanus al Giorno. I mechanus conosciuti si scelgono liberamente tra quelli dei livelli disponibili, entro i limiti della tabella. Come per gli incantesimi bonus, un inventore con un alto punteggio di Intelligenza crea ogni giorno mechanus bonus, secondo la tabella Modificatori di caratteristica e incantesimi bonus del Vol. 1. I mechanus di 6° livello si ottengono al 16° livello.
+Mechanus Conosciuti
+Il numero accanto a ciascun livello di mechanus indica quanti mechanus di quel livello un inventore conosce a quel livello di classe.
+Liv.
+1
+2
+3
+4
+5
+6
+1°
+4
+—
+—
+—
+—
+—
+2°
+6
+—
+—
+—
+—
+—
+3°
+8
+—
+—
+—
+—
+—
+4°
+8
+4
+—
+—
+—
+—
+5°
+10
+6
+—
+—
+—
+—
+6°
+10
+8
+—
+—
+—
+—
+7°
+10
+8
+4
+—
+—
+—
+8°
+10
+10
+6
+—
+—
+—
+9°
+10
+10
+8
+—
+—
+—
+10°
+10
+10
+8
+4
+—
+—
+11°
+10
+10
+10
+6
+—
+—
+12°
+10
+10
+10
+8
+—
+—
+13°
+10
+10
+10
+8
+4
+—
+14°
+10
+10
+10
+10
+6
+—
+15°
+10
+10
+10
+10
+8
+—
+16°
+10
+10
+10
+10
+8
+2
+17°
+10
+10
+10
+10
+8
+2
+18°
+10
+10
+10
+10
+8
+4
+19°
+10
+10
+10
+10
+8
+4
+20°
+10
+10
+10
+10
+8
+6
+Mechanus al Giorno
+Il numero accanto a ciascun livello di mechanus indica quanti mechanus di quel livello un inventore può creare ogni giorno, esclusi i mechanus bonus da Intelligenza.
+Liv.
+1
+2
+3
+4
+5
+6
+1°
+1
+—
+—
+—
+—
+—
+2°
+2
+—
+—
+—
+—
+—
+3°
+3
+—
+—
+—
+—
+—
+4°
+3
+1
+—
+—
+—
+—
+5°
+4
+2
+—
+—
+—
+—
+6°
+4
+3
+—
+—
+—
+—
+7°
+4
+3
+1
+—
+—
+—
+8°
+4
+4
+2
+—
+—
+—
+9°
+5
+4
+3
+—
+—
+—
+10°
+5
+4
+3
+1
+—
+—
+11°
+5
+4
+4
+2
+—
+—
+12°
+5
+5
+4
+3
+—
+—
+13°
+5
+5
+4
+3
+1
+—
+14°
+5
+5
+4
+4
+2
+—
+15°
+5
+5
+5
+4
+3
+—
+16°
+5
+5
+5
+4
+3
+1
+17°
+5
+5
+5
+4
+4
+2
+18°
+5
+5
+5
+5
+4
+2
+19°
+5
+5
+5
+5
+5
+3
+20°
+5
+5
+5
+5
+5
+3
 Mechanus di 1° livello
 Criogenico
 Questo mechanus emette tramite una turbina un getto congelante in una linea di 9 m. Le creature nell'area subiscono 1d4 danni da freddo per livello di inventore (massimo 5d4); un Tiro Salvezza su Riflessi dimezza il danno. I fuochi grandi come un fuoco da campo o inferiori si estinguono se investiti dal getto.
@@ -446,7 +756,7 @@ Questo mechanus si muove fino a 30 m e crea un campo gravitazionale localizzato 
 Camera di stasi
 Questo mechanus si muove verso un bersaglio entro 9 m e lo avvolge in un guscio di forza paralizzante. La vittima deve superare un Tiro Salvezza su Tempra o essere paralizzata per 1 round + 1 round ogni 3 livelli di inventore oltre il 9° (massimo 4 round al 18°). Chi supera il Tiro Salvezza è solamente barcollante per 1 round. Una creatura paralizzata dalla camera di stasi è completamente protetta da tutti i danni e gli effetti esterni durante la durata, ma non può effettuare alcuna azione né essere bersaglio di alleati. Le creature immuni alla paralisi sono immuni a questo effetto.
 Mechanus di 6° livello
-Nota: I mechanus di 6° livello vengono sbloccati al 17° livello di inventore.
+Nota: I mechanus di 6° livello vengono sbloccati al 16° livello di inventore.
 Singolarità
 Questo mechanus si muove fino a 30 m e collassa in un piccolo punto gravitazionale instabile. Per 1 round per livello di inventore, una singolarità di 1,5 m di diametro si manifesta nella casella selezionata. All'inizio del turno di ogni creatura entro 9 m dalla singolarità, questa deve superare un Tiro Salvezza su Tempra o essere trascinata di 3 m verso il centro (movimento che non provoca attacchi di opportunità). Le creature che terminano il loro turno entro 1,5 m dalla singolarità subiscono 6d10 danni da forza e devono superare un Tiro Salvezza su Riflessi o essere stordite per 1 round; il TS dimezza il danno. Gli oggetti non assicurati di peso inferiore a 100 kg vengono attratti automaticamente. Le creature con il sottotipo costrutto o le creature di taglia colossale sono immuni allo spostamento ma non ai danni.
 Disintegratore atomico
@@ -461,9 +771,9 @@ Generatore di muro di forza
 Questo mechanus si muove fino a 30 m e crea un muro di forza pura. L'inventore può configurare il muro come una parete piana fino a 1,5 m² per livello di inventore, oppure come sfera o emisfero con raggio fino a 30 cm per ogni 2 livelli di inventore. Il muro funziona come l'incantesimo Muro di forza: è invisibile, non può essere danneggiato da attacchi normali, blocca tutti gli effetti corporei e la maggior parte di quelli incorporei. Il muro permane per 1 round per livello di inventore o finché non viene dissolto da Disintegrazione, Sfera Annientatrice o un effetto equivalente; Dissolvi magie non ha effetto sul muro. Il mechanus rimane attivo per la durata del muro e si disattiva quando il muro viene dissolto o termina.
 
 Tecno-armi
-Le tecno-armi sono armi convenzionali (mischia o distanza) sulle quali un inventore installa modifiche meccaniche e tecnologiche, integrando ingranaggi, valvole, chip e moduli specializzati. Una tecno-arma mantiene le statistiche dell'arma di base e gli incantamenti che possiede, ottenendo in aggiunta una serie di capacità attivabili tramite le modifiche installate.
+Le tecno-armi sono armi convenzionali (mischia o distanza) sulle quali un inventore installa modifiche meccaniche e tecnologiche, integrando ingranaggi, valvole, chip e moduli specializzati. Una tecno-arma mantiene le statistiche dell'arma di base e le capacità speciali che possiede, ottenendo in aggiunta una serie di capacità attivabili tramite le modifiche installate.
 Costruzione
-Costruire una tecno-arma richiede 8 ore di lavoro giornaliero, più 1 ora aggiuntiva per ogni aggiornamento già effettuato. Un inventore ha bisogno di un'arma di base dalla quale partire, la quale deve essere un'arma di buona fattura, perfetta o magica. Quando si smantella una tecno-arma, si recupera automaticamente l'arma di base, inclusi eventuali incantamenti che possedeva.
+Costruire una tecno-arma richiede 8 ore di lavoro giornaliero, più 1 ora aggiuntiva per ogni aggiornamento già effettuato. Un inventore ha bisogno di un'arma di base dalla quale partire, la quale deve essere un'arma di buona fattura o perfetta. Quando si smantella una tecno-arma, si recupera automaticamente l'arma di base, con le capacità speciali che possedeva.
 Cariche
 Ogni tecno-arma viene creata con un numero di cariche pari a metà livello di inventore + bonus di Intelligenza dell'inventore. Le cariche si ripristinano automaticamente all'alba di ogni giorno.
 Modifiche
@@ -471,7 +781,9 @@ Per attivare una modifica, un inventore deve spendere 1 carica della tecno-arma.
 Modifiche passive
 Queste modifiche non necessitano di alcuna azione per essere attivate, ma è la tecno-arma stessa che lo fa in maniera autonoma spendendo normalmente la carica. L'attivazione automatica può essere disabilitata o riabilitata come azione veloce.
 Nodi
-Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi dopo il nome) per essere installata. Un inventore non può installare su una tecno-arma più nodi del proprio bonus di Intelligenza.
+Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi dopo il nome) per essere installata. Il totale dei nodi installati su una tecno-arma non può superare il più basso tra i nodi installabili dell'ultimo aggiornamento raggiunto (vedi tabella seguente) e il bonus di Intelligenza dell'inventore.
+Sintonia
+Una tecno-arma si sintonizza come qualsiasi altra arma, secondo le regole del manuale Armi, armature e scudi: riceve il bonus di potenziamento dalla sintonia dell'inventore, che può distribuirlo anche su una seconda arma come di consueto. Le capacità speciali si applicano con le parti di potenziamento, scegliendole dall'elenco delle armi da mischia o da quello delle armi a distanza in base all'arma base; la somma dei loro valori non può superare il bonus di potenziamento. Le modifiche della tecno-arma sono un sistema separato: non contano come capacità speciali e non sono limitate dal bonus di potenziamento.
 Progressione degli aggiornamenti
 Aggiornamento
 Liv. min
@@ -481,19 +793,19 @@ Funzionalità di base
 1°
 1
 7
-Aggiornamento #1
+Aggiornamento del 5° livello
 5°
 2
 +13 (totale 20)
-Aggiornamento #2
+Aggiornamento del 10° livello
 10°
 3
 +7 (totale 27)
-Aggiornamento #3 (specializzazione)
+Aggiornamento del 15° livello (specializzazione)
 15°
 4
 +3 (totale 30)
-Aggiornamento finale (specializzazione)
+Aggiornamento del 20° livello (specializzazione)
 20°
 5
 +2 (totale 32)
@@ -513,7 +825,7 @@ Modulo silenziatore (1 nodo)
 Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto gli attacchi a distanza effettuati con la tecno-arma non comportano penalità alle prove di Furtività dell'inventore. Inoltre, le creature che subiscono un attacco da parte della tecno-arma silenziata devono superare una prova di Percezione con CD pari alla CD del mechanus per individuare la direzione dell'attacco.
 Sensore di prossimità (1 nodo)
 Quando viene attivata questa modifica, per 1 minuto l'inventore non è considerato colto alla sprovvista durante il primo round di combattimento. Inoltre, ottiene bonus +2 alle prove di Percezione passiva e bonus cumulativo +1 alle prove di Iniziativa (che si cumula con bonus di altre fonti).
-Aggiornamento #1 (2 nodi, livello 5°)
+Aggiornamento del 5° livello (2 nodi)
 Agganciamento al bersaglio (1 nodo)
 Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto la tecno-arma nega qualsiasi probabilità di mancare il bersaglio dovuta a occultamento, occultamento totale o effetti di Velo e simili.
 Chip di combattimento assistito superiore (2 nodi)
@@ -540,7 +852,7 @@ Mirino robo-telescopico (1 nodo)
 Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto l'incremento di gittata della tecno-arma aumenta di 3 m e i bonus di copertura dei bersagli vengono dimezzati (la copertura totale rimane efficace).
 Stabilizzatore giroscopico (1 nodo)
 Quando viene attivata questa modifica, per 1 minuto l'inventore ignora le penalità ai tiri per colpire dovute al movimento (proprio o di una cavalcatura), inclusa la penalità -4 per attaccare a distanza durante una carica.
-Aggiornamento #2 (3 nodi, livello 10°)
+Aggiornamento del 10° livello (3 nodi)
 Contrappesi “Minerva” (2 nodi)
 Solo armi a due mani da mischia o a distanza a due mani. Quando viene attivata questa modifica, per 1 minuto la tecno-arma viene considerata di una taglia superiore ai fini del calcolo dei dadi di danno. Inoltre, l'inventore ottiene bonus +1 alle manovre di Spingere effettuate con la tecno-arma per ogni 4 livelli di inventore.
 Crio-vaporizzatore (2 nodi)
@@ -555,16 +867,16 @@ Mira termica (1 nodo)
 Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto l'inventore ignora qualsiasi occultamento dovuto a fumo, foschia, oscurità naturale, polvere o effetti simili. Non funziona contro occultamento dovuto a effetti magici come Velo o Oscurità profonda.
 Modulo concussivo (1 nodo)
 Solo armi da mischia. Quando viene attivata questa modifica, per 1 minuto una volta per round, immediatamente dopo aver inflitto danni con la tecno-arma, l'inventore può effettuare gratuitamente una manovra di Sbilanciare o Spingere contro il bersaglio colpito, senza provocare attacchi di opportunità.
-Aggiornamento #3 specialistico (4 nodi, livello 15°)
-Nota: Le modifiche di Aggiornamento #3 sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
+Aggiornamento del 15° livello, specialistico (4 nodi)
+Nota: Le modifiche dell'aggiornamento del 15° livello sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
 Campo arcano-soppressore (3 nodi)
 Quando viene attivata questa modifica, per 1 minuto ogni colpo inflitto a una creatura riduce di 1 la sua Resistenza agli Incantesimi (cumulativo). I colpi critici riducono la RI di un valore pari al moltiplicatore di critico dell'arma. La riduzione persiste finché la modifica è attiva e termina quando si disattiva.
 Caricatore robotizzato (3 nodi, passiva)
 Solo armi da fuoco. Quando questa modifica è installata, la tecno-arma spende automaticamente 1 carica e fornisce all'inventore il 75% di probabilità di ignorare l'inceppamento dell'arma quando si verifica.
 Sintetizzatore tattico (3 nodi)
 Quando viene attivata questa modifica, per 1 minuto una volta per round, come azione gratuita, l'inventore può sostituire una modifica attualmente attiva con un'altra modifica installata sulla tecno-arma. La modifica scelta non consuma cariche aggiuntive e dura per il tempo rimanente della modifica sostituita.
-Aggiornamento finale specialistico (5 nodi, livello 20°)
-Nota: Le modifiche dell'Aggiornamento finale sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
+Aggiornamento del 20° livello, specialistico (5 nodi)
+Nota: Le modifiche dell'aggiornamento del 20° livello sono disponibili solo per inventori che hanno scelto le tecno-armi come specializzazione al 15° livello.
 Agganciamento al bersaglio superiore (3 nodi)
 Solo armi a distanza. Quando viene attivata questa modifica, per 1 minuto, una volta per round, l'inventore può ripetere un tiro per colpire fallito con la tecno-arma.
 Risuonatore di forza (3 nodi)
@@ -602,10 +914,12 @@ Costruzione
 Costruire un automaton richiede 16 ore di lavoro giornaliero, più 2 ore aggiuntive per ogni aggiornamento già effettuato. Il modello scelto al momento della costruzione (Destructor, Defensor, o Sagittar) non può essere modificato successivamente; per cambiare modello, l'inventore deve smantellare l'automaton e costruirne uno nuovo.
 Caratteristiche generali
 Gli automaton non sono intelligenti e non parlano. Sono costrutti e immuni agli effetti di [paura], [influenza mentale: charme, compulsione, finzione, trama e morale], [morte], [paralisi], [sonno], [stordimento], [veleno], [malattia], [sanguinamento], [affaticamento], [risucchio di energia] e a qualsiasi effetto che richieda un Tiro Salvezza su Tempra (a meno che si applichi anche agli oggetti o non sia innocuo). Gli automaton non subiscono danni non letali, danni alle caratteristiche e risucchi di caratteristiche. Hanno velocità su terreno 6 m e affondano automaticamente nei liquidi (falliscono automaticamente le prove di Nuotare). Non possono essere usati come cavalcature. Un automaton non subisce Ferite gravi, ma è considerato barcollante a 0 o meno Punti Ferita (questa condizione non può essere prevenuta o rimossa in alcun modo) e viene distrutto a -15 Punti Ferita.
+Punti Ferita e attacchi
+Un automaton ha 10 Punti Ferita al 1° Dado Vita e 6 per ogni Dado Vita successivo, più la somma dei Bonus PF indicati nella tabella degli automaton (cumulativi), +10 se l'Aumento di taglia lo rende Grande (+20 con la scocca «Optimus prime» dell'automaton alpha, al posto dei +10). Non aggiunge la Costituzione e non ha Punti Fatica. Gli attacchi dell'automaton funzionano come attacchi con armi: quando il bonus di attacco base lo consente, con un'azione di attacco completo effettua attacchi multipli.
 Istruzioni per l'uso
 Un inventore comanda il proprio automaton usando un trasmettitore vocale integrato nella sua dotazione. Il giocatore può gestire l'automaton come un personaggio. Se all'inizio del proprio turno l'automaton si trova fuori dal raggio del trasmettitore (30 m al 1° livello, esteso con gli aggiornamenti), diviene confuso. Un automaton non può usare armi all'infuori di quella base in dotazione, né indossare armature. Può usare le proprie mani per manipolare l'ambiente circostante in modo basilare (aprire una porta, piegare delle sbarre, sollevare un peso, ecc.).
-Incantare armi e scocca
-L'arma e la scocca (che conta come un'armatura pesante) di un automaton possono essere incantate dall'inventore stesso, facendo riferimento al livello dell'inventore per il limite degli incantamenti. Armi e scocche non necessitano di essere perfette per ottenere un incantamento, ma necessitano di almeno un bonus di potenziamento +1 prima di poter ottenere una capacità speciale, come di consueto. Una volta ricevuto un incantamento, questo sarà associato permanentemente all'arma o alla scocca e, una volta recuperato in seguito a uno smantellamento o una razzia, resterà legato all'arma o alla scocca in questione e potrà essere riutilizzato solamente per incantare parti identiche di altri automaton, anche se di modello diverso.
+Sintonia meccanica
+L'arma e la scocca di un automaton (la scocca conta come un'armatura pesante) non usano la sintonia dell'inventore: ottengono automaticamente un bonus di potenziamento, anche se non sono perfette. Il bonus è +1 dal 3° livello e +2 dal 10°; se l'inventore ha scelto gli automaton come specializzazione, diventa +3 dal 15°, +4 dal 17° e +5 al 20°. L'inventore può applicare all'arma e alla scocca capacità speciali con le parti di potenziamento, secondo le regole del manuale Armi, armature e scudi: lo schianto del Destructor e quello del Defensor usano l'elenco delle armi da mischia, lo sparaculei del Sagittar quello delle armi a distanza e la scocca quello delle armature. La somma dei valori delle capacità speciali non può superare il bonus di potenziamento. Quando smantella l'automaton, l'inventore recupera le parti di potenziamento applicate all'arma e alla scocca.
 Tabella degli automaton
 Liv.
 DV
@@ -816,27 +1130,28 @@ CA Sagittar
 32
 39
 30
+La CA indicata nella tabella è già totale: vi si aggiungono solo i modificatori di taglia, il bonus di potenziamento della scocca e gli eventuali bonus dell'automaton alpha e di Overdrive Beta. Ai Tiri Salvezza su Riflessi si aggiunge il modificatore di Destrezza. Il Bonus For/Des si somma sia alla Forza sia alla Destrezza del modello. BMC = bonus di attacco base + modificatore di Forza + modificatore di taglia; DMC = 10 + bonus di attacco base + modificatori di Forza e di Destrezza + modificatore di taglia.
 
 Funzionalità di base (livello 3°)
 I modelli di automaton disponibili sono tre: Destructor, Defensor e Sagittar. Ciascun modello ha un proprio profilo di caratteristiche, un attacco base e un chip di combattimento integrato. L'inventore sceglie il modello al momento della costruzione.
 Destructor
 Caratteristiche: For 18, Des 12, Cos —, Int —, Sag 10, Car 1.
-Attacco in mischia: Schianto idraulico (1d10 danni contundenti; 19-20/x2). L'arma può essere incantata smantellando armi magiche da mischia a due mani.
+Attacco in mischia: Schianto idraulico (1d10 danni contundenti; 19-20/x2). Conta come un'arma da mischia a due mani (aggiunge 1 volta e ½ il bonus di Forza ai danni) e riceve la sintonia meccanica.
 Chip di combattimento 9-B: L'automaton ottiene il talento Attacco poderoso.
 Defensor
 Caratteristiche: For 16, Des 12, Cos —, Int —, Sag 10, Car 1.
-Attacco in mischia: Schianto meccanico (1d6 danni contundenti; 20/x2). L'arma può essere incantata smantellando armi magiche da mischia a una mano.
+Attacco in mischia: Schianto meccanico (1d6 danni contundenti; 20/x2). Conta come un'arma da mischia a una mano (aggiunge il bonus di Forza ai danni) e riceve la sintonia meccanica.
 Chip di difesa V-54: L'automaton ottiene il talento Guardia del corpo (non deve soddisfarne i requisiti) e può usarlo un numero di volte per round pari al bonus di Intelligenza dell'inventore.
 Sagittar
 Caratteristiche: For 12, Des 18, Cos —, Int —, Sag 10, Car 1.
-Attacco in mischia: Schianto (1d3 danni contundenti; 20/x2). Lo schianto del Sagittar non può ricevere incantamenti.
-Attacco a distanza: Sparaculei (1d8 danni perforanti; 20/x3); gittata 30 m (x5). L'arma può essere incantata smantellando armi magiche da tiro.
+Attacco in mischia: Schianto (1d3 danni contundenti; 20/x2). Aggiunge il bonus di Forza ai danni. Lo schianto del Sagittar non riceve la sintonia meccanica né capacità speciali.
+Attacco a distanza: Sparaculei (1d8 danni perforanti; 20/x3); gittata 30 m (x5). Conta come un'arma a distanza e riceve la sintonia meccanica.
 Chip di combattimento 42-A: L'automaton aggiunge metà bonus di Destrezza ai tiri per i danni con le armi a distanza e ottiene il talento Mira letale.
 Trasmettitore vocale
 L'inventore può comandare verbalmente l'automaton fino a 30 m di distanza, anche bisbigliando.
-Incantamenti (Funzionalità di base)
-L'arma e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +1.
-Aggiornamento #1 (livello 10°)
+Sintonia meccanica (funzionalità di base)
+L'arma e la scocca dell'automaton hanno bonus di potenziamento +1.
+Aggiornamento del 10° livello
 Aumento di taglia (opzionale, tutti i modelli)
 Se lo desidera, l'inventore può aumentare la taglia dell'automaton a grande. Se ciò accade, l'automaton ottiene basetta da 4 caselle, portata 3 m, +2 Forza (taglia), −2 Destrezza, −1 CA, −1 ai tiri per colpire, −2 Furtività e −2 Volare, +2 BMC e +2 DMC (taglia) e un bonus di +10 Punti Ferita. Il danno base degli attacchi cambia di conseguenza.
 Pistoni rinforzati (solo Destructor)
@@ -845,9 +1160,9 @@ Protocollo di difesa B-24 (solo Defensor)
 L'automaton ottiene il talento Riflessi in combattimento.
 Sistema di ricarica accelerata (solo Sagittar)
 L'automaton ottiene il talento Tiro rapido (non deve soddisfarne i requisiti) e può effettuare un colpo extra a BAB massimo con lo Sparaculei come parte di un'azione di attacco completo. Inoltre, la gittata dello Sparaculei aumenta di 6 m.
-Incantamenti (Aggiornamento #1)
-Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +2.
-Aggiornamento #2 specialistico (livello 15°)
+Sintonia meccanica (aggiornamento del 10° livello)
+L'arma e la scocca dell'automaton hanno bonus di potenziamento +2.
+Aggiornamento del 15° livello, specialistico
 Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli automaton come specializzazione al 15° livello.
 Trasmettitore vocale a lungo raggio (tutti i modelli)
 La portata del trasmettitore vocale dell'automaton diventa 100 m.
@@ -855,16 +1170,16 @@ Protocollo di combattimento N-78 (solo Destructor e Sagittar)
 L'automaton ottiene bonus +4 ai tiri per confermare le minacce di critico e la sua minaccia di critico aumenta di 1 (es. 20/x2 diventa 19-20/x2, 19-20/x2 diventa 18-20/x2).
 Protocollo di salvaguardia Q-12 (solo Defensor)
 Una volta per round, come azione immediata, se l'inventore subisce un colpo critico mentre si trova adiacente al Defensor, può trasferire al Defensor il danno extra del critico. I danni normali rimangono all'inventore; il danno extra colpisce il Defensor.
-Incantamenti (Aggiornamento #2)
-Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +3.
-Aggiornamento finale (livello 20°)
+Sintonia meccanica (aggiornamento del 15° livello)
+L'arma e la scocca dell'automaton hanno bonus di potenziamento +3, che diventa +4 dal 17° livello.
+Aggiornamento del 20° livello, specialistico
 Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli automaton come specializzazione al 15° livello.
 S.C.S. (Sistema di Coscienza Simulata)
 L'inventore installa un Sistema di Coscienza Simulata sull'automaton, conferendogli un punteggio di Intelligenza pari a 10. L'automaton può ora parlare e agire in base alla propria volontà, ma restando sempre fedele alle istruzioni del proprio creatore. L'automaton ottiene talenti appropriati ai suoi Dadi Vita e 2 punti abilità per Dado Vita, considerando qualsiasi abilità in cui l'inventore abbia gradi come abilità di classe.
 Scocca rinforzata
 La scocca dell'automaton viene ricostruita con leghe avanzate stratificate di acciaio e adamantio. L'automaton ottiene RD 10/adamantio.
-Incantamenti (Aggiornamento finale)
-Le armi e la scocca dell'automaton possono ottenere ciascuna un massimo di incantamenti pari a +5.
+Sintonia meccanica (aggiornamento del 20° livello)
+L'arma e la scocca dell'automaton hanno bonus di potenziamento +5.
 Optional degli automaton
 Gli optional sono migliorie permanenti che possono essere apprese dall'inventore. Una volta appreso un optional, esso si applica a tutti gli automaton creati dall'inventore (compatibilmente con il modello indicato).
 Aculei differenziati (solo Sagittar)
@@ -903,7 +1218,7 @@ L'automaton è programmato per coordinarsi tatticamente con l'inventore. Quando 
 Esoscheletri
 Gli esoscheletri sono armature articolate motorizzate che amplificano le capacità fisiche di un inventore, dotandolo di potenza, protezione e funzioni meccaniche avanzate. Esistono due modelli principali: leggero (basato su un'armatura leggera) e pesante (basato su un'armatura pesante).
 Costruzione
-Costruire un esoscheletro richiede un numero di ore di lavoro giornaliero pari a 16 + 2 per ogni aggiornamento. Un inventore ha bisogno di un'armatura dalla quale partire, detta armatura base, la quale deve essere un'armatura leggera perfetta o magica (per costruire un esoscheletro leggero) o un'armatura pesante perfetta o magica (per costruire un esoscheletro pesante). Quando si smantella un esoscheletro, si recupera automaticamente l'armatura base. Un esoscheletro mantiene le statistiche e le capacità speciali dell'armatura base. Un esoscheletro pesa il doppio dell'armatura base.
+Costruire un esoscheletro richiede un numero di ore di lavoro giornaliero pari a 16 + 2 per ogni aggiornamento. Un inventore ha bisogno di un'armatura dalla quale partire, detta armatura base, la quale deve essere un'armatura leggera perfetta (per costruire un esoscheletro leggero) o un'armatura pesante perfetta (per costruire un esoscheletro pesante). Quando si smantella un esoscheletro, si recupera automaticamente l'armatura base, con le capacità speciali che possedeva. Un esoscheletro mantiene le statistiche e le capacità speciali dell'armatura base. Un esoscheletro pesa il doppio dell'armatura base.
 Cariche
 Ogni esoscheletro viene creato con un numero di cariche pari a metà livello di inventore + bonus di Intelligenza dell'inventore. Le cariche si ripristinano automaticamente all'alba di ogni giorno.
 Istruzioni per l'uso
@@ -913,7 +1228,9 @@ Per attivare una modifica, un inventore deve spendere 1 carica dell'esoscheletro
 Modifiche passive
 Queste modifiche non necessitano di alcuna azione per essere attivate, ma è l'esoscheletro stesso che lo fa in maniera autonoma spendendo normalmente la carica. L'attivazione automatica può essere disabilitata o riabilitata come azione veloce.
 Nodi
-Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi) per essere installata. Un inventore non può installare su un esoscheletro più nodi del proprio bonus di Intelligenza.
+Ogni modifica necessita di un numero definito di nodi (indicato tra parentesi) per essere installata. Il totale dei nodi installati su un esoscheletro non può superare il più basso tra i nodi installabili dell'ultimo aggiornamento raggiunto (vedi tabella seguente) e il bonus di Intelligenza dell'inventore.
+Sintonia
+Un esoscheletro si sintonizza come un'armatura, secondo le regole del manuale Armi, armature e scudi: riceve il bonus di potenziamento dalla sintonia dell'inventore, che può dividerlo con uno scudo come di consueto. Le capacità speciali si applicano con le parti di potenziamento, scegliendole dall'elenco delle armature; la somma dei loro valori non può superare il bonus di potenziamento. Il +1 dell'Armatura migliorata è un bonus separato e si somma a quello della sintonia. Le modifiche dell'esoscheletro sono un sistema separato.
 Taglia
 Gli esoscheletri hanno sempre una taglia media. Un inventore di taglia piccola all'interno di un esoscheletro diventa di taglia media e ottiene −1 CA, −1 ai tiri per colpire, −2 Furtività, +2 BMC e +2 DMC.
 Slot oggetti
@@ -931,15 +1248,15 @@ Funzionalità di base
 5°
 2
 Armatura migliorata: +1 CA, −1 penalità
-Aggiornamento #1
+Aggiornamento del 10° livello
 10°
 3
 —
-Aggiornamento #2 specialistico
+Aggiornamento del 15° livello
 15°
 4
 Solo con specializzazione in esoscheletri
-Aggiornamento finale
+Aggiornamento del 20° livello
 20°
 5
 Solo con specializzazione in esoscheletri
@@ -985,7 +1302,7 @@ Servoarmi potenziati (1 nodo)
 Per 1 minuto, i servoarmi dell'esoscheletro pesante amplificano la forza fisica dell'inventore. Le manovre di Disarmare, Lottare, Riposizionare, Sbilanciare e Spingere ottengono bonus +4 al BMC. Inoltre, l'inventore può sollevare il doppio del proprio peso massimo trasportabile.
 Sistema difensivo d'emergenza (1 nodo, passiva)
 Quando l'inventore diventa privo di sensi, nauseato, stordito o immobilizzato, l'esoscheletro attiva placche aggiuntive: l'inventore ottiene RD 8/— finché non perde tale condizione (massimo 1 minuto), dopodiché la modifica si disattiva. Si cumula con qualsiasi altra RD. Non si attiva se l'inventore è in grado di effettuare azioni standard. Incompatibile con la capacità Assicurante.
-Aggiornamento #1 (3 nodi, livello 10°)
+Aggiornamento del 10° livello (3 nodi)
 Modifiche comuni (leggero + pesante)
 Campo isolante (2 nodi)
 Una volta al giorno, per 1 minuto, l'inventore ottiene immunità energetica contro un tipo di energia a scelta tra fuoco, freddo ed elettricità. Incompatibile con la capacità Immunità energetica.
@@ -1003,7 +1320,7 @@ Modulo di trasporto (2 nodi)
 L'esoscheletro pesante può trasportare un alleato consenziente di taglia piccola o media in un alloggiamento sulla schiena. L'alleato è considerato in copertura parziale (+4 alla CA) durante il trasporto e può attaccare in mischia o a distanza, ma non può lanciare incantesimi con componenti somatiche. La velocità dell'inventore è ridotta del 25% mentre trasporta un alleato. L'alleato può salire o scendere come azione di movimento.
 Stimpack (2 nodi, passiva)
 Una volta al giorno, quando un attacco sta per ridurre l'inventore a meno di 0 Punti Ferita, l'esoscheletro inietta antidolorifici tramite aghi sterili curandolo di 2d8+5 danni, dopodiché la modifica si disattiva. Incompatibile con la capacità Assicurante.
-Aggiornamento #2 specialistico (4 nodi, livello 15°)
+Aggiornamento del 15° livello, specialistico (4 nodi)
 Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli esoscheletri come specializzazione al 15° livello.
 Modifiche comuni (leggero + pesante)
 Modulo di riparazione attiva (3 nodi)
@@ -1022,7 +1339,7 @@ Airbag a schiuma espansa (3 nodi, passiva)
 Una volta al giorno, quando l'inventore subisce un colpo critico o danni da precisione in mischia, l'esoscheletro ignora il relativo danno extra, dopodiché la modifica si disattiva. Se l'attacco è sia critico che da precisione, l'inventore sceglie quale ignorare. Incompatibile con la capacità Denegante.
 Campo refrattario (3 nodi)
 Per 1 minuto, l'esoscheletro emette un campo di forza respingente: l'inventore ottiene RD 5/magia. Incompatibile con la capacità Invulnerabilità.
-Aggiornamento finale (5 nodi, livello 20°)
+Aggiornamento del 20° livello, specialistico (5 nodi)
 Nota: Le seguenti modifiche sono disponibili solo per inventori che hanno scelto gli esoscheletri come specializzazione al 15° livello.
 Modifiche comuni (leggero + pesante)
 Campo occultante “Predator” (3 nodi)
@@ -1169,7 +1486,7 @@ Ingombro 2. Ricarica: 5 minuti. Cilindro di 20 × 10 cm. Una volta attivato, cad
 Ripulitore automatico
 Ingombro 1. Giara da 2 litri con rubinetto e tubo di aspirazione lungo 5 m. Risucchia l'acqua attraverso il tubo, filtrando veleni, malattie e impurità e producendo acqua potabile. Miglioria al 6° livello: può essere usato per aspirare gas e veleni aerei in un'area di 6 m di raggio e 6 m di altezza. Può dissolvere incantesimi di tipo Nube (effetto identico a Dissolvere mirato di Dissolvi magie); se il tentativo di dissolvere fallisce, il ripulitore diventa inutilizzabile per 4 ore. Dopo aver aspirato gas o Nube, va svuotato (10 minuti).
 Sega circolare / Motosega “Xecchon GT 23 Demolisher”
-Ingombro 2 (o arma a due mani con la miglioria). Ricarica: 5 minuti. Serbatoio: 5 unità. Una unità consente di tagliare 1 m² di legno o metallo in 2d6 round. Sui metalli particolarmente spessi (come acciaio rinforzato), c'è il 5% di probabilità di danneggiamento del gadget per ogni round di utilizzo. La sega è rumorosa e udibile a distanza. Miglioria al 4° livello: aggiungendo una seconda catena di 70 cm, il gadget diventa la motosega “Demolisher”, un'arma da guerra a due mani (danno 1d12 in taglia media, 3d6 minaccia di critico, x3 moltiplicatore, T tagliente, qualità Letale). La motosega può essere usata come arma base per costruire una tecno-arma.
+Ingombro 2 (o arma a due mani con la miglioria). Ricarica: 5 minuti. Serbatoio: 5 unità. Una unità consente di tagliare 1 m² di legno o metallo in 2d6 round. Sui metalli particolarmente spessi (come acciaio rinforzato), c'è il 5% di probabilità di danneggiamento del gadget per ogni round di utilizzo. La sega è rumorosa e udibile a distanza. Miglioria al 4° livello: aggiungendo una seconda catena di 70 cm, il gadget diventa la motosega “Demolisher”, un'arma da guerra a due mani (danno 3d6 in taglia media, critico 18-20/x2, T tagliente, qualità Letale). La motosega può essere usata come arma base per costruire una tecno-arma.
 Tuta ambientale (requisito: 4° livello)
 Tuta indossabile sopra il corpo e l'equipaggiamento. La velocità dell'inventore viene dimezzata e l'inventore affonda nei liquidi. In cambio, ottiene bonus +4 ai Tiri Salvezza contro effetti di [malattia], [veleno da inalazione], gas (compresi gli incantesimi Nube), radiazioni, caldo e freddo ambientali, schizzi/pioggia/vapore (come Geyser e Pioggia acida).
 Trapano portatile “Pneumatic” (requisito: 5° livello)
@@ -1240,7 +1557,7 @@ Cauterizzare
 Al 1° livello, una volta per turno, come azione standard che provoca attacchi di opportunità, un ingegnere da campo può curarsi un numero di danni pari a 1d6 + 1d6 ogni due livelli oltre il 1°. Un ingegnere da campo può curarsi in questo modo senza provocare attacchi di opportunità, dimezzando però il totale di danni curati. Si può usare questa capacità per un numero di volte al giorno pari a 2 + metà bonus di Intelligenza.
 Privilegio di classe sostituito: Riparazioni al 1° livello.
 Batterie migliorate
-Al 1° livello, le tecno-armi di un ingegnere da campo hanno 1 carica giornaliera extra. Inoltre, hanno il 50% di ignorare i danneggiamenti dovuti a colpi critici o ai fallimenti critici.
+Al 1° livello, le tecno-armi di un ingegnere da campo hanno 1 carica giornaliera extra. Inoltre, hanno il 50% di probabilità di ignorare i danneggiamenti dovuti a colpi critici o ai fallimenti critici.
 Privilegio di classe sostituito: Gadget al 1° livello.
 Specialista delle tecno-armi
 Al 3° livello, un ingegnere da campo ottiene bonus +1 ai tiri per colpire e ai danni con le tecno-armi. Questo bonus aumenta di +1 ogni quattro livelli oltre il 3° (+2 al 7°, +3 al 11°, +4 al 15°, +5 al 19°).
@@ -1250,7 +1567,7 @@ Al 6° livello, quando un ingegnere da campo si trova all'interno di un esoschel
 Privilegio di classe sostituito: Gadget, optional o dote da inventore al 6° livello.
 Mechautarca
 I mechautarchi sono geniali creatori di mechanus e di automaton che usano innovazioni tecnologiche ancora più sorprendenti di quelle che il mondo abbia conosciuto finora.
-Mechanus potenziati
+Mechanus perfezionati
 Al 1° livello, un mechautarca può creare 1 mechanus aggiuntivo al giorno per ciascun livello di mechanus. Inoltre, i mechanus ottengono bonus +6 m al movimento e sono dotati automaticamente di Cellula energetica Argus (vedi doti da inventore: aumenta di 1 la CD dei Tiri Salvezza provocati).
 Privilegio di classe sostituito: Tecno-armi al 1° livello.
 Automaton alpha
@@ -1264,12 +1581,14 @@ Chip di allerta: l'automaton alpha ottiene bonus di schivare +1 alla CA. Piastre
 Al 15° livello:
 Sistemi di impedimento: la scocca dell'automaton alpha è costellata di fessure in grado di estroflettere punte telemetriche, getti di vapore incandescente e una vasta gamma di subdole minacce. Come azione veloce l'automaton può far sì che le caselle a lui adiacenti siano considerate terreno difficile fino all'inizio del prossimo turno del mechautarca. Metronomo integrato: quando l'automaton alpha colpisce una creatura, ottiene contro di essa bonus di circostanza cumulabile +1 ai tiri per i danni (massimo +5). Questo bonus si mantiene finché l'automaton alpha non manca la creatura o attacca un diverso bersaglio. Questo danno si moltiplica in caso di colpo critico.
 Al 20° livello:
-Scocca “Optimus prime”: se lo desidera, un mechautarca può aumentare la taglia dell'automaton alpha a enorme. Se lo fa, l'automaton alpha ottiene basetta da 9 caselle, portata 4,5 m, +4 Forza, −2 CA, −2 ai tiri per colpire, +3 BMC e +3 DMC, −4 Furtività e un bonus di +20 Punti Ferita. Il danno degli attacchi cambia di conseguenza alla taglia. Questi bonus si sostituiscono a quelli ottenibili con l'Aggiornamento #1 (Aumento di taglia).
+Scocca “Optimus prime”: se lo desidera, un mechautarca può aumentare la taglia dell'automaton alpha a enorme. Se lo fa, l'automaton alpha ottiene basetta da 9 caselle, portata 4,5 m, +4 Forza, −2 CA, −2 ai tiri per colpire, +3 BMC e +3 DMC, −4 Furtività e un bonus di +20 Punti Ferita. Il danno degli attacchi cambia di conseguenza alla taglia. Questi bonus si sostituiscono a quelli ottenibili con l'aggiornamento del 10° livello (Aumento di taglia).
+Privilegio di classe modificato: Automaton al 3° livello.
 Privilegio di classe sostituito: Esoscheletri al 5° livello.
 Tecnomante
 Alcuni inventori arrivano a detestare talmente la magia, da sacrificare parti degli studi accademici al fine di ricercare sempre nuovi modi per contrastarla.
 Odio per la magia
-Al 1° livello, un tecnomante sostituisce Sapienza magica a Utilizzare oggetti magici come abilità di classe. Inoltre, non può mai lanciare incantesimi, neanche come capacità magica. Infine, ottiene +1 ai tiri per colpire e +2 ai danni contro gli incantatori, comprese le creature che lanciano incantesimi come capacità magica.
+Al 1° livello, un tecnomante considera Sapienza magica come abilità di classe al posto di Utilizzare congegni magici. Inoltre, non può mai lanciare incantesimi, neanche come capacità magica. Infine, ottiene +1 ai tiri per colpire e +2 ai danni contro gli incantatori, comprese le creature che lanciano incantesimi come capacità magica.
+Privilegio di classe sostituito: Fabbro esperto al 1° livello.
 Emettitore di campo logico
 Al 1° livello, un tecnomante costruisce un emettitore di campo logico e questo è considerato una meraviglia. Un emettitore non ha statistiche ma, nel caso fortuito in cui dovesse andare perduto, richiederà un numero di ore di lavoro giornaliero pari a 16 per essere ricostruito; nel caso invece in cui dovesse rompersi richiederà un numero di ore di lavoro giornaliero pari a 4. Un emettitore occupa lo slot spalle.
 Come azione di movimento, un tecnomante può azionare l'emettitore per un numero di round al giorno pari a tre volte il bonus di Intelligenza. Questa durata non deve essere necessariamente consecutiva. Quando l'emettitore è attivo, proietta un campo logico e magnetico di 4,5 m di raggio che consente agli alleati nell'area di ripetere i Tiri Salvezza contro gli incantesimi falliti (anche quelli lanciati come capacità magica), gli attacchi a soffio e con lo sguardo.
@@ -1283,34 +1602,26 @@ Al 6° livello, un tecnomante installa sull'emettitore di campo logico degli spe
 Privilegio di classe sostituito: Gadget, optional o dote da inventore al 6° livello.
 Skitari
 Gli skitarii sono truppe d'élite addestrate nelle varie accademie ed università degli inventori. Essi fungono da guardie del corpo per i ricercatori in missione oppure come scorta scientifica per chi è sufficientemente ricco da potersi permettere i loro servizi.
-Abilità di classe: può utilizzare Professione (fabbro) al posto di Professione (ingegnere bellico).
+Abilità di classe: può utilizzare Professione (ingegnere bellico) al posto di Professione (fabbro).
 Competenze offensive: Competenza nelle armi semplici. Fucile, revolver.
-Arma da fuoco
-Al 1° livello, uno skitari ottiene un fucile o un revolver con 50 proiettili. Quest'arma è malconcia e non può essere venduta.
 Addestramento con le armi da fuoco
-Al 1° livello, uno skitari ottiene il talento Ricarica rapida (armi da fuoco arcaiche, fucile, revolver). Inoltre, quando usa le palle di carta come munizioni, il valore di inceppamento dell'arma usata per attaccare non aumenta.
-Riparazioni ridotte
-Al 1° livello, uno skitari può usare riparazioni per un numero di volte al giorno pari a bonus di Intelligenza, anziché 2 + bonus di Intelligenza.
+Al 1° livello, uno skitari ottiene un fucile o un revolver malconcio con 50 proiettili, che non può essere venduto, e il talento Ricarica rapida (armi da fuoco arcaiche, fucile, revolver). Quando usa le palle di carta come munizioni, il valore di inceppamento dell'arma non aumenta. Di contro, può usare riparazioni un numero di volte al giorno pari al bonus di Intelligenza, anziché 2 + bonus di Intelligenza.
 Privilegio di classe modificato: Riparazioni al 1° livello.
 Armi sperimentali
 Al 1° livello, uno skitari ottiene la dote Competenza nelle armi sperimentali come dote bonus (non deve soddisfarne i requisiti) e i gadget Pistola lanciafiamme “Soffio di drago” e Tuono-pistola “Reoni Silver thunder”.
 Privilegio di classe sostituito: Fabbro esperto al 1° livello.
-Maestria di armi sperimentali I
-Al 1° livello, uno skitari conta come di un livello superiore per quanto riguarda l'attivazione delle armi sperimentali. Inoltre, può attivare ciascuna arma sperimentale in suo possesso due volte al giorno, attendendo almeno 1 ora tra un utilizzo e l'altro.
+Maestria di armi sperimentali
+Uno skitari affina l'uso delle armi sperimentali man mano che avanza di livello.
+• 1° livello: conta come di un livello superiore per l'attivazione delle armi sperimentali. Può attivare ciascuna arma sperimentale in suo possesso due volte al giorno, attendendo almeno 1 ora tra un utilizzo e l'altro.
+• 4° livello: la CD dei Tiri Salvezza provocati dalle sue armi sperimentali aumenta di 1. Ottiene bonus +2 ai tiri per colpire con l'elettro-carabina.
+• 7° livello: la CD aumenta ancora di 1 (totale +2).
+• 10° livello: conta come di due livelli superiore, anziché di uno, per l'attivazione delle armi sperimentali. Ciò aumenta di 2 anche il livello massimo dei danni inflitti dalle armi sperimentali.
+• 13° livello: tre volte al giorno, per quel turno, ottiene vantaggio ai tiri per colpire con l'elettro-carabina, oppure impone svantaggio ai Tiri Salvezza contro una sua arma sperimentale a scelta.
+• 16° livello: può attivare ciascuna arma sperimentale in suo possesso tre volte al giorno, attendendo almeno 1 ora tra un utilizzo e l'altro.
 Privilegio di classe sostituito: Mechanus al 1° livello.
 Armi sperimentali progressive
 Al 4° livello, uno skitari ottiene il gadget Elettro-carabina “Shock”. Al 6° livello, ottiene il gadget Drone “Firestorm”. All'8° livello, ottiene il gadget Shotgun “Devastator”. Al 10° livello, ottiene il gadget Lanciabrina “Blizzard”. Al 12° livello, ottiene il gadget Bio-cannone “Acid rain”.
-Privilegio di classe sostituito: Gadget al 4°, al 6°, all'8°, al 10° e al 12° livello.
-Maestria di armi sperimentali II
-Al 4° livello, la CD dei Tiri Salvezza provocati dalle armi sperimentali di uno skitari aumenta di 1. Inoltre, gli attacchi di uno skitari effettuati con l'elettro-carabina ottengono bonus +2 ai tiri per colpire.
-Maestria di armi sperimentali III
-Al 7° livello, la CD dei Tiri Salvezza provocati dalle armi sperimentali di uno skitari aumenta ancora di 1 (totale +2).
-Maestria di armi sperimentali IV
-Al 10° livello, uno skitari conta come di due livelli superiore per quanto riguarda l'attivazione delle armi sperimentali. Ciò aumenta di 2 anche il livello massimo dei danni inflitti dalle armi sperimentali.
-Maestria di armi sperimentali V
-Al 13° livello, tre volte al giorno, per quel turno uno skitari può ottenere vantaggio nei tiri per colpire con l'elettro-carabina oppure può imporre svantaggio ai Tiri Salvezza imposti da una propria arma sperimentale a scelta.
-Maestria di armi sperimentali VI
-Al 16° livello, uno skitari può attivare ciascuna arma sperimentale in suo possesso tre volte al giorno, attendendo 1 ora tra un utilizzo e l'altro.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 4°, al 6°, all'8°, al 10° e al 12° livello.
 Androide (solo forgiati)
 Gli androidi sono inventori forgiati in grado di riparare il proprio corpo in maniera autonoma, grazie a un complesso sistema di nano-bot.
 Prerequisito razziale: solo personaggi forgiati possono prendere questo archetipo.
@@ -1325,22 +1636,25 @@ Al 5° livello, un androide possiede uno scanner permanentemente integrato in un
 Privilegio di classe sostituito: Gadget al 5° livello.
 Sub-routine di emergenza
 Al 10° livello, una volta al giorno, quando un attacco sta per ridurre l'androide a meno di 0 Punti Ferita, una sub-routine di emergenza si attiva automaticamente come azione immediata. L'androide ottiene 4d8 + livello di inventore Punti Ferita temporanei che durano 1 minuto (questi PF temporanei non subiscono il dimezzamento delle cure ai forgiati). Inoltre, è immune alla condizione morente per quel turno.
-Privilegio di classe sostituito: Gadget al 10° livello.
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 10° livello.
 Coscienza distribuita
-Al 15° livello, la coscienza di un androide è frammentata in più nuclei di elaborazione distribuiti per il corpo. L'androide ottiene vantaggio nei Tiri Salvezza contro effetti di [influenza mentale: charme e compulsione], anche se ha già altri benefici simili da scelte razziali o di classe. Inoltre, il suo tratto razziale Punti critici rinforzati viene potenziato: l'androide diventa completamente immune ai colpi furtivi, ai danni da precisione e ai danni extra dei colpi critici (i danni base degli attacchi colpiscono normalmente).
-Privilegio di classe sostituito: Gadget al 15° livello.
+Al 14° livello, la coscienza di un androide è frammentata in più nuclei di elaborazione distribuiti per il corpo. L'androide ottiene vantaggio nei Tiri Salvezza contro effetti di [influenza mentale: charme e compulsione], anche se ha già altri benefici simili da scelte razziali o di classe. Inoltre, il suo tratto razziale Punti critici rinforzati viene potenziato: l'androide diventa completamente immune ai colpi furtivi, ai danni da precisione e ai danni extra dei colpi critici (i danni base degli attacchi colpiscono normalmente).
+Privilegio di classe sostituito: Gadget, optional o dote da inventore al 14° livello.
 Iperevoluzione meccanica
 Al 20° livello, all'apice della propria evoluzione, l'androide ha ottimizzato ogni componente del proprio corpo. Ottiene:
 • Bonus di potenziamento +2 a una caratteristica fisica a scelta (Forza, Destrezza o Costituzione)
 • Velocità su terreno permanente +6 m
 • RD 5/adamantio
 • Riparazioni: usi giornalieri pari a 2 × bonus di Intelligenza (non più solo bonus di Intelligenza)
-Privilegio di classe sostituito: Aggiornamento finale delle meraviglie al 20° livello.
+Privilegio di classe sostituito: Aggiornamento delle meraviglie al 20° livello.
 Cibernetico
 I cibernetici si dedicano interamente allo studio degli esoscheletri, trascurando del tutto la costruzione di automaton e portando la propria simbiosi con la macchina a livelli senza precedenti. Per un cibernetico, l'esoscheletro non è uno strumento: è un'estensione del proprio corpo.
 Doppio modello
-Al 1° livello, un cibernetico può costruire e mantenere attivi simultaneamente un esoscheletro leggero E un esoscheletro pesante (anziché uno solo dei due). Non può però indossare entrambi contemporaneamente: deve scegliere quale usare cambiando equipaggiamento.
+Al 1° livello, un cibernetico può costruire e mantenere attivi simultaneamente un esoscheletro leggero E un esoscheletro pesante (anziché uno solo dei due). Non può però indossare entrambi contemporaneamente: deve scegliere quale usare cambiando equipaggiamento. Ai fini della sintonia, i due esoscheletri contano come una sola armatura.
 Privilegio di classe sostituito: Mechanus al 1° livello.
+Esoscheletri precoci
+Al 3° livello, un cibernetico impara a costruire gli esoscheletri (funzionalità di base) anziché al 5° livello; gli aggiornamenti degli esoscheletri restano ai livelli consueti. Per questo le scoperte sugli esoscheletri partono dal 3° livello.
+Privilegio di classe modificato: Esoscheletri al 5° livello.
 Scoperta sugli esoscheletri
 Al 3° livello e ogni quattro livelli successivi (7°, 11°, 15°, 19°), un cibernetico ottiene una modifica per esoscheletro extra di un livello disponibile, da installare immediatamente, ignorando il limite di nodi della meraviglia (la modifica non occupa nodi).
 Privilegio di classe sostituito: Automaton al 3° livello.

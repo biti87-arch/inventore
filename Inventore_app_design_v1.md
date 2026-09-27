@@ -41,9 +41,9 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 9. Automaton: riscrivere *Incantare armi e scocca* e le voci *Incantamenti* degli aggiornamenti con la Sintonia meccanica (decisione M, compreso il +4 al 17°).
 7. Privilegio *Gadget*: «Al 1°, 3°, 5°, 7°, 9° e 11° livello impara un nuovo gadget; ai livelli pari dal 2° al 18° sceglie un gadget, un optional o una dote.»
 
-## Aperti (non bloccano l'app)
-- Skitari: Maestria di armi sperimentali II–VI senza sostituzione (non a somma zero).
-- Tecnomante: *Odio per la magia* senza sostituzione.
+## Manuale corretto (27/09/2026, sera)
+- `Inventore_v2.4_FINALE.docx` corretto con tutte le decisioni A–N è in `sorgenti/docx/`; gli script delle correzioni sono in `sorgenti/correzioni_manuale_27-09/`. Con il manuale nuovo `CORREZIONI` del parser non applica più nulla.
+- Skitari e Tecnomante ora sono a somma zero: *Maestria di armi sperimentali* è un unico privilegio progressivo (sostituisce Mechanus); *Addestramento con le armi da fuoco* modifica Riparazioni; *Odio per la magia* sostituisce Fabbro esperto (quindi il tecnomante non si combina con skitari e androide).
 
 ## Modificatori (27/09/2026, come nell'app dei compagni)
 - Due elenchi separati: modificatori dell'**inventore** e dell'**automaton**, ciascuno con temporanei (incantesimi, effetti) e permanenti (oggetti magici). Si gestiscono con «Gestisci» e si accendono o spengono con un tocco (schede Inventore, Meraviglie → Automaton e In gioco).

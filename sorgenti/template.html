@@ -232,7 +232,7 @@ function tocca(a){
     else if(/^Tecno-armi/.test(s))out.add('tecno');
     else if(/^Automaton/.test(s))out.add('automaton');
     else if(/^Esoscheletri/.test(s))out.add('eso');
-    else if(/^Aggiornamento finale/.test(s))out.add('aggfinale');
+    else if(/^Aggiornamento (finale|delle meraviglie)/.test(s))out.add('aggfinale');
     else if(/^Gadget/.test(s))(s.match(/\d+/g)||[]).forEach(n=>out.add('slot'+n));
   }
   return out;
@@ -768,7 +768,7 @@ function mAut(){
   // stadi
   const STN=['Funzionalità di base','Aggiornamento del 10° livello','Aggiornamento del 15° livello','Aggiornamento del 20° livello'];
   for(let s=0;s<=3;s++){
-    const v=D.automaton.voci.filter(x=>x.stadio===s&&x.modelli.includes(A.modello)&&!x.nome.startsWith('Incantamenti'));
+    const v=D.automaton.voci.filter(x=>x.stadio===s&&x.modelli.includes(A.modello)&&!x.nome.startsWith('Incantamenti')&&!x.nome.startsWith('Sintonia meccanica'));
     const blocco=s>st;
     h+='<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">'+STN[s]+'</h2><span class="tag'+(blocco?'':' acc')+'">'+(blocco?(s>=2&&L>=15?'solo specializzazione':'dal '+ORD(STADIO_AL[s])):'attivo')+'</span></div><div style="margin-top:8px">'+v.map(x=>det(esc(x.nome),rich(x.testo))).join('')+'</div></div>';
   }

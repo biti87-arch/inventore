@@ -79,7 +79,7 @@ dasapere = [s for s in L[b + 1: b + 8] if re.match(r'^\d\.', s)]
 
 # ---------------- mechanus ----------------
 a = idx('Mechanus', b); b2 = idx('Tecno-armi', a)
-intro_mech = [s for s in L[a + 1:b2] if s and not s.startswith('Mechanus di')][:2]
+intro_mech = [s for s in L[a + 1:b2] if len(s) > 60 and not s.startswith('Il numero accanto')][:2]
 mechanus, lv = [], 0
 for s in L[a + 1:b2]:
     m = re.match(r'^Mechanus di (\d)° livello$', s)
@@ -128,6 +128,11 @@ tecno_regole = []
 tecno_mods, tecno_opt, stadio, fase = [], [], None, 'regole'
 for t, ps in blocchi(a + 1, b3):
     st = next((v for k, v in STADI_T.items() if t.startswith(k) and '(' in t and 'livello' in t), None)
+    mm = re.match(r'^Aggiornamento del (\d+)° livello.*\(\d nod[oi]\)$', t)
+    if mm:
+        st = {5: 1, 10: 2, 15: 3, 20: 4}[int(mm.group(1))]
+    if st is not None and 'nod' not in t:
+        st = None
     if st is not None:
         stadio, fase = st, 'mod'; continue
     if t == 'Optional delle tecno-armi':
@@ -156,7 +161,8 @@ fine_tab = i + 18 * 11
 aut_regole = [{'nome': t, 'testo': ' '.join(ps)} for t, ps in blocchi(a + 1, idx('Tabella degli automaton', a))]
 aut_voci, aut_opt, stadio, fase = [], [], 0, 'voci'
 STADI_A = {'Funzionalità di base (livello 3°)': 0, 'Aggiornamento #1 (livello 10°)': 1,
-           'Aggiornamento #2 specialistico (livello 15°)': 2, 'Aggiornamento finale (livello 20°)': 3}
+           'Aggiornamento #2 specialistico (livello 15°)': 2, 'Aggiornamento finale (livello 20°)': 3,
+           'Aggiornamento del 10° livello': 1, 'Aggiornamento del 15° livello, specialistico': 2, 'Aggiornamento del 20° livello, specialistico': 3}
 modelli = {}
 for t, ps in blocchi(fine_tab, b4):
     if t in STADI_A:
@@ -172,7 +178,7 @@ for t, ps in blocchi(fine_tab, b4):
         m = re.match(r'^(.*?)\s*\((tutti i modelli|opzionale, tutti i modelli|solo [^)]*)\)$', t)
         nome, chi = (m.group(1), m.group(2)) if m else (t, 'tutti i modelli')
         mod = [slug(x) for x in re.findall(r'Destructor|Defensor|Sagittar', chi)] or ['destructor', 'defensor', 'sagittar']
-        mm = re.search(r'pari a \+(\d)', testo) if t.startswith('Incantamenti') else None
+        mm = re.search(r'(?:pari a|potenziamento) \+(\d)', testo) if t.startswith(('Incantamenti', 'Sintonia meccanica')) else None
         aut_voci.append({'id': slug(nome), 'nome': nome, 'stadio': stadio, 'modelli': mod, 'opzionale': 'opzionale' in chi,
                          'incantamenti': int(mm.group(1)) if mm else None, 'testo': testo})
     else:
@@ -187,7 +193,9 @@ for t, ps in blocchi(fine_tab, b4):
 # ---------------- esoscheletri ----------------
 a = b4; b5 = idx('Gadget', a)
 STADI_E = {'Funzionalità di base (2 nodi, livello 5°)': 0, 'Aggiornamento #1 (3 nodi, livello 10°)': 1,
-           'Aggiornamento #2 specialistico (4 nodi, livello 15°)': 2, 'Aggiornamento finale (5 nodi, livello 20°)': 3}
+           'Aggiornamento #2 specialistico (4 nodi, livello 15°)': 2, 'Aggiornamento finale (5 nodi, livello 20°)': 3,
+           'Aggiornamento del 10° livello (3 nodi)': 1, 'Aggiornamento del 15° livello, specialistico (4 nodi)': 2,
+           'Aggiornamento del 20° livello, specialistico (5 nodi)': 3}
 eso_regole, eso_mods, eso_opt, stadio, tipo, fase = [], [], [], None, 'C', 'regole'
 for t, ps in blocchi(a + 1, b5):
     if t in STADI_E:
@@ -331,6 +339,22 @@ AL_GIORNO = [[1], [2], [3], [3, 1], [4, 2], [4, 3], [4, 3, 1], [4, 4, 2], [5, 4,
              [5, 5, 4, 3, 1], [5, 5, 4, 4, 2], [5, 5, 5, 4, 3], [5, 5, 5, 4, 3, 1], [5, 5, 5, 4, 4, 2], [5, 5, 5, 5, 4, 2],
              [5, 5, 5, 5, 5, 3], [5, 5, 5, 5, 5, 3]]
 
+def tabella_mech(titolo):
+    try:
+        k = idx(titolo)
+    except SystemExit:
+        return None
+    k = L.index('Liv.', k) + 7
+    righe = []
+    for r in range(20):
+        c = L[k + r * 7: k + r * 7 + 7]
+        righe.append([int(x) for x in c[1:] if x not in ('—', '-', '')])
+    return righe
+_c, _g = tabella_mech('Mechanus Conosciuti'), tabella_mech('Mechanus al Giorno')
+if _c and _g:
+    assert _c == CONOSCIUTI and _g == AL_GIORNO, 'le tabelle dei mechanus del manuale sono cambiate: controllare'
+    CONOSCIUTI, AL_GIORNO = _c, _g
+
 # ---------------- correzioni decise in chat (27/09/2026), da riportare nel manuale ----------------
 CORREZIONI = []
 def corr(desc):
@@ -341,13 +365,13 @@ if 'Gadget' not in tab[8]['privilegi']:
     tab[8]['privilegi'] = 'Gadget, ' + tab[8]['privilegi']; corr('Tabella di classe: aggiunto Gadget al 9° livello')
 AR = {a['id']: a for a in archetipi}
 def cap_(ar, nome):
-    return next(c for c in AR[ar]['capacita'] if c['nome'] == nome)
+    return next((c for c in AR[ar]['capacita'] if c['nome'] == nome), {'nome': nome, 'testo': '', 'liv': 0, '_finto': True})
 # E: sostituzioni degli archetipi riferite agli slot "Gadget, optional o dote"
 c = cap_('androide', 'Sub-routine di emergenza')
 if c.get('sost') == 'Gadget al 10° livello':
     c['sost'] = 'Gadget, optional o dote da inventore al 10° livello'; corr('Androide: Sub-routine sostituisce Gadget, optional o dote al 10°')
 c = cap_('androide', 'Coscienza distribuita')
-if c['liv'] == 15:
+if c['liv'] == 15 and not c.get('_finto'):
     c['liv'] = 14; c['testo'] = c['testo'].replace('Al 15° livello', 'Al 14° livello')
     c['sost'] = 'Gadget, optional o dote da inventore al 14° livello'; corr('Androide: Coscienza distribuita al 14°, sostituisce Gadget, optional o dote al 14°')
 c = cap_('skitari', 'Armi sperimentali progressive')
@@ -355,10 +379,11 @@ if c.get('sost', '').startswith('Gadget al 4°'):
     c['sost'] = 'Gadget, optional o dote da inventore al 4°, al 6°, all\'8°, al 10° e al 12° livello'; corr('Skitari: Armi sperimentali progressive sostituiscono Gadget, optional o dote')
 # Mechautarca
 c = cap_('mechautarca', 'Automaton alpha')
-if 'mod' not in c:
+if 'mod' not in c and not c.get('_finto'):
     c['mod'] = 'Automaton al 3° livello'; corr('Mechautarca: Automaton alpha modifica Automaton al 3°')
 c = cap_('mechautarca', 'Mechanus potenziati')
-c['nome'] = 'Mechanus perfezionati'; corr('Mechautarca: capacità rinominata Mechanus perfezionati')
+if not c.get('_finto'):
+    c['nome'] = 'Mechanus perfezionati'; corr('Mechautarca: capacità rinominata Mechanus perfezionati')
 # I: cibernetico, esoscheletri al 3°
 if not any(x['nome'] == 'Esoscheletri precoci' for x in AR['cibernetico']['capacita']):
     AR['cibernetico']['capacita'].insert(1, {'nome': 'Esoscheletri precoci', 'liv': 3, 'mod': 'Esoscheletri al 5° livello',
@@ -377,13 +402,13 @@ for g in gadget:
         g['testo'] = g['testo'].replace('danno 1d12 in taglia media, 3d6 minaccia di critico, x3 moltiplicatore', 'danno 3d6 in taglia media, critico 18-20/x2')
         corr('Motosega Demolisher: danno 3d6, critico 18-20/x2')
 c = cap_('ingegnere_da_campo', 'Batterie migliorate')
-c['testo'] = c['testo'].replace('hanno il 50% di ignorare', 'hanno il 50% di probabilità di ignorare')
+if not c.get('_finto'): c['testo'] = c['testo'].replace('hanno il 50% di ignorare', 'hanno il 50% di probabilità di ignorare')
 for ar in archetipi:
     ar['note'] = [n.replace('può utilizzare Professione (fabbro) al posto di Professione (ingegnere bellico)',
                             'può utilizzare Professione (ingegnere bellico) al posto di Professione (fabbro)') for n in ar['note']]
 
 # campi meccanici degli archetipi (cosa perdono/cambiano), usati dal motore dell'app
-PERDE = {'ingegnere_da_campo': ['riparazioni', 'automaton'], 'mechautarca': ['tecno', 'eso'], 'tecnomante': ['tecno'],
+PERDE = {'ingegnere_da_campo': ['riparazioni', 'automaton'], 'mechautarca': ['tecno', 'eso'], 'tecnomante': ['tecno', 'fabbro'],
          'skitari': ['mechanus', 'fabbro'], 'androide': ['fabbro'], 'cibernetico': ['mechanus', 'automaton'],
          'tecno_infiltratore': ['tecno', 'automaton', 'eso']}
 for ar in archetipi:
