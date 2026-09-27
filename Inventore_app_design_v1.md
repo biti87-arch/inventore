@@ -50,3 +50,10 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 - Campi: CA, CA di contatto, CA impreparato (separate), tiri per colpire, danni, Tempra, Riflessi, Volontà, BMC, DMC, velocità, iniziativa, PF temporanei, taglia in passi; caratteristiche dovute alla taglia (a mano) e altre caratteristiche. Per l'automaton niente contatto, impreparato e iniziativa.
 - La taglia sposta i dadi di danno (tecno-arma e attacchi dell'automaton) e i modificatori di taglia (tiri, CA, BMC/DMC) su tutta la scala del Vol. 1, da Piccolissima a Colossale.
 - Velocità dell'inventore: 9 m (6 m se Piccolo), 6 m con esoscheletro pesante, +3 m con Motore potenziato attivo, +6 m con Iperevoluzione meccanica.
+
+## Punti Ferita, riposo ed esoscheletro indossato (27/09/2026)
+- PF totali tirati inseribili a mano (inventore nella scheda Inventore, automaton nella scheda Automaton); senza, si usa la media.
+- In gioco, come nell'app dei compagni: Danni (prima i PF temporanei, poi Fatica, poi Ferita), Cura magica (prima i Ferita), Rifiatare 1d8 dalla riserva (= livello) che ridà solo Fatica, «Ritira l'ultimo dado», Riposo di 8 ore (Fatica piena, riserva piena, + livello Punti Ferita).
+- Automaton: Danni, Ripara (a mano) e tasto Riparazioni che tira i dadi e spende un uso.
+- Bonus eroici dell'inventore: TS +1 al 8°, 12°, 16° e 20°; CA, contatto, impreparato e DMC +(livello − 9) dal 10°.
+- «Esoscheletro indossato» si sceglie nelle schede Inventore, Meraviglie → Esoscheletro e In gioco; se manca l'armatura base, l'app lo segnala.
