@@ -300,9 +300,10 @@ for t, ps in blocchi(a + 2, b7):
 # ---------------- archetipi ----------------
 a = b7
 archetipi, cur, cap = [], None, None
-intro_arch = L[a + 1]
 NOMI_ARCH = ['Ingegnere da campo', 'Mechautarca', 'Tecnomante', 'Skitari', 'Androide (solo forgiati)', 'Cibernetico', 'Tecno-infiltratore']
-for s in L[a + 2:]:
+# dalla v2.4.1 la frase introduttiva («Salvo diversamente indicato…») non c'è più
+intro_arch = '' if L[a + 1] in NOMI_ARCH else L[a + 1]
+for s in L[a + (1 if not intro_arch else 2):]:
     if not s or re.fullmatch(r'\d+', s):
         continue
     if s in NOMI_ARCH:

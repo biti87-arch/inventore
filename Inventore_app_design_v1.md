@@ -1,6 +1,6 @@
 # Officina dell'Inventore — design dell'app (v1, 27/09/2026)
 
-Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi verificati: 77 mechanus, 32 modifiche e 12 optional delle tecno-armi, 16 optional dell'automaton, 13 optional degli esoscheletri, 39 gadget, 21 doti, 7 archetipi.
+Fonte: `Inventore_v2.4.1_FINALE.docx` (dal 13/10/2026; prima `Inventore_v2.4_FINALE.docx`) (Vol. 2, cartella classi singole). Conteggi verificati: 77 mechanus, 32 modifiche e 12 optional delle tecno-armi, 16 optional dell'automaton, 13 optional degli esoscheletri, 39 gadget, 21 doti, 7 archetipi.
 
 ## Decisioni confermate da Massy
 
@@ -57,3 +57,8 @@ Fonte: `Inventore_v2.4_FINALE.docx` (Vol. 2, cartella classi singole). Conteggi 
 - Automaton: Danni, Ripara (a mano) e tasto Riparazioni che tira i dadi e spende un uso.
 - Bonus eroici dell'inventore: TS +1 al 8°, 12°, 16° e 20°; CA, contatto, impreparato e DMC +(livello − 9) dal 10°.
 - «Esoscheletro indossato» si sceglie nelle schede Inventore, Meraviglie → Esoscheletro e In gioco; se manca l'armatura base, l'app lo segnala.
+
+## Aggiornamento del 13/10/2026 — manuale v2.4.1
+- Fonte sostituita con `Inventore_v2.4.1_FINALE.docx` (A4, correzioni B2–B9 di `Inventore_v2.4.1_design_v1.md`).
+- Parser: la frase introduttiva degli archetipi («Salvo diversamente indicato…») non c'è più; il parser la tratta come facoltativa.
+- Testi cambiati nell'app: Sub-routine di emergenza (immune alle Ferite gravi per quel turno), Sifone assassino (0 Punti Fatica e 0 Punti Ferita), Copertura oleosa (+8 alla DMC contro lottare), Contrappesi «Minerva» (+1 al BMC per Spingere), Camuffamento tecnologico (senza «AoE»), tag in maiuscolo dopo «effetto/effetti di». Conteggi invariati.

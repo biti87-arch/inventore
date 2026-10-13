@@ -1,5 +1,5 @@
 {
- "fonte": "Inventore_v2.4_FINALE.txt",
+ "fonte": "Inventore_v2.4.1_FINALE.txt",
  "tabella": [
   {
    "liv": 1,
@@ -419,7 +419,7 @@
     "nome": "Musicante",
     "liv": 1,
     "consumabile": false,
-    "testo": "Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Emettendo un'ispirante fanfara, il mechanus fornisce a tutti gli alleati entro 15 m bonus morale +1 ai tiri per colpire. Questo è un effetto di [influenza mentale] e [uditivo]."
+    "testo": "Questo mechanus si muove restando nello spazio dell'inventore per 1 minuto per livello di inventore. Emettendo un'ispirante fanfara, il mechanus fornisce a tutti gli alleati entro 15 m bonus morale +1 ai tiri per colpire. Questo è un effetto di [INFLUENZA MENTALE] e [UDITIVO]."
    },
    {
     "id": "occultante",
@@ -531,7 +531,7 @@
     "nome": "Olografico",
     "liv": 2,
     "consumabile": false,
-    "testo": "Questo mechanus dotato di rotori vola fino a 100 m e proietta entro 20 m da sé l'immagine di un oggetto o di una creatura di taglia compresa tra piccola e grande, comprensiva di rumori (ma non discorsi). Nel turno dell'inventore il mechanus può spostare la proiezione fino a 9 m dando l'illusione del suo movimento. Le creature che interagiscono con la proiezione (toccandola, esaminandola o vedendola interagire in modo impossibile con l'ambiente) possono superare un Tiro Salvezza su Volontà per riconoscerla come illusione. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [illusione: finzione]."
+    "testo": "Questo mechanus dotato di rotori vola fino a 100 m e proietta entro 20 m da sé l'immagine di un oggetto o di una creatura di taglia compresa tra piccola e grande, comprensiva di rumori (ma non discorsi). Nel turno dell'inventore il mechanus può spostare la proiezione fino a 9 m dando l'illusione del suo movimento. Le creature che interagiscono con la proiezione (toccandola, esaminandola o vedendola interagire in modo impossibile con l'ambiente) possono superare un Tiro Salvezza su Volontà per riconoscerla come illusione. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [ILLUSIONE: FINZIONE]."
    },
    {
     "id": "planante",
@@ -587,7 +587,7 @@
     "nome": "Appestante",
     "liv": 3,
     "consumabile": false,
-    "testo": "Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore verdastro di raggio di 6 m e alto 6 m. Il vapore permane per 1 round per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Un vento moderato disperde il vapore in 4 round mentre uno forte in 1 round. Inoltre, il vapore è nauseabondo e le creature al suo interno devono superare un Tiro Salvezza su Tempra o essere nauseate finché vi rimangono e per 1 round dopo che ne sono uscite. Chi supera il Tiro Salvezza ma rimane all'interno della nube deve continuare ad effettuarlo ogni round nel turno dell'inventore. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non sono nauseate. Questo è un effetto di [veleno]."
+    "testo": "Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore verdastro di raggio di 6 m e alto 6 m. Il vapore permane per 1 round per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Un vento moderato disperde il vapore in 4 round mentre uno forte in 1 round. Inoltre, il vapore è nauseabondo e le creature al suo interno devono superare un Tiro Salvezza su Tempra o essere nauseate finché vi rimangono e per 1 round dopo che ne sono uscite. Chi supera il Tiro Salvezza ma rimane all'interno della nube deve continuare ad effettuarlo ogni round nel turno dell'inventore. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non sono nauseate. Questo è un effetto di [VELENO]."
    },
    {
     "id": "dirottatore",
@@ -797,7 +797,7 @@
     "nome": "Costrittore",
     "liv": 5,
     "consumabile": false,
-    "testo": "Questo mechanus si muove verso un bersaglio entro 12 m, estroflette delle cinghie elastiche e tenta di bloccarlo effettuando una manovra in combattimento contro la sua DMC. Il BMC del mechanus è pari al livello di inventore + bonus di Intelligenza. La manovra non provoca attacchi di opportunità e se ha successo il bersaglio diventa trattenuto. Questo stato è simile alla condizione in lotta, salvo che la vittima può muoversi alla sua velocità. La costrizione non impone di effettuare prove di Concentrazione per usare capacità che richiedono appunto Concentrazione e il bersaglio non può eseguire azioni che richiedano l'uso di una o più mani (tra cui lanciare incantesimi che prevedono componenti somatiche o materiali). Dopo essere stato trattenuto per 1 minuto, il bersaglio può effettuare un Tiro Salvezza aggiuntivo contro un eventuale effetto di [compulsione], [maledizione] o [paura]. L'inventore sceglie l'effetto contro cui il bersaglio riceve il Tiro Salvezza extra, che tuttavia si applica solo agli effetti con durata non istantanea. Il Tiro Salvezza aggiuntivo può essere usato solo una volta. Una creatura può liberarsi dalla costrizione effettuando una prova di manovra in combattimento o di Artista della fuga con CD 10 + livello di inventore + bonus di Intelligenza. Il mechanus si disattiva dopo 1 round per livello di inventore."
+    "testo": "Questo mechanus si muove verso un bersaglio entro 12 m, estroflette delle cinghie elastiche e tenta di bloccarlo effettuando una manovra in combattimento contro la sua DMC. Il BMC del mechanus è pari al livello di inventore + bonus di Intelligenza. La manovra non provoca attacchi di opportunità e se ha successo il bersaglio diventa trattenuto. Questo stato è simile alla condizione in lotta, salvo che la vittima può muoversi alla sua velocità. La costrizione non impone di effettuare prove di Concentrazione per usare capacità che richiedono appunto Concentrazione e il bersaglio non può eseguire azioni che richiedano l'uso di una o più mani (tra cui lanciare incantesimi che prevedono componenti somatiche o materiali). Dopo essere stato trattenuto per 1 minuto, il bersaglio può effettuare un Tiro Salvezza aggiuntivo contro un eventuale effetto di [COMPULSIONE], [MALEDIZIONE] o [PAURA]. L'inventore sceglie l'effetto contro cui il bersaglio riceve il Tiro Salvezza extra, che tuttavia si applica solo agli effetti con durata non istantanea. Il Tiro Salvezza aggiuntivo può essere usato solo una volta. Una creatura può liberarsi dalla costrizione effettuando una prova di manovra in combattimento o di Artista della fuga con CD 10 + livello di inventore + bonus di Intelligenza. Il mechanus si disattiva dopo 1 round per livello di inventore."
    },
    {
     "id": "droni_folgoranti",
@@ -832,14 +832,14 @@
     "nome": "Sifone assassino",
     "liv": 5,
     "consumabile": false,
-    "testo": "Questo mechanus si muove verso un bersaglio entro 12 m e, tramite un potentissimo aspiratore, inizia a risucchiare l'aria attorno ad esso, facendolo soffocare rapidamente. Il mechanus è dotato di un rifrattore visivo che lo rende permanentemente invisibile. La vittima può effettuare un Tiro Salvezza su Tempra per resistere al risucchio d'aria. Se il tiro riesce, è barcollante per 1 round mentre annaspa in cerca di aria. Se il tiro fallisce, comincia immediatamente a soffocare. Nel suo turno successivo, la vittima cade priva di sensi ed è ridotta a 0 Punti Ferita. Due round dopo, muore. Ad ogni round, la vittima può ritardare gli effetti di 1 round superando un Tiro Salvezza su Tempra, ma il risucchio continua per 3 round, ed ogni volta che il bersaglio fallisce il Tiro Salvezza su Tempra si sposta di un passo avanti verso l'asfissia. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non subiscono gli effetti del mechanus. Il mechanus si disattiva se il bersaglio supera il primo Tiro Salvezza o 3 round dopo l'attivazione."
+    "testo": "Questo mechanus si muove verso un bersaglio entro 12 m e, tramite un potentissimo aspiratore, inizia a risucchiare l'aria attorno ad esso, facendolo soffocare rapidamente. Il mechanus è dotato di un rifrattore visivo che lo rende permanentemente invisibile. La vittima può effettuare un Tiro Salvezza su Tempra per resistere al risucchio d'aria. Se il tiro riesce, è barcollante per 1 round mentre annaspa in cerca di aria. Se il tiro fallisce, comincia immediatamente a soffocare. Nel suo turno successivo, la vittima cade priva di sensi ed è ridotta a 0 Punti Fatica e 0 Punti Ferita. Due round dopo, muore. Ad ogni round, la vittima può ritardare gli effetti di 1 round superando un Tiro Salvezza su Tempra, ma il risucchio continua per 3 round, ed ogni volta che il bersaglio fallisce il Tiro Salvezza su Tempra si sposta di un passo avanti verso l'asfissia. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare non subiscono gli effetti del mechanus. Il mechanus si disattiva se il bersaglio supera il primo Tiro Salvezza o 3 round dopo l'attivazione."
    },
    {
     "id": "velenifero",
     "nome": "Velenifero",
     "liv": 5,
     "consumabile": false,
-    "testo": "Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore nero di raggio di 6 m e alto 6 m. Il vapore permane per 1 minuto per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Il vapore non viene spazzato dal vento ma si allontana per 3 m a round, scivolando lungo le pendenze o in piano in una direzione scelta dall'inventore. Dato che il vapore è più pesante dell'aria, si abbassa al livello più basso sul terreno, e riesce ad infiltrarsi in tane o buchi di ogni genere. Il vapore non penetra i liquidi. Il vapore è altamente velenoso e uccide automaticamente qualunque creatura vivente con un numero di Dadi Vita pari a 3 o inferiore. Le creature viventi con un numero di Dadi Vita compreso tra 4 e 6 muoiono se non superano un Tiro Salvezza su Tempra. Se il tiro riesce, subiscono comunque 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore. Le creature viventi con 6 o più Dadi Vita subiscono 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore ma possono superare un Tiro Salvezza su Tempra per dimezzare questo danno. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare e quelle immuni agli effetti di [veleno] non vengono uccise dal vapore."
+    "testo": "Questo mechanus si muove fino a 30 m e da un bocchettone emette un denso vapore nero di raggio di 6 m e alto 6 m. Il vapore permane per 1 minuto per livello di inventore. Il vapore oscura ogni visuale compresa la Scurovisione. All'interno del vapore, le creature entro un raggio di 1,5 m godono di occultamento e quelle oltre 1,5 m godono di occultamento totale. Il vapore non viene spazzato dal vento ma si allontana per 3 m a round, scivolando lungo le pendenze o in piano in una direzione scelta dall'inventore. Dato che il vapore è più pesante dell'aria, si abbassa al livello più basso sul terreno, e riesce ad infiltrarsi in tane o buchi di ogni genere. Il vapore non penetra i liquidi. Il vapore è altamente velenoso e uccide automaticamente qualunque creatura vivente con un numero di Dadi Vita pari a 3 o inferiore. Le creature viventi con un numero di Dadi Vita compreso tra 4 e 6 muoiono se non superano un Tiro Salvezza su Tempra. Se il tiro riesce, subiscono comunque 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore. Le creature viventi con 6 o più Dadi Vita subiscono 1d4 danni a Costituzione alla fine di ogni proprio turno in cui si trovano nel vapore ma possono superare un Tiro Salvezza su Tempra per dimezzare questo danno. Trattenere il fiato non serve, ma le creature che non hanno bisogno di respirare e quelle immuni agli effetti di [VELENO] non vengono uccise dal vapore."
    },
    {
     "id": "disturbatore_mentale",
@@ -881,7 +881,7 @@
     "nome": "Olomega",
     "liv": 6,
     "consumabile": false,
-    "testo": "Questo mechanus si muove restando nello spazio dell'inventore e proietta un'illusione di area gigantesca, fino a un cubo di 18 m di lato, comprensiva di immagini, suoni, odori e sensazioni tattili (ma non discorsi coerenti). L'inventore controlla mentalmente l'illusione, che si muove fino a 9 m per round come azione gratuita. L'illusione può rappresentare creature, edifici, terreni o eventi naturali. Le creature che interagiscono con l'illusione (toccandola, esaminandola con cura, o attaccandola) possono superare un Tiro Salvezza su Volontà per riconoscerla come tale; le creature che osservano l'illusione comportarsi in modo impossibile o palesemente irreale ottengono un Tiro Salvezza spontaneo. Una volta che una creatura ha riconosciuto l'illusione, può comunicarlo agli alleati che ottengono bonus +4 al loro Tiro Salvezza. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [illusione: finzione]."
+    "testo": "Questo mechanus si muove restando nello spazio dell'inventore e proietta un'illusione di area gigantesca, fino a un cubo di 18 m di lato, comprensiva di immagini, suoni, odori e sensazioni tattili (ma non discorsi coerenti). L'inventore controlla mentalmente l'illusione, che si muove fino a 9 m per round come azione gratuita. L'illusione può rappresentare creature, edifici, terreni o eventi naturali. Le creature che interagiscono con l'illusione (toccandola, esaminandola con cura, o attaccandola) possono superare un Tiro Salvezza su Volontà per riconoscerla come tale; le creature che osservano l'illusione comportarsi in modo impossibile o palesemente irreale ottengono un Tiro Salvezza spontaneo. Una volta che una creatura ha riconosciuto l'illusione, può comunicarlo agli alleati che ottengono bonus +4 al loro Tiro Salvezza. Il mechanus si disattiva dopo 1 minuto per livello di inventore. Questo è un effetto di [ILLUSIONE: FINZIONE]."
    },
    {
     "id": "sciame_distruttivo",
@@ -1379,7 +1379,7 @@
     "stadio": 2,
     "passiva": false,
     "sempre": false,
-    "testo": "Solo armi a due mani da mischia o a distanza a due mani. Quando viene attivata questa modifica, per 1 minuto la tecno-arma viene considerata di una taglia superiore ai fini del calcolo dei dadi di danno. Inoltre, l'inventore ottiene bonus +1 alle manovre di Spingere effettuate con la tecno-arma per ogni 4 livelli di inventore.",
+    "testo": "Solo armi a due mani da mischia o a distanza a due mani. Quando viene attivata questa modifica, per 1 minuto la tecno-arma viene considerata di una taglia superiore ai fini del calcolo dei dadi di danno. Inoltre, l'inventore ottiene bonus +1 al BMC per Spingere con la tecno-arma per ogni 4 livelli di inventore.",
     "solo": "armi a due mani da mischia o a distanza a due mani"
    },
    {
@@ -1564,7 +1564,7 @@
     "id": "modulo_di_intimidazione_tonante",
     "nome": "Modulo di intimidazione “Tonante”",
     "req": 6,
-    "testo": "L'inventore apprende come installare un sistema acustico intimidatorio. Quando l'inventore colpisce per la prima volta una creatura con una propria tecno-arma (consumando 1 carica), la vittima deve superare un Tiro Salvezza su Volontà o essere scossa per 1 round ogni 3 livelli di inventore (massimo 6 round). Una creatura può essere bersagliata da questo effetto una sola volta ogni 24 ore. Questo è un effetto di [paura]."
+    "testo": "L'inventore apprende come installare un sistema acustico intimidatorio. Quando l'inventore colpisce per la prima volta una creatura con una propria tecno-arma (consumando 1 carica), la vittima deve superare un Tiro Salvezza su Volontà o essere scossa per 1 round ogni 3 livelli di inventore (massimo 6 round). Una creatura può essere bersagliata da questo effetto una sola volta ogni 24 ore. Questo è un effetto di [PAURA]."
    },
    {
     "id": "trasformatore_di_carica",
@@ -1582,7 +1582,7 @@
    },
    {
     "nome": "Caratteristiche generali",
-    "testo": "Gli automaton non sono intelligenti e non parlano. Sono costrutti e immuni agli effetti di [paura], [influenza mentale: charme, compulsione, finzione, trama e morale], [morte], [paralisi], [sonno], [stordimento], [veleno], [malattia], [sanguinamento], [affaticamento], [risucchio di energia] e a qualsiasi effetto che richieda un Tiro Salvezza su Tempra (a meno che si applichi anche agli oggetti o non sia innocuo). Gli automaton non subiscono danni non letali, danni alle caratteristiche e risucchi di caratteristiche. Hanno velocità su terreno 6 m e affondano automaticamente nei liquidi (falliscono automaticamente le prove di Nuotare). Non possono essere usati come cavalcature. Un automaton non subisce Ferite gravi, ma è considerato barcollante a 0 o meno Punti Ferita (questa condizione non può essere prevenuta o rimossa in alcun modo) e viene distrutto a -15 Punti Ferita."
+    "testo": "Gli automaton non sono intelligenti e non parlano. Sono costrutti e immuni agli effetti di [PAURA], [INFLUENZA MENTALE: CHARME, COMPULSIONE, FINZIONE, TRAMA E MORALE], [MORTE], [PARALISI], [SONNO], [STORDIMENTO], [VELENO], [MALATTIA], [SANGUINAMENTO], [AFFATICAMENTO], [RISUCCHIO DI ENERGIA] e a qualsiasi effetto che richieda un Tiro Salvezza su Tempra (a meno che si applichi anche agli oggetti o non sia innocuo). Gli automaton non subiscono danni non letali, danni alle caratteristiche e risucchi di caratteristiche. Hanno velocità su terreno 6 m e affondano automaticamente nei liquidi (falliscono automaticamente le prove di Nuotare). Non possono essere usati come cavalcature. Un automaton non subisce Ferite gravi, ma è considerato barcollante a 0 o meno Punti Ferita (questa condizione non può essere prevenuta o rimossa in alcun modo) e viene distrutto a -15 Punti Ferita."
    },
    {
     "nome": "Punti Ferita e attacchi",
@@ -2188,7 +2188,7 @@
      "defensor"
     ],
     "prereq": [],
-    "testo": "L'inventore apprende come installare uno speciale protocollo difensivo sui propri automaton modello Defensor. Come azione standard l'automaton può erompere in una provocazione diretta a una creatura entro 18 m con un punteggio di Intelligenza pari a 3 o superiore. Questo è un effetto di [compulsione], [visivo] e [uditivo]. Il bersaglio deve effettuare un Tiro Salvezza su Volontà con CD 10 + metà livello di inventore + metà Dadi Vita dell'automaton. Una creatura provocata ottiene bonus di +1 al Tiro Salvezza per ogni nemico diverso dall'automaton da cui è minacciata. Se il tiro fallisce, per un numero di round pari a 2 + 1 ogni 5 punti di fallimento, la vittima deve concentrarsi sull'automaton attaccandolo in mischia e avvicinandosi o caricandolo se fuori portata. La creatura può avvicinarsi scegliendo il proprio percorso. Se dispone di mezzi adatti, invece di avvicinarsi o attaccare in mischia, la creatura può attaccarlo a distanza (non può scagliare sassi o oggetti improvvisati). Un automaton può avere una sola creatura provocata alla volta. La provocazione fallisce o ha termine se alla creatura viene impedito di attaccare l'automaton o se attaccarlo fosse troppo controproducente. Se supera il tiro, una vittima diventa immune al protocollo per 24 ore."
+    "testo": "L'inventore apprende come installare uno speciale protocollo difensivo sui propri automaton modello Defensor. Come azione standard l'automaton può erompere in una provocazione diretta a una creatura entro 18 m con un punteggio di Intelligenza pari a 3 o superiore. Questo è un effetto di [COMPULSIONE], [VISIVO] e [UDITIVO]. Il bersaglio deve effettuare un Tiro Salvezza su Volontà con CD 10 + metà livello di inventore + metà Dadi Vita dell'automaton. Una creatura provocata ottiene bonus di +1 al Tiro Salvezza per ogni nemico diverso dall'automaton da cui è minacciata. Se il tiro fallisce, per un numero di round pari a 2 + 1 ogni 5 punti di fallimento, la vittima deve concentrarsi sull'automaton attaccandolo in mischia e avvicinandosi o caricandolo se fuori portata. La creatura può avvicinarsi scegliendo il proprio percorso. Se dispone di mezzi adatti, invece di avvicinarsi o attaccare in mischia, la creatura può attaccarlo a distanza (non può scagliare sassi o oggetti improvvisati). Un automaton può avere una sola creatura provocata alla volta. La provocazione fallisce o ha termine se alla creatura viene impedito di attaccare l'automaton o se attaccarlo fosse troppo controproducente. Se supera il tiro, una vittima diventa immune al protocollo per 24 ore."
    },
    {
     "id": "riparazione_automatica",
@@ -2531,7 +2531,7 @@
     "stadio": 0,
     "passiva": false,
     "sempre": false,
-    "testo": "Per 1 minuto, l'inventore ottiene bonus di circostanza +8 alle prove per resistere alla lotta altrui e a quelle di Artista della fuga. La penalità di armatura si applica normalmente. Incompatibile con la capacità Scivolosa.",
+    "testo": "Per 1 minuto, l'inventore ottiene bonus di circostanza +8 alla DMC contro la manovra di lottare e alle prove di Artista della fuga. La penalità di armatura si applica normalmente. Incompatibile con la capacità Scivolosa.",
     "tipo": "P",
     "incompatSpeciale": "Scivolosa"
    },
@@ -3372,7 +3372,7 @@
     "sub": "",
     "req": 4,
     "reqExtra": null,
-    "testo": "Tuta indossabile sopra il corpo e l'equipaggiamento. La velocità dell'inventore viene dimezzata e l'inventore affonda nei liquidi. In cambio, ottiene bonus +4 ai Tiri Salvezza contro effetti di [malattia], [veleno da inalazione], gas (compresi gli incantesimi Nube), radiazioni, caldo e freddo ambientali, schizzi/pioggia/vapore (come Geyser e Pioggia acida).",
+    "testo": "Tuta indossabile sopra il corpo e l'equipaggiamento. La velocità dell'inventore viene dimezzata e l'inventore affonda nei liquidi. In cambio, ottiene bonus +4 ai Tiri Salvezza contro effetti di [MALATTIA], [VELENO DA INALAZIONE], gas (compresi gli incantesimi Nube), radiazioni, caldo e freddo ambientali, schizzi/pioggia/vapore (come Geyser e Pioggia acida).",
     "sperimentale": false,
     "migliorie": []
    },
@@ -3528,7 +3528,7 @@
    "cat": "Mentali e difensive",
    "req": 1,
    "prereq": [],
-   "testo": "L'inventore ha passato molto tempo a contatto con fuoco, fumi asfissianti e sostanze nocive. L'inventore ottiene bonus +4 ai Tiri Salvezza contro gli effetti di [abbagliamento], [veleno da inalazione], [infermità] e [nausea]."
+   "testo": "L'inventore ha passato molto tempo a contatto con fuoco, fumi asfissianti e sostanze nocive. L'inventore ottiene bonus +4 ai Tiri Salvezza contro gli effetti di [ABBAGLIAMENTO], [VELENO DA INALAZIONE], [INFERMITÀ] e [NAUSEA]."
   },
   {
    "id": "mente_pratica",
@@ -3536,7 +3536,7 @@
    "cat": "Mentali e difensive",
    "req": 8,
    "prereq": [],
-   "testo": "Il costante lavoro con meccanica e razionalità ha affinato la capacità dell'inventore di razionalizzare a mente fredda e superare qualsiasi dubbio. Una volta al giorno, l'inventore può ottenere vantaggio in un Tiro Salvezza contro un effetto di [influenza mentale: charme, compulsione, finzione, trama e morale]."
+   "testo": "Il costante lavoro con meccanica e razionalità ha affinato la capacità dell'inventore di razionalizzare a mente fredda e superare qualsiasi dubbio. Una volta al giorno, l'inventore può ottenere vantaggio in un Tiro Salvezza contro un effetto di [INFLUENZA MENTALE: CHARME, COMPULSIONE, FINZIONE, TRAMA E MORALE]."
   },
   {
    "id": "percepire_tecnologia",
@@ -3737,13 +3737,13 @@
     },
     {
      "nome": "Sub-routine di emergenza",
-     "testo": "Al 10° livello, una volta al giorno, quando un attacco sta per ridurre l'androide a meno di 0 Punti Ferita, una sub-routine di emergenza si attiva automaticamente come azione immediata. L'androide ottiene 4d8 + livello di inventore Punti Ferita temporanei che durano 1 minuto (questi PF temporanei non subiscono il dimezzamento delle cure ai forgiati). Inoltre, è immune alla condizione morente per quel turno.",
+     "testo": "Al 10° livello, una volta al giorno, quando un attacco sta per ridurre l'androide a meno di 0 Punti Ferita, una sub-routine di emergenza si attiva automaticamente come azione immediata. L'androide ottiene 4d8 + livello di inventore Punti Ferita temporanei che durano 1 minuto (questi PF temporanei non subiscono il dimezzamento delle cure ai forgiati). Inoltre, per quel turno è immune alle Ferite gravi.",
      "sost": "Gadget, optional o dote da inventore al 10° livello",
      "liv": 10
     },
     {
      "nome": "Coscienza distribuita",
-     "testo": "Al 14° livello, la coscienza di un androide è frammentata in più nuclei di elaborazione distribuiti per il corpo. L'androide ottiene vantaggio nei Tiri Salvezza contro effetti di [influenza mentale: charme e compulsione], anche se ha già altri benefici simili da scelte razziali o di classe. Inoltre, il suo tratto razziale Punti critici rinforzati viene potenziato: l'androide diventa completamente immune ai colpi furtivi, ai danni da precisione e ai danni extra dei colpi critici (i danni base degli attacchi colpiscono normalmente).",
+     "testo": "Al 14° livello, la coscienza di un androide è frammentata in più nuclei di elaborazione distribuiti per il corpo. L'androide ottiene vantaggio nei Tiri Salvezza contro effetti di [INFLUENZA MENTALE: CHARME E COMPULSIONE], anche se ha già altri benefici simili da scelte razziali o di classe. Inoltre, il suo tratto razziale Punti critici rinforzati viene potenziato: l'androide diventa completamente immune ai colpi furtivi, ai danni da precisione e ai danni extra dei colpi critici (i danni base degli attacchi colpiscono normalmente).",
      "sost": "Gadget, optional o dote da inventore al 14° livello",
      "liv": 14
     },
@@ -3831,7 +3831,7 @@
     },
     {
      "nome": "Camuffamento tecnologico",
-     "testo": "All'8° livello, una volta al giorno, come azione standard, un tecno-infiltratore può attivare un campo di disturbo ottico personale. Per 1 minuto per livello di inventore, ottiene occultamento totale (probabilità di mancare 50%) finché non effettua un attacco; dopo un attacco l'occultamento scende a 20% per il resto della durata. La modifica si dissolve completamente se l'inventore lancia un incantesimo o attiva una capacità AoE.",
+     "testo": "All'8° livello, una volta al giorno, come azione standard, un tecno-infiltratore può attivare un campo di disturbo ottico personale. Per 1 minuto per livello di inventore, ottiene occultamento totale (probabilità di mancare 50%) finché non effettua un attacco; dopo un attacco l'occultamento scende a 20% per il resto della durata. La capacità termina se il tecno-infiltratore lancia un incantesimo, attiva un mechanus o usa un effetto ad area.",
      "sost": "Gadget, optional o dote da inventore all'8° livello",
      "liv": 8
     }
