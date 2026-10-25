@@ -3,7 +3,7 @@ const path = require('path');
 function crea() {
   const w = new BrowserWindow({
     width: 1100, height: 850, minWidth: 380, minHeight: 500,
-    title: 'Officina dell'Inventore', icon: path.join(__dirname, 'icon.png'),
+    title: 'Officina dell\'Inventore', icon: path.join(__dirname, 'icon.png'),
     autoHideMenuBar: true, backgroundColor: '#E8EBEE',
     webPreferences: { contextIsolation: true }
   });
