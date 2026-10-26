@@ -276,7 +276,7 @@ for t, ps in blocchi(a + 1, b6):
         g['id'] = 'sega_circolare'
 
 # ---------------- doti ----------------
-a = b6; b7 = idx('Archetipi dell\'Inventore', a)
+a = b6; b7 = idx("Archetipi dell'inventore", a)
 doti, cat = [], ''
 intro_doti = L[a + 1]
 for t, ps in blocchi(a + 2, b7):

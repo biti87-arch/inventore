@@ -6,12 +6,12 @@
 
 Inventore
 Accademie, club e organizzazioni varie
-Vol. 2 — Classi   ·   Revisione 2.4.1
+Vol. 2 — Classi   ·   Revisione 2.4.2
 “La magia è un mistero, ma le mie invenzioni sono la prova che il mondo è comprensibile.”
 − Dottor Theobald von Krause
 
 Sommario
-Inventore1
+INVENTORE1
 Tabella dell'Inventore1
 Privilegi di classe2
 Da sapere prima di mettersi all'opera4
@@ -21,7 +21,7 @@ Automaton26
 Esoscheletri31
 Gadget37
 Doti da inventore44
-Archetipi dell'Inventore47
+Archetipi dell'inventore47
 
 INVENTORE
 “La magia è un mistero, ma le mie invenzioni sono la prova che il mondo è comprensibile.” − Dottor Theobald von Krause
@@ -1553,7 +1553,7 @@ L'inventore impara a lavorare in condizioni precarie. Può effettuare costruzion
 Multitasking meccanico
 Requisiti: Inventore di 10° livello.
 L'inventore può controllare contemporaneamente più creazioni con maggiore efficienza. Quando ha contemporaneamente attivi un automaton e una torretta automatica (o un gadget costrutto controllabile come Ragno meccanico, Uccello meccanico, Sentinella meccanica), può dirigere uno di loro come azione veloce invece che di movimento/standard.
-Archetipi dell'Inventore
+Archetipi dell'inventore
 Ingegnere da campo
 In combattimento gli inventori spesso non hanno il lusso di quel tempo necessario per intraprendere fantasiose strategie o pensare alla manutenzione di automaton ed esoscheletri. Un ingegnere da campo costruisce i propri marchingegni pensando alla loro resistenza e impara a usare le tecno-armi con efficacia. Sebbene gli ingegneri da campo siano più facilmente visibili sui campi di battaglia in mezzo ai comuni soldati, talvolta si uniscono a un gruppo di avventurieri, dove la loro abilità con le armi è preziosa quanto la loro capacità di mantenere in buono stato il proprio equipaggiamento in qualsiasi occasione.
 Cauterizzare
